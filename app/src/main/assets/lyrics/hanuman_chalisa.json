@@ -1,0 +1,49 @@
+{
+  "trackId": "hanuman_chalisa",
+  "titleTelugu": "హనుమాన్ చాలీసా",
+  "titleEnglish": "Hanuman Chalisa",
+  "stanzas": [
+    {
+      "index": 1,
+      "startTimeMs": 0,
+      "endTimeMs": 5000,
+      "telugu": "శ్రీగురు చరణ సరోజ రజ నిజమను ముకురు సుధారి |\nబరణౌ రఘువర విమల యశ జో దాయకు ఫలచారి ||",
+      "english": "Shree Guru Charana Saroja Raja Nija Manu Mukuru Sudhaari |\nBaranau Raghuvara Vimala Yasha Jo Daayaku Phala Chaari ||"
+    },
+    {
+      "index": 2,
+      "startTimeMs": 5000,
+      "endTimeMs": 10000,
+      "telugu": "బుద్ధిహీన తను జానికే సుమిరౌ పవనకుమార |\nబల బుద్ధి విద్యా దేహు మోహి హరహు కలేశ వికార ||",
+      "english": "Buddhiheena Tanu Jaanike Sumirau Pavana Kumaara |\nBala Buddhi Vidyaa Dehu Mohi Harahu Kalesha Vikaara ||"
+    },
+    {
+      "index": 3,
+      "startTimeMs": 10000,
+      "endTimeMs": 15000,
+      "telugu": "జయ హనుమాన జ్ఞాన గుణ సాగర |\nజయ కపీశ తిహు లోక ఉజాగర ||",
+      "english": "Jaya Hanumaana Gyaana Guna Saagara |\nJaya Kapeesha Tihu Loka Ujaagara ||"
+    },
+    {
+      "index": 4,
+      "startTimeMs": 15000,
+      "endTimeMs": 20000,
+      "telugu": "రామదూత అతులిత బలధామా |\nఅంజనిపుత్ర పవనసుత నామా ||",
+      "english": "Raamadoota Atulita Baladhaamaa |\nAnjani Putra Pavanasuta Naamaa ||"
+    },
+    {
+      "index": 5,
+      "startTimeMs": 20000,
+      "endTimeMs": 25000,
+      "telugu": "మహావీర విక్రమ బజరంగీ |\nకుమతి నివార సుమతి కే సంగీ ||",
+      "english": "Mahaaveera Vikrama Bajarangee |\nKumati Nivaara Sumati Ke Sangee ||"
+    },
+    {
+      "index": 6,
+      "startTimeMs": 25000,
+      "endTimeMs": 30000,
+      "telugu": "కంచన బరణ బిరాజ సుబేసా |\nకానన కుండల కుంచిత కేశా ||",
+      "english": "Kanchana Barana Biraaja Subesaa |\nKaanana Kundala Kunchita Kesaa ||"
+    }
+  ]
+}

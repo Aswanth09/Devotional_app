@@ -1,0 +1,49 @@
+{
+  "trackId": "govinda_namalu",
+  "titleTelugu": "గోవింద నామాలు",
+  "titleEnglish": "Govinda Namalu",
+  "stanzas": [
+    {
+      "index": 1,
+      "startTimeMs": 0,
+      "endTimeMs": 5000,
+      "telugu": "శ్రీ శ్రీనివాస గోవిందా | శ్రీ వేంకటేశా గోవిందా ||\nభక్తవత్సలా గోవిందా | భాగవతప్రియా గోవిందా ||",
+      "english": "Shree Shreenivaasa Govindaa | Shree Venkatesha Govindaa ||\nBhaktavatsala Govindaa | Bhaagavatapriya Govindaa ||"
+    },
+    {
+      "index": 2,
+      "startTimeMs": 5000,
+      "endTimeMs": 10000,
+      "telugu": "నిత్యనిర్మలా గోవిందా | నీలమేఘశ్యామ గోవిందా ||\nపురాణపురుషా గోవిందా | పుండరీకాక్ష గోవిందా ||",
+      "english": "Nityanirmala Govindaa | Neelameghashyaama Govindaa ||\nPuraanapurusha Govindaa | Pundareekaaksha Govindaa ||"
+    },
+    {
+      "index": 3,
+      "startTimeMs": 10000,
+      "endTimeMs": 15000,
+      "telugu": "నందనందనా గోవిందా | నవనీతచోర గోవిందా ||\nపశుపాలక శ్రీ గోవిందా | పాపవిమోచన గోవిందా ||",
+      "english": "Nandanandanaa Govindaa | Navaneetachora Govindaa ||\nPashupaalaka Shree Govindaa | Paapavimochana Govindaa ||"
+    },
+    {
+      "index": 4,
+      "startTimeMs": 15000,
+      "endTimeMs": 20000,
+      "telugu": "దుష్టసంహార గోవిందా | దురితనివారణ గోవిందా ||\nశిష్టపరిపాలక గోవిందా | కష్టనివారణ గోవిందా ||",
+      "english": "Dushtasamhaara Govindaa | Duritanivaarana Govindaa ||\nShishtaparipaalaka Govindaa | Kashtanivaarana Govindaa ||"
+    },
+    {
+      "index": 5,
+      "startTimeMs": 20000,
+      "endTimeMs": 25000,
+      "telugu": "వజ్రకవచధర గోవిందా | వజ్రకిరీటా గోవిందా ||\nశంఖచక్రధర గోవిందా | పద్మనాభ శ్రీ గోవిందా ||",
+      "english": "Vajrakavachadhara Govindaa | Vajrakireetaa Govindaa ||\nShankhachakradhara Govindaa | Padmanaabha Shree Govindaa ||"
+    },
+    {
+      "index": 6,
+      "startTimeMs": 25000,
+      "endTimeMs": 30000,
+      "telugu": "గోవిందా హరి గోవిందా | గోకులనందన గోవిందా ||\nశ్రీ వేంకటేశా గోవిందా | తిరుమలవాసా గోవిందా ||",
+      "english": "Govindaa Hari Govindaa | Gokulanandana Govindaa ||\nShree Venkatesha Govindaa | Tirumalavaasaa Govindaa ||"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "trackId": "garuda_gamana",
+  "titleTelugu": "గరుడ గమన తవ చరణ కమలమిహ",
+  "titleEnglish": "Garuda Gamana Tava Charana",
+  "stanzas": [
+    {
+      "index": 1,
+      "startTimeMs": 0,
+      "endTimeMs": 5000,
+      "telugu": "గరుడగమన తవ చరణకమలమిహ మనసి లసతు మమ నిత్యమ్ |\nమమ తాపమపాకురు దేవ ||",
+      "english": "Garudagamana Tava Charanakamalamiha Manasi Lasatu Mama Nityam |\nMama Taapamapaakuru Deva ||"
+    },
+    {
+      "index": 2,
+      "startTimeMs": 5000,
+      "endTimeMs": 10000,
+      "telugu": "జలధిశయన విధినుత చరితామృత ఘనశమితాసురఖేద |\nమమ తాపమపాకురు దేవ ||",
+      "english": "Jaladhishayana Vidhinuta Charitaamrita Ghanashamitaasurakheda |\nMama Taapamapaakuru Deva ||"
+    },
+    {
+      "index": 3,
+      "startTimeMs": 10000,
+      "endTimeMs": 15000,
+      "telugu": "భుజగశయన భవభయహర నామక పరమపురుష పరమేశ్వర |\nమమ తాపమపాకురు దేవ ||",
+      "english": "Bhujagashayana Bhavabhayahara Naamaka Paramapurusha Parameshvara |\nMama Taapamapaakuru Deva ||"
+    },
+    {
+      "index": 4,
+      "startTimeMs": 15000,
+      "endTimeMs": 20000,
+      "telugu": "శంఖచక్రధర కమలాకాంత కాంతిమయవర దేహ |\nమమ తాపమపాకురు దేవ ||",
+      "english": "Shankhachakradhara Kamalaakaanta Kaantimayavara Deha |\nMama Taapamapaakuru Deva ||"
+    },
+    {
+      "index": 5,
+      "startTimeMs": 20000,
+      "endTimeMs": 25000,
+      "telugu": "భక్తజనార్తిహరణ భవబంధవిమోచన కారణ పరమాత్మన్ |\nమమ తాపమపాకురు దేవ ||",
+      "english": "Bhaktajanaarti-harana Bhavabandha-vimochana Kaarana Paramaatman |\nMama Taapamapaakuru Deva ||"
+    },
+    {
+      "index": 6,
+      "startTimeMs": 25000,
+      "endTimeMs": 30000,
+      "telugu": "శ్రీ వాసుదేవ సకలజగన్మయ పాహి ప్రభో భగవన్ |\nమమ తాపమపాకురు దేవ ||",
+      "english": "Shree Vaasudeva Sakalajaganmaya Paahi Prabho Bhagavan |\nMama Taapamapaakuru Deva ||"
+    }
+  ]
+}

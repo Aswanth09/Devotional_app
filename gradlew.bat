@@ -17,6 +17,7 @@ set APP_HOME=%DIRNAME%
 set DEFAULT_JVM_OPTS=
 
 @rem Find java.exe
+if not defined JAVA_HOME if exist "C:\Program Files\Microsoft\jdk-17.0.20.101-hotspot" set "JAVA_HOME=C:\Program Files\Microsoft\jdk-17.0.20.101-hotspot"
 if defined JAVA_HOME goto findJavaFromJavaHome
 
 set JAVA_EXE=java.exe

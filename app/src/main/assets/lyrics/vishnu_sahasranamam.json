@@ -1,0 +1,49 @@
+{
+  "trackId": "vishnu_sahasranamam",
+  "titleTelugu": "శ్రీ విష్ణు సహస్రనామ స్తోత్రమ్",
+  "titleEnglish": "Sri Vishnu Sahasranama Stotram",
+  "stanzas": [
+    {
+      "index": 1,
+      "startTimeMs": 0,
+      "endTimeMs": 5000,
+      "telugu": "శుక్లాంబరధరం విష్ణుం శశివర్ణం చతుర్భుజమ్ |\nప్రసన్నవదనం ధ్యాయేత్ సర్వవిఘ్నోపశాంతయే ||",
+      "english": "Shuklaambaradharam Vishnum Shashivarnam Chaturbhujam |\nPrasanna Vadanam Dhyaayet Sarva Vighnopa Shaantaye ||"
+    },
+    {
+      "index": 2,
+      "startTimeMs": 5000,
+      "endTimeMs": 10000,
+      "telugu": "యస్యద్విరదవక్త్రాద్యాః పారిషద్యాః పరః శతమ్ |\nవిఘ్నం నిఘ్నంతి సతతం విష్వక్సేనం తమాశ్రయే ||",
+      "english": "Yasyadviradavaktraadyaah Paarishadyaah Parah Shatam |\nVighnam Nighnanti Satatam Vishvaksenam Tamaashraye ||"
+    },
+    {
+      "index": 3,
+      "startTimeMs": 10000,
+      "endTimeMs": 15000,
+      "telugu": "వ్యాసం వసిష్ఠనప్తారం శక్తేః పౌత్రమకల్మషమ్ |\nపరాశరాత్మజం వందే శుకతాతం తపోనిధిమ్ ||",
+      "english": "Vyaasam Vasishthanaptaaram Shakteh Pautramakalmasham |\nParaasharaatmajam Vande Shukataatam Taponidhim ||"
+    },
+    {
+      "index": 4,
+      "startTimeMs": 15000,
+      "endTimeMs": 20000,
+      "telugu": "వ్యాసాయ విష్ణురూపాయ వ్యాసరూపాయ విష్ణవే |\nనమో వై నిధయే బ్రహ్మనిధయే వాసిష్ఠాయ నమో నమః ||",
+      "english": "Vyaasaaya Vishnuroopaaya Vyaasaroopaaya Vishnave |\nNamo Vai Nidhaye Brahmanidhaye Vaasishthaaya Namo Namah ||"
+    },
+    {
+      "index": 5,
+      "startTimeMs": 20000,
+      "endTimeMs": 25000,
+      "telugu": "అవికారాయ శుద్ధాయ నిత్యాయ పరమాత్మనే |\nసదైకరూపరూపాయ విష్ణవే సర్వజిష్ణవే ||",
+      "english": "Avikaaraaya Shuddhaaya Nityaaya Paramaatmane |\nSadaikarooparoopaaya Vishnave Sarvajishnave ||"
+    },
+    {
+      "index": 6,
+      "startTimeMs": 25000,
+      "endTimeMs": 30000,
+      "telugu": "ఓం విశ్వం విష్ణుర్వషట్కారో భూతభవ్యభవత్ప్రభుః |\nభూతకృద్భూతభృద్భావో భూతాత్మా భూతభావనః ||",
+      "english": "Om Vishvam Vishnurvashatkaaro Bhootabhavyabhavatprabhuh |\nBhootakridbhootabhridbhaavo Bhootaatmaa Bhootabhaavanah ||"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "trackId": "krishna_ashtakam",
+  "titleTelugu": "శ్రీ కృష్ణాష్టకం",
+  "titleEnglish": "Sri Krishna Ashtakam",
+  "stanzas": [
+    {
+      "index": 1,
+      "startTimeMs": 0,
+      "endTimeMs": 5000,
+      "telugu": "వసుదేవసుతం దేవం కంసచాణూరమర్దనమ్ |\nదేవకీపరమానందం కృష్ణం వందే జగద్గురుమ్ ||",
+      "english": "Vasudevasutam Devam Kamsachanooramardanam |\nDevakeeparamaanandam Krishnam Vande Jagadgurum ||"
+    },
+    {
+      "index": 2,
+      "startTimeMs": 5000,
+      "endTimeMs": 10000,
+      "telugu": "అతసీపుష్పసంకాశం హారనూపురశోభితమ్ |\nరత్నకంకణకేయూరం కృష్ణం వందే జగద్గురుమ్ ||",
+      "english": "Ataseepushpasamkaasham Haaranoopurashobhitam |\nRatnakankanakeyooram Krishnam Vande Jagadgurum ||"
+    },
+    {
+      "index": 3,
+      "startTimeMs": 10000,
+      "endTimeMs": 15000,
+      "telugu": "కుటిలాలకసంయుక్తం పూర్ణచంద్రనిభాననమ్ |\nవిలసత్కుండలధరం కృష్ణం వందే జగద్గురుమ్ ||",
+      "english": "Kutilaalakasamyuktam Poornachandranibhaananam |\nVilasatkundaladharam Krishnam Vande Jagadgurum ||"
+    },
+    {
+      "index": 4,
+      "startTimeMs": 15000,
+      "endTimeMs": 20000,
+      "telugu": "మందారమూలతిలకం కస్తూరీతిలకాన్వితమ్ |\nసుస్మితం సురుచిరం రూపం కృష్ణం వందే జగద్గురుమ్ ||",
+      "english": "Mandaaramoolatilakam Kastooreetilakaanvitam |\nSusmitam Suruchiram Roopam Krishnam Vande Jagadgurum ||"
+    },
+    {
+      "index": 5,
+      "startTimeMs": 20000,
+      "endTimeMs": 25000,
+      "telugu": "రుక్మిణీకేళిసంయుక్తం పీతాంబరసుశోభితమ్ |\nఅవాప్తతులసీగంధం కృష్ణం వందే జగద్గురుమ్ ||",
+      "english": "Rukmineekelisamyuktam Peetaambarasushobhitam |\nAvaaptatulaseegandham Krishnam Vande Jagadgurum ||"
+    },
+    {
+      "index": 6,
+      "startTimeMs": 25000,
+      "endTimeMs": 30000,
+      "telugu": "గోపికానాం కుచద్వంద్వ కుంకుమాంకితవక్షసమ్ |\nశ్రీనికేతం మహేష్వాసం కృష్ణం వందే జగద్గురుమ్ ||",
+      "english": "Gopikaanaam Kuchadwandwa Kumkumaankitavakshasam |\nShreeniketam Maheshwaasam Krishnam Vande Jagadgurum ||"
+    }
+  ]
+}

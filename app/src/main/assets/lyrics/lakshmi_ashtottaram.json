@@ -1,0 +1,49 @@
+{
+  "trackId": "lakshmi_ashtottaram",
+  "titleTelugu": "శ్రీ లక్ష్మీ అష్టోత్తర శతనామావళి",
+  "titleEnglish": "Sri Lakshmi Ashtottara Shatanamavali",
+  "stanzas": [
+    {
+      "index": 1,
+      "startTimeMs": 0,
+      "endTimeMs": 5000,
+      "telugu": "ఓం ప్రకృత్యై నమః |\nఓం వికృత్యై నమః |\nఓం విద్యాయై నమః |\nఓం సర్వభూతహితప్రదాయై నమః ||",
+      "english": "Om Prakrityai Namah |\nOm Vikrityai Namah |\nOm Vidyaayai Namah |\nOm Sarvabhootahitapradaayai Namah ||"
+    },
+    {
+      "index": 2,
+      "startTimeMs": 5000,
+      "endTimeMs": 10000,
+      "telugu": "ఓం శ్రద్ధాయై నమః |\nఓం విభూత్యై నమః |\nఓం సురభ్యై నమః |\nఓం పరమాత్మికాయై నమః ||",
+      "english": "Om Shraddhaayai Namah |\nOm Vibhootyai Namah |\nOm Surabhyai Namah |\nOm Paramaatmikaayai Namah ||"
+    },
+    {
+      "index": 3,
+      "startTimeMs": 10000,
+      "endTimeMs": 15000,
+      "telugu": "ఓం వాచే నమః |\nఓం పద్మాలయాయై నమః |\nఓం పద్మాయై నమః |\nఓం శుచయే నమః ||",
+      "english": "Om Vaache Namah |\nOm Padmaalayaayai Namah |\nOm Padmaayai Namah |\nOm Shuchaye Namah ||"
+    },
+    {
+      "index": 4,
+      "startTimeMs": 15000,
+      "endTimeMs": 20000,
+      "telugu": "ఓం స్వాహాయై నమః |\nఓం స్వధాయై నమః |\nఓం సుధాయై నమః |\nఓం ధన్యాయై నమః ||",
+      "english": "Om Swaahaayai Namah |\nOm Swadhaayai Namah |\nOm Sudhaayai Namah |\nOm Dhanyaayai Namah ||"
+    },
+    {
+      "index": 5,
+      "startTimeMs": 20000,
+      "endTimeMs": 25000,
+      "telugu": "ఓం హిరణ్మయై నమః |\nఓం లక్ష్మ్యై నమః |\nఓం నిత్యపుష్టాయై నమః |\nఓం విభావర్యై నమః ||",
+      "english": "Om Hiranmayyai Namah |\nOm Lakshmyai Namah |\nOm Nityapushtaayai Namah |\nOm Vibhaavaryai Namah ||"
+    },
+    {
+      "index": 6,
+      "startTimeMs": 25000,
+      "endTimeMs": 30000,
+      "telugu": "ఓం ఆదిత్యాయై నమః |\nఓం దిత్యై నమః |\nఓం దీప్తాయై నమః |\nఓం వసుధాయై నమః ||",
+      "english": "Om Aadityaayai Namah |\nOm Dityai Namah |\nOm Deeptaayai Namah |\nOm Vasudhaayai Namah ||"
+    }
+  ]
+}
