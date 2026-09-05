@@ -1,0 +1,181 @@
+{
+  "name": "Bhakti Dhwani Design Tokens",
+  "sourceProject": {
+    "projectId": "16925566501363447881",
+    "themeName": "Sacred Serenity",
+    "deviceType": "MOBILE",
+    "colorMode": "DARK"
+  },
+  "colorSystem": {
+    "brand": {
+      "sacredSaffron": "#FF6F00",
+      "deepSaffron": "#E65100",
+      "templeGold": "#FFD54F",
+      "richGold": "#EBC23E",
+      "warmIvory": "#FFF8E1",
+      "softIvory": "#FFF8E7",
+      "sandalwoodAsh": "#B0A89C",
+      "smokedBrass": "#2A2620",
+      "templeMaroon": "#3E000C",
+      "sanctumFloor": "#121212",
+      "devotionalSurface": "#1A1A1A",
+      "activeSanctuary": "#22201D",
+      "pureWhite": "#FFFFFF"
+    },
+    "material3": {
+      "primary": "#FFB691",
+      "onPrimary": "#552000",
+      "primaryContainer": "#FF6F00",
+      "onPrimaryContainer": "#592200",
+      "secondary": "#EBC23E",
+      "onSecondary": "#3C2F00",
+      "secondaryContainer": "#B69200",
+      "onSecondaryContainer": "#3A2D00",
+      "tertiary": "#CCC6B1",
+      "onTertiary": "#333121",
+      "tertiaryContainer": "#A09B87",
+      "onTertiaryContainer": "#363324",
+      "background": "#131313",
+      "onBackground": "#E5E2E1",
+      "surface": "#131313",
+      "onSurface": "#E5E2E1",
+      "surfaceDim": "#131313",
+      "surfaceBright": "#393939",
+      "surfaceVariant": "#353534",
+      "onSurfaceVariant": "#E1BFB0",
+      "surfaceContainerLowest": "#0E0E0E",
+      "surfaceContainerLow": "#1C1B1B",
+      "surfaceContainer": "#201F1F",
+      "surfaceContainerHigh": "#2A2A2A",
+      "surfaceContainerHighest": "#353534",
+      "outline": "#A98A7C",
+      "outlineVariant": "#594136",
+      "error": "#FFB4AB",
+      "onError": "#690005",
+      "errorContainer": "#93000A",
+      "onErrorContainer": "#FFDAD6"
+    },
+    "glowsAndEffects": {
+      "divineHaloGlow": "0 0 36px 6px rgba(255, 179, 0, 0.25), 0 0 12px 2px rgba(230, 81, 0, 0.35)",
+      "playButtonGlow": "0 8px 24px -4px rgba(255, 111, 0, 0.4), 0 0 12px 2px rgba(235, 194, 62, 0.25)",
+      "activeLyricsBorderGlow": "0 0 16px rgba(235, 194, 62, 0.8)",
+      "sanctumMeshGradient": "radial-gradient(circle at 50% 28%, rgba(217, 119, 6, 0.18) 0%, rgba(30, 21, 14, 0.45) 45%, rgba(13, 12, 11, 0.98) 85%)"
+    }
+  },
+  "typography": {
+    "fontFamilies": {
+      "headline": "Noto Serif",
+      "body": "Noto Sans",
+      "telugu": "Noto Sans Telugu",
+      "serifTelugu": "Noto Serif Telugu",
+      "display": "Noto Serif"
+    },
+    "scale": {
+      "headlineXl": { "fontSize": "36sp", "lineHeight": "48sp", "fontWeight": 700, "letterSpacing": "-0.01em" },
+      "headlineXlMobile": { "fontSize": "30sp", "lineHeight": "40sp", "fontWeight": 700, "letterSpacing": "-0.01em" },
+      "headlineLg": { "fontSize": "28sp", "lineHeight": "38sp", "fontWeight": 600 },
+      "headlineLgMobile": { "fontSize": "24sp", "lineHeight": "34sp", "fontWeight": 600 },
+      "headlineMd": { "fontSize": "22sp", "lineHeight": "30sp", "fontWeight": 600 },
+      "titleLg": { "fontSize": "20sp", "lineHeight": "28sp", "fontWeight": 600 },
+      "titleMd": { "fontSize": "18sp", "lineHeight": "26sp", "fontWeight": 600 },
+      "bodyXl": { "fontSize": "19sp", "lineHeight": "30sp", "fontWeight": 400 },
+      "bodyLg": { "fontSize": "17sp", "lineHeight": "26sp", "fontWeight": 400 },
+      "bodyMd": { "fontSize": "15sp", "lineHeight": "22sp", "fontWeight": 400 },
+      "labelLg": { "fontSize": "16sp", "lineHeight": "22sp", "fontWeight": 600, "letterSpacing": "0.02em" },
+      "labelMd": { "fontSize": "14sp", "lineHeight": "20sp", "fontWeight": 500, "letterSpacing": "0.03em" },
+      "labelSm": { "fontSize": "12sp", "lineHeight": "16sp", "fontWeight": 500, "letterSpacing": "0.04em" }
+    },
+    "elderlyAccessibilityOptions": {
+      "standard": "0sp",
+      "large": "+2sp",
+      "extraLarge": "+4sp"
+    }
+  },
+  "spacing": {
+    "gridBase": "8dp",
+    "space2xs": "4dp",
+    "spaceXs": "8dp",
+    "spaceSm": "12dp",
+    "spaceMd": "16dp",
+    "spaceLg": "24dp",
+    "spaceXl": "32dp",
+    "space2xl": "48dp",
+    "marginMobile": "20dp",
+    "touchTargetMin": "56dp",
+    "playPauseTarget": "72dp"
+  },
+  "shapes": {
+    "sm": "4dp",
+    "default": "8dp",
+    "md": "12dp",
+    "lg": "16dp",
+    "xl": "24dp",
+    "full": "9999dp"
+  },
+  "screens": {
+    "welcome": {
+      "stitchScreenId": "fbfdc0f4289641b6a1eef0da14818916",
+      "name": "Bhakti Dhwani - Onboarding (Welcome/Splash)",
+      "hierarchy": [
+        "Concentric Aura Rings (4s pulse)",
+        "Sacred Namaste Hero Container (Lottie/Image with Golden Halo Glow)",
+        "Bilingual Header: 'భక్తి గీతాలు • Welcome to Devotional Songs'",
+        "100% Offline Sanctum Badge",
+        "3 Elder-Friendly Feature Badges (1000+ Chants, No Internet, Clear Audio)",
+        "Primary CTA: 'ప్రారంభించండి • Get Started' (64dp height, pill shape, golden saffron gradient)"
+      ]
+    },
+    "library": {
+      "stitchScreenId": "524d69e0e5844de29f29c3d549fe9360",
+      "name": "Bhakti Dhwani - Devotional Library",
+      "hierarchy": [
+        "Fixed Top Bar with App Emblem, Telugu Title 'భక్తి ధ్వని' and Search icon",
+        "Greeting Hero Strip: 'శుభోదయం • Good Morning' with Verified Offline chip",
+        "Sacred Search Input with Voice Search Mic button (56dp height)",
+        "Horizontal Sticky Deity Filter Chips: 'All', 'Venkateswara', 'Hanuman', 'Lakshmi', 'Krishna', 'Shiva'",
+        "2x2 Daily Chants Quick-Access Grid (Suprabhatam, Hanuman Chalisa, Lakshmi Ashtottaram, Govinda Namalu)",
+        "Vertical Track List (56x56dp deity artwork, 18sp Telugu title, English subtext, trailing instant play button)",
+        "Persistent Mini-Player Bar hovering above navigation"
+      ]
+    },
+    "player": {
+      "stitchScreenId": "d4eca7990d304181b67faef94853e114",
+      "name": "Bhakti Dhwani - Full Audio Player",
+      "hierarchy": [
+        "Top Navigation Bar with Downward Collapse caret (48x48dp)",
+        "Large Rounded Deity Artwork (280x280dp) with soft glowing aura",
+        "Track Metadata: Stotra title in Telugu (22sp), subtitle in English, Deity badge",
+        "Japam / Repeat Counter Pill with HUD badge (1x, 11x, 21x, 108x, Infinite)",
+        "Interactive Tactile Scrubber Slider with Elapsed and Remaining timestamps",
+        "Jumbo Control Cluster: 10s Rewind (48dp), Jumbo Play/Pause (72dp with divine glow), 10s Forward (48dp), Prev/Next buttons",
+        "Lyrics Launcher Pill Button at bottom"
+      ]
+    },
+    "lyrics": {
+      "stitchScreenId": "12dd7a771acd4277943d4a073d6af31d",
+      "name": "Bhakti Dhwani - Synced Lyrics Sheet",
+      "hierarchy": [
+        "Bottom-Sheet Sanctuary Container with top gold gradient line and drag handle",
+        "Header Metadata Bar: Track title, stanza index (e.g. 12/108), close chevron",
+        "Control Bar: Telugu <-> English script toggle pill, A-/A+ font scaler, Sync Status Indicator",
+        "Synchronized Stotra Chanting Stream (LazyColumn): Past stanzas (dimmed/reverent), Current Active Stanza (Golden halo aura, 2dp saffron left bar, high-contrast gold text), Upcoming stanzas (subtle muted text)"
+      ]
+    },
+    "miniPlayerAndNotification": {
+      "stitchScreenId": "1467986d03bb4f80855ca651cead8adf",
+      "name": "Bhakti Dhwani - Mini-Player & Notification UX",
+      "hierarchy": [
+        "Persistent Mini-Player: 64dp height, 48x48dp artwork, marquee title, 48x48dp Play/Pause button, 2dp saffron progress bar top edge",
+        "Lock-Screen & System Notification: MediaSession notification with artwork, Play/Pause, Rewind 10s, Forward 10s, Stotra title and artist"
+      ]
+    }
+  },
+  "deityArtworks": {
+    "namasteIcon": { "id": "07a5e7ac061148699a896f5291e3aa94", "name": "Bhakti Dhwani Sacred Namaste Icon" },
+    "vishnu": { "id": "cacbf27be7cc47f984b43518b60450c5", "name": "Lord Maha Vishnu", "file": "art_vishnu.webp" },
+    "venkateswara": { "id": "f7fda870b2174e5e98c564b35f426115", "name": "Lord Venkateswara Balaji", "file": "art_venkateswara.webp" },
+    "hanuman": { "id": "83c78d1b97684774ace0ad61cab8c246", "name": "Lord Hanuman", "file": "art_hanuman.webp" },
+    "lakshmi": { "id": "78213590859a46d9a21a6757729a9a0c", "name": "Goddess Lakshmi", "file": "art_lakshmi.webp" },
+    "krishna": { "id": "ca07613442c9474fbb8362cd6d4d8444", "name": "Lord Krishna", "file": "art_krishna.webp" }
+  }
+}

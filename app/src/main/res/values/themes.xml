@@ -1,0 +1,7 @@
+<resources>
+    <style name="Theme.BhaktiDhwani" parent="android:Theme.Material.NoActionBar">
+        <item name="android:statusBarColor">@color/sanctum_dark</item>
+        <item name="android:navigationBarColor">@color/sanctum_dark</item>
+        <item name="android:windowBackground">@color/sanctum_dark</item>
+    </style>
+</resources>

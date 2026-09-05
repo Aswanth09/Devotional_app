@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">భక్తి ధ్వని</string>
+    <string name="app_name_en">Bhakti Dhwani</string>
+    <string name="welcome_headline">భక్తి గీతాలు</string>
+    <string name="welcome_subhead">Welcome to Devotional Songs</string>
+    <string name="get_started">ప్రారంభించండి • Get Started</string>
+    <string name="offline_badge">ఆఫ్‌లైన్ భక్తి సంగీతం • 100% Offline</string>
+</resources>
