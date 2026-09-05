@@ -1,8 +1,13 @@
 package com.bhaktidhwani.app.playback
 
+import android.content.BroadcastReceiver
+import android.content.Context
 import android.content.Intent
+import android.content.IntentFilter
+import android.media.AudioManager
 import android.os.Bundle
 import androidx.annotation.OptIn
+import androidx.core.content.ContextCompat
 import androidx.media3.common.AudioAttributes
 import androidx.media3.common.C
 import androidx.media3.common.Player
@@ -21,24 +26,41 @@ import com.google.common.util.concurrent.ListenableFuture
 
 /**
  * Foreground MediaSessionService that coordinates ExoPlayer audio playback,
- * audio focus management, lock-screen notifications, and the Japam loop counter state machine.
+ * audio focus management, lock-screen notifications, noisy intent handling,
+ * and the Japam loop counter state machine.
  */
 class DevotionalAudioService : MediaSessionService() {
 
     private var mediaSession: MediaSession? = null
     private lateinit var exoPlayer: ExoPlayer
     private lateinit var notificationManager: MediaNotificationManager
+    private var isNoisyReceiverRegistered = false
 
     companion object {
-        const val CUSTOM_ACTION_SET_JAPAM_COUNT = "com.bhaktidhwani.app.SET_JAPAM_COUNT"
-        const val CUSTOM_ACTION_RESET_JAPAM = "com.bhaktidhwani.app.RESET_JAPAM"
-        const val CUSTOM_ACTION_GET_JAPAM_STATE = "com.bhaktidhwani.app.GET_JAPAM_STATE"
+        const val ACTION_SET_JAPAM_MODE = "com.bhaktidhwani.app.SET_JAPAM_MODE"
+        const val ACTION_SET_JAPAM_COUNT = "com.bhaktidhwani.app.SET_JAPAM_COUNT"
+        const val ACTION_RESET_JAPAM_COUNTER = "com.bhaktidhwani.app.RESET_JAPAM_COUNTER"
+        const val ACTION_RESET_JAPAM = "com.bhaktidhwani.app.RESET_JAPAM"
+        const val ACTION_GET_JAPAM_STATE = "com.bhaktidhwani.app.GET_JAPAM_STATE"
+        const val ACTION_JAPAM_STATE_CHANGED = "com.bhaktidhwani.app.JAPAM_STATE_CHANGED"
+
         const val EXTRA_JAPAM_TARGET_COUNT = "extra_japam_target_count"
         const val EXTRA_JAPAM_CURRENT_COUNT = "extra_japam_current_count"
         const val EXTRA_JAPAM_MODE_NAME = "extra_japam_mode_name"
     }
 
     private var japamState: JapamCounterState = JapamCounterState()
+
+    private val becomingNoisyReceiver = object : BroadcastReceiver() {
+        override fun onReceive(context: Context?, intent: Intent?) {
+            if (intent?.action == AudioManager.ACTION_AUDIO_BECOMING_NOISY) {
+                // Auto-pause when headphones or Bluetooth disconnect
+                if (::exoPlayer.isInitialized && exoPlayer.isPlaying) {
+                    exoPlayer.pause()
+                }
+            }
+        }
+    }
 
     @OptIn(UnstableApi::class)
     override fun onCreate() {
@@ -56,9 +78,24 @@ class DevotionalAudioService : MediaSessionService() {
 
         exoPlayer = ExoPlayer.Builder(this)
             .setAudioAttributes(audioAttributes, /* handleAudioFocus = */ true)
+            .setHandleAudioBecomingNoisy(true)
             .setSeekBackIncrementMs(10000L)
             .setSeekForwardIncrementMs(10000L)
             .build()
+
+        // Register noisy broadcast receiver
+        try {
+            val filter = IntentFilter(AudioManager.ACTION_AUDIO_BECOMING_NOISY)
+            ContextCompat.registerReceiver(
+                this,
+                becomingNoisyReceiver,
+                filter,
+                ContextCompat.RECEIVER_EXPORTED
+            )
+            isNoisyReceiverRegistered = true
+        } catch (e: Exception) {
+            // Fallback: ExoPlayer's setHandleAudioBecomingNoisy(true) handles this internally
+        }
 
         // 3. Attach Japam loop counter state machine listener
         exoPlayer.addListener(object : Player.Listener {
@@ -72,17 +109,12 @@ class DevotionalAudioService : MediaSessionService() {
                 // When a new media item is selected, reset iteration counter to 1
                 if (reason == Player.MEDIA_ITEM_TRANSITION_REASON_PLAYLIST_CHANGED) {
                     japamState = japamState.copy(currentIteration = 1)
+                    broadcastJapamState()
                 }
             }
         })
 
         // 4. Configure custom commands for MediaSession callback
-        val customCommands = SessionCommands.Builder()
-            .add(SessionCommand(CUSTOM_ACTION_SET_JAPAM_COUNT, Bundle.EMPTY))
-            .add(SessionCommand(CUSTOM_ACTION_RESET_JAPAM, Bundle.EMPTY))
-            .add(SessionCommand(CUSTOM_ACTION_GET_JAPAM_STATE, Bundle.EMPTY))
-            .build()
-
         val sessionCallback = object : MediaSession.Callback {
             override fun onConnect(
                 session: MediaSession,
@@ -91,9 +123,12 @@ class DevotionalAudioService : MediaSessionService() {
                 val connectionResult = super.onConnect(session, controller)
                 val availableSessionCommands = connectionResult.availableSessionCommands
                     .buildUpon()
-                    .add(SessionCommand(CUSTOM_ACTION_SET_JAPAM_COUNT, Bundle.EMPTY))
-                    .add(SessionCommand(CUSTOM_ACTION_RESET_JAPAM, Bundle.EMPTY))
-                    .add(SessionCommand(CUSTOM_ACTION_GET_JAPAM_STATE, Bundle.EMPTY))
+                    .add(SessionCommand(ACTION_SET_JAPAM_MODE, Bundle.EMPTY))
+                    .add(SessionCommand(ACTION_SET_JAPAM_COUNT, Bundle.EMPTY))
+                    .add(SessionCommand(ACTION_RESET_JAPAM_COUNTER, Bundle.EMPTY))
+                    .add(SessionCommand(ACTION_RESET_JAPAM, Bundle.EMPTY))
+                    .add(SessionCommand(ACTION_GET_JAPAM_STATE, Bundle.EMPTY))
+                    .add(SessionCommand(ACTION_JAPAM_STATE_CHANGED, Bundle.EMPTY))
                     .build()
                 return MediaSession.ConnectionResult.accept(
                     availableSessionCommands,
@@ -108,25 +143,37 @@ class DevotionalAudioService : MediaSessionService() {
                 args: Bundle
             ): ListenableFuture<SessionResult> {
                 when (customCommand.customAction) {
-                    CUSTOM_ACTION_SET_JAPAM_COUNT -> {
+                    ACTION_SET_JAPAM_MODE, ACTION_SET_JAPAM_COUNT -> {
+                        val modeName = args.getString(EXTRA_JAPAM_MODE_NAME)
                         val target = args.getInt(EXTRA_JAPAM_TARGET_COUNT, 1)
-                        val mode = JapamMode.fromTargetCount(target)
+                        val mode = if (modeName != null) {
+                            try {
+                                JapamMode.valueOf(modeName)
+                            } catch (e: Exception) {
+                                JapamMode.fromTargetCount(target)
+                            }
+                        } else {
+                            JapamMode.fromTargetCount(target)
+                        }
+
                         japamState = JapamCounterState(
                             mode = mode,
                             currentIteration = 1,
                             totalTarget = if (mode == JapamMode.INFINITE) -1 else mode.targetCount
                         )
+                        broadcastJapamState()
                         return Futures.immediateFuture(
                             SessionResult(SessionResult.RESULT_SUCCESS, createJapamBundle())
                         )
                     }
-                    CUSTOM_ACTION_RESET_JAPAM -> {
+                    ACTION_RESET_JAPAM_COUNTER, ACTION_RESET_JAPAM -> {
                         japamState = japamState.copy(currentIteration = 1)
+                        broadcastJapamState()
                         return Futures.immediateFuture(
                             SessionResult(SessionResult.RESULT_SUCCESS, createJapamBundle())
                         )
                     }
-                    CUSTOM_ACTION_GET_JAPAM_STATE -> {
+                    ACTION_GET_JAPAM_STATE -> {
                         return Futures.immediateFuture(
                             SessionResult(SessionResult.RESULT_SUCCESS, createJapamBundle())
                         )
@@ -156,12 +203,22 @@ class DevotionalAudioService : MediaSessionService() {
 
         if (canLoop) {
             japamState = japamState.copy(currentIteration = japamState.currentIteration + 1)
+            broadcastJapamState()
             exoPlayer.seekTo(0L)
             exoPlayer.play()
         } else {
             exoPlayer.pause()
             exoPlayer.seekTo(0L)
+            broadcastJapamState()
         }
+    }
+
+    private fun broadcastJapamState() {
+        val bundle = createJapamBundle()
+        mediaSession?.broadcastCustomCommand(
+            SessionCommand(ACTION_JAPAM_STATE_CHANGED, Bundle.EMPTY),
+            bundle
+        )
     }
 
     private fun createJapamBundle(): Bundle {
@@ -184,6 +241,14 @@ class DevotionalAudioService : MediaSessionService() {
     }
 
     override fun onDestroy() {
+        if (isNoisyReceiverRegistered) {
+            try {
+                unregisterReceiver(becomingNoisyReceiver)
+                isNoisyReceiverRegistered = false
+            } catch (e: Exception) {
+                // Ignore if already unregistered
+            }
+        }
         mediaSession?.run {
             player.release()
             release()

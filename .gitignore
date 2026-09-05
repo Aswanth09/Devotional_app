@@ -19,8 +19,9 @@ app/build/
 build/
 */build/
 
-# Gradle files
+# Gradle & Kotlin files
 .gradle/
+.kotlin/
 buildOutputCleanup/
 
 # Local configuration file (sdk path, etc)
