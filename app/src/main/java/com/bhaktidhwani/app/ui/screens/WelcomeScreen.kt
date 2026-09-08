@@ -61,9 +61,11 @@ import com.bhaktidhwani.app.ui.theme.WarmIvory
 fun WelcomeScreen(
     onGetStarted: () -> Unit
 ) {
-    val composition by rememberLottieComposition(
+    val compositionResult = rememberLottieComposition(
         LottieCompositionSpec.Asset("anim/namaste_anim.json")
     )
+    val composition = compositionResult.value
+    val isCompositionFailed = compositionResult.isFailure
     val scrollState = rememberScrollState()
 
     Surface(
@@ -109,7 +111,7 @@ fun WelcomeScreen(
 
                 Spacer(modifier = Modifier.height(32.dp))
 
-                // Lottie Sacred Namaste Animation Container
+                // Sacred Namaste Animation Container with Fail-safe Fallback
                 Box(
                     modifier = Modifier
                         .size(180.dp)
@@ -118,11 +120,22 @@ fun WelcomeScreen(
                         .border(2.dp, RichGold, CircleShape),
                     contentAlignment = Alignment.Center
                 ) {
-                    LottieAnimation(
-                        composition = composition,
-                        iterations = LottieConstants.IterateForever,
-                        modifier = Modifier.size(150.dp)
-                    )
+                    if (composition != null && !isCompositionFailed) {
+                        LottieAnimation(
+                            composition = composition,
+                            iterations = LottieConstants.IterateForever,
+                            modifier = Modifier.size(150.dp)
+                        )
+                    } else {
+                        // Safe fallback rendering native Namaste emblem
+                        androidx.compose.foundation.Image(
+                            painter = androidx.compose.ui.res.painterResource(id = com.bhaktidhwani.app.R.drawable.ic_namaste),
+                            contentDescription = "Sacred Namaste Emblem",
+                            modifier = Modifier
+                                .size(110.dp)
+                                .padding(8.dp)
+                        )
+                    }
                 }
 
                 Spacer(modifier = Modifier.height(28.dp))

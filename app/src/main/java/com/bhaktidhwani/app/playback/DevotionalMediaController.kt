@@ -83,27 +83,28 @@ class DevotionalMediaController(
     }
 
     private fun initializeController() {
-        val sessionToken = SessionToken(
-            context,
-            ComponentName(context, DevotionalAudioService::class.java)
-        )
+        try {
+            val sessionToken = SessionToken(
+                context,
+                ComponentName(context, DevotionalAudioService::class.java)
+            )
 
-        controllerFuture = MediaController.Builder(context, sessionToken)
-            .setListener(object : MediaController.Listener {
-                override fun onCustomCommand(
-                    controller: MediaController,
-                    command: SessionCommand,
-                    args: Bundle
-                ): ListenableFuture<SessionResult> {
-                    if (command.customAction == DevotionalAudioService.ACTION_JAPAM_STATE_CHANGED) {
-                        updateJapamStateFromBundle(args)
+            controllerFuture = MediaController.Builder(context, sessionToken)
+                .setListener(object : MediaController.Listener {
+                    override fun onCustomCommand(
+                        controller: MediaController,
+                        command: SessionCommand,
+                        args: Bundle
+                    ): ListenableFuture<SessionResult> {
+                        if (command.customAction == DevotionalAudioService.ACTION_JAPAM_STATE_CHANGED) {
+                            updateJapamStateFromBundle(args)
+                        }
+                        return super.onCustomCommand(controller, command, args)
                     }
-                    return super.onCustomCommand(controller, command, args)
-                }
-            })
-            .buildAsync()
+                })
+                .buildAsync()
 
-        controllerFuture?.addListener({
+            controllerFuture?.addListener({
             try {
                 val controller = controllerFuture?.get() ?: return@addListener
                 mediaController = controller
@@ -162,7 +163,10 @@ class DevotionalMediaController(
                 _isConnected.value = false
             }
         }, ContextCompat.getMainExecutor(context))
+    } catch (t: Throwable) {
+        _isConnected.value = false
     }
+}
 
     private fun startPositionPolling() {
         positionPollingJob?.cancel()

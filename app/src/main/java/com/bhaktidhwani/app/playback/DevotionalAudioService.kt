@@ -34,7 +34,6 @@ class DevotionalAudioService : MediaSessionService() {
     private var mediaSession: MediaSession? = null
     private lateinit var exoPlayer: ExoPlayer
     private lateinit var notificationManager: MediaNotificationManager
-    private var isNoisyReceiverRegistered = false
 
     companion object {
         const val ACTION_SET_JAPAM_MODE = "com.bhaktidhwani.app.SET_JAPAM_MODE"
@@ -50,17 +49,6 @@ class DevotionalAudioService : MediaSessionService() {
     }
 
     private var japamState: JapamCounterState = JapamCounterState()
-
-    private val becomingNoisyReceiver = object : BroadcastReceiver() {
-        override fun onReceive(context: Context?, intent: Intent?) {
-            if (intent?.action == AudioManager.ACTION_AUDIO_BECOMING_NOISY) {
-                // Auto-pause when headphones or Bluetooth disconnect
-                if (::exoPlayer.isInitialized && exoPlayer.isPlaying) {
-                    exoPlayer.pause()
-                }
-            }
-        }
-    }
 
     @OptIn(UnstableApi::class)
     override fun onCreate() {
@@ -83,19 +71,7 @@ class DevotionalAudioService : MediaSessionService() {
             .setSeekForwardIncrementMs(10000L)
             .build()
 
-        // Register noisy broadcast receiver
-        try {
-            val filter = IntentFilter(AudioManager.ACTION_AUDIO_BECOMING_NOISY)
-            ContextCompat.registerReceiver(
-                this,
-                becomingNoisyReceiver,
-                filter,
-                ContextCompat.RECEIVER_EXPORTED
-            )
-            isNoisyReceiverRegistered = true
-        } catch (e: Exception) {
-            // Fallback: ExoPlayer's setHandleAudioBecomingNoisy(true) handles this internally
-        }
+        // ExoPlayer's setHandleAudioBecomingNoisy(true) natively handles ACTION_AUDIO_BECOMING_NOISY safely on Android 14+
 
         // 3. Attach Japam loop counter state machine listener
         exoPlayer.addListener(object : Player.Listener {
@@ -188,7 +164,6 @@ class DevotionalAudioService : MediaSessionService() {
             .setCallback(sessionCallback)
             .build()
 
-        // 6. Set Notification Provider
         setMediaNotificationProvider(
             DefaultMediaNotificationProvider.Builder(this)
                 .setChannelId(MediaNotificationManager.CHANNEL_ID)
@@ -241,14 +216,6 @@ class DevotionalAudioService : MediaSessionService() {
     }
 
     override fun onDestroy() {
-        if (isNoisyReceiverRegistered) {
-            try {
-                unregisterReceiver(becomingNoisyReceiver)
-                isNoisyReceiverRegistered = false
-            } catch (e: Exception) {
-                // Ignore if already unregistered
-            }
-        }
         mediaSession?.run {
             player.release()
             release()

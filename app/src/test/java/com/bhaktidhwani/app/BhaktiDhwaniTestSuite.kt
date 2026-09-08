@@ -27,6 +27,12 @@ class BhaktiDhwaniTestSuite {
         repository = LocalAudioRepository()
     }
 
+    @Test
+    fun testViewModelConstructor() {
+        val constructor = com.bhaktidhwani.app.ui.viewmodel.MainViewModel::class.java.getConstructor(android.app.Application::class.java)
+        assertNotNull(constructor)
+    }
+
     // ==========================================
     // TC-OFFLINE: Asset Integrity & Offline Catalog
     // ==========================================

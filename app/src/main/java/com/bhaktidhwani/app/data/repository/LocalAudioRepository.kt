@@ -131,7 +131,7 @@ class LocalAudioRepository {
                 )
             }
             stanzas
-        } catch (e: Exception) {
+        } catch (t: Throwable) {
             emptyList()
         }
     }

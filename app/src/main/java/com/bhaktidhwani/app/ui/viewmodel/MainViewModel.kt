@@ -26,7 +26,7 @@ enum class ScriptMode {
  * Main ViewModel orchestrating library tracks, playback controls,
  * time-synced lyrics calculation, and elder-friendly font scaling.
  */
-class MainViewModel(
+class MainViewModel @JvmOverloads constructor(
     application: Application,
     val repository: LocalAudioRepository = LocalAudioRepository(),
     val mediaController: DevotionalMediaController = DevotionalMediaController(application, repository)
