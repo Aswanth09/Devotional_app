@@ -10,6 +10,8 @@ enum class JapamMode(val targetCount: Int, val label: String) {
     HUNDRED_EIGHT(108, "108x"),
     INFINITE(-1, "∞");
 
+    val displayName: String get() = label
+
     companion object {
         fun fromTargetCount(targetCount: Int): JapamMode {
             return entries.firstOrNull { it.targetCount == targetCount } ?: ONE_TIME
