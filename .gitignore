@@ -24,6 +24,10 @@ build/
 .kotlin/
 buildOutputCleanup/
 
+# Raw master audio staging (preserve README.md only)
+raw_audio/*
+!raw_audio/README.md
+
 # Local configuration file (sdk path, etc)
 local.properties
 

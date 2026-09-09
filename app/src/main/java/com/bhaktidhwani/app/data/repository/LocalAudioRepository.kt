@@ -1,4 +1,4 @@
-package com.bhaktidhwani.app.data.repository
+﻿package com.bhaktidhwani.app.data.repository
 
 import android.content.Context
 import com.bhaktidhwani.app.R
@@ -17,80 +17,80 @@ class LocalAudioRepository {
     val coreTracks: List<Track> = listOf(
         Track(
             id = "vishnu_sahasranamam",
-            titleTelugu = "శ్రీ విష్ణు సహస్రనామ స్తోత్రమ్",
+            titleTelugu = "à°¶à±à°°à±€ à°µà°¿à°·à±à°£à± à°¸à°¹à°¸à±à°°à°¨à°¾à°® à°¸à±à°¤à±‹à°¤à±à°°à°®à±",
             titleEnglish = "Sri Vishnu Sahasranama Stotram",
             deity = "Vishnu",
-            deityTelugu = "శ్రీ మహావిష్ణువు",
+            deityTelugu = "à°¶à±à°°à±€ à°®à°¹à°¾à°µà°¿à°·à±à°£à±à°µà±",
             rawResId = R.raw.vishnu_sahasranamam,
             thumbnailResId = R.drawable.art_vishnu,
-            durationMs = 30000L,
+            durationMs = 30020L,
             lyricsAssetPath = "lyrics/vishnu_sahasranamam.json",
-            descriptionTelugu = "1000 దివ్య నామాల పవిత్ర స్తోత్రం",
+            descriptionTelugu = "1000 à°¦à°¿à°µà±à°¯ à°¨à°¾à°®à°¾à°² à°ªà°µà°¿à°¤à±à°° à°¸à±à°¤à±‹à°¤à±à°°à°‚",
             descriptionEnglish = "Chanting of the 1000 Divine Names of Lord Vishnu"
         ),
         Track(
             id = "hanuman_chalisa",
-            titleTelugu = "హనుమాన్ చాలీసా",
+            titleTelugu = "à°¹à°¨à±à°®à°¾à°¨à± à°šà°¾à°²à±€à°¸à°¾",
             titleEnglish = "Hanuman Chalisa",
             deity = "Hanuman",
-            deityTelugu = "శ్రీ హనుమాన్",
+            deityTelugu = "à°¶à±à°°à±€ à°¹à°¨à±à°®à°¾à°¨à±",
             rawResId = R.raw.hanuman_chalisa,
             thumbnailResId = R.drawable.art_hanuman,
-            durationMs = 30000L,
+            durationMs = 30020L,
             lyricsAssetPath = "lyrics/hanuman_chalisa.json",
-            descriptionTelugu = "గోస్వామి తులసీదాస్ రచించిన రక్షా స్తోత్రం",
+            descriptionTelugu = "à°—à±‹à°¸à±à°µà°¾à°®à°¿ à°¤à±à°²à°¸à±€à°¦à°¾à°¸à± à°°à°šà°¿à°‚à°šà°¿à°¨ à°°à°•à±à°·à°¾ à°¸à±à°¤à±‹à°¤à±à°°à°‚",
             descriptionEnglish = "Forty Hymns of Strength and Protection"
         ),
         Track(
             id = "govinda_namalu",
-            titleTelugu = "గోవింద నామాలు",
+            titleTelugu = "à°—à±‹à°µà°¿à°‚à°¦ à°¨à°¾à°®à°¾à°²à±",
             titleEnglish = "Govinda Namalu",
             deity = "Venkateswara",
-            deityTelugu = "శ్రీ వేంకటేశ్వర స్వామి",
+            deityTelugu = "à°¶à±à°°à±€ à°µà±‡à°‚à°•à°Ÿà±‡à°¶à±à°µà°° à°¸à±à°µà°¾à°®à°¿",
             rawResId = R.raw.govinda_namalu,
             thumbnailResId = R.drawable.art_venkateswara,
-            durationMs = 30000L,
+            durationMs = 30020L,
             lyricsAssetPath = "lyrics/govinda_namalu.json",
-            descriptionTelugu = "తిరుమల వేంకటేశ్వర స్వామి నామ సంకీర్తన",
+            descriptionTelugu = "à°¤à°¿à°°à±à°®à°² à°µà±‡à°‚à°•à°Ÿà±‡à°¶à±à°µà°° à°¸à±à°µà°¾à°®à°¿ à°¨à°¾à°® à°¸à°‚à°•à±€à°°à±à°¤à°¨",
             descriptionEnglish = "Sacred Chants of Lord Venkateswara Balaji"
         ),
         Track(
             id = "lakshmi_ashtottaram",
-            titleTelugu = "శ్రీ లక్ష్మీ అష్టోత్తర శతనామావళి",
+            titleTelugu = "à°¶à±à°°à±€ à°²à°•à±à°·à±à°®à±€ à°…à°·à±à°Ÿà±‹à°¤à±à°¤à°° à°¶à°¤à°¨à°¾à°®à°¾à°µà°³à°¿",
             titleEnglish = "Sri Lakshmi Ashtottara Shatanamavali",
             deity = "Lakshmi",
-            deityTelugu = "శ్రీ లక్ష్మీ దేవి",
+            deityTelugu = "à°¶à±à°°à±€ à°²à°•à±à°·à±à°®à±€ à°¦à±‡à°µà°¿",
             rawResId = R.raw.lakshmi_ashtottaram,
             thumbnailResId = R.drawable.art_lakshmi,
-            durationMs = 30000L,
+            durationMs = 30020L,
             lyricsAssetPath = "lyrics/lakshmi_ashtottaram.json",
-            descriptionTelugu = "అష్టైశ్వర్య ప్రదాయక దివ్య స్తోత్రం",
+            descriptionTelugu = "à°…à°·à±à°Ÿà±ˆà°¶à±à°µà°°à±à°¯ à°ªà±à°°à°¦à°¾à°¯à°• à°¦à°¿à°µà±à°¯ à°¸à±à°¤à±‹à°¤à±à°°à°‚",
             descriptionEnglish = "108 Auspicious Names of Goddess Lakshmi"
         ),
         Track(
             id = "garuda_gamana",
-            titleTelugu = "గరుడ గమన తవ చరణ కమలమిహ",
+            titleTelugu = "à°—à°°à±à°¡ à°—à°®à°¨ à°¤à°µ à°šà°°à°£ à°•à°®à°²à°®à°¿à°¹",
             titleEnglish = "Garuda Gamana Tava Charana",
             deity = "Vishnu",
-            deityTelugu = "శ్రీ మహావిష్ణువు",
+            deityTelugu = "à°¶à±à°°à±€ à°®à°¹à°¾à°µà°¿à°·à±à°£à±à°µà±",
             rawResId = R.raw.garuda_gamana,
             thumbnailResId = R.drawable.art_vishnu,
-            durationMs = 30000L,
+            durationMs = 30020L,
             lyricsAssetPath = "lyrics/garuda_gamana.json",
-            descriptionTelugu = "శంకరాచార్య విరచిత గరుడ గమన స్తోత్రం",
+            descriptionTelugu = "à°¶à°‚à°•à°°à°¾à°šà°¾à°°à±à°¯ à°µà°¿à°°à°šà°¿à°¤ à°—à°°à±à°¡ à°—à°®à°¨ à°¸à±à°¤à±‹à°¤à±à°°à°‚",
             descriptionEnglish = "Classical Stotra in Reverence to Lord Vishnu"
         ),
         Track(
             id = "krishna_ashtakam",
-            titleTelugu = "శ్రీ కృష్ణాష్టకం",
+            titleTelugu = "à°¶à±à°°à±€ à°•à±ƒà°·à±à°£à°¾à°·à±à°Ÿà°•à°‚",
             titleEnglish = "Sri Krishna Ashtakam",
             deity = "Krishna",
-            deityTelugu = "శ్రీ కృష్ణ పరమాత్మ",
+            deityTelugu = "à°¶à±à°°à±€ à°•à±ƒà°·à±à°£ à°ªà°°à°®à°¾à°¤à±à°®",
             rawResId = R.raw.krishna_ashtakam,
             thumbnailResId = R.drawable.art_krishna,
-            durationMs = 30000L,
+            durationMs = 30020L,
             lyricsAssetPath = "lyrics/krishna_ashtakam.json",
-            descriptionTelugu = "వసుదేవసుతం దేవం కంసచాణూరమర్దనం",
+            descriptionTelugu = "à°µà°¸à±à°¦à±‡à°µà°¸à±à°¤à°‚ à°¦à±‡à°µà°‚ à°•à°‚à°¸à°šà°¾à°£à±‚à°°à°®à°°à±à°¦à°¨à°‚",
             descriptionEnglish = "Eight Divine Verses in Praise of Lord Krishna"
         )
     )
@@ -136,3 +136,4 @@ class LocalAudioRepository {
         }
     }
 }
+
