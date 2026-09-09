@@ -208,13 +208,13 @@ private fun LibraryHeader() {
                 Spacer(modifier = Modifier.width(12.dp))
                 Column {
                     Text(
-                        text = "భక్తి ధ్వని",
+                        text = "భక్తి గీతాలు",
                         style = MaterialTheme.typography.titleLarge,
                         color = TempleGold,
                         fontWeight = FontWeight.Bold
                     )
                     Text(
-                        text = "Bhakti Dhwani Sanctum",
+                        text = "Devotional Chants Sanctum",
                         style = MaterialTheme.typography.bodySmall,
                         color = WarmIvory.copy(alpha = 0.7f)
                     )

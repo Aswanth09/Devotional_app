@@ -1,7 +1,7 @@
-# QA Test Plan: Bhakti Dhwani
+﻿# QA Test Plan: Devotional Chants
 
 ## 1. Overview & Quality Objectives
-* **Product:** Bhakti Dhwani (Offline Devotional Music Player)
+* **Product:** Devotional Chants (Offline Devotional Music Player)
 * **Goal:** Verify that the 100% offline devotional audio player functions with zero audio stutters, delivers flawless background playback, displays accurate Telugu time-synced lyrics, handles Japam looping state transitions, and remains strictly accessible for elderly family users.
 * **Target Environment:** Android devices running API 24 (Android 7.0) through API 34+ (Android 14).
 

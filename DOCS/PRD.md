@@ -1,7 +1,7 @@
-# Product Requirement Document (PRD)
+﻿# Product Requirement Document (PRD)
 
 ## 1. Product Overview
-* **Product Name:** Bhakti Dhwani (Offline Devotional Music Player)
+* **Product Name:** Devotional Chants (Offline Devotional Music Player)
 * **Target Audience:** Family, parents, and elderly users seeking a simple, friction-free devotional chanting and music experience.
 * **Core Value Proposition:** A Spotify-inspired, 100% offline devotional audio streaming experience with built-in voice-optimized audio compression, time-synchronized Telugu/English lyrics, senior-friendly high-contrast UI, and spiritual utilities like Japam/loop counters.
 * **Primary Platform:** Android (Native Kotlin / Jetpack Compose).

@@ -1,4 +1,4 @@
-# App Flow & Navigation Architecture: Bhakti Dhwani
+﻿# App Flow & Navigation Architecture: Devotional Chants
 
 ## 1. High-Level Navigation State Machine
 

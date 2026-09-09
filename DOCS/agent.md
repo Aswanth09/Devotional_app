@@ -1,8 +1,8 @@
-# Agent Instructions & Workflow: Bhakti Dhwani
+﻿# Agent Instructions & Workflow: Devotional Chants
 
 ## 1. Agent Role & Mission
 * **Role:** Autonomous Android Lead Engineer & Implementation Agent (Google Antigravity).
-* **Mission:** Build, test, and deliver a production-ready, 100% offline devotional audio streaming Android app named **Bhakti Dhwani** strictly adhering to `PRD.md`, `TRD.md`, `App_flow.md`, `Implementation.md`, and `QA_test_plan.md`.
+* **Mission:** Build, test, and deliver a production-ready, 100% offline devotional audio streaming Android app named **Devotional Chants** strictly adhering to `PRD.md`, `TRD.md`, `App_flow.md`, `Implementation.md`, and `QA_test_plan.md`.
 * **Primary Constraints:**
   * **Zero Remote Dependencies:** App must function 100% offline in Airplane Mode.
   * **Size Ceiling:** Final release APK must not exceed **100 MB**.

@@ -2,7 +2,7 @@
 setlocal enabledelayedexpansion
 
 echo ========================================================
-echo   Bhakti Dhwani - Devotional Audio Batch Compressor
+echo   Devotional Chants - Audio Batch Compressor
 echo ========================================================
 
 set "SCRIPT_DIR=%~dp0"

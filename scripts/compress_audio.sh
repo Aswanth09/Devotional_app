@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Automated Audio Compression Script for Bhakti Dhwani
+# Automated Audio Compression Script for Devotional Chants
 # Encodes master tracks to 80 kbps AAC-LC CBR joint stereo / speech profile with highpass/lowpass/loudnorm filters
 # Requires ffmpeg installed
 

@@ -13,7 +13,7 @@ import androidx.compose.ui.Modifier
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import com.bhaktidhwani.app.ui.navigation.AppNavigation
-import com.bhaktidhwani.app.ui.theme.BhaktiDhwaniTheme
+import com.bhaktidhwani.app.ui.theme.DevotionalChantsTheme
 import com.bhaktidhwani.app.ui.theme.SanctumFloor
 import com.bhaktidhwani.app.ui.viewmodel.MainViewModel
 
@@ -40,7 +40,7 @@ class MainActivity : ComponentActivity() {
         }
 
         setContent {
-            BhaktiDhwaniTheme {
+            DevotionalChantsTheme {
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = SanctumFloor

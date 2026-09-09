@@ -1,4 +1,4 @@
-# Bhakti Dhwani Production Proguard Rules
+# Devotional Chants Production Proguard Rules
 
 # Keep Media3 classes, interfaces, and sessions
 -keep class androidx.media3.** { *; }

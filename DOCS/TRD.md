@@ -1,4 +1,4 @@
-# Technical Requirements Document (TRD)
+﻿# Technical Requirements Document (TRD)
 
 ## 1. System Architecture & Tech Stack
 
@@ -81,7 +81,7 @@ Antigravity or developers can run this script to pre-process master tracks befor
 
 ```bash
 #!/usr/bin/env bash
-# Automated Audio Compression Script for Bhakti Dhwani
+# Automated Audio Compression Script for Devotional Chants
 # Requires ffmpeg installed
 
 INPUT_DIR="./raw_audio"

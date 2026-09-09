@@ -1,7 +1,8 @@
 <resources>
-    <style name="Theme.BhaktiDhwani" parent="android:Theme.Material.NoActionBar">
+    <style name="Theme.DevotionalChants" parent="android:Theme.Material.NoActionBar">
         <item name="android:statusBarColor">@color/sanctum_dark</item>
         <item name="android:navigationBarColor">@color/sanctum_dark</item>
         <item name="android:windowBackground">@color/sanctum_dark</item>
     </style>
+    <style name="Theme.BhaktiDhwani" parent="Theme.DevotionalChants" />
 </resources>

@@ -1,4 +1,4 @@
-# PowerShell Audio Compression Script for Bhakti Dhwani
+# PowerShell Audio Compression Script for Devotional Chants
 # Converts master MP3/WAV tracks to 80 kbps AAC-LC M4A files for offline embedding
 
 $ErrorActionPreference = "Stop"

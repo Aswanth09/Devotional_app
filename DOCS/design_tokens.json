@@ -1,5 +1,5 @@
-{
-  "name": "Bhakti Dhwani Design Tokens",
+﻿{
+  "name": "Devotional Chants Design Tokens",
   "sourceProject": {
     "projectId": "16925566501363447881",
     "themeName": "Sacred Serenity",
@@ -115,7 +115,7 @@
   "screens": {
     "welcome": {
       "stitchScreenId": "fbfdc0f4289641b6a1eef0da14818916",
-      "name": "Bhakti Dhwani - Onboarding (Welcome/Splash)",
+      "name": "Devotional Chants - Onboarding (Welcome/Splash)",
       "hierarchy": [
         "Concentric Aura Rings (4s pulse)",
         "Sacred Namaste Hero Container (Lottie/Image with Golden Halo Glow)",
@@ -127,7 +127,7 @@
     },
     "library": {
       "stitchScreenId": "524d69e0e5844de29f29c3d549fe9360",
-      "name": "Bhakti Dhwani - Devotional Library",
+      "name": "Devotional Chants - Devotional Library",
       "hierarchy": [
         "Fixed Top Bar with App Emblem, Telugu Title 'భక్తి ధ్వని' and Search icon",
         "Greeting Hero Strip: 'శుభోదయం • Good Morning' with Verified Offline chip",
@@ -140,7 +140,7 @@
     },
     "player": {
       "stitchScreenId": "d4eca7990d304181b67faef94853e114",
-      "name": "Bhakti Dhwani - Full Audio Player",
+      "name": "Devotional Chants - Full Audio Player",
       "hierarchy": [
         "Top Navigation Bar with Downward Collapse caret (48x48dp)",
         "Large Rounded Deity Artwork (280x280dp) with soft glowing aura",
@@ -153,7 +153,7 @@
     },
     "lyrics": {
       "stitchScreenId": "12dd7a771acd4277943d4a073d6af31d",
-      "name": "Bhakti Dhwani - Synced Lyrics Sheet",
+      "name": "Devotional Chants - Synced Lyrics Sheet",
       "hierarchy": [
         "Bottom-Sheet Sanctuary Container with top gold gradient line and drag handle",
         "Header Metadata Bar: Track title, stanza index (e.g. 12/108), close chevron",
@@ -163,7 +163,7 @@
     },
     "miniPlayerAndNotification": {
       "stitchScreenId": "1467986d03bb4f80855ca651cead8adf",
-      "name": "Bhakti Dhwani - Mini-Player & Notification UX",
+      "name": "Devotional Chants - Mini-Player & Notification UX",
       "hierarchy": [
         "Persistent Mini-Player: 64dp height, 48x48dp artwork, marquee title, 48x48dp Play/Pause button, 2dp saffron progress bar top edge",
         "Lock-Screen & System Notification: MediaSession notification with artwork, Play/Pause, Rewind 10s, Forward 10s, Stotra title and artist"
@@ -171,7 +171,7 @@
     }
   },
   "deityArtworks": {
-    "namasteIcon": { "id": "07a5e7ac061148699a896f5291e3aa94", "name": "Bhakti Dhwani Sacred Namaste Icon" },
+    "namasteIcon": { "id": "07a5e7ac061148699a896f5291e3aa94", "name": "Devotional Chants Sacred Namaste Icon" },
     "vishnu": { "id": "cacbf27be7cc47f984b43518b60450c5", "name": "Lord Maha Vishnu", "file": "art_vishnu.webp" },
     "venkateswara": { "id": "f7fda870b2174e5e98c564b35f426115", "name": "Lord Venkateswara Balaji", "file": "art_venkateswara.webp" },
     "hanuman": { "id": "83c78d1b97684774ace0ad61cab8c246", "name": "Lord Hanuman", "file": "art_hanuman.webp" },

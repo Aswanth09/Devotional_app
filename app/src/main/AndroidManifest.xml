@@ -9,16 +9,16 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/ic_namaste"
+        android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@drawable/ic_namaste"
+        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.BhaktiDhwani">
+        android:theme="@style/Theme.DevotionalChants">
 
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:theme="@style/Theme.BhaktiDhwani"
+            android:theme="@style/Theme.DevotionalChants"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

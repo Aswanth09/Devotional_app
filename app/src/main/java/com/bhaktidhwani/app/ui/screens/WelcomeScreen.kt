@@ -53,9 +53,19 @@ import com.bhaktidhwani.app.ui.theme.SurfaceContainer
 import com.bhaktidhwani.app.ui.theme.TempleGold
 import com.bhaktidhwani.app.ui.theme.WarmIvory
 
+import androidx.compose.animation.core.RepeatMode
+import androidx.compose.animation.core.animateFloat
+import androidx.compose.animation.core.infiniteRepeatable
+import androidx.compose.animation.core.rememberInfiniteTransition
+import androidx.compose.animation.core.tween
+import androidx.compose.foundation.Image
+import androidx.compose.ui.draw.scale
+import androidx.compose.ui.res.painterResource
+import com.bhaktidhwani.app.R
+
 /**
- * Onboarding/Welcome screen featuring the sacred Namaste Lottie animation,
- * bilingual headline, offline verification badge, and elder-friendly CTA.
+ * Onboarding/Welcome screen featuring the sacred Namaste animation,
+ * glowing concentric aura rings, bilingual headline, offline verification badge, and elder-friendly CTA.
  */
 @Composable
 fun WelcomeScreen(
@@ -67,6 +77,27 @@ fun WelcomeScreen(
     val composition = compositionResult.value
     val isCompositionFailed = compositionResult.isFailure
     val scrollState = rememberScrollState()
+
+    // Smooth continuous aura pulse animation
+    val infiniteTransition = rememberInfiniteTransition(label = "AuraPulse")
+    val pulseScale by infiniteTransition.animateFloat(
+        initialValue = 0.96f,
+        targetValue = 1.04f,
+        animationSpec = infiniteRepeatable(
+            animation = tween(durationMillis = 2400),
+            repeatMode = RepeatMode.Reverse
+        ),
+        label = "pulseScale"
+    )
+    val pulseAlpha by infiniteTransition.animateFloat(
+        initialValue = 0.5f,
+        targetValue = 0.95f,
+        animationSpec = infiniteRepeatable(
+            animation = tween(durationMillis = 2400),
+            repeatMode = RepeatMode.Reverse
+        ),
+        label = "pulseAlpha"
+    )
 
     Surface(
         modifier = Modifier.fillMaxSize(),
@@ -111,29 +142,56 @@ fun WelcomeScreen(
 
                 Spacer(modifier = Modifier.height(32.dp))
 
-                // Sacred Namaste Animation Container with Fail-safe Fallback
+                // Sacred Namaste Emblem with Glowing Concentric Rings
                 Box(
                     modifier = Modifier
-                        .size(180.dp)
-                        .clip(CircleShape)
-                        .background(Color(0xFF2A1C10))
-                        .border(2.dp, RichGold, CircleShape),
+                        .size(210.dp),
                     contentAlignment = Alignment.Center
                 ) {
+                    // Outer Radiant Ring
+                    Box(
+                        modifier = Modifier
+                            .size(200.dp)
+                            .scale(pulseScale)
+                            .clip(CircleShape)
+                            .background(SacredSaffron.copy(alpha = 0.08f * pulseAlpha))
+                            .border(1.5.dp, SacredSaffron.copy(alpha = 0.45f * pulseAlpha), CircleShape)
+                    )
+
+                    // Middle Temple Gold Ring
+                    Box(
+                        modifier = Modifier
+                            .size(165.dp)
+                            .clip(CircleShape)
+                            .background(Color(0xFF24150A))
+                            .border(2.dp, TempleGold.copy(alpha = 0.75f * pulseAlpha), CircleShape)
+                    )
+
+                    // Inner Sanctum Core
+                    Box(
+                        modifier = Modifier
+                            .size(130.dp)
+                            .clip(CircleShape)
+                            .background(Color(0xFF1B0F07))
+                            .border(2.5.dp, RichGold, CircleShape),
+                        contentAlignment = Alignment.Center
+                    ) {
+                        // Always-present Sacred Namaste Emblem
+                        Image(
+                            painter = painterResource(id = R.drawable.ic_namaste),
+                            contentDescription = "Sacred Namaste Emblem",
+                            modifier = Modifier
+                                .size(88.dp)
+                                .padding(4.dp)
+                        )
+                    }
+
+                    // Optional Lottie Golden Aura overlay if loaded
                     if (composition != null && !isCompositionFailed) {
                         LottieAnimation(
                             composition = composition,
                             iterations = LottieConstants.IterateForever,
-                            modifier = Modifier.size(150.dp)
-                        )
-                    } else {
-                        // Safe fallback rendering native Namaste emblem
-                        androidx.compose.foundation.Image(
-                            painter = androidx.compose.ui.res.painterResource(id = com.bhaktidhwani.app.R.drawable.ic_namaste),
-                            contentDescription = "Sacred Namaste Emblem",
-                            modifier = Modifier
-                                .size(110.dp)
-                                .padding(8.dp)
+                            modifier = Modifier.size(200.dp)
                         )
                     }
                 }
@@ -142,7 +200,7 @@ fun WelcomeScreen(
 
                 // Bilingual Welcome Headline
                 Text(
-                    text = "భక్తి ధ్వని",
+                    text = "భక్తి గీతాలు",
                     style = MaterialTheme.typography.headlineLarge,
                     color = TempleGold,
                     fontWeight = FontWeight.Bold,
@@ -151,7 +209,7 @@ fun WelcomeScreen(
                 )
 
                 Text(
-                    text = "Bhakti Dhwani • Devotional Chants",
+                    text = "Devotional Chants",
                     style = MaterialTheme.typography.titleMedium,
                     color = WarmIvory.copy(alpha = 0.9f),
                     textAlign = TextAlign.Center,

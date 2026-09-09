@@ -4,7 +4,7 @@ import androidx.annotation.DrawableRes
 import androidx.annotation.RawRes
 
 /**
- * Represents a devotional audio track in Bhakti Dhwani.
+ * Represents a devotional audio track in Devotional Chants.
  * Contains both Telugu and English metadata, deity classification, and local resource bindings.
  */
 data class Track(

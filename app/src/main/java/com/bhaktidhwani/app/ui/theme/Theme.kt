@@ -29,7 +29,7 @@ private val DarkColorScheme = darkColorScheme(
 )
 
 @Composable
-fun BhaktiDhwaniTheme(
+fun DevotionalChantsTheme(
     content: @Composable () -> Unit
 ) {
     val colorScheme = DarkColorScheme
