@@ -62,7 +62,7 @@ class LocalAudioRepository {
             deityTelugu = "శ్రీ మహాలక్ష్మి దేవి",
             rawResId = R.raw.lakshmi_ashtottaram,
             thumbnailResId = R.drawable.art_lakshmi,
-            durationMs = 431330L,
+            durationMs = 283950L,
             lyricsAssetPath = "lyrics/lakshmi_ashtottaram.json",
             descriptionTelugu = "అష్టైశ్వర్య ప్రదాయక దివ్య స్తోత్రం",
             descriptionEnglish = "108 Auspicious Names of Goddess Lakshmi"
@@ -147,4 +147,5 @@ class LocalAudioRepository {
         }
     }
 }
+
 
