@@ -2,48 +2,1117 @@
   "trackId": "lakshmi_ashtottaram",
   "titleTelugu": "శ్రీ లక్ష్మీ అష్టోత్తర శతనామావళి",
   "titleEnglish": "Sri Lakshmi Ashtottara Shatanamavali",
+  "totalStanzas": 111,
   "stanzas": [
     {
       "index": 1,
+      "timestampMs": 0,
       "startTimeMs": 0,
-      "endTimeMs": 5000,
-      "telugu": "ఓం ప్రకృత్యై నమః |\nఓం వికృత్యై నమః |\nఓం విద్యాయై నమః |\nఓం సర్వభూతహితప్రదాయై నమః ||",
-      "english": "Om Prakrityai Namah |\nOm Vikrityai Namah |\nOm Vidyaayai Namah |\nOm Sarvabhootahitapradaayai Namah ||"
+      "endTimeMs": 28000,
+      "textTelugu": "॥ శ్రీ లక్ష్మీ అష్టోత్తర శతనామావళిః - ధ్యానమ్ ॥\nవందే పద్మకరాం ప్రసన్నవదనాం సౌభాగ్యదాం భాగ్యదామ్ |\nహస్తాభ్యామభయప్రదాం మణిగణైర్నానావిధైర్భూషితామ్ ||",
+      "telugu": "॥ శ్రీ లక్ష్మీ అష్టోత్తర శతనామావళిః - ధ్యానమ్ ॥\nవందే పద్మకరాం ప్రసన్నవదనాం సౌభాగ్యదాం భాగ్యదామ్ |\nహస్తాభ్యామభయప్రదాం మణిగణైర్నానావిధైర్భూషితామ్ ||",
+      "textEnglish": "|| Sri Lakshmi Ashtottara Shatanamavali - Dhyanam ||\nVande Padmakaraam Prasanna Vadanaam Saubhaagyadaam Bhaagyadaam |\nHastaabhyaam Abhayapradaam Maniganair Naanaavidhair Bhooshitaam ||",
+      "english": "|| Sri Lakshmi Ashtottara Shatanamavali - Dhyanam ||\nVande Padmakaraam Prasanna Vadanaam Saubhaagyadaam Bhaagyadaam |\nHastaabhyaam Abhayapradaam Maniganair Naanaavidhair Bhooshitaam ||"
     },
     {
       "index": 2,
-      "startTimeMs": 5000,
-      "endTimeMs": 10000,
-      "telugu": "ఓం శ్రద్ధాయై నమః |\nఓం విభూత్యై నమః |\nఓం సురభ్యై నమః |\nఓం పరమాత్మికాయై నమః ||",
-      "english": "Om Shraddhaayai Namah |\nOm Vibhootyai Namah |\nOm Surabhyai Namah |\nOm Paramaatmikaayai Namah ||"
+      "timestampMs": 28000,
+      "startTimeMs": 28000,
+      "endTimeMs": 31519,
+      "textTelugu": "1. ఓం ప్రకృతియై నమః",
+      "telugu": "1. ఓం ప్రకృతియై నమః",
+      "textEnglish": "1. Om Prakritiyai Namah",
+      "english": "1. Om Prakritiyai Namah"
     },
     {
       "index": 3,
-      "startTimeMs": 10000,
-      "endTimeMs": 15000,
-      "telugu": "ఓం వాచే నమః |\nఓం పద్మాలయాయై నమః |\nఓం పద్మాయై నమః |\nఓం శుచయే నమః ||",
-      "english": "Om Vaache Namah |\nOm Padmaalayaayai Namah |\nOm Padmaayai Namah |\nOm Shuchaye Namah ||"
+      "timestampMs": 31519,
+      "startTimeMs": 31519,
+      "endTimeMs": 35037,
+      "textTelugu": "2. ఓం వికృతియై నమః",
+      "telugu": "2. ఓం వికృతియై నమః",
+      "textEnglish": "2. Om Vikritiyai Namah",
+      "english": "2. Om Vikritiyai Namah"
     },
     {
       "index": 4,
-      "startTimeMs": 15000,
-      "endTimeMs": 20000,
-      "telugu": "ఓం స్వాహాయై నమః |\nఓం స్వధాయై నమః |\nఓం సుధాయై నమః |\nఓం ధన్యాయై నమః ||",
-      "english": "Om Swaahaayai Namah |\nOm Swadhaayai Namah |\nOm Sudhaayai Namah |\nOm Dhanyaayai Namah ||"
+      "timestampMs": 35037,
+      "startTimeMs": 35037,
+      "endTimeMs": 38556,
+      "textTelugu": "3. ఓం విద్యాయై నమః",
+      "telugu": "3. ఓం విద్యాయై నమః",
+      "textEnglish": "3. Om Vidyayai Namah",
+      "english": "3. Om Vidyayai Namah"
     },
     {
       "index": 5,
-      "startTimeMs": 20000,
-      "endTimeMs": 25000,
-      "telugu": "ఓం హిరణ్మయై నమః |\nఓం లక్ష్మ్యై నమః |\nఓం నిత్యపుష్టాయై నమః |\nఓం విభావర్యై నమః ||",
-      "english": "Om Hiranmayyai Namah |\nOm Lakshmyai Namah |\nOm Nityapushtaayai Namah |\nOm Vibhaavaryai Namah ||"
+      "timestampMs": 38556,
+      "startTimeMs": 38556,
+      "endTimeMs": 42074,
+      "textTelugu": "4. ఓం సర్వభూతహితప్రదాయై నమః",
+      "telugu": "4. ఓం సర్వభూతహితప్రదాయై నమః",
+      "textEnglish": "4. Om Sarvabhuta Hitapradayai Namah",
+      "english": "4. Om Sarvabhuta Hitapradayai Namah"
     },
     {
       "index": 6,
-      "startTimeMs": 25000,
-      "endTimeMs": 30000,
-      "telugu": "ఓం ఆదిత్యాయై నమః |\nఓం దిత్యై నమః |\nఓం దీప్తాయై నమః |\nఓం వసుధాయై నమః ||",
-      "english": "Om Aadityaayai Namah |\nOm Dityai Namah |\nOm Deeptaayai Namah |\nOm Vasudhaayai Namah ||"
+      "timestampMs": 42074,
+      "startTimeMs": 42074,
+      "endTimeMs": 45593,
+      "textTelugu": "5. ఓం శ్రద్ధాయై నమః",
+      "telugu": "5. ఓం శ్రద్ధాయై నమః",
+      "textEnglish": "5. Om Shraddhayai Namah",
+      "english": "5. Om Shraddhayai Namah"
+    },
+    {
+      "index": 7,
+      "timestampMs": 45593,
+      "startTimeMs": 45593,
+      "endTimeMs": 49111,
+      "textTelugu": "6. ఓం విభూతియై నమః",
+      "telugu": "6. ఓం విభూతియై నమః",
+      "textEnglish": "6. Om Vibhutiyai Namah",
+      "english": "6. Om Vibhutiyai Namah"
+    },
+    {
+      "index": 8,
+      "timestampMs": 49111,
+      "startTimeMs": 49111,
+      "endTimeMs": 52630,
+      "textTelugu": "7. ఓం సురభియై నమః",
+      "telugu": "7. ఓం సురభియై నమః",
+      "textEnglish": "7. Om Surabhiyai Namah",
+      "english": "7. Om Surabhiyai Namah"
+    },
+    {
+      "index": 9,
+      "timestampMs": 52630,
+      "startTimeMs": 52630,
+      "endTimeMs": 56148,
+      "textTelugu": "8. ఓం పరమాత్మికాయై నమః",
+      "telugu": "8. ఓం పరమాత్మికాయై నమః",
+      "textEnglish": "8. Om Paramatmikayai Namah",
+      "english": "8. Om Paramatmikayai Namah"
+    },
+    {
+      "index": 10,
+      "timestampMs": 56148,
+      "startTimeMs": 56148,
+      "endTimeMs": 59667,
+      "textTelugu": "9. ఓం వాచీయై నమః",
+      "telugu": "9. ఓం వాచీయై నమః",
+      "textEnglish": "9. Om Vachiyai Namah",
+      "english": "9. Om Vachiyai Namah"
+    },
+    {
+      "index": 11,
+      "timestampMs": 59667,
+      "startTimeMs": 59667,
+      "endTimeMs": 63185,
+      "textTelugu": "10. ఓం పద్మాలయాయై నమః",
+      "telugu": "10. ఓం పద్మాలయాయై నమః",
+      "textEnglish": "10. Om Padmalayayai Namah",
+      "english": "10. Om Padmalayayai Namah"
+    },
+    {
+      "index": 12,
+      "timestampMs": 63185,
+      "startTimeMs": 63185,
+      "endTimeMs": 66704,
+      "textTelugu": "11. ఓం పద్మాయై నమః",
+      "telugu": "11. ఓం పద్మాయై నమః",
+      "textEnglish": "11. Om Padmayai Namah",
+      "english": "11. Om Padmayai Namah"
+    },
+    {
+      "index": 13,
+      "timestampMs": 66704,
+      "startTimeMs": 66704,
+      "endTimeMs": 70222,
+      "textTelugu": "12. ఓం శుచియై నమః",
+      "telugu": "12. ఓం శుచియై నమః",
+      "textEnglish": "12. Om Shuchiyai Namah",
+      "english": "12. Om Shuchiyai Namah"
+    },
+    {
+      "index": 14,
+      "timestampMs": 70222,
+      "startTimeMs": 70222,
+      "endTimeMs": 73741,
+      "textTelugu": "13. ఓం స్వాహాయై నమః",
+      "telugu": "13. ఓం స్వాహాయై నమః",
+      "textEnglish": "13. Om Svahayai Namah",
+      "english": "13. Om Svahayai Namah"
+    },
+    {
+      "index": 15,
+      "timestampMs": 73741,
+      "startTimeMs": 73741,
+      "endTimeMs": 77259,
+      "textTelugu": "14. ఓం స్వధాయై నమః",
+      "telugu": "14. ఓం స్వధాయై నమః",
+      "textEnglish": "14. Om Svadhayai Namah",
+      "english": "14. Om Svadhayai Namah"
+    },
+    {
+      "index": 16,
+      "timestampMs": 77259,
+      "startTimeMs": 77259,
+      "endTimeMs": 80778,
+      "textTelugu": "15. ఓం సుధాయై నమః",
+      "telugu": "15. ఓం సుధాయై నమః",
+      "textEnglish": "15. Om Sudhayai Namah",
+      "english": "15. Om Sudhayai Namah"
+    },
+    {
+      "index": 17,
+      "timestampMs": 80778,
+      "startTimeMs": 80778,
+      "endTimeMs": 84296,
+      "textTelugu": "16. ఓం ధన్యాయై నమః",
+      "telugu": "16. ఓం ధన్యాయై నమః",
+      "textEnglish": "16. Om Dhanyayai Namah",
+      "english": "16. Om Dhanyayai Namah"
+    },
+    {
+      "index": 18,
+      "timestampMs": 84296,
+      "startTimeMs": 84296,
+      "endTimeMs": 87815,
+      "textTelugu": "17. ఓం హిరణ్మయీయై నమః",
+      "telugu": "17. ఓం హిరణ్మయీయై నమః",
+      "textEnglish": "17. Om Hiranmayiyai Namah",
+      "english": "17. Om Hiranmayiyai Namah"
+    },
+    {
+      "index": 19,
+      "timestampMs": 87815,
+      "startTimeMs": 87815,
+      "endTimeMs": 91333,
+      "textTelugu": "18. ఓం లక్ష్మీయై నమః",
+      "telugu": "18. ఓం లక్ష్మీయై నమః",
+      "textEnglish": "18. Om Lakshmiyai Namah",
+      "english": "18. Om Lakshmiyai Namah"
+    },
+    {
+      "index": 20,
+      "timestampMs": 91333,
+      "startTimeMs": 91333,
+      "endTimeMs": 94852,
+      "textTelugu": "19. ఓం నిత్యపుష్టాయై నమః",
+      "telugu": "19. ఓం నిత్యపుష్టాయై నమః",
+      "textEnglish": "19. Om Nityapushtayai Namah",
+      "english": "19. Om Nityapushtayai Namah"
+    },
+    {
+      "index": 21,
+      "timestampMs": 94852,
+      "startTimeMs": 94852,
+      "endTimeMs": 98370,
+      "textTelugu": "20. ఓం విభావరియై నమః",
+      "telugu": "20. ఓం విభావరియై నమః",
+      "textEnglish": "20. Om Vibhavariyai Namah",
+      "english": "20. Om Vibhavariyai Namah"
+    },
+    {
+      "index": 22,
+      "timestampMs": 98370,
+      "startTimeMs": 98370,
+      "endTimeMs": 101889,
+      "textTelugu": "21. ఓం అదితియై నమః",
+      "telugu": "21. ఓం అదితియై నమః",
+      "textEnglish": "21. Om Aditiyai Namah",
+      "english": "21. Om Aditiyai Namah"
+    },
+    {
+      "index": 23,
+      "timestampMs": 101889,
+      "startTimeMs": 101889,
+      "endTimeMs": 105407,
+      "textTelugu": "22. ఓం దితియై నమః",
+      "telugu": "22. ఓం దితియై నమః",
+      "textEnglish": "22. Om Ditiyai Namah",
+      "english": "22. Om Ditiyai Namah"
+    },
+    {
+      "index": 24,
+      "timestampMs": 105407,
+      "startTimeMs": 105407,
+      "endTimeMs": 108926,
+      "textTelugu": "23. ఓం దీప్తాయై నమః",
+      "telugu": "23. ఓం దీప్తాయై నమః",
+      "textEnglish": "23. Om Diptayai Namah",
+      "english": "23. Om Diptayai Namah"
+    },
+    {
+      "index": 25,
+      "timestampMs": 108926,
+      "startTimeMs": 108926,
+      "endTimeMs": 112444,
+      "textTelugu": "24. ఓం వసుధాయై నమః",
+      "telugu": "24. ఓం వసుధాయై నమః",
+      "textEnglish": "24. Om Vasudhayai Namah",
+      "english": "24. Om Vasudhayai Namah"
+    },
+    {
+      "index": 26,
+      "timestampMs": 112444,
+      "startTimeMs": 112444,
+      "endTimeMs": 115963,
+      "textTelugu": "25. ఓం వసుధారిణీయై నమః",
+      "telugu": "25. ఓం వసుధారిణీయై నమః",
+      "textEnglish": "25. Om Vasudhariniyai Namah",
+      "english": "25. Om Vasudhariniyai Namah"
+    },
+    {
+      "index": 27,
+      "timestampMs": 115963,
+      "startTimeMs": 115963,
+      "endTimeMs": 119481,
+      "textTelugu": "26. ఓం కమలాయై నమః",
+      "telugu": "26. ఓం కమలాయై నమః",
+      "textEnglish": "26. Om Kamalayai Namah",
+      "english": "26. Om Kamalayai Namah"
+    },
+    {
+      "index": 28,
+      "timestampMs": 119481,
+      "startTimeMs": 119481,
+      "endTimeMs": 123000,
+      "textTelugu": "27. ఓం కాంతాయై నమః",
+      "telugu": "27. ఓం కాంతాయై నమః",
+      "textEnglish": "27. Om Kantayai Namah",
+      "english": "27. Om Kantayai Namah"
+    },
+    {
+      "index": 29,
+      "timestampMs": 123000,
+      "startTimeMs": 123000,
+      "endTimeMs": 126519,
+      "textTelugu": "28. ఓం కామాక్షీయై నమః",
+      "telugu": "28. ఓం కామాక్షీయై నమః",
+      "textEnglish": "28. Om Kamakshiyai Namah",
+      "english": "28. Om Kamakshiyai Namah"
+    },
+    {
+      "index": 30,
+      "timestampMs": 126519,
+      "startTimeMs": 126519,
+      "endTimeMs": 130037,
+      "textTelugu": "29. ఓం క్షీరోదసంభవాయై నమః",
+      "telugu": "29. ఓం క్షీరోదసంభవాయై నమః",
+      "textEnglish": "29. Om Kshiroda Sambhavayai Namah",
+      "english": "29. Om Kshiroda Sambhavayai Namah"
+    },
+    {
+      "index": 31,
+      "timestampMs": 130037,
+      "startTimeMs": 130037,
+      "endTimeMs": 133556,
+      "textTelugu": "30. ఓం అనుగ్రహప్రదాయై నమః",
+      "telugu": "30. ఓం అనుగ్రహప్రదాయై నమః",
+      "textEnglish": "30. Om Anugraha Pradayai Namah",
+      "english": "30. Om Anugraha Pradayai Namah"
+    },
+    {
+      "index": 32,
+      "timestampMs": 133556,
+      "startTimeMs": 133556,
+      "endTimeMs": 137074,
+      "textTelugu": "31. ఓం బుద్ధియై నమః",
+      "telugu": "31. ఓం బుద్ధియై నమః",
+      "textEnglish": "31. Om Buddhiyai Namah",
+      "english": "31. Om Buddhiyai Namah"
+    },
+    {
+      "index": 33,
+      "timestampMs": 137074,
+      "startTimeMs": 137074,
+      "endTimeMs": 140593,
+      "textTelugu": "32. ఓం అనఘాయై నమః",
+      "telugu": "32. ఓం అనఘాయై నమః",
+      "textEnglish": "32. Om Anaghayai Namah",
+      "english": "32. Om Anaghayai Namah"
+    },
+    {
+      "index": 34,
+      "timestampMs": 140593,
+      "startTimeMs": 140593,
+      "endTimeMs": 144111,
+      "textTelugu": "33. ఓం హరివల్లభాయై నమః",
+      "telugu": "33. ఓం హరివల్లభాయై నమః",
+      "textEnglish": "33. Om Hari Vallabhayai Namah",
+      "english": "33. Om Hari Vallabhayai Namah"
+    },
+    {
+      "index": 35,
+      "timestampMs": 144111,
+      "startTimeMs": 144111,
+      "endTimeMs": 147630,
+      "textTelugu": "34. ఓం అశోకాయై నమః",
+      "telugu": "34. ఓం అశోకాయై నమః",
+      "textEnglish": "34. Om Ashokayai Namah",
+      "english": "34. Om Ashokayai Namah"
+    },
+    {
+      "index": 36,
+      "timestampMs": 147630,
+      "startTimeMs": 147630,
+      "endTimeMs": 151148,
+      "textTelugu": "35. ఓం అమృతాయై నమః",
+      "telugu": "35. ఓం అమృతాయై నమః",
+      "textEnglish": "35. Om Amritayai Namah",
+      "english": "35. Om Amritayai Namah"
+    },
+    {
+      "index": 37,
+      "timestampMs": 151148,
+      "startTimeMs": 151148,
+      "endTimeMs": 154667,
+      "textTelugu": "36. ఓం దీప్తాయై నమః",
+      "telugu": "36. ఓం దీప్తాయై నమః",
+      "textEnglish": "36. Om Deeptayai Namah",
+      "english": "36. Om Deeptayai Namah"
+    },
+    {
+      "index": 38,
+      "timestampMs": 154667,
+      "startTimeMs": 154667,
+      "endTimeMs": 158185,
+      "textTelugu": "37. ఓం లోకశోకవినాశినీయై నమః",
+      "telugu": "37. ఓం లోకశోకవినాశినీయై నమః",
+      "textEnglish": "37. Om Loka Shoka Vinashiniyai Namah",
+      "english": "37. Om Loka Shoka Vinashiniyai Namah"
+    },
+    {
+      "index": 39,
+      "timestampMs": 158185,
+      "startTimeMs": 158185,
+      "endTimeMs": 161704,
+      "textTelugu": "38. ఓం ధర్మనిలయాయై నమః",
+      "telugu": "38. ఓం ధర్మనిలయాయై నమః",
+      "textEnglish": "38. Om Dharma Nilayayai Namah",
+      "english": "38. Om Dharma Nilayayai Namah"
+    },
+    {
+      "index": 40,
+      "timestampMs": 161704,
+      "startTimeMs": 161704,
+      "endTimeMs": 165222,
+      "textTelugu": "39. ఓం కరుణాయై నమః",
+      "telugu": "39. ఓం కరుణాయై నమః",
+      "textEnglish": "39. Om Karunayai Namah",
+      "english": "39. Om Karunayai Namah"
+    },
+    {
+      "index": 41,
+      "timestampMs": 165222,
+      "startTimeMs": 165222,
+      "endTimeMs": 168741,
+      "textTelugu": "40. ఓం లోకమాతృకాయై నమః",
+      "telugu": "40. ఓం లోకమాతృకాయై నమః",
+      "textEnglish": "40. Om Loka Matrikayai Namah",
+      "english": "40. Om Loka Matrikayai Namah"
+    },
+    {
+      "index": 42,
+      "timestampMs": 168741,
+      "startTimeMs": 168741,
+      "endTimeMs": 172259,
+      "textTelugu": "41. ఓం పద్మప్రియాయై నమః",
+      "telugu": "41. ఓం పద్మప్రియాయై నమః",
+      "textEnglish": "41. Om Padma Priyayai Namah",
+      "english": "41. Om Padma Priyayai Namah"
+    },
+    {
+      "index": 43,
+      "timestampMs": 172259,
+      "startTimeMs": 172259,
+      "endTimeMs": 175778,
+      "textTelugu": "42. ఓం పద్మహస్తాయై నమః",
+      "telugu": "42. ఓం పద్మహస్తాయై నమః",
+      "textEnglish": "42. Om Padma Hastayai Namah",
+      "english": "42. Om Padma Hastayai Namah"
+    },
+    {
+      "index": 44,
+      "timestampMs": 175778,
+      "startTimeMs": 175778,
+      "endTimeMs": 179296,
+      "textTelugu": "43. ఓం పద్మాక్షీయై నమః",
+      "telugu": "43. ఓం పద్మాక్షీయై నమః",
+      "textEnglish": "43. Om Padmakshiyai Namah",
+      "english": "43. Om Padmakshiyai Namah"
+    },
+    {
+      "index": 45,
+      "timestampMs": 179296,
+      "startTimeMs": 179296,
+      "endTimeMs": 182815,
+      "textTelugu": "44. ఓం పద్మసుందరీయై నమః",
+      "telugu": "44. ఓం పద్మసుందరీయై నమః",
+      "textEnglish": "44. Om Padma Sundariyai Namah",
+      "english": "44. Om Padma Sundariyai Namah"
+    },
+    {
+      "index": 46,
+      "timestampMs": 182815,
+      "startTimeMs": 182815,
+      "endTimeMs": 186333,
+      "textTelugu": "45. ఓం పద్మోద్భవాయై నమః",
+      "telugu": "45. ఓం పద్మోద్భవాయై నమః",
+      "textEnglish": "45. Om Padmodbhavayai Namah",
+      "english": "45. Om Padmodbhavayai Namah"
+    },
+    {
+      "index": 47,
+      "timestampMs": 186333,
+      "startTimeMs": 186333,
+      "endTimeMs": 189852,
+      "textTelugu": "46. ఓం పద్మముఖీయై నమః",
+      "telugu": "46. ఓం పద్మముఖీయై నమః",
+      "textEnglish": "46. Om Padma Mukhiyai Namah",
+      "english": "46. Om Padma Mukhiyai Namah"
+    },
+    {
+      "index": 48,
+      "timestampMs": 189852,
+      "startTimeMs": 189852,
+      "endTimeMs": 193370,
+      "textTelugu": "47. ఓం పద్మనాభప్రియాయై నమః",
+      "telugu": "47. ఓం పద్మనాభప్రియాయై నమః",
+      "textEnglish": "47. Om Padmanabha Priyayai Namah",
+      "english": "47. Om Padmanabha Priyayai Namah"
+    },
+    {
+      "index": 49,
+      "timestampMs": 193370,
+      "startTimeMs": 193370,
+      "endTimeMs": 196889,
+      "textTelugu": "48. ఓం రమాయై నమః",
+      "telugu": "48. ఓం రమాయై నమః",
+      "textEnglish": "48. Om Ramayai Namah",
+      "english": "48. Om Ramayai Namah"
+    },
+    {
+      "index": 50,
+      "timestampMs": 196889,
+      "startTimeMs": 196889,
+      "endTimeMs": 200407,
+      "textTelugu": "49. ఓం పద్మమాలాధరాయై నమః",
+      "telugu": "49. ఓం పద్మమాలాధరాయై నమః",
+      "textEnglish": "49. Om Padma Maladharayai Namah",
+      "english": "49. Om Padma Maladharayai Namah"
+    },
+    {
+      "index": 51,
+      "timestampMs": 200407,
+      "startTimeMs": 200407,
+      "endTimeMs": 203926,
+      "textTelugu": "50. ఓం దేవీయై నమః",
+      "telugu": "50. ఓం దేవీయై నమః",
+      "textEnglish": "50. Om Deviyai Namah",
+      "english": "50. Om Deviyai Namah"
+    },
+    {
+      "index": 52,
+      "timestampMs": 203926,
+      "startTimeMs": 203926,
+      "endTimeMs": 207444,
+      "textTelugu": "51. ఓం పద్మినీయై నమః",
+      "telugu": "51. ఓం పద్మినీయై నమః",
+      "textEnglish": "51. Om Padminiyai Namah",
+      "english": "51. Om Padminiyai Namah"
+    },
+    {
+      "index": 53,
+      "timestampMs": 207444,
+      "startTimeMs": 207444,
+      "endTimeMs": 210963,
+      "textTelugu": "52. ఓం పద్మగంధినీయై నమః",
+      "telugu": "52. ఓం పద్మగంధినీయై నమః",
+      "textEnglish": "52. Om Padma Gandhiniyai Namah",
+      "english": "52. Om Padma Gandhiniyai Namah"
+    },
+    {
+      "index": 54,
+      "timestampMs": 210963,
+      "startTimeMs": 210963,
+      "endTimeMs": 214481,
+      "textTelugu": "53. ఓం పుణ్యగంధాయై నమః",
+      "telugu": "53. ఓం పుణ్యగంధాయై నమః",
+      "textEnglish": "53. Om Punya Gandhayai Namah",
+      "english": "53. Om Punya Gandhayai Namah"
+    },
+    {
+      "index": 55,
+      "timestampMs": 214481,
+      "startTimeMs": 214481,
+      "endTimeMs": 218000,
+      "textTelugu": "54. ఓం సుప్రసన్నాయై నమః",
+      "telugu": "54. ఓం సుప్రసన్నాయై నమః",
+      "textEnglish": "54. Om Suprasannayai Namah",
+      "english": "54. Om Suprasannayai Namah"
+    },
+    {
+      "index": 56,
+      "timestampMs": 218000,
+      "startTimeMs": 218000,
+      "endTimeMs": 221519,
+      "textTelugu": "55. ఓం ప్రసాదాభిముఖీయై నమః",
+      "telugu": "55. ఓం ప్రసాదాభిముఖీయై నమః",
+      "textEnglish": "55. Om Prasadabhimukhiyai Namah",
+      "english": "55. Om Prasadabhimukhiyai Namah"
+    },
+    {
+      "index": 57,
+      "timestampMs": 221519,
+      "startTimeMs": 221519,
+      "endTimeMs": 225037,
+      "textTelugu": "56. ఓం ప్రభాయై నమః",
+      "telugu": "56. ఓం ప్రభాయై నమః",
+      "textEnglish": "56. Om Prabhayai Namah",
+      "english": "56. Om Prabhayai Namah"
+    },
+    {
+      "index": 58,
+      "timestampMs": 225037,
+      "startTimeMs": 225037,
+      "endTimeMs": 228556,
+      "textTelugu": "57. ఓం చంద్రవదనాయై నమః",
+      "telugu": "57. ఓం చంద్రవదనాయై నమః",
+      "textEnglish": "57. Om Chandra Vadanayai Namah",
+      "english": "57. Om Chandra Vadanayai Namah"
+    },
+    {
+      "index": 59,
+      "timestampMs": 228556,
+      "startTimeMs": 228556,
+      "endTimeMs": 232074,
+      "textTelugu": "58. ఓం చంద్రాయై నమః",
+      "telugu": "58. ఓం చంద్రాయై నమః",
+      "textEnglish": "58. Om Chandrayai Namah",
+      "english": "58. Om Chandrayai Namah"
+    },
+    {
+      "index": 60,
+      "timestampMs": 232074,
+      "startTimeMs": 232074,
+      "endTimeMs": 235593,
+      "textTelugu": "59. ఓం చంద్రసహోదరీయై నమః",
+      "telugu": "59. ఓం చంద్రసహోదరీయై నమః",
+      "textEnglish": "59. Om Chandra Sahodariyai Namah",
+      "english": "59. Om Chandra Sahodariyai Namah"
+    },
+    {
+      "index": 61,
+      "timestampMs": 235593,
+      "startTimeMs": 235593,
+      "endTimeMs": 239111,
+      "textTelugu": "60. ఓం చతుర్భుజాయై నమః",
+      "telugu": "60. ఓం చతుర్భుజాయై నమః",
+      "textEnglish": "60. Om Chaturbhujayai Namah",
+      "english": "60. Om Chaturbhujayai Namah"
+    },
+    {
+      "index": 62,
+      "timestampMs": 239111,
+      "startTimeMs": 239111,
+      "endTimeMs": 242630,
+      "textTelugu": "61. ఓం చంద్రరూపాయై నమః",
+      "telugu": "61. ఓం చంద్రరూపాయై నమః",
+      "textEnglish": "61. Om Chandra Rupayai Namah",
+      "english": "61. Om Chandra Rupayai Namah"
+    },
+    {
+      "index": 63,
+      "timestampMs": 242630,
+      "startTimeMs": 242630,
+      "endTimeMs": 246148,
+      "textTelugu": "62. ఓం ఇందిరాయై నమః",
+      "telugu": "62. ఓం ఇందిరాయై నమః",
+      "textEnglish": "62. Om Indirayai Namah",
+      "english": "62. Om Indirayai Namah"
+    },
+    {
+      "index": 64,
+      "timestampMs": 246148,
+      "startTimeMs": 246148,
+      "endTimeMs": 249667,
+      "textTelugu": "63. ఓం ఇందుశీతలాయై నమః",
+      "telugu": "63. ఓం ఇందుశీతలాయై నమః",
+      "textEnglish": "63. Om Indu Shitalayai Namah",
+      "english": "63. Om Indu Shitalayai Namah"
+    },
+    {
+      "index": 65,
+      "timestampMs": 249667,
+      "startTimeMs": 249667,
+      "endTimeMs": 253185,
+      "textTelugu": "64. ఓం ఆహ్లాదజననీయై నమః",
+      "telugu": "64. ఓం ఆహ్లాదజననీయై నమః",
+      "textEnglish": "64. Om Ahladajananiyai Namah",
+      "english": "64. Om Ahladajananiyai Namah"
+    },
+    {
+      "index": 66,
+      "timestampMs": 253185,
+      "startTimeMs": 253185,
+      "endTimeMs": 256704,
+      "textTelugu": "65. ఓం పుష్టియై నమః",
+      "telugu": "65. ఓం పుష్టియై నమః",
+      "textEnglish": "65. Om Pushtiyai Namah",
+      "english": "65. Om Pushtiyai Namah"
+    },
+    {
+      "index": 67,
+      "timestampMs": 256704,
+      "startTimeMs": 256704,
+      "endTimeMs": 260222,
+      "textTelugu": "66. ఓం శివాయై నమః",
+      "telugu": "66. ఓం శివాయై నమః",
+      "textEnglish": "66. Om Shivayai Namah",
+      "english": "66. Om Shivayai Namah"
+    },
+    {
+      "index": 68,
+      "timestampMs": 260222,
+      "startTimeMs": 260222,
+      "endTimeMs": 263741,
+      "textTelugu": "67. ఓం శివకరీయై నమః",
+      "telugu": "67. ఓం శివకరీయై నమః",
+      "textEnglish": "67. Om Shivakariyai Namah",
+      "english": "67. Om Shivakariyai Namah"
+    },
+    {
+      "index": 69,
+      "timestampMs": 263741,
+      "startTimeMs": 263741,
+      "endTimeMs": 267259,
+      "textTelugu": "68. ఓం సత్యైయై నమః",
+      "telugu": "68. ఓం సత్యైయై నమః",
+      "textEnglish": "68. Om Satyaiyai Namah",
+      "english": "68. Om Satyaiyai Namah"
+    },
+    {
+      "index": 70,
+      "timestampMs": 267259,
+      "startTimeMs": 267259,
+      "endTimeMs": 270778,
+      "textTelugu": "69. ఓం విమలాయై నమః",
+      "telugu": "69. ఓం విమలాయై నమః",
+      "textEnglish": "69. Om Vimalayai Namah",
+      "english": "69. Om Vimalayai Namah"
+    },
+    {
+      "index": 71,
+      "timestampMs": 270778,
+      "startTimeMs": 270778,
+      "endTimeMs": 274296,
+      "textTelugu": "70. ఓం విశ్వజననీయై నమః",
+      "telugu": "70. ఓం విశ్వజననీయై నమః",
+      "textEnglish": "70. Om Vishwajananiyai Namah",
+      "english": "70. Om Vishwajananiyai Namah"
+    },
+    {
+      "index": 72,
+      "timestampMs": 274296,
+      "startTimeMs": 274296,
+      "endTimeMs": 277815,
+      "textTelugu": "71. ఓం తుష్టియై నమః",
+      "telugu": "71. ఓం తుష్టియై నమః",
+      "textEnglish": "71. Om Tushtiyai Namah",
+      "english": "71. Om Tushtiyai Namah"
+    },
+    {
+      "index": 73,
+      "timestampMs": 277815,
+      "startTimeMs": 277815,
+      "endTimeMs": 281333,
+      "textTelugu": "72. ఓం దారిద్ర్యనాశినీయై నమః",
+      "telugu": "72. ఓం దారిద్ర్యనాశినీయై నమః",
+      "textEnglish": "72. Om Daridrya Nashiniyai Namah",
+      "english": "72. Om Daridrya Nashiniyai Namah"
+    },
+    {
+      "index": 74,
+      "timestampMs": 281333,
+      "startTimeMs": 281333,
+      "endTimeMs": 284852,
+      "textTelugu": "73. ఓం ప్రీతిపుష్కరిణీయై నమః",
+      "telugu": "73. ఓం ప్రీతిపుష్కరిణీయై నమః",
+      "textEnglish": "73. Om Priti Pushkariniyai Namah",
+      "english": "73. Om Priti Pushkariniyai Namah"
+    },
+    {
+      "index": 75,
+      "timestampMs": 284852,
+      "startTimeMs": 284852,
+      "endTimeMs": 288370,
+      "textTelugu": "74. ఓం శాంతాయై నమః",
+      "telugu": "74. ఓం శాంతాయై నమః",
+      "textEnglish": "74. Om Shantayai Namah",
+      "english": "74. Om Shantayai Namah"
+    },
+    {
+      "index": 76,
+      "timestampMs": 288370,
+      "startTimeMs": 288370,
+      "endTimeMs": 291889,
+      "textTelugu": "75. ఓం శుక్లమాల్యాంబరాయై నమః",
+      "telugu": "75. ఓం శుక్లమాల్యాంబరాయై నమః",
+      "textEnglish": "75. Om Shuklamalyambarayai Namah",
+      "english": "75. Om Shuklamalyambarayai Namah"
+    },
+    {
+      "index": 77,
+      "timestampMs": 291889,
+      "startTimeMs": 291889,
+      "endTimeMs": 295407,
+      "textTelugu": "76. ఓం శ్రీయై నమః",
+      "telugu": "76. ఓం శ్రీయై నమః",
+      "textEnglish": "76. Om Shriyai Namah",
+      "english": "76. Om Shriyai Namah"
+    },
+    {
+      "index": 78,
+      "timestampMs": 295407,
+      "startTimeMs": 295407,
+      "endTimeMs": 298926,
+      "textTelugu": "77. ఓం భాస్కరీయై నమః",
+      "telugu": "77. ఓం భాస్కరీయై నమః",
+      "textEnglish": "77. Om Bhaskariyai Namah",
+      "english": "77. Om Bhaskariyai Namah"
+    },
+    {
+      "index": 79,
+      "timestampMs": 298926,
+      "startTimeMs": 298926,
+      "endTimeMs": 302444,
+      "textTelugu": "78. ఓం బిల్వనిలయాయై నమః",
+      "telugu": "78. ఓం బిల్వనిలయాయై నమః",
+      "textEnglish": "78. Om Bilvanilayayai Namah",
+      "english": "78. Om Bilvanilayayai Namah"
+    },
+    {
+      "index": 80,
+      "timestampMs": 302444,
+      "startTimeMs": 302444,
+      "endTimeMs": 305963,
+      "textTelugu": "79. ఓం వరాహరోహాయై నమః",
+      "telugu": "79. ఓం వరాహరోహాయై నమః",
+      "textEnglish": "79. Om Vararohayai Namah",
+      "english": "79. Om Vararohayai Namah"
+    },
+    {
+      "index": 81,
+      "timestampMs": 305963,
+      "startTimeMs": 305963,
+      "endTimeMs": 309481,
+      "textTelugu": "80. ఓం యశస్వినీయై నమః",
+      "telugu": "80. ఓం యశస్వినీయై నమః",
+      "textEnglish": "80. Om Yashasviniyai Namah",
+      "english": "80. Om Yashasviniyai Namah"
+    },
+    {
+      "index": 82,
+      "timestampMs": 309481,
+      "startTimeMs": 309481,
+      "endTimeMs": 313000,
+      "textTelugu": "81. ఓం వసుంధరాయై నమః",
+      "telugu": "81. ఓం వసుంధరాయై నమః",
+      "textEnglish": "81. Om Vasundharayai Namah",
+      "english": "81. Om Vasundharayai Namah"
+    },
+    {
+      "index": 83,
+      "timestampMs": 313000,
+      "startTimeMs": 313000,
+      "endTimeMs": 316519,
+      "textTelugu": "82. ఓం ఉదారాంగాయై నమః",
+      "telugu": "82. ఓం ఉదారాంగాయై నమః",
+      "textEnglish": "82. Om Udarangayai Namah",
+      "english": "82. Om Udarangayai Namah"
+    },
+    {
+      "index": 84,
+      "timestampMs": 316519,
+      "startTimeMs": 316519,
+      "endTimeMs": 320037,
+      "textTelugu": "83. ఓం హరిణీయై నమః",
+      "telugu": "83. ఓం హరిణీయై నమః",
+      "textEnglish": "83. Om Hariniyai Namah",
+      "english": "83. Om Hariniyai Namah"
+    },
+    {
+      "index": 85,
+      "timestampMs": 320037,
+      "startTimeMs": 320037,
+      "endTimeMs": 323556,
+      "textTelugu": "84. ఓం హేమమాలినీయై నమః",
+      "telugu": "84. ఓం హేమమాలినీయై నమః",
+      "textEnglish": "84. Om Hemamaliniyai Namah",
+      "english": "84. Om Hemamaliniyai Namah"
+    },
+    {
+      "index": 86,
+      "timestampMs": 323556,
+      "startTimeMs": 323556,
+      "endTimeMs": 327074,
+      "textTelugu": "85. ఓం ధనధాన్యకరీయై నమః",
+      "telugu": "85. ఓం ధనధాన్యకరీయై నమః",
+      "textEnglish": "85. Om Dhanadhanyakariyai Namah",
+      "english": "85. Om Dhanadhanyakariyai Namah"
+    },
+    {
+      "index": 87,
+      "timestampMs": 327074,
+      "startTimeMs": 327074,
+      "endTimeMs": 330593,
+      "textTelugu": "86. ఓం సిద్ధియై నమః",
+      "telugu": "86. ఓం సిద్ధియై నమః",
+      "textEnglish": "86. Om Siddhiyai Namah",
+      "english": "86. Om Siddhiyai Namah"
+    },
+    {
+      "index": 88,
+      "timestampMs": 330593,
+      "startTimeMs": 330593,
+      "endTimeMs": 334111,
+      "textTelugu": "87. ఓం స్త్రైణసౌమ్యాయై నమః",
+      "telugu": "87. ఓం స్త్రైణసౌమ్యాయై నమః",
+      "textEnglish": "87. Om Strainasaumyayai Namah",
+      "english": "87. Om Strainasaumyayai Namah"
+    },
+    {
+      "index": 89,
+      "timestampMs": 334111,
+      "startTimeMs": 334111,
+      "endTimeMs": 337630,
+      "textTelugu": "88. ఓం శుభప్రదాయై నమః",
+      "telugu": "88. ఓం శుభప్రదాయై నమః",
+      "textEnglish": "88. Om Shubhapradayai Namah",
+      "english": "88. Om Shubhapradayai Namah"
+    },
+    {
+      "index": 90,
+      "timestampMs": 337630,
+      "startTimeMs": 337630,
+      "endTimeMs": 341148,
+      "textTelugu": "89. ఓం నృపవేశ్మగతానందాయై నమః",
+      "telugu": "89. ఓం నృపవేశ్మగతానందాయై నమః",
+      "textEnglish": "89. Om Nripaveshmagatanandayai Namah",
+      "english": "89. Om Nripaveshmagatanandayai Namah"
+    },
+    {
+      "index": 91,
+      "timestampMs": 341148,
+      "startTimeMs": 341148,
+      "endTimeMs": 344667,
+      "textTelugu": "90. ఓం వరలక్ష్మీయై నమః",
+      "telugu": "90. ఓం వరలక్ష్మీయై నమః",
+      "textEnglish": "90. Om Varalakshmiyai Namah",
+      "english": "90. Om Varalakshmiyai Namah"
+    },
+    {
+      "index": 92,
+      "timestampMs": 344667,
+      "startTimeMs": 344667,
+      "endTimeMs": 348185,
+      "textTelugu": "91. ఓం వసుప్రదాయై నమః",
+      "telugu": "91. ఓం వసుప్రదాయై నమః",
+      "textEnglish": "91. Om Vasupradayai Namah",
+      "english": "91. Om Vasupradayai Namah"
+    },
+    {
+      "index": 93,
+      "timestampMs": 348185,
+      "startTimeMs": 348185,
+      "endTimeMs": 351704,
+      "textTelugu": "92. ఓం శుభాయై నమః",
+      "telugu": "92. ఓం శుభాయై నమః",
+      "textEnglish": "92. Om Shubhayai Namah",
+      "english": "92. Om Shubhayai Namah"
+    },
+    {
+      "index": 94,
+      "timestampMs": 351704,
+      "startTimeMs": 351704,
+      "endTimeMs": 355222,
+      "textTelugu": "93. ఓం హిరణ్యప్రాకారాయై నమః",
+      "telugu": "93. ఓం హిరణ్యప్రాకారాయై నమః",
+      "textEnglish": "93. Om Hiranya Prakarayai Namah",
+      "english": "93. Om Hiranya Prakarayai Namah"
+    },
+    {
+      "index": 95,
+      "timestampMs": 355222,
+      "startTimeMs": 355222,
+      "endTimeMs": 358741,
+      "textTelugu": "94. ఓం సముద్రతనయాయై నమః",
+      "telugu": "94. ఓం సముద్రతనయాయై నమః",
+      "textEnglish": "94. Om Samudra Tanayayai Namah",
+      "english": "94. Om Samudra Tanayayai Namah"
+    },
+    {
+      "index": 96,
+      "timestampMs": 358741,
+      "startTimeMs": 358741,
+      "endTimeMs": 362259,
+      "textTelugu": "95. ఓం జయాయై నమః",
+      "telugu": "95. ఓం జయాయై నమః",
+      "textEnglish": "95. Om Jayayai Namah",
+      "english": "95. Om Jayayai Namah"
+    },
+    {
+      "index": 97,
+      "timestampMs": 362259,
+      "startTimeMs": 362259,
+      "endTimeMs": 365778,
+      "textTelugu": "96. ఓం మంగళాయై నమః",
+      "telugu": "96. ఓం మంగళాయై నమః",
+      "textEnglish": "96. Om Mangalayai Namah",
+      "english": "96. Om Mangalayai Namah"
+    },
+    {
+      "index": 98,
+      "timestampMs": 365778,
+      "startTimeMs": 365778,
+      "endTimeMs": 369296,
+      "textTelugu": "97. ఓం దేవీయై నమః",
+      "telugu": "97. ఓం దేవీయై నమః",
+      "textEnglish": "97. Om Deviyai Namah",
+      "english": "97. Om Deviyai Namah"
+    },
+    {
+      "index": 99,
+      "timestampMs": 369296,
+      "startTimeMs": 369296,
+      "endTimeMs": 372815,
+      "textTelugu": "98. ఓం విష్ణువక్షఃస్థలస్థితాయై నమః",
+      "telugu": "98. ఓం విష్ణువక్షఃస్థలస్థితాయై నమః",
+      "textEnglish": "98. Om Vishnuvakshahsthalasthitayai Namah",
+      "english": "98. Om Vishnuvakshahsthalasthitayai Namah"
+    },
+    {
+      "index": 100,
+      "timestampMs": 372815,
+      "startTimeMs": 372815,
+      "endTimeMs": 376333,
+      "textTelugu": "99. ఓం విష్ణుపత్నీయై నమః",
+      "telugu": "99. ఓం విష్ణుపత్నీయై నమః",
+      "textEnglish": "99. Om Vishnupatniyai Namah",
+      "english": "99. Om Vishnupatniyai Namah"
+    },
+    {
+      "index": 101,
+      "timestampMs": 376333,
+      "startTimeMs": 376333,
+      "endTimeMs": 379852,
+      "textTelugu": "100. ఓం ప్రసన్నాక్షీయై నమః",
+      "telugu": "100. ఓం ప్రసన్నాక్షీయై నమః",
+      "textEnglish": "100. Om Prasannakshiyai Namah",
+      "english": "100. Om Prasannakshiyai Namah"
+    },
+    {
+      "index": 102,
+      "timestampMs": 379852,
+      "startTimeMs": 379852,
+      "endTimeMs": 383370,
+      "textTelugu": "101. ఓం నారాయణసమాశ్రితాయై నమః",
+      "telugu": "101. ఓం నారాయణసమాశ్రితాయై నమః",
+      "textEnglish": "101. Om Narayana Samashritayai Namah",
+      "english": "101. Om Narayana Samashritayai Namah"
+    },
+    {
+      "index": 103,
+      "timestampMs": 383370,
+      "startTimeMs": 383370,
+      "endTimeMs": 386889,
+      "textTelugu": "102. ఓం దారిద్ర్యధ్వంసినీయై నమః",
+      "telugu": "102. ఓం దారిద్ర్యధ్వంసినీయై నమః",
+      "textEnglish": "102. Om Daridrya Dhwamsiniyai Namah",
+      "english": "102. Om Daridrya Dhwamsiniyai Namah"
+    },
+    {
+      "index": 104,
+      "timestampMs": 386889,
+      "startTimeMs": 386889,
+      "endTimeMs": 390407,
+      "textTelugu": "103. ఓం దేవీయై నమః",
+      "telugu": "103. ఓం దేవీయై నమః",
+      "textEnglish": "103. Om Deviyai Namah",
+      "english": "103. Om Deviyai Namah"
+    },
+    {
+      "index": 105,
+      "timestampMs": 390407,
+      "startTimeMs": 390407,
+      "endTimeMs": 393926,
+      "textTelugu": "104. ఓం సర్వోపద్రవవారిణీయై నమః",
+      "telugu": "104. ఓం సర్వోపద్రవవారిణీయై నమః",
+      "textEnglish": "104. Om Sarvopadrava Variniyai Namah",
+      "english": "104. Om Sarvopadrava Variniyai Namah"
+    },
+    {
+      "index": 106,
+      "timestampMs": 393926,
+      "startTimeMs": 393926,
+      "endTimeMs": 397444,
+      "textTelugu": "105. ఓం నవదుర్గాయై నమః",
+      "telugu": "105. ఓం నవదుర్గాయై నమః",
+      "textEnglish": "105. Om Navadurgayai Namah",
+      "english": "105. Om Navadurgayai Namah"
+    },
+    {
+      "index": 107,
+      "timestampMs": 397444,
+      "startTimeMs": 397444,
+      "endTimeMs": 400963,
+      "textTelugu": "106. ఓం మహాకాలీయై నమః",
+      "telugu": "106. ఓం మహాకాలీయై నమః",
+      "textEnglish": "106. Om Mahakaliyai Namah",
+      "english": "106. Om Mahakaliyai Namah"
+    },
+    {
+      "index": 108,
+      "timestampMs": 400963,
+      "startTimeMs": 400963,
+      "endTimeMs": 404481,
+      "textTelugu": "107. ఓం బ్రహ్మవిష్ణుశివాత్మికాయై నమః",
+      "telugu": "107. ఓం బ్రహ్మవిష్ణుశివాత్మికాయై నమః",
+      "textEnglish": "107. Om Brahma Vishnu Shivatmikayai Namah",
+      "english": "107. Om Brahma Vishnu Shivatmikayai Namah"
+    },
+    {
+      "index": 109,
+      "timestampMs": 404481,
+      "startTimeMs": 404481,
+      "endTimeMs": 408000,
+      "textTelugu": "108. ఓం త్రికాలజ్ఞానసంపన్నాయై నమః",
+      "telugu": "108. ఓం త్రికాలజ్ఞానసంపన్నాయై నమః",
+      "textEnglish": "108. Om Trikalajnana Sampannayai Namah",
+      "english": "108. Om Trikalajnana Sampannayai Namah"
+    },
+    {
+      "index": 110,
+      "timestampMs": 408000,
+      "startTimeMs": 408000,
+      "endTimeMs": 411519,
+      "textTelugu": "109. ఓం భువనేశ్వరీయై నమః",
+      "telugu": "109. ఓం భువనేశ్వరీయై నమః",
+      "textEnglish": "109. Om Bhuvaneshwariyai Namah",
+      "english": "109. Om Bhuvaneshwariyai Namah"
+    },
+    {
+      "index": 110,
+      "timestampMs": 408000,
+      "startTimeMs": 408000,
+      "endTimeMs": 431330,
+      "textTelugu": "॥ శ్రీ మహాలక్ష్మ్యష్టోత్తర శతనామ స్తోత్రం సంపూర్ణమ్ ॥\nసర్వమంగళ మాంగల్యే శివే సర్వార్థ సాధికే |\nశరణ్యే త్ర్యంబకే గౌరి నారాయణి నమోఽస్తు తే ||",
+      "telugu": "॥ శ్రీ మహాలక్ష్మ్యష్టోత్తర శతనామ స్తోత్రం సంపూర్ణమ్ ॥\nసర్వమంగళ మాంగల్యే శివే సర్వార్థ సాధికే |\nశరణ్యే త్ర్యంబకే గౌరి నారాయణి నమోఽస్తు తే ||",
+      "textEnglish": "|| Sri Mahalakshmi Ashtottara Shatanamavali Complete ||\nSarva Mangala Maangalye Shive Sarvaartha Saadhike |\nSharanye Tryambake Gauri Naaraayani Namo'stu Te ||",
+      "english": "|| Sri Mahalakshmi Ashtottara Shatanamavali Complete ||\nSarva Mangala Maangalye Shive Sarvaartha Saadhike |\nSharanye Tryambake Gauri Naaraayani Namo'stu Te ||"
     }
   ]
 }

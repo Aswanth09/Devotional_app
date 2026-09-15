@@ -7,10 +7,13 @@
 # Files for the ART/Dalvik VM
 *.dex
 
-# Java class files
+# Java & Python class files
 *.class
+*.py[cod]
+*$py.class
+__pycache__/
 
-# Generated files
+# Generated & Build files
 bin/
 gen/
 out/
@@ -24,9 +27,19 @@ build/
 .kotlin/
 buildOutputCleanup/
 
-# Raw master audio staging (preserve README.md only)
-raw_audio/*
+# Raw master audio staging & encoded audio binaries
+raw_audio/
+*.mp3
+*.wav
+*.flac
+*.m4a
+!app/src/main/res/raw/.gitkeep
 !raw_audio/README.md
+
+# Downloaded CLI tools & executables
+*.exe
+scripts/yt-dlp.exe
+ffmpeg*
 
 # Local configuration file (sdk path, etc)
 local.properties
@@ -43,13 +56,14 @@ proguard/
 # Android Studio captures folder
 captures/
 
-# IntelliJ IDEA
+# IntelliJ IDEA & Editors
 *.iml
 .idea/
 .idea/caches
 .idea/libraries
 .idea/modules.xml
 .idea/workspace.xml
+.vscode/
 
 # Keystore files
 *.jks
@@ -57,6 +71,11 @@ captures/
 
 # External native build folder paths
 .cxx/
+
+# Virtual environments
+.venv/
+env/
+venv/
 
 # OS specific files
 .DS_Store
@@ -66,3 +85,4 @@ captures/
 .Trashes
 ehthumbs.db
 Thumbs.db
+

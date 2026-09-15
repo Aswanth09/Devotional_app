@@ -42,7 +42,7 @@ foreach ($file in $Files) {
 
     & $Ffmpeg -y -i $file.FullName `
         -vn `
-        -c:a aac -b:a 80k `
+        -c:a aac -b:a 68k `
         -ar 44100 `
         -filter:a "highpass=f=60,lowpass=f=16500,loudnorm=I=-16:TP=-1.5:LRA=11" `
         $outputFile

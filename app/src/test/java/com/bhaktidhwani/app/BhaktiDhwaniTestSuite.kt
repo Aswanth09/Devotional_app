@@ -169,6 +169,46 @@ class BhaktiDhwaniTestSuite {
     }
 
     @Test
+    fun tcLyrics_verifyBinarySearchWithLeadCalibration() {
+        val stanzas = listOf(
+            Stanza(index = 1, startTimeMs = 2450L, endTimeMs = 16240L, telugu = "దోహా 1", english = "Doha 1"),
+            Stanza(index = 2, startTimeMs = 16240L, endTimeMs = 46250L, telugu = "దోహా 2", english = "Doha 2"),
+            Stanza(index = 3, startTimeMs = 46250L, endTimeMs = 58000L, telugu = "చౌపాయి 1", english = "Chaupai 1"),
+            Stanza(index = 4, startTimeMs = 58000L, endTimeMs = 69750L, telugu = "చౌపాయి 2", english = "Chaupai 2")
+        )
+        val leadOffset = 350L
+
+        fun findActive(pos: Long): Int {
+            if (stanzas.isEmpty()) return -1
+            val effective = pos + leadOffset
+            var low = 0
+            var high = stanzas.size - 1
+            var cand = -1
+            while (low <= high) {
+                val mid = (low + high) ushr 1
+                if (stanzas[mid].startTimeMs <= effective) {
+                    cand = mid
+                    low = mid + 1
+                } else {
+                    high = mid - 1
+                }
+            }
+            return if (cand != -1) cand else 0
+        }
+
+        // 350ms before vocal onset of Doha 1 (2100ms) -> should already activate Doha 1
+        assertEquals(0, findActive(2100L))
+        // Midpoint of Doha 1 (8000ms) -> Doha 1
+        assertEquals(0, findActive(8000L))
+        // 350ms before Doha 2 (15890ms) -> advances to Doha 2 right on breath
+        assertEquals(1, findActive(15890L))
+        // 350ms before Chaupai 1 (45900ms) -> advances to Chaupai 1
+        assertEquals(2, findActive(45900L))
+        // Past the last stanza -> index 3
+        assertEquals(3, findActive(80000L))
+    }
+
+    @Test
     fun tcLyrics_verifyFontScaleBounds() {
         var scaleDelta = 0
         val maxDelta = 8

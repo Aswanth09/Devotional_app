@@ -2,48 +2,457 @@
   "trackId": "hanuman_chalisa",
   "titleTelugu": "హనుమాన్ చాలీసా",
   "titleEnglish": "Hanuman Chalisa",
+  "totalStanzas": 45,
   "stanzas": [
     {
       "index": 1,
+      "timestampMs": 0,
       "startTimeMs": 0,
-      "endTimeMs": 5000,
-      "telugu": "శ్రీగురు చరణ సరోజ రజ నిజమను ముకురు సుధారి |\nబరణౌ రఘువర విమల యశ జో దాయకు ఫలచారి ||",
-      "english": "Shree Guru Charana Saroja Raja Nija Manu Mukuru Sudhaari |\nBaranau Raghuvara Vimala Yasha Jo Daayaku Phala Chaari ||"
+      "endTimeMs": 2450,
+      "textTelugu": "॥ శ్రీ హనుమాన్ చాలీసా - ఆరంభ ధ్యానమ్ ॥",
+      "telugu": "॥ శ్రీ హనుమాన్ చాలీసా - ఆరంభ ధ్యానమ్ ॥",
+      "textEnglish": "|| Shree Hanuman Chalisa - Invocation ||",
+      "english": "|| Shree Hanuman Chalisa - Invocation ||"
     },
     {
       "index": 2,
-      "startTimeMs": 5000,
-      "endTimeMs": 10000,
-      "telugu": "బుద్ధిహీన తను జానికే సుమిరౌ పవనకుమార |\nబల బుద్ధి విద్యా దేహు మోహి హరహు కలేశ వికార ||",
-      "english": "Buddhiheena Tanu Jaanike Sumirau Pavana Kumaara |\nBala Buddhi Vidyaa Dehu Mohi Harahu Kalesha Vikaara ||"
+      "timestampMs": 2450,
+      "startTimeMs": 2450,
+      "endTimeMs": 16240,
+      "textTelugu": "శ్రీగురు చరణ సరోజ రజ నిజమను ముకురు సుధారి |\nబరణౌ రఘువర విమల యశ జో దాయకు ఫలచారి ||",
+      "telugu": "శ్రీగురు చరణ సరోజ రజ నిజమను ముకురు సుధారి |\nబరణౌ రఘువర విమల యశ జో దాయకు ఫలచారి ||",
+      "textEnglish": "Shree Guru Charana Saroja Raja Nija Manu Mukuru Sudhaari |\nBaranau Raghuvara Vimala Yasha Jo Daayaku Phala Chaari ||",
+      "english": "Shree Guru Charana Saroja Raja Nija Manu Mukuru Sudhaari |\nBaranau Raghuvara Vimala Yasha Jo Daayaku Phala Chaari ||"
     },
     {
       "index": 3,
-      "startTimeMs": 10000,
-      "endTimeMs": 15000,
-      "telugu": "జయ హనుమాన జ్ఞాన గుణ సాగర |\nజయ కపీశ తిహు లోక ఉజాగర ||",
-      "english": "Jaya Hanumaana Gyaana Guna Saagara |\nJaya Kapeesha Tihu Loka Ujaagara ||"
+      "timestampMs": 16240,
+      "startTimeMs": 16240,
+      "endTimeMs": 46250,
+      "textTelugu": "బుద్ధిహీన తను జానికే సుమిరౌ పవనకుమార |\nబల బుద్ధి విద్యా దేహు మోహి హరహు కలేశ వికార ||",
+      "telugu": "బుద్ధిహీన తను జానికే సుమిరౌ పవనకుమార |\nబల బుద్ధి విద్యా దేహు మోహి హరహు కలేశ వికార ||",
+      "textEnglish": "Buddhiheena Tanu Jaanike Sumirau Pavana Kumaara |\nBala Buddhi Vidyaa Dehu Mohi Harahu Kalesha Vikaara ||",
+      "english": "Buddhiheena Tanu Jaanike Sumirau Pavana Kumaara |\nBala Buddhi Vidyaa Dehu Mohi Harahu Kalesha Vikaara ||"
     },
     {
       "index": 4,
-      "startTimeMs": 15000,
-      "endTimeMs": 20000,
-      "telugu": "రామదూత అతులిత బలధామా |\nఅంజనిపుత్ర పవనసుత నామా ||",
-      "english": "Raamadoota Atulita Baladhaamaa |\nAnjani Putra Pavanasuta Naamaa ||"
+      "timestampMs": 46250,
+      "startTimeMs": 46250,
+      "endTimeMs": 57994,
+      "textTelugu": "జయ హనుమాన జ్ఞాన గుణ సాగర |\nజయ కపీశ తిహు లోక ఉజాగర ||",
+      "telugu": "జయ హనుమాన జ్ఞాన గుణ సాగర |\nజయ కపీశ తిహు లోక ఉజాగర ||",
+      "textEnglish": "Jaya Hanumaana Gyaana Guna Saagara |\nJaya Kapeesha Tihu Loka Ujaagara ||",
+      "english": "Jaya Hanumaana Gyaana Guna Saagara |\nJaya Kapeesha Tihu Loka Ujaagara ||"
     },
     {
       "index": 5,
-      "startTimeMs": 20000,
-      "endTimeMs": 25000,
-      "telugu": "మహావీర విక్రమ బజరంగీ |\nకుమతి నివార సుమతి కే సంగీ ||",
-      "english": "Mahaaveera Vikrama Bajarangee |\nKumati Nivaara Sumati Ke Sangee ||"
+      "timestampMs": 57994,
+      "startTimeMs": 57994,
+      "endTimeMs": 69738,
+      "textTelugu": "రామదూత అతులిత బలధామా |\nఅంజనిపుత్ర పవనసుత నామా ||",
+      "telugu": "రామదూత అతులిత బలధామా |\nఅంజనిపుత్ర పవనసుత నామా ||",
+      "textEnglish": "Raamadoota Atulita Baladhaamaa |\nAnjani Putra Pavanasuta Naamaa ||",
+      "english": "Raamadoota Atulita Baladhaamaa |\nAnjani Putra Pavanasuta Naamaa ||"
     },
     {
       "index": 6,
-      "startTimeMs": 25000,
-      "endTimeMs": 30000,
+      "timestampMs": 69738,
+      "startTimeMs": 69738,
+      "endTimeMs": 81481,
+      "textTelugu": "మహావీర విక్రమ బజరంగీ |\nకుమతి నివార సుమతి కే సంగీ ||",
+      "telugu": "మహావీర విక్రమ బజరంగీ |\nకుమతి నివార సుమతి కే సంగీ ||",
+      "textEnglish": "Mahaaveera Vikrama Bajarangee |\nKumati Nivaara Sumati Ke Sangee ||",
+      "english": "Mahaaveera Vikrama Bajarangee |\nKumati Nivaara Sumati Ke Sangee ||"
+    },
+    {
+      "index": 7,
+      "timestampMs": 81481,
+      "startTimeMs": 81481,
+      "endTimeMs": 93225,
+      "textTelugu": "కంచన బరణ బిరాజ సుబేసా |\nకానన కుండల కుంచిత కేశా ||",
       "telugu": "కంచన బరణ బిరాజ సుబేసా |\nకానన కుండల కుంచిత కేశా ||",
+      "textEnglish": "Kanchana Barana Biraaja Subesaa |\nKaanana Kundala Kunchita Kesaa ||",
       "english": "Kanchana Barana Biraaja Subesaa |\nKaanana Kundala Kunchita Kesaa ||"
+    },
+    {
+      "index": 8,
+      "timestampMs": 93225,
+      "startTimeMs": 93225,
+      "endTimeMs": 104969,
+      "textTelugu": "హాథ వజ్ర ఔ ధ్వజా బిరాజై |\nకాంధే మూంజ జనేవూ సాజై ||",
+      "telugu": "హాథ వజ్ర ఔ ధ్వజా బిరాజై |\nకాంధే మూంజ జనేవూ సాజై ||",
+      "textEnglish": "Haatha Vajra Au Dhvajaa Biraajai |\nKaandhe Moonja Janevoo Saajai ||",
+      "english": "Haatha Vajra Au Dhvajaa Biraajai |\nKaandhe Moonja Janevoo Saajai ||"
+    },
+    {
+      "index": 9,
+      "timestampMs": 104969,
+      "startTimeMs": 104969,
+      "endTimeMs": 116712,
+      "textTelugu": "శంకర సువన కేసరీ నందన |\nతేజ ప్రతాప మహా జగ వందన ||",
+      "telugu": "శంకర సువన కేసరీ నందన |\nతేజ ప్రతాప మహా జగ వందన ||",
+      "textEnglish": "Shankara Suvana Kesaree Nandana |\nTeja Prataapa Mahaa Jaga Vandana ||",
+      "english": "Shankara Suvana Kesaree Nandana |\nTeja Prataapa Mahaa Jaga Vandana ||"
+    },
+    {
+      "index": 10,
+      "timestampMs": 116712,
+      "startTimeMs": 116712,
+      "endTimeMs": 128456,
+      "textTelugu": "విద్యావాన గుణీ అతి చాతుర |\nరామ కాజ కరిబే కో ఆతుర ||",
+      "telugu": "విద్యావాన గుణీ అతి చాతుర |\nరామ కాజ కరిబే కో ఆతుర ||",
+      "textEnglish": "Vidyaavaana Gunee Ati Chaatura |\nRaama Kaaja Karibe Ko Aatura ||",
+      "english": "Vidyaavaana Gunee Ati Chaatura |\nRaama Kaaja Karibe Ko Aatura ||"
+    },
+    {
+      "index": 11,
+      "timestampMs": 128456,
+      "startTimeMs": 128456,
+      "endTimeMs": 140200,
+      "textTelugu": "ప్రభు చరిత్ర సునిబే కో రసియా |\nరామ లఖన సీతా మన బసియా ||",
+      "telugu": "ప్రభు చరిత్ర సునిబే కో రసియా |\nరామ లఖన సీతా మన బసియా ||",
+      "textEnglish": "Prabhu Charitra Sunibe Ko Rasiyaa |\nRaama Lakhana Seetaa Mana Basiyaa ||",
+      "english": "Prabhu Charitra Sunibe Ko Rasiyaa |\nRaama Lakhana Seetaa Mana Basiyaa ||"
+    },
+    {
+      "index": 12,
+      "timestampMs": 140200,
+      "startTimeMs": 140200,
+      "endTimeMs": 151944,
+      "textTelugu": "సూక్ష్మ రూప ధరి సియహి దిఖావా |\nబికట రూప ధరి లంక జరావా ||",
+      "telugu": "సూక్ష్మ రూప ధరి సియహి దిఖావా |\nబికట రూప ధరి లంక జరావా ||",
+      "textEnglish": "Sookshma Roopa Dhari Siyahi Dikhaavaa |\nBikata Roopa Dhari Lanka Jaraavaa ||",
+      "english": "Sookshma Roopa Dhari Siyahi Dikhaavaa |\nBikata Roopa Dhari Lanka Jaraavaa ||"
+    },
+    {
+      "index": 13,
+      "timestampMs": 151944,
+      "startTimeMs": 151944,
+      "endTimeMs": 163688,
+      "textTelugu": "భీమ రూప ధరి అసుర సంహారే |\nరామచంద్ర కే కాజ సంవారే ||",
+      "telugu": "భీమ రూప ధరి అసుర సంహారే |\nరామచంద్ర కే కాజ సంవారే ||",
+      "textEnglish": "Bheema Roopa Dhari Asura Samhaare |\nRaamachandra Ke Kaaja Samvaare ||",
+      "english": "Bheema Roopa Dhari Asura Samhaare |\nRaamachandra Ke Kaaja Samvaare ||"
+    },
+    {
+      "index": 14,
+      "timestampMs": 163688,
+      "startTimeMs": 163688,
+      "endTimeMs": 175431,
+      "textTelugu": "లాయ సంజీవన లఖన జియాయే |\nశ్రీరఘుబీర హరషి ఉర లాయే ||",
+      "telugu": "లాయ సంజీవన లఖన జియాయే |\nశ్రీరఘుబీర హరషి ఉర లాయే ||",
+      "textEnglish": "Laaya Sanjeevana Lakhana Jiyaaye |\nShree Raghubeera Harashi Ura Laaye ||",
+      "english": "Laaya Sanjeevana Lakhana Jiyaaye |\nShree Raghubeera Harashi Ura Laaye ||"
+    },
+    {
+      "index": 15,
+      "timestampMs": 175431,
+      "startTimeMs": 175431,
+      "endTimeMs": 187175,
+      "textTelugu": "రఘుపతి కీన్హీ బహుత బడాయీ |\nతుమ మమ ప్రియ భరతహి సమ భాయీ ||",
+      "telugu": "రఘుపతి కీన్హీ బహుత బడాయీ |\nతుమ మమ ప్రియ భరతహి సమ భాయీ ||",
+      "textEnglish": "Raghupati Keenhee Bahuta Badaayee |\nTuma Mama Priya Bharatahi Sama Bhaayee ||",
+      "english": "Raghupati Keenhee Bahuta Badaayee |\nTuma Mama Priya Bharatahi Sama Bhaayee ||"
+    },
+    {
+      "index": 16,
+      "timestampMs": 187175,
+      "startTimeMs": 187175,
+      "endTimeMs": 198919,
+      "textTelugu": "సహస్ర వదన తుమ్హరో యశ గావై |\nఅస కహి శ్రీపతి కంఠ లగావై ||",
+      "telugu": "సహస్ర వదన తుమ్హరో యశ గావై |\nఅస కహి శ్రీపతి కంఠ లగావై ||",
+      "textEnglish": "Sahasra Vadana Tumharo Yasha Gaavai |\nAsa Kahi Shreepati Kantha Lagaavai ||",
+      "english": "Sahasra Vadana Tumharo Yasha Gaavai |\nAsa Kahi Shreepati Kantha Lagaavai ||"
+    },
+    {
+      "index": 17,
+      "timestampMs": 198919,
+      "startTimeMs": 198919,
+      "endTimeMs": 210662,
+      "textTelugu": "సనకాదిక బ్రహ్మాది మునీశా |\nనారద శారద సహిత అహీశా ||",
+      "telugu": "సనకాదిక బ్రహ్మాది మునీశా |\nనారద శారద సహిత అహీశా ||",
+      "textEnglish": "Sanakaadika Brahmaadi Muneeshaa |\nNaarada Shaarada Sahita Aheeshaa ||",
+      "english": "Sanakaadika Brahmaadi Muneeshaa |\nNaarada Shaarada Sahita Aheeshaa ||"
+    },
+    {
+      "index": 18,
+      "timestampMs": 210662,
+      "startTimeMs": 210662,
+      "endTimeMs": 222406,
+      "textTelugu": "యమ కుబేర దిగపాల జహాం తే |\nకవి కోవిద కహి సకే కహాం తే ||",
+      "telugu": "యమ కుబేర దిగపాల జహాం తే |\nకవి కోవిద కహి సకే కహాం తే ||",
+      "textEnglish": "Yama Kubera Digapaala Jahaam Te |\nKavi Kovida Kahi Sake Kahaam Te ||",
+      "english": "Yama Kubera Digapaala Jahaam Te |\nKavi Kovida Kahi Sake Kahaam Te ||"
+    },
+    {
+      "index": 19,
+      "timestampMs": 222406,
+      "startTimeMs": 222406,
+      "endTimeMs": 234150,
+      "textTelugu": "తుమ ఉపకార సుగ్రీవహిం కీన్హా |\nరామ మిలాయ రాజపద దీన్హా ||",
+      "telugu": "తుమ ఉపకార సుగ్రీవహిం కీన్హా |\nరామ మిలాయ రాజపద దీన్హా ||",
+      "textEnglish": "Tuma Upakaara Sugreevahin Keenhaa |\nRaama Milaaya Raajapada Deenhaa ||",
+      "english": "Tuma Upakaara Sugreevahin Keenhaa |\nRaama Milaaya Raajapada Deenhaa ||"
+    },
+    {
+      "index": 20,
+      "timestampMs": 234150,
+      "startTimeMs": 234150,
+      "endTimeMs": 245894,
+      "textTelugu": "తుమ్హరో మంత్ర విభీషణ మానా |\nలంకేశ్వర భయే సబ జగ జానా ||",
+      "telugu": "తుమ్హరో మంత్ర విభీషణ మానా |\nలంకేశ్వర భయే సబ జగ జానా ||",
+      "textEnglish": "Tumharo Mantra Vibheeshana Maanaa |\nLankeshvara Bhaye Saba Jaga Jaanaa ||",
+      "english": "Tumharo Mantra Vibheeshana Maanaa |\nLankeshvara Bhaye Saba Jaga Jaanaa ||"
+    },
+    {
+      "index": 21,
+      "timestampMs": 245894,
+      "startTimeMs": 245894,
+      "endTimeMs": 257638,
+      "textTelugu": "యుగ సహస్ర యోజన పర భానూ |\nలీల్యో తాహి మధుర ఫల జానూ ||",
+      "telugu": "యుగ సహస్ర యోజన పర భానూ |\nలీల్యో తాహి మధుర ఫల జానూ ||",
+      "textEnglish": "Yuga Sahasra Yojana Para Bhaanoo |\nLeelyo Taahi Madhura Phala Jaanoo ||",
+      "english": "Yuga Sahasra Yojana Para Bhaanoo |\nLeelyo Taahi Madhura Phala Jaanoo ||"
+    },
+    {
+      "index": 22,
+      "timestampMs": 257638,
+      "startTimeMs": 257638,
+      "endTimeMs": 269381,
+      "textTelugu": "ప్రభు ముద్రికా మేలి ముఖ మాహీం |\nజలధి లాంఘి గయే అచరజ నాహీం ||",
+      "telugu": "ప్రభు ముద్రికా మేలి ముఖ మాహీం |\nజలధి లాంఘి గయే అచరజ నాహీం ||",
+      "textEnglish": "Prabhu Mudrikaa Meli Mukha Maaheem |\nJaladhi Laanghi Gaye Acharaja Naaheem ||",
+      "english": "Prabhu Mudrikaa Meli Mukha Maaheem |\nJaladhi Laanghi Gaye Acharaja Naaheem ||"
+    },
+    {
+      "index": 23,
+      "timestampMs": 269381,
+      "startTimeMs": 269381,
+      "endTimeMs": 281125,
+      "textTelugu": "దుర్గమ కాజ జగత కే జేతే |\nసుగమ అనుగ్రహ తుమ్హరే తేతే ||",
+      "telugu": "దుర్గమ కాజ జగత కే జేతే |\nసుగమ అనుగ్రహ తుమ్హరే తేతే ||",
+      "textEnglish": "Durgama Kaaja Jagata Ke Jete |\nSugama Anugraha Tumhare Tete ||",
+      "english": "Durgama Kaaja Jagata Ke Jete |\nSugama Anugraha Tumhare Tete ||"
+    },
+    {
+      "index": 24,
+      "timestampMs": 281125,
+      "startTimeMs": 281125,
+      "endTimeMs": 292869,
+      "textTelugu": "రామ దుఆరే తుమ రఖవారే |\nహోత న ఆజ్ఞా బిను పైసారే ||",
+      "telugu": "రామ దుఆరే తుమ రఖవారే |\nహోత న ఆజ్ఞా బిను పైసారే ||",
+      "textEnglish": "Raama Duaare Tuma Rakhavaare |\nHota Na Aagyaa Binu Paisaare ||",
+      "english": "Raama Duaare Tuma Rakhavaare |\nHota Na Aagyaa Binu Paisaare ||"
+    },
+    {
+      "index": 25,
+      "timestampMs": 292869,
+      "startTimeMs": 292869,
+      "endTimeMs": 304612,
+      "textTelugu": "సబ సుఖ లహై తుమ్హారీ శరణా |\nతుమ రక్షక కాహూ కో డర నా ||",
+      "telugu": "సబ సుఖ లహై తుమ్హారీ శరణా |\nతుమ రక్షక కాహూ కో డర నా ||",
+      "textEnglish": "Saba Sukha Lahai Tumhaaree Sharanaa |\nTuma Rakshaka Kaahoo Ko Dara Naa ||",
+      "english": "Saba Sukha Lahai Tumhaaree Sharanaa |\nTuma Rakshaka Kaahoo Ko Dara Naa ||"
+    },
+    {
+      "index": 26,
+      "timestampMs": 304612,
+      "startTimeMs": 304612,
+      "endTimeMs": 316356,
+      "textTelugu": "ఆపన తేజ సంహారో ఆపై |\nతీనోం లోక హాంక తే కాంపై ||",
+      "telugu": "ఆపన తేజ సంహారో ఆపై |\nతీనోం లోక హాంక తే కాంపై ||",
+      "textEnglish": "Aapana Teja Samhaaro Aapai |\nTeenom Loka Haanka Te Kaampai ||",
+      "english": "Aapana Teja Samhaaro Aapai |\nTeenom Loka Haanka Te Kaampai ||"
+    },
+    {
+      "index": 27,
+      "timestampMs": 316356,
+      "startTimeMs": 316356,
+      "endTimeMs": 328100,
+      "textTelugu": "భూత పిశాచ నికట నహిం ఆవై |\nమహావీర జబ నామ సునావై ||",
+      "telugu": "భూత పిశాచ నికట నహిం ఆవై |\nమహావీర జబ నామ సునావై ||",
+      "textEnglish": "Bhoota Pishaacha Nikata Nahim Aavai |\nMahaaveera Jaba Naama Sunaavai ||",
+      "english": "Bhoota Pishaacha Nikata Nahim Aavai |\nMahaaveera Jaba Naama Sunaavai ||"
+    },
+    {
+      "index": 28,
+      "timestampMs": 328100,
+      "startTimeMs": 328100,
+      "endTimeMs": 339844,
+      "textTelugu": "నాసై రోగ హరై సబ పీరా |\nజపత నిరంతర హనుమత వీరా ||",
+      "telugu": "నాసై రోగ హరై సబ పీరా |\nజపత నిరంతర హనుమత వీరా ||",
+      "textEnglish": "Naasai Roga Harai Saba Peeraa |\nJapata Nirantara Hanumata Veeraa ||",
+      "english": "Naasai Roga Harai Saba Peeraa |\nJapata Nirantara Hanumata Veeraa ||"
+    },
+    {
+      "index": 29,
+      "timestampMs": 339844,
+      "startTimeMs": 339844,
+      "endTimeMs": 351588,
+      "textTelugu": "సంకట తే హనుమాన ఛుడావై |\nమన క్రమ వచన ధ్యాన జో లావై ||",
+      "telugu": "సంకట తే హనుమాన ఛుడావై |\nమన క్రమ వచన ధ్యాన జో లావై ||",
+      "textEnglish": "Sankata Te Hanumaana Chhudaavai |\nMana Krama Vachana Dhyaana Jo Laavai ||",
+      "english": "Sankata Te Hanumaana Chhudaavai |\nMana Krama Vachana Dhyaana Jo Laavai ||"
+    },
+    {
+      "index": 30,
+      "timestampMs": 351588,
+      "startTimeMs": 351588,
+      "endTimeMs": 363331,
+      "textTelugu": "సబ పర రామ తపస్వీ రాజా |\nతిన కే కాజ సకల తుమ సాజా ||",
+      "telugu": "సబ పర రామ తపస్వీ రాజా |\nతిన కే కాజ సకల తుమ సాజా ||",
+      "textEnglish": "Saba Para Raama Tapasvee Raajaa |\nTina Ke Kaaja Sakala Tuma Saajaa ||",
+      "english": "Saba Para Raama Tapasvee Raajaa |\nTina Ke Kaaja Sakala Tuma Saajaa ||"
+    },
+    {
+      "index": 31,
+      "timestampMs": 363331,
+      "startTimeMs": 363331,
+      "endTimeMs": 375075,
+      "textTelugu": "ఔర మనోరథ జో కోయీ లావై |\nసోయి అమిత జీవన ఫల పావై ||",
+      "telugu": "ఔర మనోరథ జో కోయీ లావై |\nసోయి అమిత జీవన ఫల పావై ||",
+      "textEnglish": "Aura Manoratha Jo Ko-ee Laavai |\nSo-i Amita Jeevana Phala Paavai ||",
+      "english": "Aura Manoratha Jo Ko-ee Laavai |\nSo-i Amita Jeevana Phala Paavai ||"
+    },
+    {
+      "index": 32,
+      "timestampMs": 375075,
+      "startTimeMs": 375075,
+      "endTimeMs": 386819,
+      "textTelugu": "చారోం యుగ పరతాప తుమ్హారా |\nహై పరసిద్ధ జగత ఉజియారా ||",
+      "telugu": "చారోం యుగ పరతాప తుమ్హారా |\nహై పరసిద్ధ జగత ఉజియారా ||",
+      "textEnglish": "Chaarom Yuga Parataapa Tumhaaraa |\nHai Parasiddha Jagata Ujiyaaraa ||",
+      "english": "Chaarom Yuga Parataapa Tumhaaraa |\nHai Parasiddha Jagata Ujiyaaraa ||"
+    },
+    {
+      "index": 33,
+      "timestampMs": 386819,
+      "startTimeMs": 386819,
+      "endTimeMs": 398562,
+      "textTelugu": "సాధు సంత కే తుమ రఖవారే |\nఅసుర నికందన రామ దులారే ||",
+      "telugu": "సాధు సంత కే తుమ రఖవారే |\nఅసుర నికందన రామ దులారే ||",
+      "textEnglish": "Saadhu Santa Ke Tuma Rakhavaare |\nAsura Nikandana Raama Dulaare ||",
+      "english": "Saadhu Santa Ke Tuma Rakhavaare |\nAsura Nikandana Raama Dulaare ||"
+    },
+    {
+      "index": 34,
+      "timestampMs": 398562,
+      "startTimeMs": 398562,
+      "endTimeMs": 410306,
+      "textTelugu": "అష్ట సిద్ధి నవ నిధి కే దాతా |\nఅస బర దీన్హ జానకీ మాతా ||",
+      "telugu": "అష్ట సిద్ధి నవ నిధి కే దాతా |\nఅస బర దీన్హ జానకీ మాతా ||",
+      "textEnglish": "Ashta Siddhi Nava Nidhi Ke Daataa |\nAsa Bara Deenha Jaanakee Maataa ||",
+      "english": "Ashta Siddhi Nava Nidhi Ke Daataa |\nAsa Bara Deenha Jaanakee Maataa ||"
+    },
+    {
+      "index": 35,
+      "timestampMs": 410306,
+      "startTimeMs": 410306,
+      "endTimeMs": 422050,
+      "textTelugu": "రామ రసాయన తుమ్హరే పాసా |\nసదా రహో రఘుపతి కే దాసా ||",
+      "telugu": "రామ రసాయన తుమ్హరే పాసా |\nసదా రహో రఘుపతి కే దాసా ||",
+      "textEnglish": "Raama Rasaayana Tumhare Paasaa |\nSadaa Raho Raghupati Ke Daasaa ||",
+      "english": "Raama Rasaayana Tumhare Paasaa |\nSadaa Raho Raghupati Ke Daasaa ||"
+    },
+    {
+      "index": 36,
+      "timestampMs": 422050,
+      "startTimeMs": 422050,
+      "endTimeMs": 433794,
+      "textTelugu": "తుమ్హరే భజన రామ కో పావై |\nజన్మ జన్మ కే దుఃఖ బిసరావై ||",
+      "telugu": "తుమ్హరే భజన రామ కో పావై |\nజన్మ జన్మ కే దుఃఖ బిసరావై ||",
+      "textEnglish": "Tumhare Bhajana Raama Ko Paavai |\nJanma Janma Ke Duhkha Bisaraavai ||",
+      "english": "Tumhare Bhajana Raama Ko Paavai |\nJanma Janma Ke Duhkha Bisaraavai ||"
+    },
+    {
+      "index": 37,
+      "timestampMs": 433794,
+      "startTimeMs": 433794,
+      "endTimeMs": 445538,
+      "textTelugu": "అంత కాల రఘువర పుర జాయీ |\nజహాం జన్మ హరిభక్త కహాయీ ||",
+      "telugu": "అంత కాల రఘువర పుర జాయీ |\nజహాం జన్మ హరిభక్త కహాయీ ||",
+      "textEnglish": "Anta Kaala Raghuvara Pura Jaayee |\nJahaam Janma Haribhakta Kahaayee ||",
+      "english": "Anta Kaala Raghuvara Pura Jaayee |\nJahaam Janma Haribhakta Kahaayee ||"
+    },
+    {
+      "index": 38,
+      "timestampMs": 445538,
+      "startTimeMs": 445538,
+      "endTimeMs": 457281,
+      "textTelugu": "ఔర దేవతా చిత్త న ధరయీ |\nహనుమత సేయి సర్వ సుఖ కరయీ ||",
+      "telugu": "ఔర దేవతా చిత్త న ధరయీ |\nహనుమత సేయి సర్వ సుఖ కరయీ ||",
+      "textEnglish": "Aura Devataa Chitta Na Dharayee |\nHanumata Se-i Sarva Sukha Karayee ||",
+      "english": "Aura Devataa Chitta Na Dharayee |\nHanumata Se-i Sarva Sukha Karayee ||"
+    },
+    {
+      "index": 39,
+      "timestampMs": 457281,
+      "startTimeMs": 457281,
+      "endTimeMs": 469025,
+      "textTelugu": "సంకట కటై మిటై సబ పీరా |\nజో సుమిరై హనుమత బలబీరా ||",
+      "telugu": "సంకట కటై మిటై సబ పీరా |\nజో సుమిరై హనుమత బలబీరా ||",
+      "textEnglish": "Sankata Katai Mitai Saba Peeraa |\nJo Sumirai Hanumata Balabeeraa ||",
+      "english": "Sankata Katai Mitai Saba Peeraa |\nJo Sumirai Hanumata Balabeeraa ||"
+    },
+    {
+      "index": 40,
+      "timestampMs": 469025,
+      "startTimeMs": 469025,
+      "endTimeMs": 480769,
+      "textTelugu": "జై జై జై హనుమాన గోసాయీ |\nకృపా కరో గురుదేవ కీ నాయీ ||",
+      "telugu": "జై జై జై హనుమాన గోసాయీ |\nకృపా కరో గురుదేవ కీ నాయీ ||",
+      "textEnglish": "Jai Jai Jai Hanumaana Gosaayee |\nKripaa Karo Gurudeva Kee Naayee ||",
+      "english": "Jai Jai Jai Hanumaana Gosaayee |\nKripaa Karo Gurudeva Kee Naayee ||"
+    },
+    {
+      "index": 41,
+      "timestampMs": 480769,
+      "startTimeMs": 480769,
+      "endTimeMs": 492512,
+      "textTelugu": "యహ శత వార పాఠ కర జోయీ |\nఛూటహి బంది మహా సుఖ హోయీ ||",
+      "telugu": "యహ శత వార పాఠ కర జోయీ |\nఛూటహి బంది మహా సుఖ హోయీ ||",
+      "textEnglish": "Yaha Shata Vaara Paatha Kara Jo-ee |\nChhootahi Bandi Mahaa Sukha Ho-ee ||",
+      "english": "Yaha Shata Vaara Paatha Kara Jo-ee |\nChhootahi Bandi Mahaa Sukha Ho-ee ||"
+    },
+    {
+      "index": 42,
+      "timestampMs": 492512,
+      "startTimeMs": 492512,
+      "endTimeMs": 504256,
+      "textTelugu": "జో యహ పఢై హనుమాన చాలీసా |\nహోయ సిద్ధి సాఖీ గౌరీసా ||",
+      "telugu": "జో యహ పఢై హనుమాన చాలీసా |\nహోయ సిద్ధి సాఖీ గౌరీసా ||",
+      "textEnglish": "Jo Yaha Padhai Hanumaana Chaaleesaa |\nHoya Siddhi Saakhee Gaureesaa ||",
+      "english": "Jo Yaha Padhai Hanumaana Chaaleesaa |\nHoya Siddhi Saakhee Gaureesaa ||"
+    },
+    {
+      "index": 43,
+      "timestampMs": 504256,
+      "startTimeMs": 504256,
+      "endTimeMs": 516000,
+      "textTelugu": "తులసీదాస సదా హరి చేరా |\nకీజై నాథ హృదయ మహ డేరా ||",
+      "telugu": "తులసీదాస సదా హరి చేరా |\nకీజై నాథ హృదయ మహ డేరా ||",
+      "textEnglish": "Tulaseedaasa Sadaa Hari Cheraa |\nKeejai Naatha Hridaya Maha Deraa ||",
+      "english": "Tulaseedaasa Sadaa Hari Cheraa |\nKeejai Naatha Hridaya Maha Deraa ||"
+    },
+    {
+      "index": 44,
+      "timestampMs": 516000,
+      "startTimeMs": 516000,
+      "endTimeMs": 560000,
+      "textTelugu": "పవనతనయ సంకట హరణ మంగళ మూరతి రూప |\nరామ లఖన సీతా సహిత హృదయ బసహు సుర భూప ||",
+      "telugu": "పవనతనయ సంకట హరణ మంగళ మూరతి రూప |\nరామ లఖన సీతా సహిత హృదయ బసహు సుర భూప ||",
+      "textEnglish": "Pavana Tanaya Sankata Harana Mangala Moorati Roopa |\nRaama Lakhana Seetaa Sahita Hridaya Basahu Sura Bhoopa ||",
+      "english": "Pavana Tanaya Sankata Harana Mangala Moorati Roopa |\nRaama Lakhana Seetaa Sahita Hridaya Basahu Sura Bhoopa ||"
+    },
+    {
+      "index": 45,
+      "timestampMs": 560000,
+      "startTimeMs": 560000,
+      "endTimeMs": 588420,
+      "textTelugu": "॥ సియావర రామచంద్ర కీ జయ | పవనసుత హనుమాన కీ జయ ॥",
+      "telugu": "॥ సియావర రామచంద్ర కీ జయ | పవనసుత హనుమాన కీ జయ ॥",
+      "textEnglish": "|| Siyaavara Ramachandra Kee Jaya | Pavanasuta Hanumaana Kee Jaya ||",
+      "english": "|| Siyaavara Ramachandra Kee Jaya | Pavanasuta Hanumaana Kee Jaya ||"
     }
   ]
 }

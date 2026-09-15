@@ -4,64 +4,97 @@
     android:viewportWidth="108"
     android:viewportHeight="108">
 
-    <!-- Soft Golden Aura Glow behind Flame -->
+    <!-- Ambient Flame Warmth Halo -->
     <path
-        android:fillColor="#33FFD54F"
-        android:pathData="M54,18 C38,18 28,32 28,48 C28,62 38,72 54,72 C70,72 80,62 80,48 C80,32 70,18 54,18 Z" />
+        android:fillColor="#1CFFB300"
+        android:pathData="M54,22 C42,22 34,32 34,44 C34,54 42,62 54,62 C66,62 74,54 74,44 C74,32 66,22 54,22 Z" />
 
-    <!-- Secondary Radiant Ring -->
+    <!-- Delicate Radiant Rays (Geometric Sacred Linework) -->
     <path
-        android:fillColor="#22FF6F00"
-        android:pathData="M54,12 C32,12 20,28 20,48 C20,68 32,78 54,78 C76,78 88,68 88,48 C88,28 76,12 54,12 Z" />
+        android:strokeColor="#33FFD54F"
+        android:strokeWidth="1"
+        android:pathData="M54,16 L54,20 M38,24 L41,27 M70,24 L67,27 M32,38 L36,39 M76,38 L72,39" />
 
-    <!-- Diya Base / Pedestal (Dark Bronze Gold) -->
+    <!-- === TIERED BRASS PEDESTAL (Traditional Stepped Plinth) === -->
+    <!-- Bottom Base Plinth (Dark Antique Brass) -->
     <path
-        android:fillColor="#B78103"
-        android:pathData="M40,82 C40,79 44,78 49,78 L59,78 C64,78 68,79 68,82 L70,85 C70,86 69,87 66,87 L42,87 C39,87 38,86 38,85 Z" />
+        android:fillColor="#704D0D"
+        android:pathData="M37,83 C37,82.4 38,82 39,82 L69,82 C70,82 71,82.4 71,83 L72,85 C72,85.6 71.4,86 70.8,86 L37.2,86 C36.6,86 36,85.6 36,85 Z" />
 
-    <!-- Diya Base Highlight (Rich Gold) -->
+    <!-- Bottom Base Upper Bevel (Polished Temple Brass) -->
     <path
-        android:fillColor="#FFD54F"
-        android:pathData="M44,85 L64,85 C65,85 66,85.5 66,86 C66,86.5 65,87 64,87 L44,87 C43,87 42,86.5 42,86 C42,85.5 43,85 44,85 Z" />
+        android:fillColor="#B8860B"
+        android:pathData="M40,79 C40,78.5 40.5,78 41.5,78 L66.5,78 C67.5,78 68,78.5 68,79 L69,82 L39,82 Z" />
 
-    <!-- Diya Main Lamp Body / Bowl (Sacred Golden Brass) -->
+    <!-- Pedestal Middle Ring / Collar (Bright Gold Highlight) -->
     <path
-        android:fillColor="#E6A100"
-        android:pathData="M24,60 C24,58 26,57 29,57 L79,57 C82,57 84,58 84,60 C84,73 71,80 54,80 C37,80 24,73 24,60 Z" />
+        android:fillColor="#D4AF37"
+        android:pathData="M44,75.5 C44,75 44.5,74.5 45.5,74.5 L62.5,74.5 C63.5,74.5 64,75 64,75.5 L65.5,78 L42.5,78 Z" />
 
-    <!-- Diya Body Inner Gradient/Shadow -->
+    <!-- Pedestal Neck Accent Line -->
     <path
-        android:fillColor="#C67D00"
-        android:pathData="M26,62 C29,72 40,78 54,78 C68,78 79,72 82,62 C73,66 63,68 54,68 C45,68 35,66 26,62 Z" />
+        android:fillColor="#F3E5AB"
+        android:pathData="M45,74.5 L63,74.5 L63,75.2 L45,75.2 Z" />
 
-    <!-- Diya Rim (Polished Temple Gold) -->
+    <!-- === TRADITIONAL DIYA / DEEPAM BOWL === -->
+    <!-- Diya Bowl Outer Body (Rich Cast Temple Brass) -->
     <path
-        android:fillColor="#FFD54F"
-        android:pathData="M27,58 C34,62 74,62 81,58 C75,56 33,56 27,58 Z" />
+        android:fillColor="#A67812"
+        android:pathData="M27,58 C27,56.5 28.5,55.5 31,55.5 L77,55.5 C79.5,55.5 81,56.5 81,58 C81,68 70,75 54,75 C38,75 27,68 27,58 Z" />
 
-    <!-- Diya Center Ornamental Bindu / Motif -->
+    <!-- Diya Bowl Body Shading (Deep Bronze Shadow) -->
     <path
-        android:fillColor="#FFF8E1"
-        android:pathData="M54,68 C52,68 50.5,69.5 50.5,71.5 C50.5,73.5 52,75 54,75 C56,75 57.5,73.5 57.5,71.5 C57.5,69.5 56,68 54,68 Z" />
+        android:fillColor="#7A5609"
+        android:pathData="M29,60 C32,68 42,73.5 54,73.5 C66,73.5 76,68 79,60 C72,64 63,66 54,66 C45,66 36,64 29,60 Z" />
 
-    <!-- Eternal Flame - Outer Saffron Fire -->
+    <!-- Diya Bowl Front Face (Burnished Gold Radiance) -->
     <path
-        android:fillColor="#FF6F00"
-        android:pathData="M54,23 C54,23 38,40 38,51 C38,61 45,66 54,66 C63,66 70,61 70,51 C70,40 54,23 54,23 Z" />
+        android:fillColor="#C99824"
+        android:pathData="M31,57 C36,64 45,68 54,68 C63,68 72,64 77,57 C71,59.5 63,61 54,61 C45,61 37,59.5 31,57 Z" />
 
-    <!-- Eternal Flame - Mid Radiant Temple Gold -->
+    <!-- Diya Upper Rim (Finely Polished Brass Lip) -->
     <path
-        android:fillColor="#FFC107"
-        android:pathData="M54,30 C54,30 43,43 43,52 C43,59 48,63 54,63 C60,63 65,59 65,52 C65,43 54,30 54,30 Z" />
+        android:fillColor="#E5BE4A"
+        android:pathData="M28,57 C35,60 73,60 80,57 C74,54.8 34,54.8 28,57 Z" />
 
-    <!-- Eternal Flame - Inner Brilliant Gold Core -->
+    <!-- Inner Oil Reservoir Pool (Warm Sacred Ghee / Oil Surface) -->
+    <path
+        android:fillColor="#523906"
+        android:pathData="M33,56.5 C39,58.2 69,58.2 75,56.5 C70,55.5 38,55.5 33,56.5 Z" />
+
+    <!-- Center Sacred Lotus Petal Engraving / Motifs on Bowl -->
+    <path
+        android:fillColor="#EED279"
+        android:pathData="M54,64.5 C52.2,64.5 50.8,66 50.8,67.8 C50.8,69.5 52.2,71 54,71 C55.8,71 57.2,69.5 57.2,67.8 C57.2,66 55.8,64.5 54,64.5 Z" />
+    <path
+        android:strokeColor="#A67812"
+        android:strokeWidth="0.7"
+        android:pathData="M44,62 C47,65 51,66.5 54,66.5 C57,66.5 61,65 64,62" />
+
+    <!-- Delicate Cotton Wick Tip (Thiri) -->
+    <path
+        android:fillColor="#3A2807"
+        android:pathData="M53.2,52 L54.8,52 L54.5,56 L53.5,56 Z" />
+
+    <!-- === ETERNAL FLAME (Serene Sacred Teardrop) === -->
+    <!-- Flame Outer Corona (Sacred Saffron Fire) -->
+    <path
+        android:fillColor="#E65100"
+        android:pathData="M54,23 C54,23 41.5,37 41.5,46.5 C41.5,53.5 47,56.5 54,56.5 C61,56.5 66.5,53.5 66.5,46.5 C66.5,37 54,23 54,23 Z" />
+
+    <!-- Flame Mid-Layer (Warm Temple Gold) -->
+    <path
+        android:fillColor="#FFB300"
+        android:pathData="M54,28.5 C54,28.5 44.8,39 44.8,47 C44.8,52.2 48.8,54.5 54,54.5 C59.2,54.5 63.2,52.2 63.2,47 C63.2,39 54,28.5 54,28.5 Z" />
+
+    <!-- Flame Inner Body (Luminous Butter Gold) -->
     <path
         android:fillColor="#FFE082"
-        android:pathData="M54,37 C54,37 47,47 47,53 C47,58 50,61 54,61 C58,61 61,58 61,53 C61,47 54,37 54,37 Z" />
+        android:pathData="M54,34 C54,34 47.8,42 47.8,48 C47.8,51.5 50.5,53.2 54,53.2 C57.5,53.2 60.2,51.5 60.2,48 C60.2,42 54,34 54,34 Z" />
 
-    <!-- Eternal Flame - Pure White Core (Eternal Light) -->
+    <!-- Flame Incandescent Heart (Sacred Pure Jyoti / Bindu) -->
     <path
         android:fillColor="#FFFFFF"
-        android:pathData="M54,43 C54,43 50,50 50,54 C50,57 52,59 54,59 C56,59 58,57 58,54 C58,50 54,43 54,43 Z" />
+        android:pathData="M54,40 C54,40 51,44.8 51,48.5 C51,50.8 52.3,52 54,52 C55.7,52 57,50.8 57,48.5 C57,44.8 54,40 54,40 Z" />
 
 </vector>

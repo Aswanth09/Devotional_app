@@ -87,19 +87,30 @@ class MainViewModel @JvmOverloads constructor(
         }
     }
 
+    companion object {
+        // Calibration lead offset (350ms) so verses highlight right as the singer breathes/initiates chanting
+        const val LYRICS_LEAD_OFFSET_MS = 350L
+    }
+
     private fun findActiveStanza(positionMs: Long, lyrics: List<Stanza>): Int {
         if (lyrics.isEmpty()) return -1
-        for (i in lyrics.indices) {
-            val stanza = lyrics[i]
-            if (positionMs in stanza.startTimeMs until stanza.endTimeMs) {
-                return i
+        val effectivePos = positionMs + LYRICS_LEAD_OFFSET_MS
+
+        // Binary search for the LAST entry where startTimeMs <= effectivePos
+        var low = 0
+        var high = lyrics.size - 1
+        var candidate = -1
+
+        while (low <= high) {
+            val mid = (low + high) ushr 1
+            if (lyrics[mid].startTimeMs <= effectivePos) {
+                candidate = mid
+                low = mid + 1
+            } else {
+                high = mid - 1
             }
         }
-        // If past the last stanza's start, return last
-        if (positionMs >= lyrics.last().startTimeMs) {
-            return lyrics.lastIndex
-        }
-        return 0
+        return if (candidate != -1) candidate else 0
     }
 
     fun selectCategory(category: String) {

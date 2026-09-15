@@ -2,48 +2,597 @@
   "trackId": "govinda_namalu",
   "titleTelugu": "గోవింద నామాలు",
   "titleEnglish": "Govinda Namalu",
+  "totalStanzas": 59,
   "stanzas": [
     {
       "index": 1,
+      "timestampMs": 0,
       "startTimeMs": 0,
-      "endTimeMs": 5000,
-      "telugu": "శ్రీ శ్రీనివాస గోవిందా | శ్రీ వేంకటేశా గోవిందా ||\nభక్తవత్సలా గోవిందా | భాగవతప్రియా గోవిందా ||",
-      "english": "Shree Shreenivaasa Govindaa | Shree Venkatesha Govindaa ||\nBhaktavatsala Govindaa | Bhaagavatapriya Govindaa ||"
+      "endTimeMs": 12328,
+      "textTelugu": "శ్రీ శ్రీనివాస గోవిందా | శ్రీ వేంకటేశ గోవిందా",
+      "telugu": "శ్రీ శ్రీనివాస గోవిందా | శ్రీ వేంకటేశ గోవిందా",
+      "textEnglish": "Shree Shreenivaasa Govinda | Shree Venkatesha Govinda",
+      "english": "Shree Shreenivaasa Govinda | Shree Venkatesha Govinda"
     },
     {
       "index": 2,
-      "startTimeMs": 5000,
-      "endTimeMs": 10000,
-      "telugu": "నిత్యనిర్మలా గోవిందా | నీలమేఘశ్యామ గోవిందా ||\nపురాణపురుషా గోవిందా | పుండరీకాక్ష గోవిందా ||",
-      "english": "Nityanirmala Govindaa | Neelameghashyaama Govindaa ||\nPuraanapurusha Govindaa | Pundareekaaksha Govindaa ||"
+      "timestampMs": 12328,
+      "startTimeMs": 12328,
+      "endTimeMs": 24655,
+      "textTelugu": "భక్తవత్సల గోవిందా | భాగవతప్రియ గోవిందా",
+      "telugu": "భక్తవత్సల గోవిందా | భాగవతప్రియ గోవిందా",
+      "textEnglish": "Bhaktavatsala Govinda | Bhaagavatapriya Govinda",
+      "english": "Bhaktavatsala Govinda | Bhaagavatapriya Govinda"
     },
     {
       "index": 3,
-      "startTimeMs": 10000,
-      "endTimeMs": 15000,
-      "telugu": "నందనందనా గోవిందా | నవనీతచోర గోవిందా ||\nపశుపాలక శ్రీ గోవిందా | పాపవిమోచన గోవిందా ||",
-      "english": "Nandanandanaa Govindaa | Navaneetachora Govindaa ||\nPashupaalaka Shree Govindaa | Paapavimochana Govindaa ||"
+      "timestampMs": 24655,
+      "startTimeMs": 24655,
+      "endTimeMs": 36983,
+      "textTelugu": "నిత్య నిర్మల గోవిందా | నీలమేఘశ్యామ గోవిందా",
+      "telugu": "నిత్య నిర్మల గోవిందా | నీలమేఘశ్యామ గోవిందా",
+      "textEnglish": "Nitya Nirmala Govinda | Neelameghashyaama Govinda",
+      "english": "Nitya Nirmala Govinda | Neelameghashyaama Govinda"
     },
     {
       "index": 4,
-      "startTimeMs": 15000,
-      "endTimeMs": 20000,
-      "telugu": "దుష్టసంహార గోవిందా | దురితనివారణ గోవిందా ||\nశిష్టపరిపాలక గోవిందా | కష్టనివారణ గోవిందా ||",
-      "english": "Dushtasamhaara Govindaa | Duritanivaarana Govindaa ||\nShishtaparipaalaka Govindaa | Kashtanivaarana Govindaa ||"
+      "timestampMs": 36983,
+      "startTimeMs": 36983,
+      "endTimeMs": 49310,
+      "textTelugu": "పురాణ పురుష గోవిందా | పుండరీకాక్ష గోవిందా",
+      "telugu": "పురాణ పురుష గోవిందా | పుండరీకాక్ష గోవిందా",
+      "textEnglish": "Puraana Purusha Govinda | Pundareekaaksha Govinda",
+      "english": "Puraana Purusha Govinda | Pundareekaaksha Govinda"
     },
     {
       "index": 5,
-      "startTimeMs": 20000,
-      "endTimeMs": 25000,
-      "telugu": "వజ్రకవచధర గోవిందా | వజ్రకిరీటా గోవిందా ||\nశంఖచక్రధర గోవిందా | పద్మనాభ శ్రీ గోవిందా ||",
-      "english": "Vajrakavachadhara Govindaa | Vajrakireetaa Govindaa ||\nShankhachakradhara Govindaa | Padmanaabha Shree Govindaa ||"
+      "timestampMs": 49310,
+      "startTimeMs": 49310,
+      "endTimeMs": 61638,
+      "textTelugu": "నందనందన గోవిందా | నవనీత చోర గోవిందా",
+      "telugu": "నందనందన గోవిందా | నవనీత చోర గోవిందా",
+      "textEnglish": "Nandanandana Govinda | Navaneeta Chora Govinda",
+      "english": "Nandanandana Govinda | Navaneeta Chora Govinda"
     },
     {
       "index": 6,
-      "startTimeMs": 25000,
-      "endTimeMs": 30000,
-      "telugu": "గోవిందా హరి గోవిందా | గోకులనందన గోవిందా ||\nశ్రీ వేంకటేశా గోవిందా | తిరుమలవాసా గోవిందా ||",
-      "english": "Govindaa Hari Govindaa | Gokulanandana Govindaa ||\nShree Venkatesha Govindaa | Tirumalavaasaa Govindaa ||"
+      "timestampMs": 61638,
+      "startTimeMs": 61638,
+      "endTimeMs": 73966,
+      "textTelugu": "పశుపాలక గోవిందా | పాపవిమోచన గోవిందా",
+      "telugu": "పశుపాలక గోవిందా | పాపవిమోచన గోవిందా",
+      "textEnglish": "Pashupaalaka Govinda | Paapavimochana Govinda",
+      "english": "Pashupaalaka Govinda | Paapavimochana Govinda"
+    },
+    {
+      "index": 7,
+      "timestampMs": 73966,
+      "startTimeMs": 73966,
+      "endTimeMs": 86293,
+      "textTelugu": "దుష్టసంహార గోవిందా | దురితనివారణ గోవిందా",
+      "telugu": "దుష్టసంహార గోవిందా | దురితనివారణ గోవిందా",
+      "textEnglish": "Dushtasamhaara Govinda | Duritanivaarana Govinda",
+      "english": "Dushtasamhaara Govinda | Duritanivaarana Govinda"
+    },
+    {
+      "index": 8,
+      "timestampMs": 86293,
+      "startTimeMs": 86293,
+      "endTimeMs": 98621,
+      "textTelugu": "శిష్టపరిపాలక గోవిందా | కష్టనివారణ గోవిందా",
+      "telugu": "శిష్టపరిపాలక గోవిందా | కష్టనివారణ గోవిందా",
+      "textEnglish": "Shishtaparipaalaka Govinda | Kashtanivaarana Govinda",
+      "english": "Shishtaparipaalaka Govinda | Kashtanivaarana Govinda"
+    },
+    {
+      "index": 9,
+      "timestampMs": 98621,
+      "startTimeMs": 98621,
+      "endTimeMs": 110948,
+      "textTelugu": "వజ్రకవచధర గోవిందా | వైకుంఠవాస గోవిందా",
+      "telugu": "వజ్రకవచధర గోవిందా | వైకుంఠవాస గోవిందా",
+      "textEnglish": "Vajrakavachadhara Govinda | Vaikunthavaasa Govinda",
+      "english": "Vajrakavachadhara Govinda | Vaikunthavaasa Govinda"
+    },
+    {
+      "index": 10,
+      "timestampMs": 110948,
+      "startTimeMs": 110948,
+      "endTimeMs": 123276,
+      "textTelugu": "వసుదేవ తనయ గోవిందా | వాసుదేవ గోవిందా",
+      "telugu": "వసుదేవ తనయ గోవిందా | వాసుదేవ గోవిందా",
+      "textEnglish": "Vasudeva Tanaya Govinda | Vaasudeva Govinda",
+      "english": "Vasudeva Tanaya Govinda | Vaasudeva Govinda"
+    },
+    {
+      "index": 11,
+      "timestampMs": 123276,
+      "startTimeMs": 123276,
+      "endTimeMs": 135603,
+      "textTelugu": "బిల్వపత్రప్రియ గోవిందా | భిక్షుక సంస్తుత గోవిందా",
+      "telugu": "బిల్వపత్రప్రియ గోవిందా | భిక్షుక సంస్తుత గోవిందా",
+      "textEnglish": "Bilvapatrapriya Govinda | Bhikshuka Samstuta Govinda",
+      "english": "Bilvapatrapriya Govinda | Bhikshuka Samstuta Govinda"
+    },
+    {
+      "index": 12,
+      "timestampMs": 135603,
+      "startTimeMs": 135603,
+      "endTimeMs": 147931,
+      "textTelugu": "తులసీవనమాలి గోవిందా | దోషనివారణ గోవిందా",
+      "telugu": "తులసీవనమాలి గోవిందా | దోషనివారణ గోవిందా",
+      "textEnglish": "Tulaseevanamaali Govinda | Doshanivaarana Govinda",
+      "english": "Tulaseevanamaali Govinda | Doshanivaarana Govinda"
+    },
+    {
+      "index": 13,
+      "timestampMs": 147931,
+      "startTimeMs": 147931,
+      "endTimeMs": 160259,
+      "textTelugu": "శేషసాయి గోవిందా | శేషాద్రి నిలయ గోవిందా",
+      "telugu": "శేషసాయి గోవిందా | శేషాద్రి నిలయ గోవిందా",
+      "textEnglish": "Sheshasaayi Govinda | Sheshaadri Nilaya Govinda",
+      "english": "Sheshasaayi Govinda | Sheshaadri Nilaya Govinda"
+    },
+    {
+      "index": 14,
+      "timestampMs": 160259,
+      "startTimeMs": 160259,
+      "endTimeMs": 172586,
+      "textTelugu": "శ్రీనికేతన గోవిందా | జగద్వంద్య గోవిందా",
+      "telugu": "శ్రీనికేతన గోవిందా | జగద్వంద్య గోవిందా",
+      "textEnglish": "Shreeniketana Govinda | Jagadvandya Govinda",
+      "english": "Shreeniketana Govinda | Jagadvandya Govinda"
+    },
+    {
+      "index": 15,
+      "timestampMs": 172586,
+      "startTimeMs": 172586,
+      "endTimeMs": 184914,
+      "textTelugu": "అనాథ రక్షక గోవిందా | ఆపద్భాంధవ గోవిందా",
+      "telugu": "అనాథ రక్షక గోవిందా | ఆపద్భాంధవ గోవిందా",
+      "textEnglish": "Anaatha Rakshaka Govinda | Aapadbaandhava Govinda",
+      "english": "Anaatha Rakshaka Govinda | Aapadbaandhava Govinda"
+    },
+    {
+      "index": 16,
+      "timestampMs": 184914,
+      "startTimeMs": 184914,
+      "endTimeMs": 197241,
+      "textTelugu": "శరణాగతవత్సల గోవిందా | కరుణాసాగర గోవిందా",
+      "telugu": "శరణాగతవత్సల గోవిందా | కరుణాసాగర గోవిందా",
+      "textEnglish": "Sharanaagatavatsala Govinda | Karunaasaagara Govinda",
+      "english": "Sharanaagatavatsala Govinda | Karunaasaagara Govinda"
+    },
+    {
+      "index": 17,
+      "timestampMs": 197241,
+      "startTimeMs": 197241,
+      "endTimeMs": 209569,
+      "textTelugu": "కమలదళాక్ష గోవిందా | కామితఫలదాత గోవిందా",
+      "telugu": "కమలదళాక్ష గోవిందా | కామితఫలదాత గోవిందా",
+      "textEnglish": "Kamaladalaaksha Govinda | Kaamitaphaladaata Govinda",
+      "english": "Kamaladalaaksha Govinda | Kaamitaphaladaata Govinda"
+    },
+    {
+      "index": 18,
+      "timestampMs": 209569,
+      "startTimeMs": 209569,
+      "endTimeMs": 221897,
+      "textTelugu": "పాపవినాశన గోవిందా | పద్మనాభ గోవిందా",
+      "telugu": "పాపవినాశన గోవిందా | పద్మనాభ గోవిందా",
+      "textEnglish": "Paapavinaashana Govinda | Padmanaabha Govinda",
+      "english": "Paapavinaashana Govinda | Padmanaabha Govinda"
+    },
+    {
+      "index": 19,
+      "timestampMs": 221897,
+      "startTimeMs": 221897,
+      "endTimeMs": 234224,
+      "textTelugu": "నారాయణ గోవిందా | శ్రీమన్నారాయణ గోవిందా",
+      "telugu": "నారాయణ గోవిందా | శ్రీమన్నారాయణ గోవిందా",
+      "textEnglish": "Naaraayana Govinda | Shreeman Naaraayana Govinda",
+      "english": "Naaraayana Govinda | Shreeman Naaraayana Govinda"
+    },
+    {
+      "index": 20,
+      "timestampMs": 234224,
+      "startTimeMs": 234224,
+      "endTimeMs": 246552,
+      "textTelugu": "శంఖచక్రధర గోవిందా | శార్ఙ్గధనుర్ధర గోవిందా",
+      "telugu": "శంఖచక్రధర గోవిందా | శార్ఙ్గధనుర్ధర గోవిందా",
+      "textEnglish": "Shankha Chakra Dhara Govinda | Shaarnga Dhanurdhara Govinda",
+      "english": "Shankha Chakra Dhara Govinda | Shaarnga Dhanurdhara Govinda"
+    },
+    {
+      "index": 21,
+      "timestampMs": 246552,
+      "startTimeMs": 246552,
+      "endTimeMs": 258879,
+      "textTelugu": "గరుడవాహన గోవిందా | గోపికాలోల గోవిందా",
+      "telugu": "గరుడవాహన గోవిందా | గోపికాలోల గోవిందా",
+      "textEnglish": "Garudavaahana Govinda | Gopikaalola Govinda",
+      "english": "Garudavaahana Govinda | Gopikaalola Govinda"
+    },
+    {
+      "index": 22,
+      "timestampMs": 258879,
+      "startTimeMs": 258879,
+      "endTimeMs": 271207,
+      "textTelugu": "గోవర్ధనోద్ధార గోవిందా | గోకులరక్షక గోవిందా",
+      "telugu": "గోవర్ధనోద్ధార గోవిందా | గోకులరక్షక గోవిందా",
+      "textEnglish": "Govardhanoddhaara Govinda | Gokularakshaka Govinda",
+      "english": "Govardhanoddhaara Govinda | Gokularakshaka Govinda"
+    },
+    {
+      "index": 23,
+      "timestampMs": 271207,
+      "startTimeMs": 271207,
+      "endTimeMs": 283534,
+      "textTelugu": "దశరథనందన గోవిందా | దశముఖ మర్దన గోవిందా",
+      "telugu": "దశరథనందన గోవిందా | దశముఖ మర్దన గోవిందా",
+      "textEnglish": "Dasharathanandana Govinda | Dashamukha Mardana Govinda",
+      "english": "Dasharathanandana Govinda | Dashamukha Mardana Govinda"
+    },
+    {
+      "index": 24,
+      "timestampMs": 283534,
+      "startTimeMs": 283534,
+      "endTimeMs": 295862,
+      "textTelugu": "జానకీవల్లభ గోవిందా | లక్ష్మణాగ్రజ గోవిందా",
+      "telugu": "జానకీవల్లభ గోవిందా | లక్ష్మణాగ్రజ గోవిందా",
+      "textEnglish": "Jaanakeevallabha Govinda | Lakshmanaagraja Govinda",
+      "english": "Jaanakeevallabha Govinda | Lakshmanaagraja Govinda"
+    },
+    {
+      "index": 25,
+      "timestampMs": 295862,
+      "startTimeMs": 295862,
+      "endTimeMs": 308190,
+      "textTelugu": "మత్స్యకూర్మ గోవిందా | వరాహనారసింహ గోవిందా",
+      "telugu": "మత్స్యకూర్మ గోవిందా | వరాహనారసింహ గోవిందా",
+      "textEnglish": "Matsya Koorma Govinda | Varaaha Naarasimha Govinda",
+      "english": "Matsya Koorma Govinda | Varaaha Naarasimha Govinda"
+    },
+    {
+      "index": 26,
+      "timestampMs": 308190,
+      "startTimeMs": 308190,
+      "endTimeMs": 320517,
+      "textTelugu": "వామనభార్గవ గోవిందా | బలరామానుజ గోవిందా",
+      "telugu": "వామనభార్గవ గోవిందా | బలరామానుజ గోవిందా",
+      "textEnglish": "Vaamana Bhaargava Govinda | Balaramaanunja Govinda",
+      "english": "Vaamana Bhaargava Govinda | Balaramaanunja Govinda"
+    },
+    {
+      "index": 27,
+      "timestampMs": 320517,
+      "startTimeMs": 320517,
+      "endTimeMs": 332845,
+      "textTelugu": "బౌద్ధకల్కి గోవిందా | వేణుగానలోల గోవిందా",
+      "telugu": "బౌద్ధకల్కి గోవిందా | వేణుగానలోల గోవిందా",
+      "textEnglish": "Bauddha Kalki Govinda | Venugaanalola Govinda",
+      "english": "Bauddha Kalki Govinda | Venugaanalola Govinda"
+    },
+    {
+      "index": 28,
+      "timestampMs": 332845,
+      "startTimeMs": 332845,
+      "endTimeMs": 345172,
+      "textTelugu": "కాళింగమర్దన గోవిందా | కంసనిషూదన గోవిందా",
+      "telugu": "కాళింగమర్దన గోవిందా | కంసనిషూదన గోవిందా",
+      "textEnglish": "Kaalingamardana Govinda | Kamsanishoodana Govinda",
+      "english": "Kaalingamardana Govinda | Kamsanishoodana Govinda"
+    },
+    {
+      "index": 29,
+      "timestampMs": 345172,
+      "startTimeMs": 345172,
+      "endTimeMs": 357500,
+      "textTelugu": "గజేంద్రరక్షక గోవిందా | ప్రహ్లాదపోషక గోవిందా",
+      "telugu": "గజేంద్రరక్షక గోవిందా | ప్రహ్లాదపోషక గోవిందా",
+      "textEnglish": "Gajendrarakshaka Govinda | Prahlaadaposshaka Govinda",
+      "english": "Gajendrarakshaka Govinda | Prahlaadaposshaka Govinda"
+    },
+    {
+      "index": 30,
+      "timestampMs": 357500,
+      "startTimeMs": 357500,
+      "endTimeMs": 369828,
+      "textTelugu": "ద్రౌపదీరక్షక గోవిందా | కుచేలవరద గోవిందా",
+      "telugu": "ద్రౌపదీరక్షక గోవిందా | కుచేలవరద గోవిందా",
+      "textEnglish": "Draupadeerakshaka Govinda | Kuchelavarada Govinda",
+      "english": "Draupadeerakshaka Govinda | Kuchelavarada Govinda"
+    },
+    {
+      "index": 31,
+      "timestampMs": 369828,
+      "startTimeMs": 369828,
+      "endTimeMs": 382155,
+      "textTelugu": "రుక్మిణీలోల గోవిందా | సత్యభామాప్రియ గోవిందా",
+      "telugu": "రుక్మిణీలోల గోవిందా | సత్యభామాప్రియ గోవిందా",
+      "textEnglish": "Rukmineelola Govinda | Satyabhaamaapriya Govinda",
+      "english": "Rukmineelola Govinda | Satyabhaamaapriya Govinda"
+    },
+    {
+      "index": 32,
+      "timestampMs": 382155,
+      "startTimeMs": 382155,
+      "endTimeMs": 394483,
+      "textTelugu": "శ్రీరాధాప్రియ గోవిందా | రాసవిహారి గోవిందా",
+      "telugu": "శ్రీరాధాప్రియ గోవిందా | రాసవిహారి గోవిందా",
+      "textEnglish": "Shreeraadhaapriya Govinda | Raasavihaari Govinda",
+      "english": "Shreeraadhaapriya Govinda | Raasavihaari Govinda"
+    },
+    {
+      "index": 33,
+      "timestampMs": 394483,
+      "startTimeMs": 394483,
+      "endTimeMs": 406810,
+      "textTelugu": "కల్పవృక్ష గోవిందా | కామధేను గోవిందా",
+      "telugu": "కల్పవృక్ష గోవిందా | కామధేను గోవిందా",
+      "textEnglish": "Kalpavriksha Govinda | Kaamadhenu Govinda",
+      "english": "Kalpavriksha Govinda | Kaamadhenu Govinda"
+    },
+    {
+      "index": 34,
+      "timestampMs": 406810,
+      "startTimeMs": 406810,
+      "endTimeMs": 419138,
+      "textTelugu": "చింతామణి గోవిందా | జ్ఞానప్రదాయక గోవిందా",
+      "telugu": "చింతామణి గోవిందా | జ్ఞానప్రదాయక గోవిందా",
+      "textEnglish": "Chintaamani Govinda | Gyaanapradaayaka Govinda",
+      "english": "Chintaamani Govinda | Gyaanapradaayaka Govinda"
+    },
+    {
+      "index": 35,
+      "timestampMs": 419138,
+      "startTimeMs": 419138,
+      "endTimeMs": 431466,
+      "textTelugu": "ఆనందరూప గోవిందా | మోక్షదాయక గోవిందా",
+      "telugu": "ఆనందరూప గోవిందా | మోక్షదాయక గోవిందా",
+      "textEnglish": "Aanandaroopa Govinda | Mokshadaayaka Govinda",
+      "english": "Aanandaroopa Govinda | Mokshadaayaka Govinda"
+    },
+    {
+      "index": 36,
+      "timestampMs": 431466,
+      "startTimeMs": 431466,
+      "endTimeMs": 443793,
+      "textTelugu": "పరమపావన గోవిందా | పరంధామ గోవిందా",
+      "telugu": "పరమపావన గోవిందా | పరంధామ గోవిందా",
+      "textEnglish": "Paramapaavana Govinda | Paramdhaama Govinda",
+      "english": "Paramapaavana Govinda | Paramdhaama Govinda"
+    },
+    {
+      "index": 37,
+      "timestampMs": 443793,
+      "startTimeMs": 443793,
+      "endTimeMs": 456121,
+      "textTelugu": "తిరుమలవాస గోవిందా | తిరుపతి నిలయ గోవిందా",
+      "telugu": "తిరుమలవాస గోవిందా | తిరుపతి నిలయ గోవిందా",
+      "textEnglish": "Tirumalavaasa Govinda | Tirupati Nilaya Govinda",
+      "english": "Tirumalavaasa Govinda | Tirupati Nilaya Govinda"
+    },
+    {
+      "index": 38,
+      "timestampMs": 456121,
+      "startTimeMs": 456121,
+      "endTimeMs": 468448,
+      "textTelugu": "ఏడుకొండలవాడ గోవిందా | ఎకభోగప్రదాత గోవిందా",
+      "telugu": "ఏడుకొండలవాడ గోవిందా | ఎకభోగప్రదాత గోవిందా",
+      "textEnglish": "Edu Kondalavaada Govinda | Ekabhogapradaata Govinda",
+      "english": "Edu Kondalavaada Govinda | Ekabhogapradaata Govinda"
+    },
+    {
+      "index": 39,
+      "timestampMs": 468448,
+      "startTimeMs": 468448,
+      "endTimeMs": 480776,
+      "textTelugu": "అఖిలాండకోటి గోవిందా | బ్రహ్మాండనాయక గోవిందా",
+      "telugu": "అఖిలాండకోటి గోవిందా | బ్రహ్మాండనాయక గోవిందా",
+      "textEnglish": "Akhilaandakoti Govinda | Brahmaandanaayaka Govinda",
+      "english": "Akhilaandakoti Govinda | Brahmaandanaayaka Govinda"
+    },
+    {
+      "index": 40,
+      "timestampMs": 480776,
+      "startTimeMs": 480776,
+      "endTimeMs": 493103,
+      "textTelugu": "శ్రీపద్మావతీప్రియ గోవిందా | శ్రీ వేంకటేశ్వర గోవిందా",
+      "telugu": "శ్రీపద్మావతీప్రియ గోవిందా | శ్రీ వేంకటేశ్వర గోవిందా",
+      "textEnglish": "Shreepadmaavateepriya Govinda | Shree Venkateshvara Govinda",
+      "english": "Shreepadmaavateepriya Govinda | Shree Venkateshvara Govinda"
+    },
+    {
+      "index": 41,
+      "timestampMs": 493103,
+      "startTimeMs": 493103,
+      "endTimeMs": 505431,
+      "textTelugu": "గోవిందా హరి గోవిందా | వేంకటరమణ గోవిందా",
+      "telugu": "గోవిందా హరి గోవిందా | వేంకటరమణ గోవిందా",
+      "textEnglish": "Govinda Hari Govinda | Venkataramana Govinda",
+      "english": "Govinda Hari Govinda | Venkataramana Govinda"
+    },
+    {
+      "index": 42,
+      "timestampMs": 505431,
+      "startTimeMs": 505431,
+      "endTimeMs": 517759,
+      "textTelugu": "శ్రీనివాస గోవిందా | శ్రీ వేంకటేశ గోవిందా",
+      "telugu": "శ్రీనివాస గోవిందా | శ్రీ వేంకటేశ గోవిందా",
+      "textEnglish": "Shreenivaasa Govinda | Shree Venkatesha Govinda",
+      "english": "Shreenivaasa Govinda | Shree Venkatesha Govinda"
+    },
+    {
+      "index": 43,
+      "timestampMs": 517759,
+      "startTimeMs": 517759,
+      "endTimeMs": 530086,
+      "textTelugu": "భక్తప్రియ గోవిందా | భవహరణ గోవిందా",
+      "telugu": "భక్తప్రియ గోవిందా | భవహరణ గోవిందా",
+      "textEnglish": "Bhaktapriya Govinda | Bhavaharana Govinda",
+      "english": "Bhaktapriya Govinda | Bhavaharana Govinda"
+    },
+    {
+      "index": 44,
+      "timestampMs": 530086,
+      "startTimeMs": 530086,
+      "endTimeMs": 542414,
+      "textTelugu": "శాంతమూర్తి గోవిందా | శాంతిప్రదాత గోవిందా",
+      "telugu": "శాంతమూర్తి గోవిందా | శాంతిప్రదాత గోవిందా",
+      "textEnglish": "Shaantamoorati Govinda | Shaantipradaata Govinda",
+      "english": "Shaantamoorati Govinda | Shaantipradaata Govinda"
+    },
+    {
+      "index": 45,
+      "timestampMs": 542414,
+      "startTimeMs": 542414,
+      "endTimeMs": 554741,
+      "textTelugu": "దయానిధే గోవిందా | ధర్మరక్షక గోవిందా",
+      "telugu": "దయానిధే గోవిందా | ధర్మరక్షక గోవిందా",
+      "textEnglish": "Dayaanidhe Govinda | Dharmarakshaka Govinda",
+      "english": "Dayaanidhe Govinda | Dharmarakshaka Govinda"
+    },
+    {
+      "index": 46,
+      "timestampMs": 554741,
+      "startTimeMs": 554741,
+      "endTimeMs": 567069,
+      "textTelugu": "సత్యస్వరూప గోవిందా | సర్వేశ్వర గోవిందా",
+      "telugu": "సత్యస్వరూప గోవిందా | సర్వేశ్వర గోవిందా",
+      "textEnglish": "Satyasvaroopa Govinda | Sarveshvara Govinda",
+      "english": "Satyasvaroopa Govinda | Sarveshvara Govinda"
+    },
+    {
+      "index": 47,
+      "timestampMs": 567069,
+      "startTimeMs": 567069,
+      "endTimeMs": 579397,
+      "textTelugu": "విశ్వరూప గోవిందా | విభుధవరద గోవిందా",
+      "telugu": "విశ్వరూప గోవిందా | విభుధవరద గోవిందా",
+      "textEnglish": "Vishvaroopa Govinda | Vibhudhavarada Govinda",
+      "english": "Vishvaroopa Govinda | Vibhudhavarada Govinda"
+    },
+    {
+      "index": 48,
+      "timestampMs": 579397,
+      "startTimeMs": 579397,
+      "endTimeMs": 591724,
+      "textTelugu": "మురళీధర గోవిందా | మోహనరూప గోవిందా",
+      "telugu": "మురళీధర గోవిందా | మోహనరూప గోవిందా",
+      "textEnglish": "Muralheedhara Govinda | Mohanaroopa Govinda",
+      "english": "Muralheedhara Govinda | Mohanaroopa Govinda"
+    },
+    {
+      "index": 49,
+      "timestampMs": 591724,
+      "startTimeMs": 591724,
+      "endTimeMs": 604052,
+      "textTelugu": "హరిహరనాథ గోవిందా | హృదయనివాస గోవిందా",
+      "telugu": "హరిహరనాథ గోవిందా | హృదయనివాస గోవిందా",
+      "textEnglish": "Hariharanaatha Govinda | Hridayanivaasa Govinda",
+      "english": "Hariharanaatha Govinda | Hridayanivaasa Govinda"
+    },
+    {
+      "index": 50,
+      "timestampMs": 604052,
+      "startTimeMs": 604052,
+      "endTimeMs": 616379,
+      "textTelugu": "శ్రీధర గోవిందా | శ్రీపతి గోవిందా",
+      "telugu": "శ్రీధర గోవిందా | శ్రీపతి గోవిందా",
+      "textEnglish": "Shreedhara Govinda | Shreepati Govinda",
+      "english": "Shreedhara Govinda | Shreepati Govinda"
+    },
+    {
+      "index": 51,
+      "timestampMs": 616379,
+      "startTimeMs": 616379,
+      "endTimeMs": 628707,
+      "textTelugu": "మాధవ గోవిందా | ముకుంద గోవిందా",
+      "telugu": "మాధవ గోవిందా | ముకుంద గోవిందా",
+      "textEnglish": "Maadhava Govinda | Mukunda Govinda",
+      "english": "Maadhava Govinda | Mukunda Govinda"
+    },
+    {
+      "index": 52,
+      "timestampMs": 628707,
+      "startTimeMs": 628707,
+      "endTimeMs": 641034,
+      "textTelugu": "కేశవ గోవిందా | జనార్దన గోవిందా",
+      "telugu": "కేశవ గోవిందా | జనార్దన గోవిందా",
+      "textEnglish": "Keshava Govinda | Janaardana Govinda",
+      "english": "Keshava Govinda | Janaardana Govinda"
+    },
+    {
+      "index": 53,
+      "timestampMs": 641034,
+      "startTimeMs": 641034,
+      "endTimeMs": 653362,
+      "textTelugu": "అచ్యుత గోవిందా | అనంత గోవిందా",
+      "telugu": "అచ్యుత గోవిందా | అనంత గోవిందా",
+      "textEnglish": "Achyuta Govinda | Ananta Govinda",
+      "english": "Achyuta Govinda | Ananta Govinda"
+    },
+    {
+      "index": 54,
+      "timestampMs": 653362,
+      "startTimeMs": 653362,
+      "endTimeMs": 665690,
+      "textTelugu": "వామన గోవిందా | దామోదర గోవిందా",
+      "telugu": "వామన గోవిందా | దామోదర గోవిందా",
+      "textEnglish": "Vaamana Govinda | Daamodara Govinda",
+      "english": "Vaamana Govinda | Daamodara Govinda"
+    },
+    {
+      "index": 55,
+      "timestampMs": 665690,
+      "startTimeMs": 665690,
+      "endTimeMs": 678017,
+      "textTelugu": "మధుసూదన గోవిందా | త్రివిక్రమ గోవిందా",
+      "telugu": "మధుసూదన గోవిందా | త్రివిక్రమ గోవిందా",
+      "textEnglish": "Madhusoodana Govinda | Trivikrama Govinda",
+      "english": "Madhusoodana Govinda | Trivikrama Govinda"
+    },
+    {
+      "index": 56,
+      "timestampMs": 678017,
+      "startTimeMs": 678017,
+      "endTimeMs": 690345,
+      "textTelugu": "హృషీకేశ గోవిందా | శ్రీరంగనాథ గోవిందా",
+      "telugu": "హృషీకేశ గోవిందా | శ్రీరంగనాథ గోవిందా",
+      "textEnglish": "Hrisheekesha Govinda | Shreeranganaatha Govinda",
+      "english": "Hrisheekesha Govinda | Shreeranganaatha Govinda"
+    },
+    {
+      "index": 57,
+      "timestampMs": 690345,
+      "startTimeMs": 690345,
+      "endTimeMs": 702672,
+      "textTelugu": "వెంకటరమణ గోవిందా | శంఖచక్రధర గోవిందా",
+      "telugu": "వెంకటరమణ గోవిందా | శంఖచక్రధర గోవిందా",
+      "textEnglish": "Venkataramana Govinda | Shankhachakradhara Govinda",
+      "english": "Venkataramana Govinda | Shankhachakradhara Govinda"
+    },
+    {
+      "index": 58,
+      "timestampMs": 702672,
+      "startTimeMs": 702672,
+      "endTimeMs": 715000,
+      "textTelugu": "గోవిందా హరి గోవిందా | వేంకటరమణ గోవిందా",
+      "telugu": "గోవిందా హరి గోవిందా | వేంకటరమణ గోవిందా",
+      "textEnglish": "Govinda Hari Govinda | Venkataramana Govinda",
+      "english": "Govinda Hari Govinda | Venkataramana Govinda"
+    },
+    {
+      "index": 59,
+      "timestampMs": 715000,
+      "startTimeMs": 715000,
+      "endTimeMs": 745430,
+      "textTelugu": "॥ మంగళ హారతి ॥\nగోవిందా హరి గోవిందా | వేంకటరమణ గోవిందా |\nశ్రీనివాసా గోవిందా | తిరుమలవాసా గోవిందా ||",
+      "telugu": "॥ మంగళ హారతి ॥\nగోవిందా హరి గోవిందా | వేంకటరమణ గోవిందా |\nశ్రీనివాసా గోవిందా | తిరుమలవాసా గోవిందా ||",
+      "textEnglish": "|| Mangala Harati ||\nGovinda Hari Govinda | Venkataramana Govinda |\nShreenivaasaa Govinda | Tirumalavaasaa Govinda ||",
+      "english": "|| Mangala Harati ||\nGovinda Hari Govinda | Venkataramana Govinda |\nShreenivaasaa Govinda | Tirumalavaasaa Govinda ||"
     }
   ]
 }

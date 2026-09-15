@@ -2,48 +2,117 @@
   "trackId": "krishna_ashtakam",
   "titleTelugu": "శ్రీ కృష్ణాష్టకం",
   "titleEnglish": "Sri Krishna Ashtakam",
+  "totalStanzas": 11,
   "stanzas": [
     {
       "index": 1,
+      "timestampMs": 0,
       "startTimeMs": 0,
-      "endTimeMs": 5000,
-      "telugu": "వసుదేవసుతం దేవం కంసచాణూరమర్దనమ్ |\nదేవకీపరమానందం కృష్ణం వందే జగద్గురుమ్ ||",
-      "english": "Vasudevasutam Devam Kamsachanooramardanam |\nDevakeeparamaanandam Krishnam Vande Jagadgurum ||"
+      "endTimeMs": 850,
+      "textTelugu": "॥ శ్రీ కృష్ణాష్టకమ్ - ఆరంభ ధ్యానమ్ ॥",
+      "telugu": "॥ శ్రీ కృష్ణాష్టకమ్ - ఆరంభ ధ్యానమ్ ॥",
+      "textEnglish": "|| Sri Krishna Ashtakam - Invocation ||",
+      "english": "|| Sri Krishna Ashtakam - Invocation ||"
     },
     {
       "index": 2,
-      "startTimeMs": 5000,
-      "endTimeMs": 10000,
-      "telugu": "అతసీపుష్పసంకాశం హారనూపురశోభితమ్ |\nరత్నకంకణకేయూరం కృష్ణం వందే జగద్గురుమ్ ||",
-      "english": "Ataseepushpasamkaasham Haaranoopurashobhitam |\nRatnakankanakeyooram Krishnam Vande Jagadgurum ||"
+      "timestampMs": 850,
+      "startTimeMs": 850,
+      "endTimeMs": 47866,
+      "textTelugu": "వసుదేవసుతం దేవం కంసచాణూరమర్దనమ్ |\nదేవకీ పరమానందం కృష్ణం వందే జగద్గురుమ్ ||",
+      "telugu": "వసుదేవసుతం దేవం కంసచాణూరమర్దనమ్ |\nదేవకీ పరమానందం కృష్ణం వందే జగద్గురుమ్ ||",
+      "textEnglish": "Vasudeva Sutam Devam Kamsa Chaanoora Mardanam |\nDevakee Paramaanandam Krishnam Vande Jagadgurum ||",
+      "english": "Vasudeva Sutam Devam Kamsa Chaanoora Mardanam |\nDevakee Paramaanandam Krishnam Vande Jagadgurum ||"
     },
     {
       "index": 3,
-      "startTimeMs": 10000,
-      "endTimeMs": 15000,
-      "telugu": "కుటిలాలకసంయుక్తం పూర్ణచంద్రనిభాననమ్ |\nవిలసత్కుండలధరం కృష్ణం వందే జగద్గురుమ్ ||",
-      "english": "Kutilaalakasamyuktam Poornachandranibhaananam |\nVilasatkundaladharam Krishnam Vande Jagadgurum ||"
+      "timestampMs": 47866,
+      "startTimeMs": 47866,
+      "endTimeMs": 94882,
+      "textTelugu": "అతసీపుష్ప సంకాశం హారనూపుర శోభితమ్ |\nరత్నకంకణ కేయూరం కృష్ణం వందే జగద్గురుమ్ ||",
+      "telugu": "అతసీపుష్ప సంకాశం హారనూపుర శోభితమ్ |\nరత్నకంకణ కేయూరం కృష్ణం వందే జగద్గురుమ్ ||",
+      "textEnglish": "Atasee Pushpa Sankaasham Haara Noopura Shobhitam |\nRatna Kankana Keyooram Krishnam Vande Jagadgurum ||",
+      "english": "Atasee Pushpa Sankaasham Haara Noopura Shobhitam |\nRatna Kankana Keyooram Krishnam Vande Jagadgurum ||"
     },
     {
       "index": 4,
-      "startTimeMs": 15000,
-      "endTimeMs": 20000,
-      "telugu": "మందారమూలతిలకం కస్తూరీతిలకాన్వితమ్ |\nసుస్మితం సురుచిరం రూపం కృష్ణం వందే జగద్గురుమ్ ||",
-      "english": "Mandaaramoolatilakam Kastooreetilakaanvitam |\nSusmitam Suruchiram Roopam Krishnam Vande Jagadgurum ||"
+      "timestampMs": 94882,
+      "startTimeMs": 94882,
+      "endTimeMs": 141898,
+      "textTelugu": "కుటిలాలక సంయుక్తం పూర్ణచంద్ర నిభాననమ్ |\nవిలసత్కుండలధరం కృష్ణం వందే జగద్గురుమ్ ||",
+      "telugu": "కుటిలాలక సంయుక్తం పూర్ణచంద్ర నిభాననమ్ |\nవిలసత్కుండలధరం కృష్ణం వందే జగద్గురుమ్ ||",
+      "textEnglish": "Kutilaalaka Samyuktam Poorna Chandra Nibhaananam |\nVilasat Kundaladharam Krishnam Vande Jagadgurum ||",
+      "english": "Kutilaalaka Samyuktam Poorna Chandra Nibhaananam |\nVilasat Kundaladharam Krishnam Vande Jagadgurum ||"
     },
     {
       "index": 5,
-      "startTimeMs": 20000,
-      "endTimeMs": 25000,
-      "telugu": "రుక్మిణీకేళిసంయుక్తం పీతాంబరసుశోభితమ్ |\nఅవాప్తతులసీగంధం కృష్ణం వందే జగద్గురుమ్ ||",
-      "english": "Rukmineekelisamyuktam Peetaambarasushobhitam |\nAvaaptatulaseegandham Krishnam Vande Jagadgurum ||"
+      "timestampMs": 141898,
+      "startTimeMs": 141898,
+      "endTimeMs": 188914,
+      "textTelugu": "మందారగంధ సంయుక్తం చారుహాసం చతుర్భుజమ్ |\nబర్హిపింఛావచూడాంగం కృష్ణం వందే జగద్గురుమ్ ||",
+      "telugu": "మందారగంధ సంయుక్తం చారుహాసం చతుర్భుజమ్ |\nబర్హిపింఛావచూడాంగం కృష్ణం వందే జగద్గురుమ్ ||",
+      "textEnglish": "Mandaara Gandha Samyuktam Chaaruhaasam Chaturbhujam |\nBarhi Pinchhaava Choodaangam Krishnam Vande Jagadgurum ||",
+      "english": "Mandaara Gandha Samyuktam Chaaruhaasam Chaturbhujam |\nBarhi Pinchhaava Choodaangam Krishnam Vande Jagadgurum ||"
     },
     {
       "index": 6,
-      "startTimeMs": 25000,
-      "endTimeMs": 30000,
-      "telugu": "గోపికానాం కుచద్వంద్వ కుంకుమాంకితవక్షసమ్ |\nశ్రీనికేతం మహేష్వాసం కృష్ణం వందే జగద్గురుమ్ ||",
-      "english": "Gopikaanaam Kuchadwandwa Kumkumaankitavakshasam |\nShreeniketam Maheshwaasam Krishnam Vande Jagadgurum ||"
+      "timestampMs": 188914,
+      "startTimeMs": 188914,
+      "endTimeMs": 235930,
+      "textTelugu": "ఉత్ఫుల్ల పద్మపత్రాక్షం నీలజీమూత సన్నిభమ్ |\nయాదవానాం శిరోరత్నం కృష్ణం వందే జగద్గురుమ్ ||",
+      "telugu": "ఉత్ఫుల్ల పద్మపత్రాక్షం నీలజీమూత సన్నిభమ్ |\nయాదవానాం శిరోరత్నం కృష్ణం వందే జగద్గురుమ్ ||",
+      "textEnglish": "Utphulla Padma Patraaksham Neela Jeemoota Sannibham |\nYaadavaanaam Shiroratnam Krishnam Vande Jagadgurum ||",
+      "english": "Utphulla Padma Patraaksham Neela Jeemoota Sannibham |\nYaadavaanaam Shiroratnam Krishnam Vande Jagadgurum ||"
+    },
+    {
+      "index": 7,
+      "timestampMs": 235930,
+      "startTimeMs": 235930,
+      "endTimeMs": 282946,
+      "textTelugu": "రుక్మిణీ కేళీ సంయుక్తం పీతాంబర సుశోభితమ్ |\nఅవాప్తతులసీగంధం కృష్ణం వందే జగద్గురుమ్ ||",
+      "telugu": "రుక్మిణీ కేళీ సంయుక్తం పీతాంబర సుశోభితమ్ |\nఅవాప్తతులసీగంధం కృష్ణం వందే జగద్గురుమ్ ||",
+      "textEnglish": "Rukminee Kelee Samyuktam Peetaambara Sushobhitam |\nAvaapta Tulasee Gandham Krishnam Vande Jagadgurum ||",
+      "english": "Rukminee Kelee Samyuktam Peetaambara Sushobhitam |\nAvaapta Tulasee Gandham Krishnam Vande Jagadgurum ||"
+    },
+    {
+      "index": 8,
+      "timestampMs": 282946,
+      "startTimeMs": 282946,
+      "endTimeMs": 329962,
+      "textTelugu": "గోపికానాం కుచద్వంద్వ కుంకుమాంకిత వక్షసమ్ |\nశ్రీనికేతం మహేష్వాసం కృష్ణం వందే జగద్గురుమ్ ||",
+      "telugu": "గోపికానాం కుచద్వంద్వ కుంకుమాంకిత వక్షసమ్ |\nశ్రీనికేతం మహేష్వాసం కృష్ణం వందే జగద్గురుమ్ ||",
+      "textEnglish": "Gopikaanaam Kucha Dvandva Kunkumaankita Vakshasam |\nShreeniketam Maheshvaasam Krishnam Vande Jagadgurum ||",
+      "english": "Gopikaanaam Kucha Dvandva Kunkumaankita Vakshasam |\nShreeniketam Maheshvaasam Krishnam Vande Jagadgurum ||"
+    },
+    {
+      "index": 9,
+      "timestampMs": 329962,
+      "startTimeMs": 329962,
+      "endTimeMs": 376978,
+      "textTelugu": "శ్రీవత్సాంకం మహోరస్కం వనమాలా విరాజితమ్ |\nశంఖచక్రధరం దేవం కృష్ణం వందే జగద్గురుమ్ ||",
+      "telugu": "శ్రీవత్సాంకం మహోరస్కం వనమాలా విరాజితమ్ |\nశంఖచక్రధరం దేవం కృష్ణం వందే జగద్గురుమ్ ||",
+      "textEnglish": "Shreevatsaankam Mahoraskam Vanamaalaa Viraajitam |\nShankha Chakra Dharam Devam Krishnam Vande Jagadgurum ||",
+      "english": "Shreevatsaankam Mahoraskam Vanamaalaa Viraajitam |\nShankha Chakra Dharam Devam Krishnam Vande Jagadgurum ||"
+    },
+    {
+      "index": 10,
+      "timestampMs": 376978,
+      "startTimeMs": 376978,
+      "endTimeMs": 423994,
+      "textTelugu": "కృష్ణాష్టకమిదం పుణ్యం ప్రాతరుత్థాయ యః పఠేత్ |\nకోటిజన్మకృతం పాపం స్మరణేన వినశ్యతి ||",
+      "telugu": "కృష్ణాష్టకమిదం పుణ్యం ప్రాతరుత్థాయ యః పఠేత్ |\nకోటిజన్మకృతం పాపం స్మరణేన వినశ్యతి ||",
+      "textEnglish": "Krishnaashtakam Idam Punyam Praatarutthaaya Yah Pathet |\nKoti Janma Kritam Paapam Smaranena Vinashyati ||",
+      "english": "Krishnaashtakam Idam Punyam Praatarutthaaya Yah Pathet |\nKoti Janma Kritam Paapam Smaranena Vinashyati ||"
+    },
+    {
+      "index": 11,
+      "timestampMs": 423994,
+      "startTimeMs": 423994,
+      "endTimeMs": 471010,
+      "textTelugu": "॥ ఇతి శ్రీ శంకరాచార్య విరచితం శ్రీ కృష్ణాష్టకం సంపూర్ణమ్ ॥\nశ్రీ కృష్ణార్పణమస్తు ||",
+      "telugu": "॥ ఇతి శ్రీ శంకరాచార్య విరచితం శ్రీ కృష్ణాష్టకం సంపూర్ణమ్ ॥\nశ్రీ కృష్ణార్పణమస్తు ||",
+      "textEnglish": "|| Thus concludes the Sri Krishna Ashtakam composed by Adi Shankaracharya ||\nDedicated to Lord Sri Krishna ||",
+      "english": "|| Thus concludes the Sri Krishna Ashtakam composed by Adi Shankaracharya ||\nDedicated to Lord Sri Krishna ||"
     }
   ]
 }

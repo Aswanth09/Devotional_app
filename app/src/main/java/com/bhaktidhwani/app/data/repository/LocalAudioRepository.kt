@@ -23,7 +23,7 @@ class LocalAudioRepository {
             deityTelugu = "శ్రీ మహావిష్ణువు",
             rawResId = R.raw.vishnu_sahasranamam,
             thumbnailResId = R.drawable.art_vishnu,
-            durationMs = 30020L,
+            durationMs = 1790910L,
             lyricsAssetPath = "lyrics/vishnu_sahasranamam.json",
             descriptionTelugu = "1000 దివ్య నామాల పవిత్ర స్తోత్రం",
             descriptionEnglish = "Chanting of the 1000 Divine Names of Lord Vishnu"
@@ -36,7 +36,7 @@ class LocalAudioRepository {
             deityTelugu = "శ్రీ హనుమాన్",
             rawResId = R.raw.hanuman_chalisa,
             thumbnailResId = R.drawable.art_hanuman,
-            durationMs = 30020L,
+            durationMs = 588420L,
             lyricsAssetPath = "lyrics/hanuman_chalisa.json",
             descriptionTelugu = "గోస్వామి తులసీదాస్ రచించిన రక్షా స్తోత్రం",
             descriptionEnglish = "Forty Hymns of Strength and Protection"
@@ -49,7 +49,7 @@ class LocalAudioRepository {
             deityTelugu = "శ్రీ వేంకటేశ్వర స్వామి",
             rawResId = R.raw.govinda_namalu,
             thumbnailResId = R.drawable.art_venkateswara,
-            durationMs = 30020L,
+            durationMs = 745430L,
             lyricsAssetPath = "lyrics/govinda_namalu.json",
             descriptionTelugu = "తిరుమల వేంకటేశ్వర స్వామి నామ సంకీర్తన",
             descriptionEnglish = "Sacred Chants of Lord Venkateswara Balaji"
@@ -62,7 +62,7 @@ class LocalAudioRepository {
             deityTelugu = "శ్రీ మహాలక్ష్మి దేవి",
             rawResId = R.raw.lakshmi_ashtottaram,
             thumbnailResId = R.drawable.art_lakshmi,
-            durationMs = 30020L,
+            durationMs = 431330L,
             lyricsAssetPath = "lyrics/lakshmi_ashtottaram.json",
             descriptionTelugu = "అష్టైశ్వర్య ప్రదాయక దివ్య స్తోత్రం",
             descriptionEnglish = "108 Auspicious Names of Goddess Lakshmi"
@@ -75,7 +75,7 @@ class LocalAudioRepository {
             deityTelugu = "శ్రీ మహావిష్ణువు",
             rawResId = R.raw.garuda_gamana,
             thumbnailResId = R.drawable.art_vishnu,
-            durationMs = 30020L,
+            durationMs = 414550L,
             lyricsAssetPath = "lyrics/garuda_gamana.json",
             descriptionTelugu = "శంకరాచార్య విరచిత గరుడ గమన స్తోత్రం",
             descriptionEnglish = "Classical Stotra in Reverence to Lord Vishnu"
@@ -88,7 +88,7 @@ class LocalAudioRepository {
             deityTelugu = "శ్రీ కృష్ణ పరమాత్మ",
             rawResId = R.raw.krishna_ashtakam,
             thumbnailResId = R.drawable.art_krishna,
-            durationMs = 30020L,
+            durationMs = 471010L,
             lyricsAssetPath = "lyrics/krishna_ashtakam.json",
             descriptionTelugu = "వసుదేవసుతం దేవం కంసచాణూరమర్దనం",
             descriptionEnglish = "Eight Divine Verses in Praise of Lord Krishna"
@@ -120,15 +120,26 @@ class LocalAudioRepository {
             val stanzas = ArrayList<Stanza>(stanzasArray.length())
             for (i in 0 until stanzasArray.length()) {
                 val item = stanzasArray.getJSONObject(i)
+                val start = if (item.has("startTimeMs")) item.getLong("startTimeMs") else item.optLong("timestampMs", 0L)
+                val end = if (item.has("endTimeMs")) item.getLong("endTimeMs") else 0L
+                val tel = if (item.has("telugu")) item.getString("telugu") else item.optString("textTelugu", "")
+                val eng = if (item.has("english")) item.getString("english") else item.optString("textEnglish", "")
                 stanzas.add(
                     Stanza(
-                        index = item.getInt("index"),
-                        startTimeMs = item.getLong("startTimeMs"),
-                        endTimeMs = item.getLong("endTimeMs"),
-                        telugu = item.getString("telugu"),
-                        english = item.getString("english")
+                        index = item.optInt("index", i + 1),
+                        startTimeMs = start,
+                        endTimeMs = end,
+                        telugu = tel,
+                        english = eng
                     )
                 )
+            }
+            // Auto-chain endTimeMs if not explicitly bounded
+            for (i in 0 until stanzas.size) {
+                if (stanzas[i].endTimeMs <= stanzas[i].startTimeMs) {
+                    val nextStart = if (i + 1 < stanzas.size) stanzas[i + 1].startTimeMs else Long.MAX_VALUE
+                    stanzas[i] = stanzas[i].copy(endTimeMs = nextStart)
+                }
             }
             stanzas
         } catch (t: Throwable) {
@@ -136,3 +147,4 @@ class LocalAudioRepository {
         }
     }
 }
+

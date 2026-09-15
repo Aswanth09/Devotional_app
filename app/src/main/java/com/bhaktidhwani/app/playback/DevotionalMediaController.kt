@@ -178,7 +178,7 @@ class DevotionalMediaController(
                         _durationMs.value = controller.duration
                     }
                 }
-                delay(150L) // 150ms smooth update interval for time-synced lyrics
+                delay(100L) // 100ms tight update interval for real-time lyrics synchronization
             }
         }
     }

@@ -1,49 +1,1238 @@
 {
   "trackId": "vishnu_sahasranamam",
-  "titleTelugu": "శ్రీ విష్ణు సహస్రనామ స్తోత్రమ్",
+  "titleTelugu": "శ్రీ విష్ణు సహస్రనామ స్తోత్రము",
   "titleEnglish": "Sri Vishnu Sahasranama Stotram",
+  "totalStanzas": 123,
   "stanzas": [
     {
       "index": 1,
+      "timestampMs": 0,
       "startTimeMs": 0,
-      "endTimeMs": 5000,
-      "telugu": "శుక్లాంబరధరం విష్ణుం శశివర్ణం చతుర్భుజమ్ |\nప్రసన్నవదనం ధ్యాయేత్ సర్వవిఘ్నోపశాంతయే ||",
-      "english": "Shuklaambaradharam Vishnum Shashivarnam Chaturbhujam |\nPrasanna Vadanam Dhyaayet Sarva Vighnopa Shaantaye ||"
+      "endTimeMs": 8700,
+      "textTelugu": "॥ శ్రీ విష్ణు సహస్రనామ స్తోత్రమ్ - ఆరంభ ధ్యానమ్ ॥",
+      "telugu": "॥ శ్రీ విష్ణు సహస్రనామ స్తోత్రమ్ - ఆరంభ ధ్యానమ్ ॥",
+      "textEnglish": "|| Sri Vishnu Sahasranama Stotram - Invocation ||",
+      "english": "|| Sri Vishnu Sahasranama Stotram - Invocation ||"
     },
     {
       "index": 2,
-      "startTimeMs": 5000,
-      "endTimeMs": 10000,
-      "telugu": "యస్యద్విరదవక్త్రాద్యాః పారిషద్యాః పరః శతమ్ |\nవిఘ్నం నిఘ్నంతి సతతం విష్వక్సేనం తమాశ్రయే ||",
-      "english": "Yasyadviradavaktraadyaah Paarishadyaah Parah Shatam |\nVighnam Nighnanti Satatam Vishvaksenam Tamaashraye ||"
+      "timestampMs": 8700,
+      "startTimeMs": 8700,
+      "endTimeMs": 30500,
+      "textTelugu": "శుక్లాంబరధరం విష్ణుం శశివర్ణం చతుర్భుజమ్ |\nప్రసన్నవదనం ధ్యాయేత్ సర్వవిఘ్నోపశాంతయే ||",
+      "telugu": "శుక్లాంబరధరం విష్ణుం శశివర్ణం చతుర్భుజమ్ |\nప్రసన్నవదనం ధ్యాయేత్ సర్వవిఘ్నోపశాంతయే ||",
+      "textEnglish": "Shuklaambaradharam Vishnum Shashivarnam Chaturbhujam |\nPrasanna Vadanam Dhyaayet Sarva Vighnopa Shaantaye ||",
+      "english": "Shuklaambaradharam Vishnum Shashivarnam Chaturbhujam |\nPrasanna Vadanam Dhyaayet Sarva Vighnopa Shaantaye ||"
     },
     {
       "index": 3,
-      "startTimeMs": 10000,
-      "endTimeMs": 15000,
-      "telugu": "వ్యాసం వసిష్ఠనప్తారం శక్తేః పౌత్రమకల్మషమ్ |\nపరాశరాత్మజం వందే శుకతాతం తపోనిధిమ్ ||",
-      "english": "Vyaasam Vasishthanaptaaram Shakteh Pautramakalmasham |\nParaasharaatmajam Vande Shukataatam Taponidhim ||"
+      "timestampMs": 30500,
+      "startTimeMs": 30500,
+      "endTimeMs": 53700,
+      "textTelugu": "యస్య ద్విరదవక్త్రాద్యాః పారిషద్యాః పరః శతమ్ |\nవిఘ్నం నిఘ్నంతి సతతం విష్వక్సేనం తమాశ్రయే ||",
+      "telugu": "యస్య ద్విరదవక్త్రాద్యాః పారిషద్యాః పరః శతమ్ |\nవిఘ్నం నిఘ్నంతి సతతం విష్వక్సేనం తమాశ్రయే ||",
+      "textEnglish": "Yasya Dvirada Vaktraadyaah Paarishadyaah Parah Shatam |\nVighnam Nighnanti Satatam Vishvaksenam Tamaashraye ||",
+      "english": "Yasya Dvirada Vaktraadyaah Paarishadyaah Parah Shatam |\nVighnam Nighnanti Satatam Vishvaksenam Tamaashraye ||"
     },
     {
       "index": 4,
-      "startTimeMs": 15000,
-      "endTimeMs": 20000,
-      "telugu": "వ్యాసాయ విష్ణురూపాయ వ్యాసరూపాయ విష్ణవే |\nనమో వై నిధయే బ్రహ్మనిధయే వాసిష్ఠాయ నమో నమః ||",
-      "english": "Vyaasaaya Vishnuroopaaya Vyaasaroopaaya Vishnave |\nNamo Vai Nidhaye Brahmanidhaye Vaasishthaaya Namo Namah ||"
+      "timestampMs": 53700,
+      "startTimeMs": 53700,
+      "endTimeMs": 98500,
+      "textTelugu": "శాంతాకారం భుజగశయనం పద్మనాభం సురేశమ్ |\nవిశ్వాధారం గగనసదృశం మేఘవర్ణం శుభాంగమ్ |\nలక్ష్మీకాంతం కమలనయనం యోగిహృద్ధ్యానగమ్యమ్ |\nవందే విష్ణుం భవభయహరం సర్వలోకైకనాథమ్ ||",
+      "telugu": "శాంతాకారం భుజగశయనం పద్మనాభం సురేశమ్ |\nవిశ్వాధారం గగనసదృశం మేఘవర్ణం శుభాంగమ్ |\nలక్ష్మీకాంతం కమలనయనం యోగిహృద్ధ్యానగమ్యమ్ |\nవందే విష్ణుం భవభయహరం సర్వలోకైకనాథమ్ ||",
+      "textEnglish": "Shaantaakaaram Bhujagashayanam Padmanaabham Suresham |\nVishvaadhaaram Gaganasadrisham Meghavarnam Shubhaangam |\nLakshmeekaantam Kamalanayanam Yogihriddhyaanagamyam |\nVande Vishnum Bhavabhayaharam Sarvalokaika Naatham ||",
+      "english": "Shaantaakaaram Bhujagashayanam Padmanaabham Suresham |\nVishvaadhaaram Gaganasadrisham Meghavarnam Shubhaangam |\nLakshmeekaantam Kamalanayanam Yogihriddhyaanagamyam |\nVande Vishnum Bhavabhayaharam Sarvalokaika Naatham ||"
     },
     {
       "index": 5,
-      "startTimeMs": 20000,
-      "endTimeMs": 25000,
-      "telugu": "అవికారాయ శుద్ధాయ నిత్యాయ పరమాత్మనే |\nసదైకరూపరూపాయ విష్ణవే సర్వజిష్ణవే ||",
-      "english": "Avikaaraaya Shuddhaaya Nityaaya Paramaatmane |\nSadaikarooparoopaaya Vishnave Sarvajishnave ||"
+      "timestampMs": 98500,
+      "startTimeMs": 98500,
+      "endTimeMs": 135100,
+      "textTelugu": "మేఘశ్యామం పీతకౌశేయవాసం శ్రీవత్సాంకం కౌస్తుభోద్భాసితాంగమ్ |\nపుణ్యోపేతం పుండరీకాయతాక్షం విష్ణుం వందే సర్వలోకైకనాథమ్ ||",
+      "telugu": "మేఘశ్యామం పీతకౌశేయవాసం శ్రీవత్సాంకం కౌస్తుభోద్భాసితాంగమ్ |\nపుణ్యోపేతం పుండరీకాయతాక్షం విష్ణుం వందే సర్వలోకైకనాథమ్ ||",
+      "textEnglish": "Meghashyaamam Peetakawsheyavaasam Shreevatsaankam Kaustubhobhaasitaangam |\nPunyopetam Pundareekaayataaksham Vishnum Vande Sarvalokaika Naatham ||",
+      "english": "Meghashyaamam Peetakawsheyavaasam Shreevatsaankam Kaustubhobhaasitaangam |\nPunyopetam Pundareekaayataaksham Vishnum Vande Sarvalokaika Naatham ||"
     },
     {
       "index": 6,
-      "startTimeMs": 25000,
-      "endTimeMs": 30000,
-      "telugu": "ఓం విశ్వం విష్ణుర్వషట్కారో భూతభవ్యభవత్ప్రభుః |\nభూతకృద్భూతభృద్భావో భూతాత్మా భూతభావనః ||",
-      "english": "Om Vishvam Vishnurvashatkaaro Bhootabhavyabhavatprabhuh |\nBhootakridbhootabhridbhaavo Bhootaatmaa Bhootabhaavanah ||"
+      "timestampMs": 135100,
+      "startTimeMs": 135100,
+      "endTimeMs": 167500,
+      "textTelugu": "నమః సమస్త భూతానామాదిభూతాయ భూభృతే |\nఅనేకరూప రూపాయ విష్ణవే ప్రభవిష్ణవే ||",
+      "telugu": "నమః సమస్త భూతానామాదిభూతాయ భూభృతే |\nఅనేకరూప రూపాయ విష్ణవే ప్రభవిష్ణవే ||",
+      "textEnglish": "Namah Samasta Bhootaanaamaadibhootaaya Bhoobhrite |\nAneka Roopa Roopaaya Vishnave Prabha Vishnave ||",
+      "english": "Namah Samasta Bhootaanaamaadibhootaaya Bhoobhrite |\nAneka Roopa Roopaaya Vishnave Prabha Vishnave ||"
+    },
+    {
+      "index": 7,
+      "timestampMs": 167500,
+      "startTimeMs": 167500,
+      "endTimeMs": 209100,
+      "textTelugu": "॥ పూర్వ పీఠికా ॥\nవైశంపాయన ఉవాచ: శ్రుత్వా ధర్మానశేషేణ పావనాని చ సర్వశః |\nయుధిష్ఠిరః శాంతనవం పునరేవాభ్యభాషత ||",
+      "telugu": "॥ పూర్వ పీఠికా ॥\nవైశంపాయన ఉవాచ: శ్రుత్వా ధర్మానశేషేణ పావనాని చ సర్వశః |\nయుధిష్ఠిరః శాంతనవం పునరేవాభ్యభాషత ||",
+      "textEnglish": "|| Poorva Peethikaa ||\nVaishampaayana Uvaacha: Shrutvaa Dharmaanasheshena Paavanaani Cha Sarvashah |\nYudhishthirah Shaantanavam Punarevaabhyabhaashata ||",
+      "english": "|| Poorva Peethikaa ||\nVaishampaayana Uvaacha: Shrutvaa Dharmaanasheshena Paavanaani Cha Sarvashah |\nYudhishthirah Shaantanavam Punarevaabhyabhaashata ||"
+    },
+    {
+      "index": 8,
+      "timestampMs": 209100,
+      "startTimeMs": 209100,
+      "endTimeMs": 275000,
+      "textTelugu": "యుధిష్ఠిర ఉవాచ: కిమేకం దైవతం లోకే కిం వాప్యేకం పరాయణమ్ |\nస్తువంతః కం కమర్చంతః ప్రాప్నుయుర్మానవాః శుభమ్ ||",
+      "telugu": "యుధిష్ఠిర ఉవాచ: కిమేకం దైవతం లోకే కిం వాప్యేకం పరాయణమ్ |\nస్తువంతః కం కమర్చంతః ప్రాప్నుయుర్మానవాః శుభమ్ ||",
+      "textEnglish": "Yudhishthira Uvaacha: Kimekam Daivatam Loke Kim Vaapyekam Paraayanam |\nStuvantah Kam Kamarchantah Praapnuyur Maanavaah Shubham ||",
+      "english": "Yudhishthira Uvaacha: Kimekam Daivatam Loke Kim Vaapyekam Paraayanam |\nStuvantah Kam Kamarchantah Praapnuyur Maanavaah Shubham ||"
+    },
+    {
+      "index": 9,
+      "timestampMs": 275000,
+      "startTimeMs": 275000,
+      "endTimeMs": 315000,
+      "textTelugu": "భీష్మ ఉవాచ: జగత్ప్రిభుం దేవదేవమనంతం పురుషోత్తమమ్ |\nస్తువన్ నామసహస్రేణ పురుషః సతతోత్థితః ||",
+      "telugu": "భీష్మ ఉవాచ: జగత్ప్రిభుం దేవదేవమనంతం పురుషోత్తమమ్ |\nస్తువన్ నామసహస్రేణ పురుషః సతతోత్థితః ||",
+      "textEnglish": "Bheeshma Uvaacha: Jagatprabhum Devadevamanantam Purushottamam |\nStuvan Naama Sahasrena Purushah Satatotthitah ||",
+      "english": "Bheeshma Uvaacha: Jagatprabhum Devadevamanantam Purushottamam |\nStuvan Naama Sahasrena Purushah Satatotthitah ||"
+    },
+    {
+      "index": 10,
+      "timestampMs": 315000,
+      "startTimeMs": 315000,
+      "endTimeMs": 345000,
+      "textTelugu": "॥ సంకల్పం & న్యాసః ॥\nఓం అస్య శ్రీవిష్ణోర్దివ్య సహస్రనామస్తోత్ర మహామంత్రస్య...\nశ్రీమన్నారాయణ ప్రీత్యర్థే జపే వినియోగః ||",
+      "telugu": "॥ సంకల్పం & న్యాసః ॥\nఓం అస్య శ్రీవిష్ణోర్దివ్య సహస్రనామస్తోత్ర మహామంత్రస్య...\nశ్రీమన్నారాయణ ప్రీత్యర్థే జపే వినియోగః ||",
+      "textEnglish": "|| Sankalpam & Nyaasah ||\nOm Asya Shree Vishnor Divya Sahasranaama Stotra Mahaamantrasya...\nShreeman Naaraayana Preetyarthe Jape Viniyogah ||",
+      "english": "|| Sankalpam & Nyaasah ||\nOm Asya Shree Vishnor Divya Sahasranaama Stotra Mahaamantrasya...\nShreeman Naaraayana Preetyarthe Jape Viniyogah ||"
+    },
+    {
+      "index": 11,
+      "timestampMs": 345000,
+      "startTimeMs": 345000,
+      "endTimeMs": 356574,
+      "textTelugu": "॥ శ్లోకం 1 ॥\nవిశ్వం విష్ణుర్వషట్కారో భూతభవ్యభవత్ప్రభుః |\nభూతకృద్భూతభృద్భావో భూతాత్మా భూతభావనః ||",
+      "telugu": "॥ శ్లోకం 1 ॥\nవిశ్వం విష్ణుర్వషట్కారో భూతభవ్యభవత్ప్రభుః |\nభూతకృద్భూతభృద్భావో భూతాత్మా భూతభావనః ||",
+      "textEnglish": "|| Shloka 1 ||\nVishvam Vishnur Vashatkaaro Bhootabhavya Bhavatprabhuh |\nBhootakrid Bhootabhrid Bhaavo Bhootaatmaa Bhootabhaavanah ||",
+      "english": "|| Shloka 1 ||\nVishvam Vishnur Vashatkaaro Bhootabhavya Bhavatprabhuh |\nBhootakrid Bhootabhrid Bhaavo Bhootaatmaa Bhootabhaavanah ||"
+    },
+    {
+      "index": 12,
+      "timestampMs": 356574,
+      "startTimeMs": 356574,
+      "endTimeMs": 368148,
+      "textTelugu": "॥ శ్లోకం 2 ॥\nపూతాత్మా పరమాత్మా చ ముక్తానాం పరమా గతిః |\nఅవ్యయః పురుషః సాక్షీ క్షేత్రజ్ఞోఽక్షర ఏవ చ ||",
+      "telugu": "॥ శ్లోకం 2 ॥\nపూతాత్మా పరమాత్మా చ ముక్తానాం పరమా గతిః |\nఅవ్యయః పురుషః సాక్షీ క్షేత్రజ్ఞోఽక్షర ఏవ చ ||",
+      "textEnglish": "|| Shloka 2 ||\nPootaatmaa Paramaatmaa Cha Muktaanaam Paramaa Gatih |\nAvyayah Purushah Saakshee Kshetrajno'kshara Eva Cha ||",
+      "english": "|| Shloka 2 ||\nPootaatmaa Paramaatmaa Cha Muktaanaam Paramaa Gatih |\nAvyayah Purushah Saakshee Kshetrajno'kshara Eva Cha ||"
+    },
+    {
+      "index": 13,
+      "timestampMs": 368148,
+      "startTimeMs": 368148,
+      "endTimeMs": 379722,
+      "textTelugu": "॥ శ్లోకం 3 ॥\nయోగో యోగవిదాం నేతా ప్రధానపురుషేశ్వరః |\nనారసింహవపుః శ్రీమాన్ కేశవః పురుషోత్తమః ||",
+      "telugu": "॥ శ్లోకం 3 ॥\nయోగో యోగవిదాం నేతా ప్రధానపురుషేశ్వరః |\nనారసింహవపుః శ్రీమాన్ కేశవః పురుషోత్తమః ||",
+      "textEnglish": "|| Shloka 3 ||\nYogo Yogavidaam Netaa Pradhaanapurusheshvarah |\nNaarasimhavapuh Shreemaan Keshavah Purushottamah ||",
+      "english": "|| Shloka 3 ||\nYogo Yogavidaam Netaa Pradhaanapurusheshvarah |\nNaarasimhavapuh Shreemaan Keshavah Purushottamah ||"
+    },
+    {
+      "index": 14,
+      "timestampMs": 379722,
+      "startTimeMs": 379722,
+      "endTimeMs": 391296,
+      "textTelugu": "॥ శ్లోకం 4 ॥\nసర్వః శర్వః శివః స్థాణుర్భూతాదిర్నిధిరవ్యయః |\nసంభవో భావనో భర్తా ప్రభవః ప్రభురీశ్వరః ||",
+      "telugu": "॥ శ్లోకం 4 ॥\nసర్వః శర్వః శివః స్థాణుర్భూతాదిర్నిధిరవ్యయః |\nసంభవో భావనో భర్తా ప్రభవః ప్రభురీశ్వరః ||",
+      "textEnglish": "|| Shloka 4 ||\nSarvah Sharvah Shivah Sthaanur Bhootaadir Nidhir Avyayah |\nSambhavo Bhaavano Bhartaa Prabhavah Prabhur Eeshvarah ||",
+      "english": "|| Shloka 4 ||\nSarvah Sharvah Shivah Sthaanur Bhootaadir Nidhir Avyayah |\nSambhavo Bhaavano Bhartaa Prabhavah Prabhur Eeshvarah ||"
+    },
+    {
+      "index": 15,
+      "timestampMs": 391296,
+      "startTimeMs": 391296,
+      "endTimeMs": 402870,
+      "textTelugu": "॥ శ్లోకం 5 ॥\nస్వయంభూః శంభురాదిత్యః పుష్కరాక్షో మహాస్వనః |\nఅనాదినిధనో ధాతా విధాతా ధాతురుత్తమః ||",
+      "telugu": "॥ శ్లోకం 5 ॥\nస్వయంభూః శంభురాదిత్యః పుష్కరాక్షో మహాస్వనః |\nఅనాదినిధనో ధాతా విధాతా ధాతురుత్తమః ||",
+      "textEnglish": "|| Shloka 5 ||\nSwayambhooh Shambhur Aadityah Pushkaraaksho Mahaasvanah |\nAnaadinidhano Dhaataa Vidhaataa Dhaaturuttamah ||",
+      "english": "|| Shloka 5 ||\nSwayambhooh Shambhur Aadityah Pushkaraaksho Mahaasvanah |\nAnaadinidhano Dhaataa Vidhaataa Dhaaturuttamah ||"
+    },
+    {
+      "index": 16,
+      "timestampMs": 402870,
+      "startTimeMs": 402870,
+      "endTimeMs": 414444,
+      "textTelugu": "॥ శ్లోకం 6 ॥\nఅప్రమేయో హృషీకేశః పద్మనాభోఽమరప్రభుః |\nవిశ్వకర్మా మనుస్త్వష్టా స్థవిష్ఠః స్థవిరో ధ్రువః ||",
+      "telugu": "॥ శ్లోకం 6 ॥\nఅప్రమేయో హృషీకేశః పద్మనాభోఽమరప్రభుః |\nవిశ్వకర్మా మనుస్త్వష్టా స్థవిష్ఠః స్థవిరో ధ్రువః ||",
+      "textEnglish": "|| Shloka 6 ||\nAprameyo Hrisheekeshah Padmanaabho'maraprabhuh |\nVishvakarmaa Manus Tvashtaa Sthavishthah Sthaviro Dhruvah ||",
+      "english": "|| Shloka 6 ||\nAprameyo Hrisheekeshah Padmanaabho'maraprabhuh |\nVishvakarmaa Manus Tvashtaa Sthavishthah Sthaviro Dhruvah ||"
+    },
+    {
+      "index": 17,
+      "timestampMs": 414444,
+      "startTimeMs": 414444,
+      "endTimeMs": 426019,
+      "textTelugu": "॥ శ్లోకం 7 ॥\nఅగ్రాహ్యః శాశ్వతః కృష్ణో లోహితాక్షః ప్రతర్దనః |\nప్రభూతస్త్రికకుద్ధామ పవిత్రం మంగళం పరమ్ ||",
+      "telugu": "॥ శ్లోకం 7 ॥\nఅగ్రాహ్యః శాశ్వతః కృష్ణో లోహితాక్షః ప్రతర్దనః |\nప్రభూతస్త్రికకుద్ధామ పవిత్రం మంగళం పరమ్ ||",
+      "textEnglish": "|| Shloka 7 ||\nAgraahyah Shaashvatah Krishno Lohitaakshah Pratardanah |\nPrabhootas Trikakuddhama Pavitram Mangalam Param ||",
+      "english": "|| Shloka 7 ||\nAgraahyah Shaashvatah Krishno Lohitaakshah Pratardanah |\nPrabhootas Trikakuddhama Pavitram Mangalam Param ||"
+    },
+    {
+      "index": 18,
+      "timestampMs": 426019,
+      "startTimeMs": 426019,
+      "endTimeMs": 437593,
+      "textTelugu": "॥ శ్లోకం 8 ॥\nఈశానః ప్రాణదః ప్రాణో జ్యేష్ఠః శ్రేష్ఠః ప్రజాపతిః |\nహిరణ్యగర్భో భూగర్భో మాధవో మధుసూదనః ||",
+      "telugu": "॥ శ్లోకం 8 ॥\nఈశానః ప్రాణదః ప్రాణో జ్యేష్ఠః శ్రేష్ఠః ప్రజాపతిః |\nహిరణ్యగర్భో భూగర్భో మాధవో మధుసూదనః ||",
+      "textEnglish": "|| Shloka 8 ||\nEeshaanah Praanadah Praano Jyeshthah Shreshthah Prajaapatih |\nHiranyagarbho Bhoogarbho Maadhavo Madhusoodanah ||",
+      "english": "|| Shloka 8 ||\nEeshaanah Praanadah Praano Jyeshthah Shreshthah Prajaapatih |\nHiranyagarbho Bhoogarbho Maadhavo Madhusoodanah ||"
+    },
+    {
+      "index": 19,
+      "timestampMs": 437593,
+      "startTimeMs": 437593,
+      "endTimeMs": 449167,
+      "textTelugu": "॥ శ్లోకం 9 ॥\nఈశ్వరో విక్రమీ ధన్వీ మేధావీ విక్రమః క్రమః |\nఅనుత్తమో దురాధర్షః కృతజ్ఞః కృతిరాత్మవాన్ ||",
+      "telugu": "॥ శ్లోకం 9 ॥\nఈశ్వరో విక్రమీ ధన్వీ మేధావీ విక్రమః క్రమః |\nఅనుత్తమో దురాధర్షః కృతజ్ఞః కృతిరాత్మవాన్ ||",
+      "textEnglish": "|| Shloka 9 ||\nEeshvaro Vikramee Dhanvee Medhaavee Vikramah Kramah |\nAnuttamo Duraadharshah Kritajnah Kritir Aatmavaan ||",
+      "english": "|| Shloka 9 ||\nEeshvaro Vikramee Dhanvee Medhaavee Vikramah Kramah |\nAnuttamo Duraadharshah Kritajnah Kritir Aatmavaan ||"
+    },
+    {
+      "index": 20,
+      "timestampMs": 449167,
+      "startTimeMs": 449167,
+      "endTimeMs": 460741,
+      "textTelugu": "॥ శ్లోకం 10 ॥\nసురేశః శరణం శర్మ విశ్వరేతాః ప్రజాభవః |\nఅహః సంవత్సరో వ్యాలః ప్రత్యయః సర్వదర్శనః ||",
+      "telugu": "॥ శ్లోకం 10 ॥\nసురేశః శరణం శర్మ విశ్వరేతాః ప్రజాభవః |\nఅహః సంవత్సరో వ్యాలః ప్రత్యయః సర్వదర్శనః ||",
+      "textEnglish": "|| Shloka 10 ||\nSureshah Sharanam Sharma Vishvaretaah Prajaabhavah |\nAhah Samvatsaro Vyaalah Pratyayah Sarvadarshanah ||",
+      "english": "|| Shloka 10 ||\nSureshah Sharanam Sharma Vishvaretaah Prajaabhavah |\nAhah Samvatsaro Vyaalah Pratyayah Sarvadarshanah ||"
+    },
+    {
+      "index": 21,
+      "timestampMs": 460741,
+      "startTimeMs": 460741,
+      "endTimeMs": 472315,
+      "textTelugu": "॥ శ్లోకం 11 ॥\nఅజః సర్వేశ్వరః సిద్ధః సిద్ధిః సర్వాదిరచ్యుతః |\nవృషాకపిరమేయాత్మా సర్వయోగవినిఃసృతః ||",
+      "telugu": "॥ శ్లోకం 11 ॥\nఅజః సర్వేశ్వరః సిద్ధః సిద్ధిః సర్వాదిరచ్యుతః |\nవృషాకపిరమేయాత్మా సర్వయోగవినిఃసృతః ||",
+      "textEnglish": "|| Shloka 11 ||\nAjah Sarveshvarah Siddhah Siddhih Sarvaadir Achyutah |\nVrishaa Kapir Ameyaatmaa Sarvayoga Vinissritah ||",
+      "english": "|| Shloka 11 ||\nAjah Sarveshvarah Siddhah Siddhih Sarvaadir Achyutah |\nVrishaa Kapir Ameyaatmaa Sarvayoga Vinissritah ||"
+    },
+    {
+      "index": 22,
+      "timestampMs": 472315,
+      "startTimeMs": 472315,
+      "endTimeMs": 483889,
+      "textTelugu": "॥ శ్లోకం 12 ॥\nవసుర్వసుమనాః సత్యః సమాత్మాఽసమ్మితః సమః |\nఅమోఘః పుండరీకాక్షో వృషకర్మా వృషాకృతిః ||",
+      "telugu": "॥ శ్లోకం 12 ॥\nవసుర్వసుమనాః సత్యః సమాత్మాఽసమ్మితః సమః |\nఅమోఘః పుండరీకాక్షో వృషకర్మా వృషాకృతిః ||",
+      "textEnglish": "|| Shloka 12 ||\nVasur Vasumanaah Satyah Samaatmaa'sammitah Samah |\nAmoghah Pundareekaaksho Vrishakarmaa Vrishaakritih ||",
+      "english": "|| Shloka 12 ||\nVasur Vasumanaah Satyah Samaatmaa'sammitah Samah |\nAmoghah Pundareekaaksho Vrishakarmaa Vrishaakritih ||"
+    },
+    {
+      "index": 23,
+      "timestampMs": 483889,
+      "startTimeMs": 483889,
+      "endTimeMs": 495463,
+      "textTelugu": "॥ శ్లోకం 13 ॥\nరుద్రో బహుశిరా బభ్రుర్విశ్వయోనిః శుచిశ్రవాః |\nఅమృతః శాశ్వతస్థాణుర్వరారోహో మహాతపాః ||",
+      "telugu": "॥ శ్లోకం 13 ॥\nరుద్రో బహుశిరా బభ్రుర్విశ్వయోనిః శుచిశ్రవాః |\nఅమృతః శాశ్వతస్థాణుర్వరారోహో మహాతపాః ||",
+      "textEnglish": "|| Shloka 13 ||\nRudro Bahushiraa Babhrur Vishvayonih Shuchishravaah |\nAmritah Shaashvatasthaanur Varaaroho Mahaatapaah ||",
+      "english": "|| Shloka 13 ||\nRudro Bahushiraa Babhrur Vishvayonih Shuchishravaah |\nAmritah Shaashvatasthaanur Varaaroho Mahaatapaah ||"
+    },
+    {
+      "index": 24,
+      "timestampMs": 495463,
+      "startTimeMs": 495463,
+      "endTimeMs": 507037,
+      "textTelugu": "॥ శ్లోకం 14 ॥\nసర్వగః సర్వవిద్భానుర్విష్వక్సేనో జనార్దనః |\nవేదో వేదవిదవ్యంగో వేదాంగో వేదవిత్కవిః ||",
+      "telugu": "॥ శ్లోకం 14 ॥\nసర్వగః సర్వవిద్భానుర్విష్వక్సేనో జనార్దనః |\nవేదో వేదవిదవ్యంగో వేదాంగో వేదవిత్కవిః ||",
+      "textEnglish": "|| Shloka 14 ||\nSarvagah Sarvavid Bhaanur Vishvakseno Janaardanah |\nVedo Vedavid Avyango Vedaango Vedavit Kavih ||",
+      "english": "|| Shloka 14 ||\nSarvagah Sarvavid Bhaanur Vishvakseno Janaardanah |\nVedo Vedavid Avyango Vedaango Vedavit Kavih ||"
+    },
+    {
+      "index": 25,
+      "timestampMs": 507037,
+      "startTimeMs": 507037,
+      "endTimeMs": 518611,
+      "textTelugu": "॥ శ్లోకం 15 ॥\nలోకాధ్యక్షః సురాధ్యక్షో ధర్మాధ్యక్షః కృతాకృతః |\nచతురాత్మా చతుర్వ్యూహశ్చతుర్దంష్ట్రశ్చతుర్భుజః ||",
+      "telugu": "॥ శ్లోకం 15 ॥\nలోకాధ్యక్షః సురాధ్యక్షో ధర్మాధ్యక్షః కృతాకృతః |\nచతురాత్మా చతుర్వ్యూహశ్చతుర్దంష్ట్రశ్చతుర్భుజః ||",
+      "textEnglish": "|| Shloka 15 ||\nLokaadhyakshah Suraadhyaksho Dharmaadhyakshah Kritaakritah |\nChaturaatmaa Chaturvyoohash Chaturdamshtrash Chaturbhujah ||",
+      "english": "|| Shloka 15 ||\nLokaadhyakshah Suraadhyaksho Dharmaadhyakshah Kritaakritah |\nChaturaatmaa Chaturvyoohash Chaturdamshtrash Chaturbhujah ||"
+    },
+    {
+      "index": 26,
+      "timestampMs": 518611,
+      "startTimeMs": 518611,
+      "endTimeMs": 530185,
+      "textTelugu": "॥ శ్లోకం 16 ॥\nభ్రాజిష్ణుర్భోజనం భోక్తా సహిష్ణుర్జగదాదిజః |\nఅనఘో విజయో జేతా విశ్వయోనిః పునర్వసుః ||",
+      "telugu": "॥ శ్లోకం 16 ॥\nభ్రాజిష్ణుర్భోజనం భోక్తా సహిష్ణుర్జగదాదిజః |\nఅనఘో విజయో జేతా విశ్వయోనిః పునర్వసుః ||",
+      "textEnglish": "|| Shloka 16 ||\nBhraajishnur Bhojanam Bhoktaa Sahishnur Jagadaadijah |\nAnagho Vijayo Jetaa Vishvayonih Punarvasuh ||",
+      "english": "|| Shloka 16 ||\nBhraajishnur Bhojanam Bhoktaa Sahishnur Jagadaadijah |\nAnagho Vijayo Jetaa Vishvayonih Punarvasuh ||"
+    },
+    {
+      "index": 27,
+      "timestampMs": 530185,
+      "startTimeMs": 530185,
+      "endTimeMs": 541759,
+      "textTelugu": "॥ శ్లోకం 17 ॥\nఉపేంద్రో వామనో ప్రాంశురమోఘః శుచిరూర్జితః |\nఅతీంద్రః సంగ్రహః సర్గో ధృతాత్మా నియమో యమః ||",
+      "telugu": "॥ శ్లోకం 17 ॥\nఉపేంద్రో వామనో ప్రాంశురమోఘః శుచిరూర్జితః |\nఅతీంద్రః సంగ్రహః సర్గో ధృతాత్మా నియమో యమః ||",
+      "textEnglish": "|| Shloka 17 ||\nUpendro Vaamano Praamshur Amoghah Shuchir Oorjitah |\nAteendrah Samgrahah Sargo Dhritaatmaa Niyamo Yamah ||",
+      "english": "|| Shloka 17 ||\nUpendro Vaamano Praamshur Amoghah Shuchir Oorjitah |\nAteendrah Samgrahah Sargo Dhritaatmaa Niyamo Yamah ||"
+    },
+    {
+      "index": 28,
+      "timestampMs": 541759,
+      "startTimeMs": 541759,
+      "endTimeMs": 553333,
+      "textTelugu": "॥ శ్లోకం 18 ॥\nవేద్యో వైద్యః సదాయోగీ వీరహా మాధవో మధుః |\nఅతీంద్రియో మహామాయో మహోత్సాహో మహాబలః ||",
+      "telugu": "॥ శ్లోకం 18 ॥\nవేద్యో వైద్యః సదాయోగీ వీరహా మాధవో మధుః |\nఅతీంద్రియో మహామాయో మహోత్సాహో మహాబలః ||",
+      "textEnglish": "|| Shloka 18 ||\nVedyo Vaidyah Sadaayogee Veerahaa Maadhavo Madhuh |\nAteendriyo Mahaamaayo Mahotsaaho Mahaabalah ||",
+      "english": "|| Shloka 18 ||\nVedyo Vaidyah Sadaayogee Veerahaa Maadhavo Madhuh |\nAteendriyo Mahaamaayo Mahotsaaho Mahaabalah ||"
+    },
+    {
+      "index": 29,
+      "timestampMs": 553333,
+      "startTimeMs": 553333,
+      "endTimeMs": 564907,
+      "textTelugu": "॥ శ్లోకం 19 ॥\nమహాబుద్ధిర్మహావీర్యో మహాశక్తిర్మహాద్యుతిః |\nఅనిర్దేశ్యవపుః శ్రీమానమేయాత్మా మహాద్రిధృక్ ||",
+      "telugu": "॥ శ్లోకం 19 ॥\nమహాబుద్ధిర్మహావీర్యో మహాశక్తిర్మహాద్యుతిః |\nఅనిర్దేశ్యవపుః శ్రీమానమేయాత్మా మహాద్రిధృక్ ||",
+      "textEnglish": "|| Shloka 19 ||\nMahaabuddhir Mahaaveeryo Mahaashaktir Mahaadyutih |\nAnirdeshyavapuh Shreemaan Ameyaatmaa Mahaadridhrik ||",
+      "english": "|| Shloka 19 ||\nMahaabuddhir Mahaaveeryo Mahaashaktir Mahaadyutih |\nAnirdeshyavapuh Shreemaan Ameyaatmaa Mahaadridhrik ||"
+    },
+    {
+      "index": 30,
+      "timestampMs": 564907,
+      "startTimeMs": 564907,
+      "endTimeMs": 576481,
+      "textTelugu": "॥ శ్లోకం 20 ॥\nమహేష్వాసో మహీభర్తా శ్రీనివాసః సతాం గతిః |\nఅనిరుద్ధః సురానందో గోవిందో గోవిదాం పతిః ||",
+      "telugu": "॥ శ్లోకం 20 ॥\nమహేష్వాసో మహీభర్తా శ్రీనివాసః సతాం గతిః |\nఅనిరుద్ధః సురానందో గోవిందో గోవిదాం పతిః ||",
+      "textEnglish": "|| Shloka 20 ||\nMaheshvaaso Maheebhartaa Shreenivaasah Sataam Gatih |\nAniruddhah Suraanando Govindo Govidaam Patih ||",
+      "english": "|| Shloka 20 ||\nMaheshvaaso Maheebhartaa Shreenivaasah Sataam Gatih |\nAniruddhah Suraanando Govindo Govidaam Patih ||"
+    },
+    {
+      "index": 31,
+      "timestampMs": 576481,
+      "startTimeMs": 576481,
+      "endTimeMs": 588056,
+      "textTelugu": "॥ శ్లోకం 21 ॥\nమరీచిర్దమనో హంసః సుపర్ణో భుజగోత్తమః |\nహిరణ్యనాభః సుతపాః పద్మనాభః ప్రజాపతిః ||",
+      "telugu": "॥ శ్లోకం 21 ॥\nమరీచిర్దమనో హంసః సుపర్ణో భుజగోత్తమః |\nహిరణ్యనాభః సుతపాః పద్మనాభః ప్రజాపతిః ||",
+      "textEnglish": "|| Shloka 21 ||\nMareechir Damano Hamsah Suparno Bhujagottamah |\nHiranyanaabhah Sutapaah Padmanaabhah Prajaapatih ||",
+      "english": "|| Shloka 21 ||\nMareechir Damano Hamsah Suparno Bhujagottamah |\nHiranyanaabhah Sutapaah Padmanaabhah Prajaapatih ||"
+    },
+    {
+      "index": 32,
+      "timestampMs": 588056,
+      "startTimeMs": 588056,
+      "endTimeMs": 599630,
+      "textTelugu": "॥ శ్లోకం 22 ॥\nఅమృత్యుః సర్వదృక్సింహః సంధాతా సంధిమాన్ స్థిరః |\nఅజో దుర్మర్షణః శాస్తా విశ్రుతాత్మా సురారిహా ||",
+      "telugu": "॥ శ్లోకం 22 ॥\nఅమృత్యుః సర్వదృక్సింహః సంధాతా సంధిమాన్ స్థిరః |\nఅజో దుర్మర్షణః శాస్తా విశ్రుతాత్మా సురారిహా ||",
+      "textEnglish": "|| Shloka 22 ||\nAmrityuh Sarvadrik Simhah Samdhaataa Samdhimaan Sthirah |\nAjo Durmarshanaah Shaastaa Vishrutaatmaa Suraarihaa ||",
+      "english": "|| Shloka 22 ||\nAmrityuh Sarvadrik Simhah Samdhaataa Samdhimaan Sthirah |\nAjo Durmarshanaah Shaastaa Vishrutaatmaa Suraarihaa ||"
+    },
+    {
+      "index": 33,
+      "timestampMs": 599630,
+      "startTimeMs": 599630,
+      "endTimeMs": 611204,
+      "textTelugu": "॥ శ్లోకం 23 ॥\nగురుర్గురుతమో ధామ సత్యః సత్యపరాక్రమః |\nనిమిషోఽనిమిషః స్రగ్వీ వాచస్పతిరుదారధీః ||",
+      "telugu": "॥ శ్లోకం 23 ॥\nగురుర్గురుతమో ధామ సత్యః సత్యపరాక్రమః |\nనిమిషోఽనిమిషః స్రగ్వీ వాచస్పతిరుదారధీః ||",
+      "textEnglish": "|| Shloka 23 ||\nGurur Gurutamo Dhaama Satyah Satyaparaakramah |\nNimisho'nimishah Sragvee Vaachaspatir Udaaradheeh ||",
+      "english": "|| Shloka 23 ||\nGurur Gurutamo Dhaama Satyah Satyaparaakramah |\nNimisho'nimishah Sragvee Vaachaspatir Udaaradheeh ||"
+    },
+    {
+      "index": 34,
+      "timestampMs": 611204,
+      "startTimeMs": 611204,
+      "endTimeMs": 622778,
+      "textTelugu": "॥ శ్లోకం 24 ॥\nఅగ్రణీర్గ్రామణీః శ్రీమాన్ న్యాయో నేతా సమీరణః |\nసహస్రమూర్ధా విశ్వాత్మా సహస్రాక్షః సహస్రపాత్ ||",
+      "telugu": "॥ శ్లోకం 24 ॥\nఅగ్రణీర్గ్రామణీః శ్రీమాన్ న్యాయో నేతా సమీరణః |\nసహస్రమూర్ధా విశ్వాత్మా సహస్రాక్షః సహస్రపాత్ ||",
+      "textEnglish": "|| Shloka 24 ||\nAgraneer Graamaneeh Shreemaan Nyaayo Netaa Sameeranah |\nSahasramoordhaa Vishvaatmaa Sahasraakshah Sahasrapaat ||",
+      "english": "|| Shloka 24 ||\nAgraneer Graamaneeh Shreemaan Nyaayo Netaa Sameeranah |\nSahasramoordhaa Vishvaatmaa Sahasraakshah Sahasrapaat ||"
+    },
+    {
+      "index": 35,
+      "timestampMs": 622778,
+      "startTimeMs": 622778,
+      "endTimeMs": 634352,
+      "textTelugu": "॥ శ్లోకం 25 ॥\nఆవర్తనో నివృత్తాత్మా సంవృతః సంప్రమర్దనః |\nఅహః సంవర్తకో వహ్నిరనిలో ధరణీధరః ||",
+      "telugu": "॥ శ్లోకం 25 ॥\nఆవర్తనో నివృత్తాత్మా సంవృతః సంప్రమర్దనః |\nఅహః సంవర్తకో వహ్నిరనిలో ధరణీధరః ||",
+      "textEnglish": "|| Shloka 25 ||\nAavartano Nivrittaatmaa Samvritah Sampramardanah |\nAhah Samvartako Vahnir Anilo Dharaneedharah ||",
+      "english": "|| Shloka 25 ||\nAavartano Nivrittaatmaa Samvritah Sampramardanah |\nAhah Samvartako Vahnir Anilo Dharaneedharah ||"
+    },
+    {
+      "index": 36,
+      "timestampMs": 634352,
+      "startTimeMs": 634352,
+      "endTimeMs": 645926,
+      "textTelugu": "॥ శ్లోకం 26 ॥\nసుప్రసాదః ప్రసన్నాత్మా విశ్వధృగ్విశ్వభుగ్విభుః |\nసత్కర్తా సత్కృతః సాధుర్జహ్నుర్నారాయణో నరః ||",
+      "telugu": "॥ శ్లోకం 26 ॥\nసుప్రసాదః ప్రసన్నాత్మా విశ్వధృగ్విశ్వభుగ్విభుః |\nసత్కర్తా సత్కృతః సాధుర్జహ్నుర్నారాయణో నరః ||",
+      "textEnglish": "|| Shloka 26 ||\nSuprasaadah Prasannaatmaa Vishvadhrik Vishvabhug Vibhuh |\nSatkartaa Satkritah Saadhur Jahnur Naaraayano Narah ||",
+      "english": "|| Shloka 26 ||\nSuprasaadah Prasannaatmaa Vishvadhrik Vishvabhug Vibhuh |\nSatkartaa Satkritah Saadhur Jahnur Naaraayano Narah ||"
+    },
+    {
+      "index": 37,
+      "timestampMs": 645926,
+      "startTimeMs": 645926,
+      "endTimeMs": 657500,
+      "textTelugu": "॥ శ్లోకం 27 ॥\nఅసంఖ్యేయోఽప్రమేయాత్మా విశిష్టః శిష్టకృచ్ఛుచిః |\nసిద్ధార్థః సిద్ధసంకల్పః సిద్ధిదః సిద్ధిసాధనః ||",
+      "telugu": "॥ శ్లోకం 27 ॥\nఅసంఖ్యేయోఽప్రమేయాత్మా విశిష్టః శిష్టకృచ్ఛుచిః |\nసిద్ధార్థః సిద్ధసంకల్పః సిద్ధిదః సిద్ధిసాధనః ||",
+      "textEnglish": "|| Shloka 27 ||\nAsamkhyeyo'prameyaatmaa Vishishtah Shishtakrich Chhuchih |\nSiddhaarthah Siddhasamkalpah Siddhidah Siddhidhaadanah ||",
+      "english": "|| Shloka 27 ||\nAsamkhyeyo'prameyaatmaa Vishishtah Shishtakrich Chhuchih |\nSiddhaarthah Siddhasamkalpah Siddhidah Siddhidhaadanah ||"
+    },
+    {
+      "index": 38,
+      "timestampMs": 657500,
+      "startTimeMs": 657500,
+      "endTimeMs": 669074,
+      "textTelugu": "॥ శ్లోకం 28 ॥\nవృషాహీ వృషభో విష్ణుర్వృషపర్వా వృషోదరః |\nవర్ధనో వర్ధమానశ్చ వివిక్తః శ్రుతిసాగరః ||",
+      "telugu": "॥ శ్లోకం 28 ॥\nవృషాహీ వృషభో విష్ణుర్వృషపర్వా వృషోదరః |\nవర్ధనో వర్ధమానశ్చ వివిక్తః శ్రుతిసాగరః ||",
+      "textEnglish": "|| Shloka 28 ||\nVrishaahee Vrishabho Vishnur Vrishaparvaa Vrishodarah |\nVardhano Vardhamaanashcha Viviktah Shrutisaagarah ||",
+      "english": "|| Shloka 28 ||\nVrishaahee Vrishabho Vishnur Vrishaparvaa Vrishodarah |\nVardhano Vardhamaanashcha Viviktah Shrutisaagarah ||"
+    },
+    {
+      "index": 39,
+      "timestampMs": 669074,
+      "startTimeMs": 669074,
+      "endTimeMs": 680648,
+      "textTelugu": "॥ శ్లోకం 29 ॥\nసుభుజో దుర్ధరో వాగ్మీ మహేంద్రో వసుదో వసుః |\nనైకరూపో బృహద్రూపః శిపివిష్టః ప్రకాశనః ||",
+      "telugu": "॥ శ్లోకం 29 ॥\nసుభుజో దుర్ధరో వాగ్మీ మహేంద్రో వసుదో వసుః |\nనైకరూపో బృహద్రూపః శిపివిష్టః ప్రకాశనః ||",
+      "textEnglish": "|| Shloka 29 ||\nSubhujo Durdharo Vaagmee Mahendro Vasudo Vasuh |\nNaikaroopo Brihadroopah Shipivishtah Prakaashanah ||",
+      "english": "|| Shloka 29 ||\nSubhujo Durdharo Vaagmee Mahendro Vasudo Vasuh |\nNaikaroopo Brihadroopah Shipivishtah Prakaashanah ||"
+    },
+    {
+      "index": 40,
+      "timestampMs": 680648,
+      "startTimeMs": 680648,
+      "endTimeMs": 692222,
+      "textTelugu": "॥ శ్లోకం 30 ॥\nఓజస్తేజోద్యుతిధరః ప్రకాశాత్మా ప్రతాపనః |\nఋద్ధః స్పష్టాక్షరో మంత్రశ్చంద్రాంశుర్భాస్కరద్యుతిః ||",
+      "telugu": "॥ శ్లోకం 30 ॥\nఓజస్తేజోద్యుతిధరః ప్రకాశాత్మా ప్రతాపనః |\nఋద్ధః స్పష్టాక్షరో మంత్రశ్చంద్రాంశుర్భాస్కరద్యుతిః ||",
+      "textEnglish": "|| Shloka 30 ||\nOjastejodyutidharah Prakaashaatmaa Prataapanah |\nRiddhah Spashtaaksharo Mantrash Chandraamshur Bhaaskaradyutih ||",
+      "english": "|| Shloka 30 ||\nOjastejodyutidharah Prakaashaatmaa Prataapanah |\nRiddhah Spashtaaksharo Mantrash Chandraamshur Bhaaskaradyutih ||"
+    },
+    {
+      "index": 41,
+      "timestampMs": 692222,
+      "startTimeMs": 692222,
+      "endTimeMs": 703796,
+      "textTelugu": "॥ శ్లోకం 31 ॥\nఅమృతాంశూద్భవో భానుః శశబిందుః సురేశ్వరః |\nఔషధం జగతః సేతుః సత్యధర్మపరాక్రమః ||",
+      "telugu": "॥ శ్లోకం 31 ॥\nఅమృతాంశూద్భవో భానుః శశబిందుః సురేశ్వరః |\nఔషధం జగతః సేతుః సత్యధర్మపరాక్రమః ||",
+      "textEnglish": "|| Shloka 31 ||\nAmritaamshoodbhavo Bhaanuh Shashabinduh Sureshavarah |\nAushadham Jagatah Setuh Satyadharmaparaakramah ||",
+      "english": "|| Shloka 31 ||\nAmritaamshoodbhavo Bhaanuh Shashabinduh Sureshavarah |\nAushadham Jagatah Setuh Satyadharmaparaakramah ||"
+    },
+    {
+      "index": 42,
+      "timestampMs": 703796,
+      "startTimeMs": 703796,
+      "endTimeMs": 715370,
+      "textTelugu": "॥ శ్లోకం 32 ॥\nభూతభవ్యభవన్నాథః పవనః పావనోఽనలః |\nకామహా కామకృత్కాంతః కామః కామప్రదః ప్రభుః ||",
+      "telugu": "॥ శ్లోకం 32 ॥\nభూతభవ్యభవన్నాథః పవనః పావనోఽనలః |\nకామహా కామకృత్కాంతః కామః కామప్రదః ప్రభుః ||",
+      "textEnglish": "|| Shloka 32 ||\nBhootabhavyabhavannaathah Pavanah Paavano'nalah |\nKaamahaa Kaamakrit Kaantah Kaamah Kaamapradah Prabhuh ||",
+      "english": "|| Shloka 32 ||\nBhootabhavyabhavannaathah Pavanah Paavano'nalah |\nKaamahaa Kaamakrit Kaantah Kaamah Kaamapradah Prabhuh ||"
+    },
+    {
+      "index": 43,
+      "timestampMs": 715370,
+      "startTimeMs": 715370,
+      "endTimeMs": 726944,
+      "textTelugu": "॥ శ్లోకం 33 ॥\nయుగాదికృద్యుగావర్తో నైకమాయో మహాశనః |\nఅదృశ్యో వ్యక్తరూపశ్చ సహస్రజిదనంతజిత్ ||",
+      "telugu": "॥ శ్లోకం 33 ॥\nయుగాదికృద్యుగావర్తో నైకమాయో మహాశనః |\nఅదృశ్యో వ్యక్తరూపశ్చ సహస్రజిదనంతజిత్ ||",
+      "textEnglish": "|| Shloka 33 ||\nYugaadikrid Yugaavarto Naikamaayo Mahaashanah |\nAdrishyo Vyaktaroopashcha Sahasrajid Anantajit ||",
+      "english": "|| Shloka 33 ||\nYugaadikrid Yugaavarto Naikamaayo Mahaashanah |\nAdrishyo Vyaktaroopashcha Sahasrajid Anantajit ||"
+    },
+    {
+      "index": 44,
+      "timestampMs": 726944,
+      "startTimeMs": 726944,
+      "endTimeMs": 738519,
+      "textTelugu": "॥ శ్లోకం 34 ॥\nఇష్టోఽవిశిష్టః శిష్టేష్టః శిఖండీ నహుషో వృషః |\nక్రోధహా క్రోధకృత్కర్తా విశ్వబాహుర్మహీధరః ||",
+      "telugu": "॥ శ్లోకం 34 ॥\nఇష్టోఽవిశిష్టః శిష్టేష్టః శిఖండీ నహుషో వృషః |\nక్రోధహా క్రోధకృత్కర్తా విశ్వబాహుర్మహీధరః ||",
+      "textEnglish": "|| Shloka 34 ||\nIshto'vishishtah Shishteshtah Shikhandee Nahusho Vrishah |\nKrodhahaa Krodhakrit Kartaa Vishvabaahur Maheedharah ||",
+      "english": "|| Shloka 34 ||\nIshto'vishishtah Shishteshtah Shikhandee Nahusho Vrishah |\nKrodhahaa Krodhakrit Kartaa Vishvabaahur Maheedharah ||"
+    },
+    {
+      "index": 45,
+      "timestampMs": 738519,
+      "startTimeMs": 738519,
+      "endTimeMs": 750093,
+      "textTelugu": "॥ శ్లోకం 35 ॥\nఅచ్యుతః ప్రథితః ప్రాణః ప్రాణదో వాసవానుజః |\nఅపాంనిధిరధిష్ఠానమప్రమత్తః ప్రతిష్ఠితః ||",
+      "telugu": "॥ శ్లోకం 35 ॥\nఅచ్యుతః ప్రథితః ప్రాణః ప్రాణదో వాసవానుజః |\nఅపాంనిధిరధిష్ఠానమప్రమత్తః ప్రతిష్ఠితః ||",
+      "textEnglish": "|| Shloka 35 ||\nAchyutah Prathitah Praanah Praanado Vaasavaanujah |\nApaamnidhir Adhishthaanam Apramattah Pratishthitah ||",
+      "english": "|| Shloka 35 ||\nAchyutah Prathitah Praanah Praanado Vaasavaanujah |\nApaamnidhir Adhishthaanam Apramattah Pratishthitah ||"
+    },
+    {
+      "index": 46,
+      "timestampMs": 750093,
+      "startTimeMs": 750093,
+      "endTimeMs": 761667,
+      "textTelugu": "॥ శ్లోకం 36 ॥\nస్కందః స్కందధరో ధుర్యో వరదో వాయువాహనః |\nవాసుదేవో బృహద్భానురాదిదేవః పురంధరః ||",
+      "telugu": "॥ శ్లోకం 36 ॥\nస్కందః స్కందధరో ధుర్యో వరదో వాయువాహనః |\nవాసుదేవో బృహద్భానురాదిదేవః పురంధరః ||",
+      "textEnglish": "|| Shloka 36 ||\nSkandah Skandadharo Dhuryo Varado Vaayuvaahanah |\nVaasudevo Brihadbhaanur Aadidevah Purandharah ||",
+      "english": "|| Shloka 36 ||\nSkandah Skandadharo Dhuryo Varado Vaayuvaahanah |\nVaasudevo Brihadbhaanur Aadidevah Purandharah ||"
+    },
+    {
+      "index": 47,
+      "timestampMs": 761667,
+      "startTimeMs": 761667,
+      "endTimeMs": 773241,
+      "textTelugu": "॥ శ్లోకం 37 ॥\nఅశోకస్తారణస్తారః శూరః శౌరిర్జనేశ్వరః |\nఅనుకూలః శతావర్తః పద్మీ పద్మనిభేక్షణః ||",
+      "telugu": "॥ శ్లోకం 37 ॥\nఅశోకస్తారణస్తారః శూరః శౌరిర్జనేశ్వరః |\nఅనుకూలః శతావర్తః పద్మీ పద్మనిభేక్షణః ||",
+      "textEnglish": "|| Shloka 37 ||\nAshokas Taaranas Taarah Shoorah Shaurir Janeshvarah |\nAnukoolah Shataavartah Padmee Padmanibhekshanah ||",
+      "english": "|| Shloka 37 ||\nAshokas Taaranas Taarah Shoorah Shaurir Janeshvarah |\nAnukoolah Shataavartah Padmee Padmanibhekshanah ||"
+    },
+    {
+      "index": 48,
+      "timestampMs": 773241,
+      "startTimeMs": 773241,
+      "endTimeMs": 784815,
+      "textTelugu": "॥ శ్లోకం 38 ॥\nపద్మనాభోఽరవిందాక్షః పద్మగర్భః శరీరభృత్ |\nమహర్ద్ధిరృద్ధో వృద్ధాత్మా మహాక్షో గరుడధ్వజః ||",
+      "telugu": "॥ శ్లోకం 38 ॥\nపద్మనాభోఽరవిందాక్షః పద్మగర్భః శరీరభృత్ |\nమహర్ద్ధిరృద్ధో వృద్ధాత్మా మహాక్షో గరుడధ్వజః ||",
+      "textEnglish": "|| Shloka 38 ||\nPadmanaabho'ravindaakshah Padmagarbhah Shareerabhrit |\nMaharddhir Riddho Vriddhaatmaa Mahaaksho Garudadhwayah ||",
+      "english": "|| Shloka 38 ||\nPadmanaabho'ravindaakshah Padmagarbhah Shareerabhrit |\nMaharddhir Riddho Vriddhaatmaa Mahaaksho Garudadhwayah ||"
+    },
+    {
+      "index": 49,
+      "timestampMs": 784815,
+      "startTimeMs": 784815,
+      "endTimeMs": 796389,
+      "textTelugu": "॥ శ్లోకం 39 ॥\nఅతులః శరభో భీమః సమయజ్ఞో హవిర్హరిః |\nసర్వలక్షణలక్షణ్యో లక్ష్మీవాన్ సమితింజయః ||",
+      "telugu": "॥ శ్లోకం 39 ॥\nఅతులః శరభో భీమః సమయజ్ఞో హవిర్హరిః |\nసర్వలక్షణలక్షణ్యో లక్ష్మీవాన్ సమితింజయః ||",
+      "textEnglish": "|| Shloka 39 ||\nAtulah Sharabho Bheemah Samayajno Havirharih |\nSarvalakshanalakshanyo Lakshmeevaan Samitimjayah ||",
+      "english": "|| Shloka 39 ||\nAtulah Sharabho Bheemah Samayajno Havirharih |\nSarvalakshanalakshanyo Lakshmeevaan Samitimjayah ||"
+    },
+    {
+      "index": 50,
+      "timestampMs": 796389,
+      "startTimeMs": 796389,
+      "endTimeMs": 807963,
+      "textTelugu": "॥ శ్లోకం 40 ॥\nవిక్షరో రోహితో మార్గో హేతుర్దామోదరః సహః |\nమహీధరో మహాభాగో వేగవానమితాశనః ||",
+      "telugu": "॥ శ్లోకం 40 ॥\nవిక్షరో రోహితో మార్గో హేతుర్దామోదరః సహః |\nమహీధరో మహాభాగో వేగవానమితాశనః ||",
+      "textEnglish": "|| Shloka 40 ||\nViksharo Rohito Maargo Hetur Daamodarah Sahah |\nMaheedharo Mahaabhaago Vegavaan Amitaashanah ||",
+      "english": "|| Shloka 40 ||\nViksharo Rohito Maargo Hetur Daamodarah Sahah |\nMaheedharo Mahaabhaago Vegavaan Amitaashanah ||"
+    },
+    {
+      "index": 51,
+      "timestampMs": 807963,
+      "startTimeMs": 807963,
+      "endTimeMs": 819537,
+      "textTelugu": "॥ శ్లోకం 41 ॥\nఉద్భవః క్షోభణో దేవః శ్రీగర్భః పరమేశ్వరః |\nకరణం కారణం కర్తా వికర్తా గహనో గుహః ||",
+      "telugu": "॥ శ్లోకం 41 ॥\nఉద్భవః క్షోభణో దేవః శ్రీగర్భః పరమేశ్వరః |\nకరణం కారణం కర్తా వికర్తా గహనో గుహః ||",
+      "textEnglish": "|| Shloka 41 ||\nUdbhavah Kshobhano Devah Shrigarbhah Parameshvarah |\nKaranam Kaaranam Kartaa Vikartaa Gahano Guhah ||",
+      "english": "|| Shloka 41 ||\nUdbhavah Kshobhano Devah Shrigarbhah Parameshvarah |\nKaranam Kaaranam Kartaa Vikartaa Gahano Guhah ||"
+    },
+    {
+      "index": 52,
+      "timestampMs": 819537,
+      "startTimeMs": 819537,
+      "endTimeMs": 831111,
+      "textTelugu": "॥ శ్లోకం 42 ॥\nవ్యవసాయో వ్యవస్థానః సంస్థానః స్థానదో ధ్రువః |\nపరర్ద్ధిః పరమస్పష్టస్తుష్టః పుష్టః శుభేక్షణః ||",
+      "telugu": "॥ శ్లోకం 42 ॥\nవ్యవసాయో వ్యవస్థానః సంస్థానః స్థానదో ధ్రువః |\nపరర్ద్ధిః పరమస్పష్టస్తుష్టః పుష్టః శుభేక్షణః ||",
+      "textEnglish": "|| Shloka 42 ||\nVyavasaayo Vyavasthaanah Samsthaanah Sthaanado Dhruvah |\nPararddhih Paramaspashtas Tushtah Pushtah Shubhekshanah ||",
+      "english": "|| Shloka 42 ||\nVyavasaayo Vyavasthaanah Samsthaanah Sthaanado Dhruvah |\nPararddhih Paramaspashtas Tushtah Pushtah Shubhekshanah ||"
+    },
+    {
+      "index": 53,
+      "timestampMs": 831111,
+      "startTimeMs": 831111,
+      "endTimeMs": 842685,
+      "textTelugu": "॥ శ్లోకం 43 ॥\nరామో విరామో విరజో మార్గో నేయో నయోఽనయః |\nవీరః शक्तिమతాం శ్రేష్ఠో ధర్మో ధర్మవిదుత్తమః ||",
+      "telugu": "॥ శ్లోకం 43 ॥\nరామో విరామో విరజో మార్గో నేయో నయోఽనయః |\nవీరః शक्तिమతాం శ్రేష్ఠో ధర్మో ధర్మవిదుత్తమః ||",
+      "textEnglish": "|| Shloka 43 ||\nRaamo Viraamo Virajo Maargo Neyo Nayo'nayah |\nVeerah Shaktimataam Shreshtho Dharmo Dharmaviduttamah ||",
+      "english": "|| Shloka 43 ||\nRaamo Viraamo Virajo Maargo Neyo Nayo'nayah |\nVeerah Shaktimataam Shreshtho Dharmo Dharmaviduttamah ||"
+    },
+    {
+      "index": 54,
+      "timestampMs": 842685,
+      "startTimeMs": 842685,
+      "endTimeMs": 854259,
+      "textTelugu": "॥ శ్లోకం 44 ॥\nవైకుంఠః పురుషః ప్రాణః ప్రాణదః ప్రణవః పృథుః |\nహిరణ్యగర్భః శత్రుఘ్నో వ్యాప్తో వాయురధోక్షజః ||",
+      "telugu": "॥ శ్లోకం 44 ॥\nవైకుంఠః పురుషః ప్రాణః ప్రాణదః ప్రణవః పృథుః |\nహిరణ్యగర్భః శత్రుఘ్నో వ్యాప్తో వాయురధోక్షజః ||",
+      "textEnglish": "|| Shloka 44 ||\nVaikunthah Purushah Praanah Praanadah Pranavah Prithuh |\nHiranyagarbhah Shatrughno Vyaapto Vaayur Adhokshajah ||",
+      "english": "|| Shloka 44 ||\nVaikunthah Purushah Praanah Praanadah Pranavah Prithuh |\nHiranyagarbhah Shatrughno Vyaapto Vaayur Adhokshajah ||"
+    },
+    {
+      "index": 55,
+      "timestampMs": 854259,
+      "startTimeMs": 854259,
+      "endTimeMs": 865833,
+      "textTelugu": "॥ శ్లోకం 45 ॥\nఋతుః సుదర్శనః కాలః పరమేష్ఠీ పరిగ్రహః |\nఉగ్రః సంవత్సరో దక్షో విశ్రామో విశ్వదక్షిణః ||",
+      "telugu": "॥ శ్లోకం 45 ॥\nఋతుః సుదర్శనః కాలః పరమేష్ఠీ పరిగ్రహః |\nఉగ్రః సంవత్సరో దక్షో విశ్రామో విశ్వదక్షిణః ||",
+      "textEnglish": "|| Shloka 45 ||\nRituh Sudarshanah Kaalah Parameshthi Parigrahah |\nUgrah Samvatsaro Daksho Vishraamo Vishvadakshinah ||",
+      "english": "|| Shloka 45 ||\nRituh Sudarshanah Kaalah Parameshthi Parigrahah |\nUgrah Samvatsaro Daksho Vishraamo Vishvadakshinah ||"
+    },
+    {
+      "index": 56,
+      "timestampMs": 865833,
+      "startTimeMs": 865833,
+      "endTimeMs": 877407,
+      "textTelugu": "॥ శ్లోకం 46 ॥\nవిస్తారః స్థావరస్థాణుః ప్రమాణం బీజమవ్యయమ్ |\nఅర్థోఽనర్ధో మహాకోశో మహాభోగో మహాధనః ||",
+      "telugu": "॥ శ్లోకం 46 ॥\nవిస్తారః స్థావరస్థాణుః ప్రమాణం బీజమవ్యయమ్ |\nఅర్థోఽనర్ధో మహాకోశో మహాభోగో మహాధనః ||",
+      "textEnglish": "|| Shloka 46 ||\nVistaarah Sthaavarasthaanuh Pramaanam Beejam Avyayam |\nArtho'nanartho Mahaakosho Mahaabhogo Mahaadhanah ||",
+      "english": "|| Shloka 46 ||\nVistaarah Sthaavarasthaanuh Pramaanam Beejam Avyayam |\nArtho'nanartho Mahaakosho Mahaabhogo Mahaadhanah ||"
+    },
+    {
+      "index": 57,
+      "timestampMs": 877407,
+      "startTimeMs": 877407,
+      "endTimeMs": 888981,
+      "textTelugu": "॥ శ్లోకం 47 ॥\nఅనిర్విణ్ణః స్థవిష్ఠోఽభూర్ధర్మయూపో మహామఖః |\nనక్షత్రనేమిర్నక్షత్రీ క్షమః క్షామః సమీహనః ||",
+      "telugu": "॥ శ్లోకం 47 ॥\nఅనిర్విణ్ణః స్థవిష్ఠోఽభూర్ధర్మయూపో మహామఖః |\nనక్షత్రనేమిర్నక్షత్రీ క్షమః క్షామః సమీహనః ||",
+      "textEnglish": "|| Shloka 47 ||\nAnirvinnah Sthavishtho'bhoor Dharmayoopo Mahaamakhah |\nNakshatranemir Nakshatree Kshamah Kshaamah Sameehanah ||",
+      "english": "|| Shloka 47 ||\nAnirvinnah Sthavishtho'bhoor Dharmayoopo Mahaamakhah |\nNakshatranemir Nakshatree Kshamah Kshaamah Sameehanah ||"
+    },
+    {
+      "index": 58,
+      "timestampMs": 888981,
+      "startTimeMs": 888981,
+      "endTimeMs": 900556,
+      "textTelugu": "॥ శ్లోకం 48 ॥\nయజ్ఞ ఇజ్యో మహేజ్యశ్చ క్రతుః సత్రం సతాం గతిః |\nసర్వదర్శీ విముక్తాత్మా సర్వజ్ఞో జ్ఞానముత్తమమ్ ||",
+      "telugu": "॥ శ్లోకం 48 ॥\nయజ్ఞ ఇజ్యో మహేజ్యశ్చ క్రతుః సత్రం సతాం గతిః |\nసర్వదర్శీ విముక్తాత్మా సర్వజ్ఞో జ్ఞానముత్తమమ్ ||",
+      "textEnglish": "|| Shloka 48 ||\nYajna Ijyo Mahejyashcha Kratuh Satram Sataam Gatih |\nSarvadarshee Vimuktaatmaa Sarvajno Gyaanamuttamam ||",
+      "english": "|| Shloka 48 ||\nYajna Ijyo Mahejyashcha Kratuh Satram Sataam Gatih |\nSarvadarshee Vimuktaatmaa Sarvajno Gyaanamuttamam ||"
+    },
+    {
+      "index": 59,
+      "timestampMs": 900556,
+      "startTimeMs": 900556,
+      "endTimeMs": 912130,
+      "textTelugu": "॥ శ్లోకం 49 ॥\nసువ్రతః సుముఖః సూక్ష్మః సుఘోషః సుఖదః సుహృత్ |\nమనోహరో జితక్రోధో వీరబాహుర్విదారణః ||",
+      "telugu": "॥ శ్లోకం 49 ॥\nసువ్రతః సుముఖః సూక్ష్మః సుఘోషః సుఖదః సుహృత్ |\nమనోహరో జితక్రోధో వీరబాహుర్విదారణః ||",
+      "textEnglish": "|| Shloka 49 ||\nSuvratah Sumukhah Sookshmah Sughoshah Sukhadah Suhrit |\nManoharo Jitakrodho Veerabaahur Vidaaranah ||",
+      "english": "|| Shloka 49 ||\nSuvratah Sumukhah Sookshmah Sughoshah Sukhadah Suhrit |\nManoharo Jitakrodho Veerabaahur Vidaaranah ||"
+    },
+    {
+      "index": 60,
+      "timestampMs": 912130,
+      "startTimeMs": 912130,
+      "endTimeMs": 923704,
+      "textTelugu": "॥ శ్లోకం 50 ॥\nస్వాపనః స్వవశో వ్యాపీ నైకాత్మా నైకకర్మకృత్ |\nవత్సరో వత్సలో వత్సీ రత్నగర్భో ధనేశ్వరః ||",
+      "telugu": "॥ శ్లోకం 50 ॥\nస్వాపనః స్వవశో వ్యాపీ నైకాత్మా నైకకర్మకృత్ |\nవత్సరో వత్సలో వత్సీ రత్నగర్భో ధనేశ్వరః ||",
+      "textEnglish": "|| Shloka 50 ||\nSvaapanah Svavasho Vyaapee Naikaatmaa Naikakarmakrit |\nVatsaro Vatsalo Vatsee Ratnagarbho Dhaneshvarah ||",
+      "english": "|| Shloka 50 ||\nSvaapanah Svavasho Vyaapee Naikaatmaa Naikakarmakrit |\nVatsaro Vatsalo Vatsee Ratnagarbho Dhaneshvarah ||"
+    },
+    {
+      "index": 61,
+      "timestampMs": 923704,
+      "startTimeMs": 923704,
+      "endTimeMs": 935278,
+      "textTelugu": "॥ శ్లోకం 51 ॥\nధర్మగుబ్ధర్మకృద్ధర్మీ సదసత్క్షరమక్షరమ్ |\nఅవిజ్ఞాతా సహస్రాంశుర్విధాతా కృతలక్షణః ||",
+      "telugu": "॥ శ్లోకం 51 ॥\nధర్మగుబ్ధర్మకృద్ధర్మీ సదసత్క్షరమక్షరమ్ |\nఅవిజ్ఞాతా సహస్రాంశుర్విధాతా కృతలక్షణః ||",
+      "textEnglish": "|| Shloka 51 ||\nDharmagub Dharmakrid Dharmee Sadasat Ksharam Aksharam |\nAvijnaataa Sahasraamshur Vidhaataa Kritalakshanah ||",
+      "english": "|| Shloka 51 ||\nDharmagub Dharmakrid Dharmee Sadasat Ksharam Aksharam |\nAvijnaataa Sahasraamshur Vidhaataa Kritalakshanah ||"
+    },
+    {
+      "index": 62,
+      "timestampMs": 935278,
+      "startTimeMs": 935278,
+      "endTimeMs": 946852,
+      "textTelugu": "॥ శ్లోకం 52 ॥\nగభస్తినేమిః సత్త్వస్థః సింహో భూతమహేశ్వరః |\nఆదిదేవో మహాదేవో దేవేశో దేవభృద్గురుః ||",
+      "telugu": "॥ శ్లోకం 52 ॥\nగభస్తినేమిః సత్త్వస్థః సింహో భూతమహేశ్వరః |\nఆదిదేవో మహాదేవో దేవేశో దేవభృద్గురుః ||",
+      "textEnglish": "|| Shloka 52 ||\nGabhastinemih Sattvasthah Simho Bhootamaheshvarah |\nAadidevo Mahaadevo Devesho Devabhrid Guruh ||",
+      "english": "|| Shloka 52 ||\nGabhastinemih Sattvasthah Simho Bhootamaheshvarah |\nAadidevo Mahaadevo Devesho Devabhrid Guruh ||"
+    },
+    {
+      "index": 63,
+      "timestampMs": 946852,
+      "startTimeMs": 946852,
+      "endTimeMs": 958426,
+      "textTelugu": "॥ శ్లోకం 53 ॥\nఉత్తరో గోపతిర్గోప్తా జ్ఞానగమ్యః పురాతనః |\nశరీరభూతభృద్భోక్తా కపీంద్రో భూరురిదక్షిణః ||",
+      "telugu": "॥ శ్లోకం 53 ॥\nఉత్తరో గోపతిర్గోప్తా జ్ఞానగమ్యః పురాతనః |\nశరీరభూతభృద్భోక్తా కపీంద్రో భూరురిదక్షిణః ||",
+      "textEnglish": "|| Shloka 53 ||\nUttaro Gopatir Goptaa Gyaanagamyah Puraatanah |\nShareerabhootabhrid Bhoktaa Kapeendro Bhooridakshinah ||",
+      "english": "|| Shloka 53 ||\nUttaro Gopatir Goptaa Gyaanagamyah Puraatanah |\nShareerabhootabhrid Bhoktaa Kapeendro Bhooridakshinah ||"
+    },
+    {
+      "index": 64,
+      "timestampMs": 958426,
+      "startTimeMs": 958426,
+      "endTimeMs": 970000,
+      "textTelugu": "॥ శ్లోకం 54 ॥\nసోమపోఽమృతపః సోమః పురుజిత్పురుసత్తమః |\nవినయో జయః సత్యసంధో దాశార్హః సాత్త్వతాం పతిః ||",
+      "telugu": "॥ శ్లోకం 54 ॥\nసోమపోఽమృతపః సోమః పురుజిత్పురుసత్తమః |\nవినయో జయః సత్యసంధో దాశార్హః సాత్త్వతాం పతిః ||",
+      "textEnglish": "|| Shloka 54 ||\nSomapo'mritapah Somah Purujit Purusattamah |\nVinayo Jayah Satyasamdho Daashaarhah Saattvataam Patih ||",
+      "english": "|| Shloka 54 ||\nSomapo'mritapah Somah Purujit Purusattamah |\nVinayo Jayah Satyasamdho Daashaarhah Saattvataam Patih ||"
+    },
+    {
+      "index": 65,
+      "timestampMs": 970000,
+      "startTimeMs": 970000,
+      "endTimeMs": 981574,
+      "textTelugu": "॥ శ్లోకం 55 ॥\nజీవో వినయితా సాక్షీ ముకుందోఽమితవిక్రమః |\nఅంభోనిధిరనంతాత్మా మహోదధిశయోఽంతకః ||",
+      "telugu": "॥ శ్లోకం 55 ॥\nజీవో వినయితా సాక్షీ ముకుందోఽమితవిక్రమః |\nఅంభోనిధిరనంతాత్మా మహోదధిశయోఽంతకః ||",
+      "textEnglish": "|| Shloka 55 ||\nJeevo Vinayitaa Saakshee Mukundo'mitavikramah |\nAmbhonidhir Anantaatmaa Mahodadhishayo'ntakah ||",
+      "english": "|| Shloka 55 ||\nJeevo Vinayitaa Saakshee Mukundo'mitavikramah |\nAmbhonidhir Anantaatmaa Mahodadhishayo'ntakah ||"
+    },
+    {
+      "index": 66,
+      "timestampMs": 981574,
+      "startTimeMs": 981574,
+      "endTimeMs": 993148,
+      "textTelugu": "॥ శ్లోకం 56 ॥\nఅజో మహార్హః స్వాభావ్యో జితామిత్రః ప్రమోదనః |\nఆనందో నందనో నందః సత్యధర్మా త్రివిక్రమః ||",
+      "telugu": "॥ శ్లోకం 56 ॥\nఅజో మహార్హః స్వాభావ్యో జితామిత్రః ప్రమోదనః |\nఆనందో నందనో నందః సత్యధర్మా త్రివిక్రమః ||",
+      "textEnglish": "|| Shloka 56 ||\nAjo Mahaarhah Svaabhaavyo Jitaamitrah Pramodanah |\nAanando Nandano Nandah Satyadharmaa Trivikramah ||",
+      "english": "|| Shloka 56 ||\nAjo Mahaarhah Svaabhaavyo Jitaamitrah Pramodanah |\nAanando Nandano Nandah Satyadharmaa Trivikramah ||"
+    },
+    {
+      "index": 67,
+      "timestampMs": 993148,
+      "startTimeMs": 993148,
+      "endTimeMs": 1004722,
+      "textTelugu": "॥ శ్లోకం 57 ॥\nమహర్షిః కపిలాచార్యః కృతజ్ఞో మేదినీపతిః |\nత్రిపదస్త్రిదశాధ్యక్షో మహాశృంగః కృతాంతకృత్ ||",
+      "telugu": "॥ శ్లోకం 57 ॥\nమహర్షిః కపిలాచార్యః కృతజ్ఞో మేదినీపతిః |\nత్రిపదస్త్రిదశాధ్యక్షో మహాశృంగః కృతాంతకృత్ ||",
+      "textEnglish": "|| Shloka 57 ||\nMaharshih Kapilaachaaryah Kritajno Medineepatih |\nTripadas Tridashaadhyaksho Mahaashringah Kritaantakrit ||",
+      "english": "|| Shloka 57 ||\nMaharshih Kapilaachaaryah Kritajno Medineepatih |\nTripadas Tridashaadhyaksho Mahaashringah Kritaantakrit ||"
+    },
+    {
+      "index": 68,
+      "timestampMs": 1004722,
+      "startTimeMs": 1004722,
+      "endTimeMs": 1016296,
+      "textTelugu": "॥ శ్లోకం 58 ॥\nమహావరాహో గోవిందః సుషేణః కనకాంగదీ |\nగుహ్యో గభీరో గహనో గుప్తశ్చక్రగదాధరః ||",
+      "telugu": "॥ శ్లోకం 58 ॥\nమహావరాహో గోవిందః సుషేణః కనకాంగదీ |\nగుహ్యో గభీరో గహనో గుప్తశ్చక్రగదాధరః ||",
+      "textEnglish": "|| Shloka 58 ||\nMahaavaraaho Govindah Sushenah Kanakaangadee |\nGuhyo Gabheero Gahano Guptash Chakra Gadaadharah ||",
+      "english": "|| Shloka 58 ||\nMahaavaraaho Govindah Sushenah Kanakaangadee |\nGuhyo Gabheero Gahano Guptash Chakra Gadaadharah ||"
+    },
+    {
+      "index": 69,
+      "timestampMs": 1016296,
+      "startTimeMs": 1016296,
+      "endTimeMs": 1027870,
+      "textTelugu": "॥ శ్లోకం 59 ॥\nవేధాః స్వాంగోఽజితః కృష్ణో దృఢః సంకర్షణోఽచ్యుతః |\nవరుణో వారుణో వృక్షః పుష్కరాక్షో మహామనాః ||",
+      "telugu": "॥ శ్లోకం 59 ॥\nవేధాః స్వాంగోఽజితః కృష్ణో దృఢః సంకర్షణోఽచ్యుతః |\nవరుణో వారుణో వృక్షః పుష్కరాక్షో మహామనాః ||",
+      "textEnglish": "|| Shloka 59 ||\nVedhaah Svaango'jitah Krishno Dridhah Samkarshano'chyutah |\nVaruno Vaaruno Vrikshah Pushkaraaksho Mahaamanaah ||",
+      "english": "|| Shloka 59 ||\nVedhaah Svaango'jitah Krishno Dridhah Samkarshano'chyutah |\nVaruno Vaaruno Vrikshah Pushkaraaksho Mahaamanaah ||"
+    },
+    {
+      "index": 70,
+      "timestampMs": 1027870,
+      "startTimeMs": 1027870,
+      "endTimeMs": 1039444,
+      "textTelugu": "॥ శ్లోకం 60 ॥\nభగవాన్ భగహా నందీ వనమాలీ హలాయుధః |\nఆదిత్యో జ్యోతిరాదిత్యః సహిష్ణుర్గతిసత్తమః ||",
+      "telugu": "॥ శ్లోకం 60 ॥\nభగవాన్ భగహా నందీ వనమాలీ హలాయుధః |\nఆదిత్యో జ్యోతిరాదిత్యః సహిష్ణుర్గతిసత్తమః ||",
+      "textEnglish": "|| Shloka 60 ||\nBhagavaan Bhagahaa Nandee Vanamaalee Halaayudhah |\nAadityo Jyotiraadityah Sahishnur Gatisattamah ||",
+      "english": "|| Shloka 60 ||\nBhagavaan Bhagahaa Nandee Vanamaalee Halaayudhah |\nAadityo Jyotiraadityah Sahishnur Gatisattamah ||"
+    },
+    {
+      "index": 71,
+      "timestampMs": 1039444,
+      "startTimeMs": 1039444,
+      "endTimeMs": 1051019,
+      "textTelugu": "॥ శ్లోకం 61 ॥\nసుధన్వా ఖండపరశుర్దారుణో ద్రవిణప్రదః |\nదివిస్పృక్సర్వదృగ్వ్యాసో వాచస్పతిరయోనిజః ||",
+      "telugu": "॥ శ్లోకం 61 ॥\nసుధన్వా ఖండపరశుర్దారుణో ద్రవిణప్రదః |\nదివిస్పృక్సర్వదృగ్వ్యాసో వాచస్పతిరయోనిజః ||",
+      "textEnglish": "|| Shloka 61 ||\nSudhanvaa Khandaparashur Daaruno Dravinapradah |\nDivisprik Sarvadrik Vyaaso Vaachaspatir Ayonijah ||",
+      "english": "|| Shloka 61 ||\nSudhanvaa Khandaparashur Daaruno Dravinapradah |\nDivisprik Sarvadrik Vyaaso Vaachaspatir Ayonijah ||"
+    },
+    {
+      "index": 72,
+      "timestampMs": 1051019,
+      "startTimeMs": 1051019,
+      "endTimeMs": 1062593,
+      "textTelugu": "॥ శ్లోకం 62 ॥\nత్రిసామా సామగః సామ నిర్వాణం భేషజం భిషక్ |\nసంన్యాసకృచ్ఛమః శాంతో నిష్ఠా శాంతిః పరాయణమ్ ||",
+      "telugu": "॥ శ్లోకం 62 ॥\nత్రిసామా సామగః సామ నిర్వాణం భేషజం భిషక్ |\nసంన్యాసకృచ్ఛమః శాంతో నిష్ఠా శాంతిః పరాయణమ్ ||",
+      "textEnglish": "|| Shloka 62 ||\nTrisaamaa Saamagah Saama Nirvaanam Bheshajam Bhishak |\nSamnyaasakrich Chhamah Shaanto Nishthaa Shaantih Paraayanam ||",
+      "english": "|| Shloka 62 ||\nTrisaamaa Saamagah Saama Nirvaanam Bheshajam Bhishak |\nSamnyaasakrich Chhamah Shaanto Nishthaa Shaantih Paraayanam ||"
+    },
+    {
+      "index": 73,
+      "timestampMs": 1062593,
+      "startTimeMs": 1062593,
+      "endTimeMs": 1074167,
+      "textTelugu": "॥ శ్లోకం 63 ॥\nశుభాంగః శాంతిదః స్రష్టా కుముదః కువలేశయః |\nగోహితో గోపతిర్గోప్తా వృషభాక్షో వృషప్రియః ||",
+      "telugu": "॥ శ్లోకం 63 ॥\nశుభాంగః శాంతిదః స్రష్టా కుముదః కువలేశయః |\nగోహితో గోపతిర్గోప్తా వృషభాక్షో వృషప్రియః ||",
+      "textEnglish": "|| Shloka 63 ||\nShubhaangah Shaantidah Srashtaa Kumudah Kuvaleshayah |\nGohito Gopatir Goptaa Vrishabhaaksho Vrishapriyah ||",
+      "english": "|| Shloka 63 ||\nShubhaangah Shaantidah Srashtaa Kumudah Kuvaleshayah |\nGohito Gopatir Goptaa Vrishabhaaksho Vrishapriyah ||"
+    },
+    {
+      "index": 74,
+      "timestampMs": 1074167,
+      "startTimeMs": 1074167,
+      "endTimeMs": 1085741,
+      "textTelugu": "॥ శ్లోకం 64 ॥\nఅనివర్తీ నివృత్తాత్మా సంక్షేప్తా క్షేమకృచ్ఛివః |\nశ్రీవత్సవక్షాః శ్రీవాసః శ్రీపతిః శ్రీమతాం వరః ||",
+      "telugu": "॥ శ్లోకం 64 ॥\nఅనివర్తీ నివృత్తాత్మా సంక్షేప్తా క్షేమకృచ్ఛివః |\nశ్రీవత్సవక్షాః శ్రీవాసః శ్రీపతిః శ్రీమతాం వరః ||",
+      "textEnglish": "|| Shloka 64 ||\nAnivartee Nivrittaatmaa Samksheptaa Kshemakrich Chhivah |\nShreevatsavakshaah Shrevaasah Shreepatih Shreemataam Varah ||",
+      "english": "|| Shloka 64 ||\nAnivartee Nivrittaatmaa Samksheptaa Kshemakrich Chhivah |\nShreevatsavakshaah Shrevaasah Shreepatih Shreemataam Varah ||"
+    },
+    {
+      "index": 75,
+      "timestampMs": 1085741,
+      "startTimeMs": 1085741,
+      "endTimeMs": 1097315,
+      "textTelugu": "॥ శ్లోకం 65 ॥\nశ్రీదః శ్రీశః శ్రీనివాసః శ్రీనిధిః శ్రీవిభావనః |\nశ్రీధరః శ్రీకరః శ్రేయః శ్రీమాంల్లోకత్రయాశ్రయః ||",
+      "telugu": "॥ శ్లోకం 65 ॥\nశ్రీదః శ్రీశః శ్రీనివాసః శ్రీనిధిః శ్రీవిభావనః |\nశ్రీధరః శ్రీకరః శ్రేయః శ్రీమాంల్లోకత్రయాశ్రయః ||",
+      "textEnglish": "|| Shloka 65 ||\nShreedah Shreeshah Shreenivaasah Shreenidhih Shreevibhaavanah |\nShreedharah Shreekarah Shreyah Shreemaamllokatrayaashrayah ||",
+      "english": "|| Shloka 65 ||\nShreedah Shreeshah Shreenivaasah Shreenidhih Shreevibhaavanah |\nShreedharah Shreekarah Shreyah Shreemaamllokatrayaashrayah ||"
+    },
+    {
+      "index": 76,
+      "timestampMs": 1097315,
+      "startTimeMs": 1097315,
+      "endTimeMs": 1108889,
+      "textTelugu": "॥ శ్లోకం 66 ॥\nస్వక్షః స్వంగః శతానందో నందిర్జ్యోతిర్గణేశ్వరః |\nవిజితాత్మాఽవిధేయాత్మా సత్కీర్తిశ్ఛిన్నసంశయః ||",
+      "telugu": "॥ శ్లోకం 66 ॥\nస్వక్షః స్వంగః శతానందో నందిర్జ్యోతిర్గణేశ్వరః |\nవిజితాత్మాఽవిధేయాత్మా సత్కీర్తిశ్ఛిన్నసంశయః ||",
+      "textEnglish": "|| Shloka 66 ||\nSvakshah Svangah Shataanando Nandir Jyotirganeshvarah |\nVijitaatmaa'vidheyaatmaa Satkeertish Chhinnasamshayah ||",
+      "english": "|| Shloka 66 ||\nSvakshah Svangah Shataanando Nandir Jyotirganeshvarah |\nVijitaatmaa'vidheyaatmaa Satkeertish Chhinnasamshayah ||"
+    },
+    {
+      "index": 77,
+      "timestampMs": 1108889,
+      "startTimeMs": 1108889,
+      "endTimeMs": 1120463,
+      "textTelugu": "॥ శ్లోకం 67 ॥\nఉదీర్ణః సర్వతశ్చక్షురనీశః శాశ్వతస్థిరః |\nభూశయో భూషణో భూతిర్విశోకః శోకనాశనః ||",
+      "telugu": "॥ శ్లోకం 67 ॥\nఉదీర్ణః సర్వతశ్చక్షురనీశః శాశ్వతస్థిరః |\nభూశయో భూషణో భూతిర్విశోకః శోకనాశనః ||",
+      "textEnglish": "|| Shloka 67 ||\nUdeernah Sarvatashchakshur Aneeshah Shaashvatasthirah |\nBhooshayo Bhooshano Bhootir Vishokah Shokanaashanah ||",
+      "english": "|| Shloka 67 ||\nUdeernah Sarvatashchakshur Aneeshah Shaashvatasthirah |\nBhooshayo Bhooshano Bhootir Vishokah Shokanaashanah ||"
+    },
+    {
+      "index": 78,
+      "timestampMs": 1120463,
+      "startTimeMs": 1120463,
+      "endTimeMs": 1132037,
+      "textTelugu": "॥ శ్లోకం 68 ॥\nఅర్చిష్మానర్చితః కుంభో విశుద్ధాత్మా విశోధనః |\nఅనిరుద్ధోఽప్రతిరథః ప్రద్యుమ్నోఽమితవిక్రమః ||",
+      "telugu": "॥ శ్లోకం 68 ॥\nఅర్చిష్మానర్చితః కుంభో విశుద్ధాత్మా విశోధనః |\nఅనిరుద్ధోఽప్రతిరథః ప్రద్యుమ్నోఽమితవిక్రమః ||",
+      "textEnglish": "|| Shloka 68 ||\nArchishmahn Architah Kumbho Vishuddhaatmaa Vishodhanah |\nAniruddho'pratirathah Pradyumno'mitavikramah ||",
+      "english": "|| Shloka 68 ||\nArchishmahn Architah Kumbho Vishuddhaatmaa Vishodhanah |\nAniruddho'pratirathah Pradyumno'mitavikramah ||"
+    },
+    {
+      "index": 79,
+      "timestampMs": 1132037,
+      "startTimeMs": 1132037,
+      "endTimeMs": 1143611,
+      "textTelugu": "॥ శ్లోకం 69 ॥\nకాలనేమినిహా వీరః శౌరిః శూరజనేశ్వరః |\nత్రిలోకాత్మా త్రిలోకేశః కేశవః కేశిహా హరిః ||",
+      "telugu": "॥ శ్లోకం 69 ॥\nకాలనేమినిహా వీరః శౌరిః శూరజనేశ్వరః |\nత్రిలోకాత్మా త్రిలోకేశః కేశవః కేశిహా హరిః ||",
+      "textEnglish": "|| Shloka 69 ||\nKaalanemi-nihaa Veerah Shaurih Shoorajaneshvarah |\nTrilokaatmaa Trilokeshah Keshavah Keshihaa Harih ||",
+      "english": "|| Shloka 69 ||\nKaalanemi-nihaa Veerah Shaurih Shoorajaneshvarah |\nTrilokaatmaa Trilokeshah Keshavah Keshihaa Harih ||"
+    },
+    {
+      "index": 80,
+      "timestampMs": 1143611,
+      "startTimeMs": 1143611,
+      "endTimeMs": 1155185,
+      "textTelugu": "॥ శ్లోకం 70 ॥\nకామదేవః కామపాలః కామీ కాంతః కృతాగమః |\nఅనిర్దేశ్యవపుర్విష్ణుర్వీరోఽనంతో ధనంజయః ||",
+      "telugu": "॥ శ్లోకం 70 ॥\nకామదేవః కామపాలః కామీ కాంతః కృతాగమః |\nఅనిర్దేశ్యవపుర్విష్ణుర్వీరోఽనంతో ధనంజయః ||",
+      "textEnglish": "|| Shloka 70 ||\nKaamadevah Kaamapaalah Kaamee Kaantah Kritaagamah |\nAnirdeshyavapur Vishnur Veero'nanto Dhananjayah ||",
+      "english": "|| Shloka 70 ||\nKaamadevah Kaamapaalah Kaamee Kaantah Kritaagamah |\nAnirdeshyavapur Vishnur Veero'nanto Dhananjayah ||"
+    },
+    {
+      "index": 81,
+      "timestampMs": 1155185,
+      "startTimeMs": 1155185,
+      "endTimeMs": 1166759,
+      "textTelugu": "॥ శ్లోకం 71 ॥\nబ్రహ్మణ్యో బ్రహ్మకృద్బ్రహ్మా బ్రహ్మ బ్రహ్మవివర్ధనః |\nబ్రహ్మవిద్బ్రాహ్మణో బ్రహ్మీ బ్రహ్మజ్ఞో బ్రాహ్మణప్రియః ||",
+      "telugu": "॥ శ్లోకం 71 ॥\nబ్రహ్మణ్యో బ్రహ్మకృద్బ్రహ్మా బ్రహ్మ బ్రహ్మవివర్ధనః |\nబ్రహ్మవిద్బ్రాహ్మణో బ్రహ్మీ బ్రహ్మజ్ఞో బ్రాహ్మణప్రియః ||",
+      "textEnglish": "|| Shloka 71 ||\nBrahmanyo Brahmakrid Brahmaa Brahma Brahmavivardhanah |\nBrahmavid Braahmano Brahmee Brahmajno Braahmanapriyah ||",
+      "english": "|| Shloka 71 ||\nBrahmanyo Brahmakrid Brahmaa Brahma Brahmavivardhanah |\nBrahmavid Braahmano Brahmee Brahmajno Braahmanapriyah ||"
+    },
+    {
+      "index": 82,
+      "timestampMs": 1166759,
+      "startTimeMs": 1166759,
+      "endTimeMs": 1178333,
+      "textTelugu": "॥ శ్లోకం 72 ॥\nమహాక్రమో మహాకర్మా మహాతేజా మహోరగః |\nమహాక్రతుర్మహాయజ్వా మహాయజ్ఞో మహామహవిః ||",
+      "telugu": "॥ శ్లోకం 72 ॥\nమహాక్రమో మహాకర్మా మహాతేజా మహోరగః |\nమహాక్రతుర్మహాయజ్వా మహాయజ్ఞో మహామహవిః ||",
+      "textEnglish": "|| Shloka 72 ||\nMahaakramo Mahaakarmaa Mahaatejaa Mahoragah |\nMahaakratur Mahaayajvaa Mahaayajno Mahaahavih ||",
+      "english": "|| Shloka 72 ||\nMahaakramo Mahaakarmaa Mahaatejaa Mahoragah |\nMahaakratur Mahaayajvaa Mahaayajno Mahaahavih ||"
+    },
+    {
+      "index": 83,
+      "timestampMs": 1178333,
+      "startTimeMs": 1178333,
+      "endTimeMs": 1189907,
+      "textTelugu": "॥ శ్లోకం 73 ॥\nస్తవ్యః స్తవప్రియః స్తోత్రం స్తుతిః స్తోతా రణప్రియః |\nపూర్ణః పూరయితా పుణ్యః పుణ్యకీర్తిరనామయః ||",
+      "telugu": "॥ శ్లోకం 73 ॥\nస్తవ్యః స్తవప్రియః స్తోత్రం స్తుతిః స్తోతా రణప్రియః |\nపూర్ణః పూరయితా పుణ్యః పుణ్యకీర్తిరనామయః ||",
+      "textEnglish": "|| Shloka 73 ||\nStavyah Stavapriyah Stotram Stutih Stotaa Ranapriyah |\nPoornah Poorayitaa Punyah Punyakeertir Anaamayah ||",
+      "english": "|| Shloka 73 ||\nStavyah Stavapriyah Stotram Stutih Stotaa Ranapriyah |\nPoornah Poorayitaa Punyah Punyakeertir Anaamayah ||"
+    },
+    {
+      "index": 84,
+      "timestampMs": 1189907,
+      "startTimeMs": 1189907,
+      "endTimeMs": 1201481,
+      "textTelugu": "॥ శ్లోకం 74 ॥\nమనోజవస్తీర్థకరో వసురేతా వసుప్రదః |\nవసుప్రదో వాసుదేవో వసుర్వసుమనా హవిః ||",
+      "telugu": "॥ శ్లోకం 74 ॥\nమనోజవస్తీర్థకరో వసురేతా వసుప్రదః |\nవసుప్రదో వాసుదేవో వసుర్వసుమనా హవిః ||",
+      "textEnglish": "|| Shloka 74 ||\nManojavas Teerthakaro Vasuretaa Vasupradah |\nVasuprado Vaasudevo Vasur Vasumanaa Havih ||",
+      "english": "|| Shloka 74 ||\nManojavas Teerthakaro Vasuretaa Vasupradah |\nVasuprado Vaasudevo Vasur Vasumanaa Havih ||"
+    },
+    {
+      "index": 85,
+      "timestampMs": 1201481,
+      "startTimeMs": 1201481,
+      "endTimeMs": 1213056,
+      "textTelugu": "॥ శ్లోకం 75 ॥\nసద్గతిః సత్కృతిః సత్తా సద్భూతిః సత్పరాయణః |\nశూరసేనో యదుశ్రేష్ఠః సంనివాసః సుయామునః ||",
+      "telugu": "॥ శ్లోకం 75 ॥\nసద్గతిః సత్కృతిః సత్తా సద్భూతిః సత్పరాయణః |\nశూరసేనో యదుశ్రేష్ఠః సంనివాసః సుయామునః ||",
+      "textEnglish": "|| Shloka 75 ||\nSadgatih Satkritih Sattaa Sadbhootih Satparaayanah |\nShooraseno Yadushreshthah Samnivaasah Suyaamunah ||",
+      "english": "|| Shloka 75 ||\nSadgatih Satkritih Sattaa Sadbhootih Satparaayanah |\nShooraseno Yadushreshthah Samnivaasah Suyaamunah ||"
+    },
+    {
+      "index": 86,
+      "timestampMs": 1213056,
+      "startTimeMs": 1213056,
+      "endTimeMs": 1224630,
+      "textTelugu": "॥ శ్లోకం 76 ॥\nభూతావాసో వాసుదేవః సర్వాసునిలయోఽనలః |\nదర్పహా దర్పదో దృప్తో దుర్ధరోఽథాపరాజితః ||",
+      "telugu": "॥ శ్లోకం 76 ॥\nభూతావాసో వాసుదేవః సర్వాసునిలయోఽనలః |\nదర్పహా దర్పదో దృప్తో దుర్ధరోఽథాపరాజితః ||",
+      "textEnglish": "|| Shloka 76 ||\nBhootaavaaso Vaasudevah Sarvaasunilayo'nalah |\nDarpahaa Darpado Dripto Durdharo'thaaparaajitah ||",
+      "english": "|| Shloka 76 ||\nBhootaavaaso Vaasudevah Sarvaasunilayo'nalah |\nDarpahaa Darpado Dripto Durdharo'thaaparaajitah ||"
+    },
+    {
+      "index": 87,
+      "timestampMs": 1224630,
+      "startTimeMs": 1224630,
+      "endTimeMs": 1236204,
+      "textTelugu": "॥ శ్లోకం 77 ॥\nవిశ్వమూర్తిర్మహామూర్తిర్దీప్తమూర్తిరమూర్తిమాన్ |\nఅనేకమూర్తిరవ్యక్తః శతమూర్తిః శతాననః ||",
+      "telugu": "॥ శ్లోకం 77 ॥\nవిశ్వమూర్తిర్మహామూర్తిర్దీప్తమూర్తిరమూర్తిమాన్ |\nఅనేకమూర్తిరవ్యక్తః శతమూర్తిః శతాననః ||",
+      "textEnglish": "|| Shloka 77 ||\nVishvamoortir Mahaamoortir Deeptamoortir Amoortimaan |\nAnekamoortir Avyaktah Shatamoortih Shataanahah ||",
+      "english": "|| Shloka 77 ||\nVishvamoortir Mahaamoortir Deeptamoortir Amoortimaan |\nAnekamoortir Avyaktah Shatamoortih Shataanahah ||"
+    },
+    {
+      "index": 88,
+      "timestampMs": 1236204,
+      "startTimeMs": 1236204,
+      "endTimeMs": 1247778,
+      "textTelugu": "॥ శ్లోకం 78 ॥\nఏకో నైకః సవః కః కిం యత్తత్ పదమనుత్తమమ్ |\nలోకబంధుర్లోకనాథో మాధవో భక్తవత్సలః ||",
+      "telugu": "॥ శ్లోకం 78 ॥\nఏకో నైకః సవః కః కిం యత్తత్ పదమనుత్తమమ్ |\nలోకబంధుర్లోకనాథో మాధవో భక్తవత్సలః ||",
+      "textEnglish": "|| Shloka 78 ||\nEko Naikah Savah Kah Kim Yat Tat Padam Anuttamam |\nLokabandhur Lokanaatho Maadhavo Bhaktavatsalah ||",
+      "english": "|| Shloka 78 ||\nEko Naikah Savah Kah Kim Yat Tat Padam Anuttamam |\nLokabandhur Lokanaatho Maadhavo Bhaktavatsalah ||"
+    },
+    {
+      "index": 89,
+      "timestampMs": 1247778,
+      "startTimeMs": 1247778,
+      "endTimeMs": 1259352,
+      "textTelugu": "॥ శ్లోకం 79 ॥\nసువర్ణవర్ణో హేమాంగో వరాంగశ్చందనాంగదీ |\nవీరహా విషమః శూన్యో ఘృతాశీరచలశ్చలః ||",
+      "telugu": "॥ శ్లోకం 79 ॥\nసువర్ణవర్ణో హేమాంగో వరాంగశ్చందనాంగదీ |\nవీరహా విషమః శూన్యో ఘృతాశీరచలశ్చలః ||",
+      "textEnglish": "|| Shloka 79 ||\nSuvarnavarno Hemaango Varaangash Chandanaangadee |\nVeerahaa Vishamah Shoonyo Ghritaasheesh Chhalashchalah ||",
+      "english": "|| Shloka 79 ||\nSuvarnavarno Hemaango Varaangash Chandanaangadee |\nVeerahaa Vishamah Shoonyo Ghritaasheesh Chhalashchalah ||"
+    },
+    {
+      "index": 90,
+      "timestampMs": 1259352,
+      "startTimeMs": 1259352,
+      "endTimeMs": 1270926,
+      "textTelugu": "॥ శ్లోకం 80 ॥\nఅమానీ మానదో మాన్యో లోకస్వామీ త్రిలోకధృక్ |\nసుమేధా మేధజో ధన్యః సత్యమేధా ధరాధరః ||",
+      "telugu": "॥ శ్లోకం 80 ॥\nఅమానీ మానదో మాన్యో లోకస్వామీ త్రిలోకధృక్ |\nసుమేధా మేధజో ధన్యః సత్యమేధా ధరాధరః ||",
+      "textEnglish": "|| Shloka 80 ||\nAmaanee Maanado Maanyo Lokasvaamee Trilokadhrik |\nSumedhaa Medhajo Dhanyah Satyamedhaa Dharaadharah ||",
+      "english": "|| Shloka 80 ||\nAmaanee Maanado Maanyo Lokasvaamee Trilokadhrik |\nSumedhaa Medhajo Dhanyah Satyamedhaa Dharaadharah ||"
+    },
+    {
+      "index": 91,
+      "timestampMs": 1270926,
+      "startTimeMs": 1270926,
+      "endTimeMs": 1282500,
+      "textTelugu": "॥ శ్లోకం 81 ॥\nతేజోవృషో ద్యుతిధరః సర్వశస్త్రభృతాం వరః |\nప్రగ్రహో నిగ్రహో వ్యగ్రో నైకశృంగో గదాగ్రజః ||",
+      "telugu": "॥ శ్లోకం 81 ॥\nతేజోవృషో ద్యుతిధరః సర్వశస్త్రభృతాం వరః |\nప్రగ్రహో నిగ్రహో వ్యగ్రో నైకశృంగో గదాగ్రజః ||",
+      "textEnglish": "|| Shloka 81 ||\nTejovrisho Dyutidharah Sarvashastrabhritaam Varah |\nPragraho Nigraho Vyagro Naikashringo Gadaagrajah ||",
+      "english": "|| Shloka 81 ||\nTejovrisho Dyutidharah Sarvashastrabhritaam Varah |\nPragraho Nigraho Vyagro Naikashringo Gadaagrajah ||"
+    },
+    {
+      "index": 92,
+      "timestampMs": 1282500,
+      "startTimeMs": 1282500,
+      "endTimeMs": 1294074,
+      "textTelugu": "॥ శ్లోకం 82 ॥\nచతుర్మూర్తిశ్చతుర్బాహుశ్చతుర్వ్యూహశ్చతుర్గతిః |\nచతురాత్మా చతుర్భావశ్చతుర్వేదవిదేకపాత్ ||",
+      "telugu": "॥ శ్లోకం 82 ॥\nచతుర్మూర్తిశ్చతుర్బాహుశ్చతుర్వ్యూహశ్చతుర్గతిః |\nచతురాత్మా చతుర్భావశ్చతుర్వేదవిదేకపాత్ ||",
+      "textEnglish": "|| Shloka 82 ||\nChaturmoortish Chaturbhaahush Chaturvyoohash Chaturgatih |\nChaturaatmaa Chaturbhaavash Chaturvedavid Ekapahaat ||",
+      "english": "|| Shloka 82 ||\nChaturmoortish Chaturbhaahush Chaturvyoohash Chaturgatih |\nChaturaatmaa Chaturbhaavash Chaturvedavid Ekapahaat ||"
+    },
+    {
+      "index": 93,
+      "timestampMs": 1294074,
+      "startTimeMs": 1294074,
+      "endTimeMs": 1305648,
+      "textTelugu": "॥ శ్లోకం 83 ॥\nసమావర్తోఽనివృత్తాత్మా దుర్జయో దురతిక్రమః |\nదుర్లభో దుర్గమో దుర్గో దురావాసో దురారిహా ||",
+      "telugu": "॥ శ్లోకం 83 ॥\nసమావర్తోఽనివృత్తాత్మా దుర్జయో దురతిక్రమః |\nదుర్లభో దుర్గమో దుర్గో దురావాసో దురారిహా ||",
+      "textEnglish": "|| Shloka 83 ||\nSamaavarto'nivrittaatmaa Durjayo Duratikramah |\nDurlabho Durgamo Durgo Duraavaaso Duraarihaa ||",
+      "english": "|| Shloka 83 ||\nSamaavarto'nivrittaatmaa Durjayo Duratikramah |\nDurlabho Durgamo Durgo Duraavaaso Duraarihaa ||"
+    },
+    {
+      "index": 94,
+      "timestampMs": 1305648,
+      "startTimeMs": 1305648,
+      "endTimeMs": 1317222,
+      "textTelugu": "॥ శ్లోకం 84 ॥\nశుభాంగో లోకసారంగః సుతంతుస్తంతువర్ధనః |\nఇంద్రకర్మా మహాకర్మా కృతకర్మా కృతాగమః ||",
+      "telugu": "॥ శ్లోకం 84 ॥\nశుభాంగో లోకసారంగః సుతంతుస్తంతువర్ధనః |\nఇంద్రకర్మా మహాకర్మా కృతకర్మా కృతాగమః ||",
+      "textEnglish": "|| Shloka 84 ||\nShubhaango Lokasaarangah Sutantus Tantuvardhanah |\nIndrakarmaa Mahaakarmaa Kritakarmaa Kritaagamah ||",
+      "english": "|| Shloka 84 ||\nShubhaango Lokasaarangah Sutantus Tantuvardhanah |\nIndrakarmaa Mahaakarmaa Kritakarmaa Kritaagamah ||"
+    },
+    {
+      "index": 95,
+      "timestampMs": 1317222,
+      "startTimeMs": 1317222,
+      "endTimeMs": 1328796,
+      "textTelugu": "॥ శ్లోకం 85 ॥\nఉద్భవః సుందరః సుందో రత్ననాభః సులోచనః |\nఅర్కో వాజసనః శృంగీ జయంతః సర్వవిజ్జయీ ||",
+      "telugu": "॥ శ్లోకం 85 ॥\nఉద్భవః సుందరః సుందో రత్ననాభః సులోచనః |\nఅర్కో వాజసనః శృంగీ జయంతః సర్వవిజ్జయీ ||",
+      "textEnglish": "|| Shloka 85 ||\nUdbhavah Sundarah Sundo Ratnanaabhah Sulochanah |\nArko Vaajasanah Shringee Jayantah Sarvavij Jayee ||",
+      "english": "|| Shloka 85 ||\nUdbhavah Sundarah Sundo Ratnanaabhah Sulochanah |\nArko Vaajasanah Shringee Jayantah Sarvavij Jayee ||"
+    },
+    {
+      "index": 96,
+      "timestampMs": 1328796,
+      "startTimeMs": 1328796,
+      "endTimeMs": 1340370,
+      "textTelugu": "॥ శ్లోకం 86 ॥\nసువర్ణబిందురక్షోభ్యః సర్వవాగీశ్వరేశ్వరః |\nమహాహ్రదో మహాగర్తో మహాభూతో మహానిధిః ||",
+      "telugu": "॥ శ్లోకం 86 ॥\nసువర్ణబిందురక్షోభ్యః సర్వవాగీశ్వరేశ్వరః |\nమహాహ్రదో మహాగర్తో మహాభూతో మహానిధిః ||",
+      "textEnglish": "|| Shloka 86 ||\nSuvarnabindur Akshobhyah Sarvavaageeshvareshvarah |\nMahaahrado Mahaagarto Mahaabhooto Mahaanidhih ||",
+      "english": "|| Shloka 86 ||\nSuvarnabindur Akshobhyah Sarvavaageeshvareshvarah |\nMahaahrado Mahaagarto Mahaabhooto Mahaanidhih ||"
+    },
+    {
+      "index": 97,
+      "timestampMs": 1340370,
+      "startTimeMs": 1340370,
+      "endTimeMs": 1351944,
+      "textTelugu": "॥ శ్లోకం 87 ॥\nకుముదః కుందరః కుందః పర్జన్యః పావనోఽనిలః |\nఅమృతాశోఽమృతవపుః సర్వజ్ఞః సర్వతోముఖః ||",
+      "telugu": "॥ శ్లోకం 87 ॥\nకుముదః కుందరః కుందః పర్జన్యః పావనోఽనిలః |\nఅమృతాశోఽమృతవపుః సర్వజ్ఞః సర్వతోముఖః ||",
+      "textEnglish": "|| Shloka 87 ||\nKumudah Kundarah Kundah Parjanyah Paavano'nilah |\nAmritaasho'mritavapuh Sarvajnah Sarvatomukhah ||",
+      "english": "|| Shloka 87 ||\nKumudah Kundarah Kundah Parjanyah Paavano'nilah |\nAmritaasho'mritavapuh Sarvajnah Sarvatomukhah ||"
+    },
+    {
+      "index": 98,
+      "timestampMs": 1351944,
+      "startTimeMs": 1351944,
+      "endTimeMs": 1363519,
+      "textTelugu": "॥ శ్లోకం 88 ॥\nసులభః సువ్రతః సిద్ధః శత్రుజిచ్ఛత్రుతాపనః |\nన్యగ్రోధోఽదుంబరోఽశ్వత్థశ్చాణూరాంధ్రనిషూదనః ||",
+      "telugu": "॥ శ్లోకం 88 ॥\nసులభః సువ్రతః సిద్ధః శత్రుజిచ్ఛత్రుతాపనః |\nన్యగ్రోధోఽదుంబరోఽశ్వత్థశ్చాణూరాంధ్రనిషూదనః ||",
+      "textEnglish": "|| Shloka 88 ||\nSulabhah Suvratah Siddhah Shatrujich Chhatrutaapanah |\nNyagrodho'dumbaro'shvatthash Chaanooraandhra Nishoodanah ||",
+      "english": "|| Shloka 88 ||\nSulabhah Suvratah Siddhah Shatrujich Chhatrutaapanah |\nNyagrodho'dumbaro'shvatthash Chaanooraandhra Nishoodanah ||"
+    },
+    {
+      "index": 99,
+      "timestampMs": 1363519,
+      "startTimeMs": 1363519,
+      "endTimeMs": 1375093,
+      "textTelugu": "॥ శ్లోకం 89 ॥\nసహస్రార్చిః సప్తజిహ్వః సప్తైధాః సప్తవాహనః |\nఅమూర్తిరనఘోఽచింత్యో భయకృద్భయనాశనః ||",
+      "telugu": "॥ శ్లోకం 89 ॥\nసహస్రార్చిః సప్తజిహ్వః సప్తైధాః సప్తవాహనః |\nఅమూర్తిరనఘోఽచింత్యో భయకృద్భయనాశనః ||",
+      "textEnglish": "|| Shloka 89 ||\nSahasraarchih Saptajihvah Saptaidhaah Saptavaahanah |\nAmoortir Anagho'chintyo Bhayakrid Bhayanaashanah ||",
+      "english": "|| Shloka 89 ||\nSahasraarchih Saptajihvah Saptaidhaah Saptavaahanah |\nAmoortir Anagho'chintyo Bhayakrid Bhayanaashanah ||"
+    },
+    {
+      "index": 100,
+      "timestampMs": 1375093,
+      "startTimeMs": 1375093,
+      "endTimeMs": 1386667,
+      "textTelugu": "॥ శ్లోకం 90 ॥\nఅణుర్బృహత్కృశః స్థూలో గుణభృన్నిర్గుణో మహాన్ |\nఅధృతః స్వధృతః స్వాస్యః ప్రాగ్వంశో వంశవర్ధనః ||",
+      "telugu": "॥ శ్లోకం 90 ॥\nఅణుర్బృహత్కృశః స్థూలో గుణభృన్నిర్గుణో మహాన్ |\nఅధృతః స్వధృతః స్వాస్యః ప్రాగ్వంశో వంశవర్ధనః ||",
+      "textEnglish": "|| Shloka 90 ||\nAnur Brihat Krishah Sthoolo Gunabhrin Nirguno Mahaan |\nAdhritah Svadhritah Svaasyah Praagvamsho Vamshavardhanah ||",
+      "english": "|| Shloka 90 ||\nAnur Brihat Krishah Sthoolo Gunabhrin Nirguno Mahaan |\nAdhritah Svadhritah Svaasyah Praagvamsho Vamshavardhanah ||"
+    },
+    {
+      "index": 101,
+      "timestampMs": 1386667,
+      "startTimeMs": 1386667,
+      "endTimeMs": 1398241,
+      "textTelugu": "॥ శ్లోకం 91 ॥\nభారభృత్కథితో యోగీ యోగీశః సర్వకామదః |\nఆశ్రమః శ్రమణః క్షామః సుపర్ణో వాయువాహనః ||",
+      "telugu": "॥ శ్లోకం 91 ॥\nభారభృత్కథితో యోగీ యోగీశః సర్వకామదః |\nఆశ్రమః శ్రమణః క్షామః సుపర్ణో వాయువాహనః ||",
+      "textEnglish": "|| Shloka 91 ||\nBhaarabhrit Kathito Yogee Yogeeshah Sarvakaamadah |\nAashramah Shramanah Kshaamah Suparno Vaayuvaahanah ||",
+      "english": "|| Shloka 91 ||\nBhaarabhrit Kathito Yogee Yogeeshah Sarvakaamadah |\nAashramah Shramanah Kshaamah Suparno Vaayuvaahanah ||"
+    },
+    {
+      "index": 102,
+      "timestampMs": 1398241,
+      "startTimeMs": 1398241,
+      "endTimeMs": 1409815,
+      "textTelugu": "॥ శ్లోకం 92 ॥\nధనుర్ధరో ధనుర్వేదో దండో దమయితా దమః |\nఅపరాజితః సర్వసహో నియంతాఽనియమోఽయమః ||",
+      "telugu": "॥ శ్లోకం 92 ॥\nధనుర్ధరో ధనుర్వేదో దండో దమయితా దమః |\nఅపరాజితః సర్వసహో నియంతాఽనియమోఽయమః ||",
+      "textEnglish": "|| Shloka 92 ||\nDhanurdharo Dhanurvedo Dando Damayitaa Damah |\nAparaajitah Sarvasaho Niyantaa'niyamo'yamah ||",
+      "english": "|| Shloka 92 ||\nDhanurdharo Dhanurvedo Dando Damayitaa Damah |\nAparaajitah Sarvasaho Niyantaa'niyamo'yamah ||"
+    },
+    {
+      "index": 103,
+      "timestampMs": 1409815,
+      "startTimeMs": 1409815,
+      "endTimeMs": 1421389,
+      "textTelugu": "॥ శ్లోకం 93 ॥\nసత్త్వవాన్ సాత్త్వికః సత్యః సత్యధర్మపరాయణః |\nఅభిప్రాయః ప్రియార్హోఽర్హః ప్రియకృత్ ప్రీతివర్ధనః ||",
+      "telugu": "॥ శ్లోకం 93 ॥\nసత్త్వవాన్ సాత్త్వికః సత్యః సత్యధర్మపరాయణః |\nఅభిప్రాయః ప్రియార్హోఽర్హః ప్రియకృత్ ప్రీతివర్ధనః ||",
+      "textEnglish": "|| Shloka 93 ||\nSattvavaan Saattvikah Satyah Satyadharmaparaayanah |\nAbhipraayah Priyaarho'rhah Priyakrit Preetivardhanah ||",
+      "english": "|| Shloka 93 ||\nSattvavaan Saattvikah Satyah Satyadharmaparaayanah |\nAbhipraayah Priyaarho'rhah Priyakrit Preetivardhanah ||"
+    },
+    {
+      "index": 104,
+      "timestampMs": 1421389,
+      "startTimeMs": 1421389,
+      "endTimeMs": 1432963,
+      "textTelugu": "॥ శ్లోకం 94 ॥\nవిహాయసగతిర్జ్యోతిః సురుచిర్హుతభుగ్విభుః |\nరవిర్విరోచనః సూర్యః సవితా రవిలోచనః ||",
+      "telugu": "॥ శ్లోకం 94 ॥\nవిహాయసగతిర్జ్యోతిః సురుచిర్హుతభుగ్విభుః |\nరవిర్విరోచనః సూర్యః సవితా రవిలోచనః ||",
+      "textEnglish": "|| Shloka 94 ||\nVihaayasagatir Jyotih Suruchir Hutabhug Vibhuh |\nRavir Virochanah Sooryah Savitaa Ravilochanah ||",
+      "english": "|| Shloka 94 ||\nVihaayasagatir Jyotih Suruchir Hutabhug Vibhuh |\nRavir Virochanah Sooryah Savitaa Ravilochanah ||"
+    },
+    {
+      "index": 105,
+      "timestampMs": 1432963,
+      "startTimeMs": 1432963,
+      "endTimeMs": 1444537,
+      "textTelugu": "॥ శ్లోకం 95 ॥\nఅనంతో హుతభుగ్భోక్తా సుఖదో నైకదోఽగ్రజః |\nఅనిర్విణ్ణః సదామర్షీ లోకాధిష్ఠానమద్భుతః ||",
+      "telugu": "॥ శ్లోకం 95 ॥\nఅనంతో హుతభుగ్భోక్తా సుఖదో నైకదోఽగ్రజః |\nఅనిర్విణ్ణః సదామర్షీ లోకాధిష్ఠానమద్భుతః ||",
+      "textEnglish": "|| Shloka 95 ||\nAnanto Hutabhug Bhoktaa Sukhado Naikado'grajah |\nAnirvinnah Sadaamarshee Lokaadhishthaanam Adbhutah ||",
+      "english": "|| Shloka 95 ||\nAnanto Hutabhug Bhoktaa Sukhado Naikado'grajah |\nAnirvinnah Sadaamarshee Lokaadhishthaanam Adbhutah ||"
+    },
+    {
+      "index": 106,
+      "timestampMs": 1444537,
+      "startTimeMs": 1444537,
+      "endTimeMs": 1456111,
+      "textTelugu": "॥ శ్లోకం 96 ॥\nసనాత్సనాతనతమః కపిలః కపిరవ్యయః |\nస్వస్తిదః స్వస్తికృత్స్వస్తి స్వస్తిభుక్స్వస్తిదక్షిణః ||",
+      "telugu": "॥ శ్లోకం 96 ॥\nసనాత్సనాతనతమః కపిలః కపిరవ్యయః |\nస్వస్తిదః స్వస్తికృత్స్వస్తి స్వస్తిభుక్స్వస్తిదక్షిణః ||",
+      "textEnglish": "|| Shloka 96 ||\nSanaat Sanaatanatamah Kapilah Kapir Avyayah |\nSvastidah Svastikrit Svasti Svastibhuk Svastidakshinah ||",
+      "english": "|| Shloka 96 ||\nSanaat Sanaatanatamah Kapilah Kapir Avyayah |\nSvastidah Svastikrit Svasti Svastibhuk Svastidakshinah ||"
+    },
+    {
+      "index": 107,
+      "timestampMs": 1456111,
+      "startTimeMs": 1456111,
+      "endTimeMs": 1467685,
+      "textTelugu": "॥ శ్లోకం 97 ॥\nఅరౌద్రః కుండలీ చక్రీ విక్రమ్యూర్జితశాసనః |\nశబ్దాతిగః శబ్దసహః శిశిరః శర్వరీకరః ||",
+      "telugu": "॥ శ్లోకం 97 ॥\nఅరౌద్రః కుండలీ చక్రీ విక్రమ్యూర్జితశాసనః |\nశబ్దాతిగః శబ్దసహః శిశిరః శర్వరీకరః ||",
+      "textEnglish": "|| Shloka 97 ||\nAraudrah Kundalee Chakree Vikramy Oorjitashaasanah |\nShabdaatigah Shabdasahah Shishirah Sharvareekarah ||",
+      "english": "|| Shloka 97 ||\nAraudrah Kundalee Chakree Vikramy Oorjitashaasanah |\nShabdaatigah Shabdasahah Shishirah Sharvareekarah ||"
+    },
+    {
+      "index": 108,
+      "timestampMs": 1467685,
+      "startTimeMs": 1467685,
+      "endTimeMs": 1479259,
+      "textTelugu": "॥ శ్లోకం 98 ॥\nఅక్రూరః పేశలో దక్షో దక్షిణః క్షమిణాం వరః |\nవిద్వత్తమో వీతభయః పుణ్యశ్రవణకీర్తనః ||",
+      "telugu": "॥ శ్లోకం 98 ॥\nఅక్రూరః పేశలో దక్షో దక్షిణః క్షమిణాం వరః |\nవిద్వత్తమో వీతభయః పుణ్యశ్రవణకీర్తనః ||",
+      "textEnglish": "|| Shloka 98 ||\nAkroorah Peshalo Daksho Dakshinah Kshaminaam Varah |\nVidvattamo Veetabhayah Punyashravanakeertanah ||",
+      "english": "|| Shloka 98 ||\nAkroorah Peshalo Daksho Dakshinah Kshaminaam Varah |\nVidvattamo Veetabhayah Punyashravanakeertanah ||"
+    },
+    {
+      "index": 109,
+      "timestampMs": 1479259,
+      "startTimeMs": 1479259,
+      "endTimeMs": 1490833,
+      "textTelugu": "॥ శ్లోకం 99 ॥\nఉత్తారణో దుష్కృతిహా పుణ్యో దుఃస్వప్ననాశనః |\nవీరహా రక్షణః సంతో జీవనః పర్యవస్థితః ||",
+      "telugu": "॥ శ్లోకం 99 ॥\nఉత్తారణో దుష్కృతిహా పుణ్యో దుఃస్వప్ననాశనః |\nవీరహా రక్షణః సంతో జీవనః పర్యవస్థితః ||",
+      "textEnglish": "|| Shloka 99 ||\nUttaarano Dushkritihaa Punyo Duhsvapnanaashanah |\nVeerahaa Rakshanah Santo Jeevanah Paryavasthitah ||",
+      "english": "|| Shloka 99 ||\nUttaarano Dushkritihaa Punyo Duhsvapnanaashanah |\nVeerahaa Rakshanah Santo Jeevanah Paryavasthitah ||"
+    },
+    {
+      "index": 110,
+      "timestampMs": 1490833,
+      "startTimeMs": 1490833,
+      "endTimeMs": 1502407,
+      "textTelugu": "॥ శ్లోకం 100 ॥\nఅనంతరూపోఽనంతశ్రీర్జితమన్యుర్భయాపహః |\nచతురశ్రో గభీరాత్మా విదిశో వ్యాదిశో దిశః ||",
+      "telugu": "॥ శ్లోకం 100 ॥\nఅనంతరూపోఽనంతశ్రీర్జితమన్యుర్భయాపహః |\nచతురశ్రో గభీరాత్మా విదిశో వ్యాదిశో దిశః ||",
+      "textEnglish": "|| Shloka 100 ||\nAnantaroopo'nantashreer Jitamanyur Bhayaapahah |\nChaturashro Gabheeraatmaa Vidisho Vyaadisho Dishah ||",
+      "english": "|| Shloka 100 ||\nAnantaroopo'nantashreer Jitamanyur Bhayaapahah |\nChaturashro Gabheeraatmaa Vidisho Vyaadisho Dishah ||"
+    },
+    {
+      "index": 111,
+      "timestampMs": 1502407,
+      "startTimeMs": 1502407,
+      "endTimeMs": 1513981,
+      "textTelugu": "॥ శ్లోకం 101 ॥\nఅనాదిర్భూర్భువో లక్ష్మీః సువీరో రుచిరాంగదః |\nజననో జనజన్మాదిర్భీమో భీమపరాక్రమః ||",
+      "telugu": "॥ శ్లోకం 101 ॥\nఅనాదిర్భూర్భువో లక్ష్మీః సువీరో రుచిరాంగదః |\nజననో జనజన్మాదిర్భీమో భీమపరాక్రమః ||",
+      "textEnglish": "|| Shloka 101 ||\nAnaadir Bhoorbhuvo Lakshmeeh Suveero Ruchiraangadah |\nJanano Janajanmaadir Bheemo Bheemaparaakramah ||",
+      "english": "|| Shloka 101 ||\nAnaadir Bhoorbhuvo Lakshmeeh Suveero Ruchiraangadah |\nJanano Janajanmaadir Bheemo Bheemaparaakramah ||"
+    },
+    {
+      "index": 112,
+      "timestampMs": 1513981,
+      "startTimeMs": 1513981,
+      "endTimeMs": 1525556,
+      "textTelugu": "॥ శ్లోకం 102 ॥\nఆధారనిలయోఽధాతా పుష్పహాసః ప్రజాగరః |\nఊర్ధ్వగః సత్పథాచారః ప్రాణదః ప్రణవః పణః ||",
+      "telugu": "॥ శ్లోకం 102 ॥\nఆధారనిలయోఽధాతా పుష్పహాసః ప్రజాగరః |\nఊర్ధ్వగః సత్పథాచారః ప్రాణదః ప్రణవః పణః ||",
+      "textEnglish": "|| Shloka 102 ||\nAadhaaranilayo'dhaataa Pushpahaasah Prajaagarah |\nOordhvagah Satpathaachaarah Praanadah Pranavah Panah ||",
+      "english": "|| Shloka 102 ||\nAadhaaranilayo'dhaataa Pushpahaasah Prajaagarah |\nOordhvagah Satpathaachaarah Praanadah Pranavah Panah ||"
+    },
+    {
+      "index": 113,
+      "timestampMs": 1525556,
+      "startTimeMs": 1525556,
+      "endTimeMs": 1537130,
+      "textTelugu": "॥ శ్లోకం 103 ॥\nప్రమాణం ప్రాణనిలయః ప్రాణభృత్ ప్రాణజీవనః |\nతత్త్వం తత్త్వవిదేకాత్మా జన్మమృత్యుజరాతిగః ||",
+      "telugu": "॥ శ్లోకం 103 ॥\nప్రమాణం ప్రాణనిలయః ప్రాణభృత్ ప్రాణజీవనః |\nతత్త్వం తత్త్వవిదేకాత్మా జన్మమృత్యుజరాతిగః ||",
+      "textEnglish": "|| Shloka 103 ||\nPramaanam Praananilayah Praanabhrit Praanajeevanah |\nTattvam Tattvavid Ekaatmaa Janmamrityujaraatigah ||",
+      "english": "|| Shloka 103 ||\nPramaanam Praananilayah Praanabhrit Praanajeevanah |\nTattvam Tattvavid Ekaatmaa Janmamrityujaraatigah ||"
+    },
+    {
+      "index": 114,
+      "timestampMs": 1537130,
+      "startTimeMs": 1537130,
+      "endTimeMs": 1548704,
+      "textTelugu": "॥ శ్లోకం 104 ॥\nభూర్భువః స్వస్తరుస్తారః సవితా ప్రపితామహః |\nయజ్ఞో యజ్ఞపతిర్యజ్వా యజ్ఞాంగో యజ్ఞవాహనః ||",
+      "telugu": "॥ శ్లోకం 104 ॥\nభూర్భువః స్వస్తరుస్తారః సవితా ప్రపితామహః |\nయజ్ఞో యజ్ఞపతిర్యజ్వా యజ్ఞాంగో యజ్ఞవాహనః ||",
+      "textEnglish": "|| Shloka 104 ||\nBhoorbhuvah Svastarus Taarah Savitaa Prapitaamahah |\nYajno Yajnapatir Yajvaa Yajnaango Yajnavaahanah ||",
+      "english": "|| Shloka 104 ||\nBhoorbhuvah Svastarus Taarah Savitaa Prapitaamahah |\nYajno Yajnapatir Yajvaa Yajnaango Yajnavaahanah ||"
+    },
+    {
+      "index": 115,
+      "timestampMs": 1548704,
+      "startTimeMs": 1548704,
+      "endTimeMs": 1560278,
+      "textTelugu": "॥ శ్లోకం 105 ॥\nయజ్ఞభృద్ యజ్ఞకృద్ యజ్ఞీ యజ్ఞభుగ్ యజ్ఞసాధనః |\nయజ్ఞాంతకృద్ యజ్ఞగుహ్యమన్నమన్నాద ఏవ చ ||",
+      "telugu": "॥ శ్లోకం 105 ॥\nయజ్ఞభృద్ యజ్ఞకృద్ యజ్ఞీ యజ్ఞభుగ్ యజ్ఞసాధనః |\nయజ్ఞాంతకృద్ యజ్ఞగుహ్యమన్నమన్నాద ఏవ చ ||",
+      "textEnglish": "|| Shloka 105 ||\nYajnabhrid Yajnakrid Yajnee Yajnabhug Yajnasaadhanah |\nYajnaantakrid Yajnaguhyam Annam Annaada Eva Cha ||",
+      "english": "|| Shloka 105 ||\nYajnabhrid Yajnakrid Yajnee Yajnabhug Yajnasaadhanah |\nYajnaantakrid Yajnaguhyam Annam Annaada Eva Cha ||"
+    },
+    {
+      "index": 116,
+      "timestampMs": 1560278,
+      "startTimeMs": 1560278,
+      "endTimeMs": 1571852,
+      "textTelugu": "॥ శ్లోకం 106 ॥\nఆత్మయోనిః స్వయంజాతో వైఖానః సామగాయనః |\nదేవకీనందనః స్రష్టా క్షితీశః పాపనాశనః ||",
+      "telugu": "॥ శ్లోకం 106 ॥\nఆత్మయోనిః స్వయంజాతో వైఖానః సామగాయనః |\nదేవకీనందనః స్రష్టా క్షితీశః పాపనాశనః ||",
+      "textEnglish": "|| Shloka 106 ||\nAatmayonih Svayamjaato Vaikhaanah Saamagaayanah |\nDevakeenandanah Srashtaa Ksheetishah Paapanaashanah ||",
+      "english": "|| Shloka 106 ||\nAatmayonih Svayamjaato Vaikhaanah Saamagaayanah |\nDevakeenandanah Srashtaa Ksheetishah Paapanaashanah ||"
+    },
+    {
+      "index": 117,
+      "timestampMs": 1571852,
+      "startTimeMs": 1571852,
+      "endTimeMs": 1583426,
+      "textTelugu": "॥ శ్లోకం 107 ॥\nశంఖభృన్నందకీ చక్రీ శార్ఙ్గధన్వా గదాధరః |\nరథాంగపాణిరక్షోభ్యః సర్వప్రహరణాయుధః ||",
+      "telugu": "॥ శ్లోకం 107 ॥\nశంఖభృన్నందకీ చక్రీ శార్ఙ్గధన్వా గదాధరః |\nరథాంగపాణిరక్షోభ్యః సర్వప్రహరణాయుధః ||",
+      "textEnglish": "|| Shloka 107 ||\nShankhabhrin Nandakee Chakree Shaarngadhanvaa Gadaadharah |\nRathaangapaanir Akshobhyah Sarvapraharanaayudhah ||",
+      "english": "|| Shloka 107 ||\nShankhabhrin Nandakee Chakree Shaarngadhanvaa Gadaadharah |\nRathaangapaanir Akshobhyah Sarvapraharanaayudhah ||"
+    },
+    {
+      "index": 118,
+      "timestampMs": 1583426,
+      "startTimeMs": 1583426,
+      "endTimeMs": 1595000,
+      "textTelugu": "॥ శ్లోకం 108 ॥\nవనమాలీ గదీ శార్ఙ్గీ శంఖీ చక్రీ చ నందకీ |\nశ్రీమాన్ నారాయణో విష్ణుర్వాసుదేవోఽభిరక్షతు ||",
+      "telugu": "॥ శ్లోకం 108 ॥\nవనమాలీ గదీ శార్ఙ్గీ శంఖీ చక్రీ చ నందకీ |\nశ్రీమాన్ నారాయణో విష్ణుర్వాసుదేవోఽభిరక్షతు ||",
+      "textEnglish": "|| Shloka 108 ||\nVanamaalee Gadee Shaarngee Shankhee Chakree Cha Nandakee |\nShreemaan Naaraayano Vishnur Vaasudevo'bhirakshatu ||",
+      "english": "|| Shloka 108 ||\nVanamaalee Gadee Shaarngee Shankhee Chakree Cha Nandakee |\nShreemaan Naaraayano Vishnur Vaasudevo'bhirakshatu ||"
+    },
+    {
+      "index": 119,
+      "timestampMs": 1595000,
+      "startTimeMs": 1595000,
+      "endTimeMs": 1635000,
+      "textTelugu": "॥ ఉత్తర పీఠికా / ఫలశ్రుతిః ॥\nఇతీదం కీర్తనీయస్య కేశవస్య మహాత్మనః |\nనామ్నాం సహస్రం దివ్యానామశేషేణ ప్రకీర్తితమ్ ||",
+      "telugu": "॥ ఉత్తర పీఠికా / ఫలశ్రుతిః ॥\nఇతీదం కీర్తనీయస్య కేశవస్య మహాత్మనః |\nనామ్నాం సహస్రం దివ్యానామశేషేణ ప్రకీర్తితమ్ ||",
+      "textEnglish": "|| Uttara Peethikaa / Phalasrutih ||\nIteedam Keertaneeyasya Keshavasya Mahaatmanah |\nNaamnaam Sahasram Divyaanaam Asheshena Prakeertitam ||",
+      "english": "|| Uttara Peethikaa / Phalasrutih ||\nIteedam Keertaneeyasya Keshavasya Mahaatmanah |\nNaamnaam Sahasram Divyaanaam Asheshena Prakeertitam ||"
+    },
+    {
+      "index": 120,
+      "timestampMs": 1635000,
+      "startTimeMs": 1635000,
+      "endTimeMs": 1675000,
+      "textTelugu": "య ఇదం శృణుయాన్నిత్యం యశ్చాపి పరికీర్తయేత్ |\nనాశుభం ప్రాప్నుయాత్ కించిత్ సోఽముత్రేహ చ మానవః ||",
+      "telugu": "య ఇదం శృణుయాన్నిత్యం యశ్చాపి పరికీర్తయేత్ |\nనాశుభం ప్రాప్నుయాత్ కించిత్ సోఽముత్రేహ చ మానవః ||",
+      "textEnglish": "Ya Idam Shrinuyan Nityam Yash Chaapi Parikeertayet |\nNaashubham Praapnuyaat Kimchit So'mutreha Cha Maanavah ||",
+      "english": "Ya Idam Shrinuyan Nityam Yash Chaapi Parikeertayet |\nNaashubham Praapnuyaat Kimchit So'mutreha Cha Maanavah ||"
+    },
+    {
+      "index": 121,
+      "timestampMs": 1675000,
+      "startTimeMs": 1675000,
+      "endTimeMs": 1715000,
+      "textTelugu": "వేదాంతగో బ్రాహ్మణః స్యాత్ క్షత్రియో విజయీ భవేత్ |\nవైశ్యో ధనసమృద్ధః స్యాత్ శూద్రః సుఖమవాప్నుయాత్ ||",
+      "telugu": "వేదాంతగో బ్రాహ్మణః స్యాత్ క్షత్రియో విజయీ భవేత్ |\nవైశ్యో ధనసమృద్ధః స్యాత్ శూద్రః సుఖమవాప్నుయాత్ ||",
+      "textEnglish": "Vedaantago Braahmanah Syaat Kshatriyo Vijayee Bhavet |\nVaishyo Dhanasamriddhah Syaat Shoodrah Sukham Avaapnuyaat ||",
+      "english": "Vedaantago Braahmanah Syaat Kshatriyo Vijayee Bhavet |\nVaishyo Dhanasamriddhah Syaat Shoodrah Sukham Avaapnuyaat ||"
+    },
+    {
+      "index": 122,
+      "timestampMs": 1715000,
+      "startTimeMs": 1715000,
+      "endTimeMs": 1755000,
+      "textTelugu": "న తే యాంతి పరాభవం సర్వభూతాత్మా సర్వదృక్ |\nసర్వదా సర్వగః సర్వః సర్వాత్మా సర్వభావనః ||",
+      "telugu": "న తే యాంతి పరాభవం సర్వభూతాత్మా సర్వదృక్ |\nసర్వదా సర్వగః సర్వః సర్వాత్మా సర్వభావనః ||",
+      "textEnglish": "Na Te Yaanti Paraabhavam Sarvabhootaatmaa Sarvadrik |\nSarvadaa Sarvagah Sarvah Sarvaatmaa Sarvabhaavanah ||",
+      "english": "Na Te Yaanti Paraabhavam Sarvabhootaatmaa Sarvadrik |\nSarvadaa Sarvagah Sarvah Sarvaatmaa Sarvabhaavanah ||"
+    },
+    {
+      "index": 123,
+      "timestampMs": 1755000,
+      "startTimeMs": 1755000,
+      "endTimeMs": 1790910,
+      "textTelugu": "నమో బ్రహ్మణ్యదేవాయ గోబ్రాహ్మణహితాయ చ |\nజగద్ధితాయ కృష్ణాయ గోవిందాయ నమో నమః ||\n॥ శ్రీ వాసుదేవార్పణమస్తు ॥",
+      "telugu": "నమో బ్రహ్మణ్యదేవాయ గోబ్రాహ్మణహితాయ చ |\nజగద్ధితాయ కృష్ణాయ గోవిందాయ నమో నమః ||\n॥ శ్రీ వాసుదేవార్పణమస్తు ॥",
+      "textEnglish": "Namo Brahmanyadevaaya Gobraahmanahitaaya Cha |\nJagaddhitaaya Krishnaaya Govindaaya Namo Namah ||\n|| Shree Vaasudevaarpanamastu ||",
+      "english": "Namo Brahmanyadevaaya Gobraahmanahitaaya Cha |\nJagaddhitaaya Krishnaaya Govindaaya Namo Namah ||\n|| Shree Vaasudevaarpanamastu ||"
     }
   ]
 }

@@ -26,7 +26,7 @@ $Tracks = @(
     "krishna_ashtakam"
 )
 
-$RepoContent = Get-Content $RepoFile -Raw
+$RepoContent = Get-Content $RepoFile -Raw -Encoding UTF8
 
 foreach ($track in $Tracks) {
     $filePath = Join-Path $RawDir "$track.m4a"

@@ -1,5 +1,11 @@
 package com.bhaktidhwani.app.ui.screens
 
+import androidx.compose.animation.core.RepeatMode
+import androidx.compose.animation.core.animateFloat
+import androidx.compose.animation.core.infiniteRepeatable
+import androidx.compose.animation.core.rememberInfiniteTransition
+import androidx.compose.animation.core.tween
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Arrangement
@@ -19,10 +25,7 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowForward
-import androidx.compose.material.icons.filled.CheckCircle
 import androidx.compose.material.icons.filled.CloudOff
-import androidx.compose.material.icons.filled.GraphicEq
-import androidx.compose.material.icons.filled.Repeat
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Icon
@@ -34,16 +37,15 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.draw.scale
+import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.airbnb.lottie.compose.LottieAnimation
-import com.airbnb.lottie.compose.LottieCompositionSpec
-import com.airbnb.lottie.compose.LottieConstants
-import com.airbnb.lottie.compose.rememberLottieComposition
+import com.bhaktidhwani.app.R
 import com.bhaktidhwani.app.ui.theme.GoldenAuraGradient
 import com.bhaktidhwani.app.ui.theme.RichGold
 import com.bhaktidhwani.app.ui.theme.SacredSaffron
@@ -53,50 +55,36 @@ import com.bhaktidhwani.app.ui.theme.SurfaceContainer
 import com.bhaktidhwani.app.ui.theme.TempleGold
 import com.bhaktidhwani.app.ui.theme.WarmIvory
 
-import androidx.compose.animation.core.RepeatMode
-import androidx.compose.animation.core.animateFloat
-import androidx.compose.animation.core.infiniteRepeatable
-import androidx.compose.animation.core.rememberInfiniteTransition
-import androidx.compose.animation.core.tween
-import androidx.compose.foundation.Image
-import androidx.compose.ui.draw.scale
-import androidx.compose.ui.res.painterResource
-import com.bhaktidhwani.app.R
-
 /**
- * Onboarding/Welcome screen featuring the sacred Namaste animation,
- * glowing concentric aura rings, bilingual headline, offline verification badge, and elder-friendly CTA.
+ * Clean, serene Welcome/Onboarding screen for Devotional Chants.
+ * Features an authentic brass Diya emblem enveloped by a soft breathing golden halo,
+ * sacred Telugu greeting, and a prominent 60dp "Get Started" CTA button.
  */
 @Composable
 fun WelcomeScreen(
     onGetStarted: () -> Unit
 ) {
-    val compositionResult = rememberLottieComposition(
-        LottieCompositionSpec.Asset("anim/namaste_anim.json")
-    )
-    val composition = compositionResult.value
-    val isCompositionFailed = compositionResult.isFailure
     val scrollState = rememberScrollState()
 
-    // Smooth continuous aura pulse animation
-    val infiniteTransition = rememberInfiniteTransition(label = "AuraPulse")
+    // Smooth continuous aura breathing animation
+    val infiniteTransition = rememberInfiniteTransition(label = "SacredAuraBreathing")
     val pulseScale by infiniteTransition.animateFloat(
-        initialValue = 0.96f,
-        targetValue = 1.04f,
+        initialValue = 0.94f,
+        targetValue = 1.06f,
         animationSpec = infiniteRepeatable(
-            animation = tween(durationMillis = 2400),
+            animation = tween(durationMillis = 2800),
             repeatMode = RepeatMode.Reverse
         ),
         label = "pulseScale"
     )
-    val pulseAlpha by infiniteTransition.animateFloat(
-        initialValue = 0.5f,
-        targetValue = 0.95f,
+    val auraAlpha by infiniteTransition.animateFloat(
+        initialValue = 0.35f,
+        targetValue = 0.75f,
         animationSpec = infiniteRepeatable(
-            animation = tween(durationMillis = 2400),
+            animation = tween(durationMillis = 2800),
             repeatMode = RepeatMode.Reverse
         ),
-        label = "pulseAlpha"
+        label = "auraAlpha"
     )
 
     Surface(
@@ -113,7 +101,7 @@ fun WelcomeScreen(
                 modifier = Modifier
                     .fillMaxSize()
                     .verticalScroll(scrollState)
-                    .padding(top = 40.dp, bottom = 100.dp),
+                    .padding(top = 48.dp, bottom = 100.dp),
                 horizontalAlignment = Alignment.CenterHorizontally,
                 verticalArrangement = Arrangement.Center
             ) {
@@ -122,8 +110,8 @@ fun WelcomeScreen(
                     modifier = Modifier
                         .clip(RoundedCornerShape(50))
                         .background(SurfaceContainer)
-                        .border(1.dp, RichGold.copy(alpha = 0.4f), RoundedCornerShape(50))
-                        .padding(horizontal = 16.dp, vertical = 8.dp),
+                        .border(1.dp, RichGold.copy(alpha = 0.35f), RoundedCornerShape(50))
+                        .padding(horizontal = 18.dp, vertical = 8.dp),
                     verticalAlignment = Alignment.CenterVertically
                 ) {
                     Icon(
@@ -136,127 +124,113 @@ fun WelcomeScreen(
                     Text(
                         text = "100% ఆఫ్లైన్ • Zero Internet Needed",
                         style = MaterialTheme.typography.labelMedium,
-                        color = WarmIvory
+                        color = WarmIvory,
+                        fontWeight = FontWeight.Medium
                     )
                 }
 
-                Spacer(modifier = Modifier.height(32.dp))
+                Spacer(modifier = Modifier.height(44.dp))
 
-                // Sacred Namaste Emblem with Glowing Concentric Rings
+                // === ELEGANT BREATHING GOLDEN HALO & TRADITIONAL DIYA EMBLEM ===
                 Box(
-                    modifier = Modifier
-                        .size(210.dp),
+                    modifier = Modifier.size(230.dp),
                     contentAlignment = Alignment.Center
                 ) {
-                    // Outer Radiant Ring
+                    // Outermost Soft Ambient Radiant Halo
                     Box(
                         modifier = Modifier
-                            .size(200.dp)
+                            .size(220.dp)
                             .scale(pulseScale)
                             .clip(CircleShape)
-                            .background(SacredSaffron.copy(alpha = 0.08f * pulseAlpha))
-                            .border(1.5.dp, SacredSaffron.copy(alpha = 0.45f * pulseAlpha), CircleShape)
+                            .background(
+                                Brush.radialGradient(
+                                    colors = listOf(
+                                        TempleGold.copy(alpha = 0.22f * auraAlpha),
+                                        SacredSaffron.copy(alpha = 0.10f * auraAlpha),
+                                        Color.Transparent
+                                    )
+                                )
+                            )
                     )
 
-                    // Middle Temple Gold Ring
+                    // Secondary Concentric Gold Aura Ring
                     Box(
                         modifier = Modifier
-                            .size(165.dp)
+                            .size(180.dp)
                             .clip(CircleShape)
-                            .background(Color(0xFF24150A))
-                            .border(2.dp, TempleGold.copy(alpha = 0.75f * pulseAlpha), CircleShape)
+                            .border(
+                                width = 1.5.dp,
+                                color = TempleGold.copy(alpha = 0.40f * auraAlpha),
+                                shape = CircleShape
+                            )
                     )
 
-                    // Inner Sanctum Core
+                    // Inner Sanctum Shrine Plinth (Deep Temple Dark)
                     Box(
                         modifier = Modifier
-                            .size(130.dp)
+                            .size(144.dp)
                             .clip(CircleShape)
-                            .background(Color(0xFF1B0F07))
-                            .border(2.5.dp, RichGold, CircleShape),
+                            .background(Color(0xFF140A04))
+                            .border(
+                                width = 2.dp,
+                                brush = Brush.linearGradient(
+                                    colors = listOf(RichGold, SacredSaffron.copy(alpha = 0.6f))
+                                ),
+                                shape = CircleShape
+                            ),
                         contentAlignment = Alignment.Center
                     ) {
-                        // Always-present Sacred Namaste Emblem
+                        // Refined Traditional Brass Diya Emblem (No raster watermarks)
                         Image(
-                            painter = painterResource(id = R.drawable.ic_namaste),
-                            contentDescription = "Sacred Namaste Emblem",
+                            painter = painterResource(id = R.drawable.ic_welcome_diya),
+                            contentDescription = "Sacred Deepam",
                             modifier = Modifier
-                                .size(88.dp)
-                                .padding(4.dp)
-                        )
-                    }
-
-                    // Optional Lottie Golden Aura overlay if loaded
-                    if (composition != null && !isCompositionFailed) {
-                        LottieAnimation(
-                            composition = composition,
-                            iterations = LottieConstants.IterateForever,
-                            modifier = Modifier.size(200.dp)
+                                .size(96.dp)
+                                .padding(6.dp)
                         )
                     }
                 }
 
-                Spacer(modifier = Modifier.height(28.dp))
+                Spacer(modifier = Modifier.height(36.dp))
 
-                // Bilingual Welcome Headline
+                // Sacred Title & Devotional Header
                 Text(
-                    text = "భక్తి గీతాలు",
-                    style = MaterialTheme.typography.headlineLarge,
+                    text = "భక్తి గీతాలు • Devotional Chants",
+                    style = MaterialTheme.typography.headlineMedium,
                     color = TempleGold,
                     fontWeight = FontWeight.Bold,
-                    fontSize = 34.sp,
+                    fontSize = 26.sp,
                     textAlign = TextAlign.Center
                 )
 
-                Text(
-                    text = "Devotional Chants",
-                    style = MaterialTheme.typography.titleMedium,
-                    color = WarmIvory.copy(alpha = 0.9f),
-                    textAlign = TextAlign.Center,
-                    modifier = Modifier.padding(top = 4.dp)
-                )
+                Spacer(modifier = Modifier.height(10.dp))
 
                 Text(
-                    text = "పవిత్రమైన స్తోత్రాలు, ప్రశాంతమైన జపం మరియు సహజమైన సాహిత్యంతో మీ ఆధ్యాత్మిక ప్రయాణాన్ని ప్రారంభించండి.",
+                    text = "పవిత్రమైన స్తోత్రాలు మరియు ప్రశాంతమైన జపం",
                     style = MaterialTheme.typography.bodyLarge,
-                    color = WarmIvory.copy(alpha = 0.75f),
+                    color = WarmIvory.copy(alpha = 0.85f),
                     textAlign = TextAlign.Center,
-                    lineHeight = 26.sp,
-                    modifier = Modifier.padding(top = 12.dp, start = 8.dp, end = 8.dp)
+                    lineHeight = 24.sp,
+                    modifier = Modifier.padding(horizontal = 16.dp)
                 )
 
-                Spacer(modifier = Modifier.height(32.dp))
-
-                // Feature Highlights for Elders
-                FeatureBadge(
-                    icon = Icons.Default.Repeat,
-                    titleTelugu = "నిరంతర జపం (Japam Chanting)",
-                    description = "11x, 21x, 108x లేదా నిరంతర ఆవర్తనాలతో ప్రార్థన."
+                Text(
+                    text = "Sacred Stotras, Chants & Peaceful Japam Meditation",
+                    style = MaterialTheme.typography.bodyMedium,
+                    color = WarmIvory.copy(alpha = 0.6f),
+                    textAlign = TextAlign.Center,
+                    modifier = Modifier.padding(top = 6.dp)
                 )
 
-                Spacer(modifier = Modifier.height(12.dp))
-
-                FeatureBadge(
-                    icon = Icons.Default.GraphicEq,
-                    titleTelugu = "సమకాలీకరించిన సాహిత్యం (Live Lyrics)",
-                    description = "స్పష్టమైన తెలుగు మరియు ఇంగ్లీష్ పెద్ద అక్షరాల లిపి."
-                )
-
-                Spacer(modifier = Modifier.height(12.dp))
-
-                FeatureBadge(
-                    icon = Icons.Default.CheckCircle,
-                    titleTelugu = "సహజమైన సౌకర్యం (Simple & Clear)",
-                    description = "పెద్ద బటన్లు, ప్రకటనలు లేవు, సులభమైన వాడకం."
-                )
+                Spacer(modifier = Modifier.height(48.dp))
             }
 
-            // Fixed Bottom CTA Button (64dp height for elderly convenience)
+            // Fixed Bottom CTA Button (60dp height for elderly convenience)
             Box(
                 modifier = Modifier
                     .fillMaxWidth()
                     .align(Alignment.BottomCenter)
-                    .padding(bottom = 24.dp)
+                    .padding(bottom = 28.dp)
             ) {
                 Button(
                     onClick = onGetStarted,
@@ -277,7 +251,7 @@ fun WelcomeScreen(
                         Text(
                             text = "ప్రారంభించండి • Get Started",
                             style = MaterialTheme.typography.titleMedium,
-                            color = Color(0xFF1E1000),
+                            color = Color(0xFF1A0A00),
                             fontWeight = FontWeight.Bold,
                             fontSize = 18.sp
                         )
@@ -285,58 +259,11 @@ fun WelcomeScreen(
                         Icon(
                             imageVector = Icons.AutoMirrored.Filled.ArrowForward,
                             contentDescription = "Proceed",
-                            tint = Color(0xFF1E1000)
+                            tint = Color(0xFF1A0A00)
                         )
                     }
                 }
             }
-        }
-    }
-}
-
-@Composable
-private fun FeatureBadge(
-    icon: ImageVector,
-    titleTelugu: String,
-    description: String
-) {
-    Row(
-        modifier = Modifier
-            .fillMaxWidth()
-            .clip(RoundedCornerShape(16.dp))
-            .background(SurfaceContainer.copy(alpha = 0.7f))
-            .border(1.dp, RichGold.copy(alpha = 0.15f), RoundedCornerShape(16.dp))
-            .padding(14.dp),
-        verticalAlignment = Alignment.CenterVertically
-    ) {
-        Box(
-            modifier = Modifier
-                .size(42.dp)
-                .clip(CircleShape)
-                .background(SacredSaffron.copy(alpha = 0.2f)),
-            contentAlignment = Alignment.Center
-        ) {
-            Icon(
-                imageVector = icon,
-                contentDescription = null,
-                tint = TempleGold,
-                modifier = Modifier.size(22.dp)
-            )
-        }
-        Spacer(modifier = Modifier.width(14.dp))
-        Column {
-            Text(
-                text = titleTelugu,
-                style = MaterialTheme.typography.titleSmall,
-                color = WarmIvory,
-                fontWeight = FontWeight.SemiBold
-            )
-            Text(
-                text = description,
-                style = MaterialTheme.typography.bodySmall,
-                color = WarmIvory.copy(alpha = 0.65f),
-                modifier = Modifier.padding(top = 2.dp)
-            )
         }
     }
 }

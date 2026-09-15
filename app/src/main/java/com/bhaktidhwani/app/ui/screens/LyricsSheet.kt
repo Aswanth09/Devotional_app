@@ -69,11 +69,10 @@ fun LyricsSheet(
     val fontScaleDeltaSp by viewModel.fontScaleDeltaSp.collectAsState()
     val listState = rememberLazyListState()
 
-    // Smoothly auto-scroll to the current active stanza
+    // Smoothly auto-scroll to the current active stanza immediately
     LaunchedEffect(activeIndex) {
         if (activeIndex in stanzas.indices) {
-            val targetScroll = (activeIndex - 1).coerceAtLeast(0)
-            listState.animateScrollToItem(targetScroll)
+            listState.animateScrollToItem(activeIndex)
         }
     }
 

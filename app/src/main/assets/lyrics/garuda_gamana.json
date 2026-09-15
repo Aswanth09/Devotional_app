@@ -2,48 +2,187 @@
   "trackId": "garuda_gamana",
   "titleTelugu": "గరుడ గమన తవ చరణ కమలమిహ",
   "titleEnglish": "Garuda Gamana Tava Charana",
+  "totalStanzas": 18,
   "stanzas": [
     {
       "index": 1,
+      "timestampMs": 0,
       "startTimeMs": 0,
-      "endTimeMs": 5000,
-      "telugu": "గరుడగమన తవ చరణకమలమిహ మనసి లసతు మమ నిత్యమ్ |\nమమ తాపమపాకురు దేవ ||",
-      "english": "Garudagamana Tava Charanakamalamiha Manasi Lasatu Mama Nityam |\nMama Taapamapaakuru Deva ||"
+      "endTimeMs": 24000,
+      "textTelugu": "గరుడ గమన తవ చరణ కమలమిహ\nమనసి లసతు మమ నిత్యమ్ | మమ నిత్యమ్ ||",
+      "telugu": "గరుడ గమన తవ చరణ కమలమిహ\nమనసి లసతు మమ నిత్యమ్ | మమ నిత్యమ్ ||",
+      "textEnglish": "Garuda Gamana Tava Charana Kamala Miha\nManasi Lasatu Mama Nityam | Mama Nityam ||",
+      "english": "Garuda Gamana Tava Charana Kamala Miha\nManasi Lasatu Mama Nityam | Mama Nityam ||"
     },
     {
       "index": 2,
-      "startTimeMs": 5000,
-      "endTimeMs": 10000,
-      "telugu": "జలధిశయన విధినుత చరితామృత ఘనశమితాసురఖేద |\nమమ తాపమపాకురు దేవ ||",
-      "english": "Jaladhishayana Vidhinuta Charitaamrita Ghanashamitaasurakheda |\nMama Taapamapaakuru Deva ||"
+      "timestampMs": 24000,
+      "startTimeMs": 24000,
+      "endTimeMs": 48000,
+      "textTelugu": "జలధి సుతా రమణ చారు లలామ |\nమదనా జనక మనసి లసతు మమ నిత్యమ్ ||",
+      "telugu": "జలధి సుతా రమణ చారు లలామ |\nమదనా జనక మనసి లసతు మమ నిత్యమ్ ||",
+      "textEnglish": "Jaladhi Sutaa Ramana Chaaru Lalaama |\nMadanaa Janaka Manasi Lasatu Mama Nityam ||",
+      "english": "Jaladhi Sutaa Ramana Chaaru Lalaama |\nMadanaa Janaka Manasi Lasatu Mama Nityam ||"
     },
     {
       "index": 3,
-      "startTimeMs": 10000,
-      "endTimeMs": 15000,
-      "telugu": "భుజగశయన భవభయహర నామక పరమపురుష పరమేశ్వర |\nమమ తాపమపాకురు దేవ ||",
-      "english": "Bhujagashayana Bhavabhayahara Naamaka Paramapurusha Parameshvara |\nMama Taapamapaakuru Deva ||"
+      "timestampMs": 48000,
+      "startTimeMs": 48000,
+      "endTimeMs": 72000,
+      "textTelugu": "గరుడ గమన తవ చరణ కమలమిహ\nమనసి లసతు మమ నిత్యమ్ | మమ నిత్యమ్ ||",
+      "telugu": "గరుడ గమన తవ చరణ కమలమిహ\nమనసి లసతు మమ నిత్యమ్ | మమ నిత్యమ్ ||",
+      "textEnglish": "Garuda Gamana Tava Charana Kamala Miha\nManasi Lasatu Mama Nityam | Mama Nityam ||",
+      "english": "Garuda Gamana Tava Charana Kamala Miha\nManasi Lasatu Mama Nityam | Mama Nityam ||"
     },
     {
       "index": 4,
-      "startTimeMs": 15000,
-      "endTimeMs": 20000,
-      "telugu": "శంఖచక్రధర కమలాకాంత కాంతిమయవర దేహ |\nమమ తాపమపాకురు దేవ ||",
-      "english": "Shankhachakradhara Kamalaakaanta Kaantimayavara Deha |\nMama Taapamapaakuru Deva ||"
+      "timestampMs": 72000,
+      "startTimeMs": 72000,
+      "endTimeMs": 96000,
+      "textTelugu": "భజన శీలా జన పరమ దయాఘన |\nభవ భయ హరణ మనసి లసతు మమ నిత్యమ్ ||",
+      "telugu": "భజన శీలా జన పరమ దయాఘన |\nభవ భయ హరణ మనసి లసతు మమ నిత్యమ్ ||",
+      "textEnglish": "Bhajana Sheelaa Jana Parama Dayaaghana |\nBhava Bhaya Harana Manasi Lasatu Mama Nityam ||",
+      "english": "Bhajana Sheelaa Jana Parama Dayaaghana |\nBhava Bhaya Harana Manasi Lasatu Mama Nityam ||"
     },
     {
       "index": 5,
-      "startTimeMs": 20000,
-      "endTimeMs": 25000,
-      "telugu": "భక్తజనార్తిహరణ భవబంధవిమోచన కారణ పరమాత్మన్ |\nమమ తాపమపాకురు దేవ ||",
-      "english": "Bhaktajanaarti-harana Bhavabandha-vimochana Kaarana Paramaatman |\nMama Taapamapaakuru Deva ||"
+      "timestampMs": 96000,
+      "startTimeMs": 96000,
+      "endTimeMs": 120000,
+      "textTelugu": "గరుడ గమన తవ చరణ కమలమిహ\nమనసి లసతు మమ నిత్యమ్ | మమ నిత్యమ్ ||",
+      "telugu": "గరుడ గమన తవ చరణ కమలమిహ\nమనసి లసతు మమ నిత్యమ్ | మమ నిత్యమ్ ||",
+      "textEnglish": "Garuda Gamana Tava Charana Kamala Miha\nManasi Lasatu Mama Nityam | Mama Nityam ||",
+      "english": "Garuda Gamana Tava Charana Kamala Miha\nManasi Lasatu Mama Nityam | Mama Nityam ||"
     },
     {
       "index": 6,
-      "startTimeMs": 25000,
-      "endTimeMs": 30000,
-      "telugu": "శ్రీ వాసుదేవ సకలజగన్మయ పాహి ప్రభో భగవన్ |\nమమ తాపమపాకురు దేవ ||",
-      "english": "Shree Vaasudeva Sakalajaganmaya Paahi Prabho Bhagavan |\nMama Taapamapaakuru Deva ||"
+      "timestampMs": 120000,
+      "startTimeMs": 120000,
+      "endTimeMs": 144000,
+      "textTelugu": "దినకర కోటి సుదీప్త నఖద్యుతి |\nదీన జనావన మనసి లసతు మమ నిత్యమ్ ||",
+      "telugu": "దినకర కోటి సుదీప్త నఖద్యుతి |\nదీన జనావన మనసి లసతు మమ నిత్యమ్ ||",
+      "textEnglish": "Dinakara Koti Sudeepta Nakhadyuti |\nDeena Janaavana Manasi Lasatu Mama Nityam ||",
+      "english": "Dinakara Koti Sudeepta Nakhadyuti |\nDeena Janaavana Manasi Lasatu Mama Nityam ||"
+    },
+    {
+      "index": 7,
+      "timestampMs": 144000,
+      "startTimeMs": 144000,
+      "endTimeMs": 168000,
+      "textTelugu": "గరుడ గమన తవ చరణ కమలమిహ\nమనసి లసతు మమ నిత్యమ్ | మమ నిత్యమ్ ||",
+      "telugu": "గరుడ గమన తవ చరణ కమలమిహ\nమనసి లసతు మమ నిత్యమ్ | మమ నిత్యమ్ ||",
+      "textEnglish": "Garuda Gamana Tava Charana Kamala Miha\nManasi Lasatu Mama Nityam | Mama Nityam ||",
+      "english": "Garuda Gamana Tava Charana Kamala Miha\nManasi Lasatu Mama Nityam | Mama Nityam ||"
+    },
+    {
+      "index": 8,
+      "timestampMs": 168000,
+      "startTimeMs": 168000,
+      "endTimeMs": 192000,
+      "textTelugu": "కరుణారస సుధా కమలాసన వినుత |\nకమల భవాండ మనసి లసతు మమ నిత్యమ్ ||",
+      "telugu": "కరుణారస సుధా కమలాసన వినుత |\nకమల భవాండ మనసి లసతు మమ నిత్యమ్ ||",
+      "textEnglish": "Karunaarasa Sudhaa Kamalaasana Vinuta |\nKamala Bhavaanda Manasi Lasatu Mama Nityam ||",
+      "english": "Karunaarasa Sudhaa Kamalaasana Vinuta |\nKamala Bhavaanda Manasi Lasatu Mama Nityam ||"
+    },
+    {
+      "index": 9,
+      "timestampMs": 192000,
+      "startTimeMs": 192000,
+      "endTimeMs": 216000,
+      "textTelugu": "గరుడ గమన తవ చరణ కమలమిహ\nమనసి లసతు మమ నిత్యమ్ | మమ నిత్యమ్ ||",
+      "telugu": "గరుడ గమన తవ చరణ కమలమిహ\nమనసి లసతు మమ నిత్యమ్ | మమ నిత్యమ్ ||",
+      "textEnglish": "Garuda Gamana Tava Charana Kamala Miha\nManasi Lasatu Mama Nityam | Mama Nityam ||",
+      "english": "Garuda Gamana Tava Charana Kamala Miha\nManasi Lasatu Mama Nityam | Mama Nityam ||"
+    },
+    {
+      "index": 10,
+      "timestampMs": 216000,
+      "startTimeMs": 216000,
+      "endTimeMs": 240000,
+      "textTelugu": "అసుర కులార్దన అద్భుత శౌర్య |\nఅమిత పరాక్రమ మనసి లసతు మమ నిత్యమ్ ||",
+      "telugu": "అసుర కులార్దన అద్భుత శౌర్య |\nఅమిత పరాక్రమ మనసి లసతు మమ నిత్యమ్ ||",
+      "textEnglish": "Asura Kulaardana Adbhuta Shaurya |\nAmita Paraakrama Manasi Lasatu Mama Nityam ||",
+      "english": "Asura Kulaardana Adbhuta Shaurya |\nAmita Paraakrama Manasi Lasatu Mama Nityam ||"
+    },
+    {
+      "index": 11,
+      "timestampMs": 240000,
+      "startTimeMs": 240000,
+      "endTimeMs": 264000,
+      "textTelugu": "గరుడ గమన తవ చరణ కమలమిహ\nమనసి లసతు మమ నిత్యమ్ | మమ నిత్యమ్ ||",
+      "telugu": "గరుడ గమన తవ చరణ కమలమిహ\nమనసి లసతు మమ నిత్యమ్ | మమ నిత్యమ్ ||",
+      "textEnglish": "Garuda Gamana Tava Charana Kamala Miha\nManasi Lasatu Mama Nityam | Mama Nityam ||",
+      "english": "Garuda Gamana Tava Charana Kamala Miha\nManasi Lasatu Mama Nityam | Mama Nityam ||"
+    },
+    {
+      "index": 12,
+      "timestampMs": 264000,
+      "startTimeMs": 264000,
+      "endTimeMs": 288000,
+      "textTelugu": "కనక విచిత్ర విభూషణ భూషిత |\nకౌస్తుభ శోభిత మనసి లసతు మమ నిత్యమ్ ||",
+      "telugu": "కనక విచిత్ర విభూషణ భూషిత |\nకౌస్తుభ శోభిత మనసి లసతు మమ నిత్యమ్ ||",
+      "textEnglish": "Kanaka Vichitra Vibhooshana Bhooshita |\nKaustubha Shobhita Manasi Lasatu Mama Nityam ||",
+      "english": "Kanaka Vichitra Vibhooshana Bhooshita |\nKaustubha Shobhita Manasi Lasatu Mama Nityam ||"
+    },
+    {
+      "index": 13,
+      "timestampMs": 288000,
+      "startTimeMs": 288000,
+      "endTimeMs": 312000,
+      "textTelugu": "గరుడ గమన తవ చరణ కమలమిహ\nమనసి లసతు మమ నిత్యమ్ | మమ నిత్యమ్ ||",
+      "telugu": "గరుడ గమన తవ చరణ కమలమిహ\nమనసి లసతు మమ నిత్యమ్ | మమ నిత్యమ్ ||",
+      "textEnglish": "Garuda Gamana Tava Charana Kamala Miha\nManasi Lasatu Mama Nityam | Mama Nityam ||",
+      "english": "Garuda Gamana Tava Charana Kamala Miha\nManasi Lasatu Mama Nityam | Mama Nityam ||"
+    },
+    {
+      "index": 14,
+      "timestampMs": 312000,
+      "startTimeMs": 312000,
+      "endTimeMs": 336000,
+      "textTelugu": "సకల జగజ్జన పాలక శోభిత |\nశంఖ గదాధర మనసి లసతు మమ నిత్యమ్ ||",
+      "telugu": "సకల జగజ్జన పాలక శోభిత |\nశంఖ గదాధర మనసి లసతు మమ నిత్యమ్ ||",
+      "textEnglish": "Sakala Jagajjana Paalaka Shobhita |\nShankha Gadaadhara Manasi Lasatu Mama Nityam ||",
+      "english": "Sakala Jagajjana Paalaka Shobhita |\nShankha Gadaadhara Manasi Lasatu Mama Nityam ||"
+    },
+    {
+      "index": 15,
+      "timestampMs": 336000,
+      "startTimeMs": 336000,
+      "endTimeMs": 360000,
+      "textTelugu": "గరుడ గమన తవ చరణ కమలమిహ\nమనసి లసతు మమ నిత్యమ్ | మమ నిత్యమ్ ||",
+      "telugu": "గరుడ గమన తవ చరణ కమలమిహ\nమనసి లసతు మమ నిత్యమ్ | మమ నిత్యమ్ ||",
+      "textEnglish": "Garuda Gamana Tava Charana Kamala Miha\nManasi Lasatu Mama Nityam | Mama Nityam ||",
+      "english": "Garuda Gamana Tava Charana Kamala Miha\nManasi Lasatu Mama Nityam | Mama Nityam ||"
+    },
+    {
+      "index": 16,
+      "timestampMs": 360000,
+      "startTimeMs": 360000,
+      "endTimeMs": 384000,
+      "textTelugu": "నిగమ విదూర నితాంత మనోహర |\nనిత్య నిరంజన మనసి లసతు మమ నిత్యమ్ ||",
+      "telugu": "నిగమ విదూర నితాంత మనోహర |\nనిత్య నిరంజన మనసి లసతు మమ నిత్యమ్ ||",
+      "textEnglish": "Nigama Vidoora Nitaanta Manohara |\nNitya Niranjana Manasi Lasatu Mama Nityam ||",
+      "english": "Nigama Vidoora Nitaanta Manohara |\nNitya Niranjana Manasi Lasatu Mama Nityam ||"
+    },
+    {
+      "index": 17,
+      "timestampMs": 384000,
+      "startTimeMs": 384000,
+      "endTimeMs": 404000,
+      "textTelugu": "గరుడ గమన తవ చరణ కమలమిహ\nమనసి లసతు మమ నిత్యమ్ | మమ నిత్యమ్ ||",
+      "telugu": "గరుడ గమన తవ చరణ కమలమిహ\nమనసి లసతు మమ నిత్యమ్ | మమ నిత్యమ్ ||",
+      "textEnglish": "Garuda Gamana Tava Charana Kamala Miha\nManasi Lasatu Mama Nityam | Mama Nityam ||",
+      "english": "Garuda Gamana Tava Charana Kamala Miha\nManasi Lasatu Mama Nityam | Mama Nityam ||"
+    },
+    {
+      "index": 18,
+      "timestampMs": 404000,
+      "startTimeMs": 404000,
+      "endTimeMs": 414550,
+      "textTelugu": "శ్రీమన్నారాయణ జగత్పతే వాసుదేవ రక్షమామ్ |\nఓం నమో నారాయణాయ ||",
+      "telugu": "శ్రీమన్నారాయణ జగత్పతే వాసుదేవ రక్షమామ్ |\nఓం నమో నారాయణాయ ||",
+      "textEnglish": "Shreeman Naaraayana Jagatpate Vaasudeva Rakshamaam |\nOm Namo Naaraayanaaya ||",
+      "english": "Shreeman Naaraayana Jagatpate Vaasudeva Rakshamaam |\nOm Namo Naaraayanaaya ||"
     }
   ]
 }
