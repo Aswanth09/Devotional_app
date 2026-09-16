@@ -4,7 +4,17 @@ $ErrorActionPreference = "Stop"
 $ProjectRoot = Resolve-Path "$PSScriptRoot\.."
 $RawAudioDir = Join-Path $ProjectRoot "raw_audio"
 $YtDlp = Join-Path $PSScriptRoot "yt-dlp.exe"
-$Ffmpeg = "C:\Program Files (x86)\ClipGrab\ffmpeg.exe"
+$Ffmpeg = $env:FFMPEG_PATH
+if (-not $Ffmpeg -or -not (Test-Path $Ffmpeg)) {
+    $Ffmpeg = Get-Command "ffmpeg" -ErrorAction SilentlyContinue | Select-Object -ExpandProperty Source -ErrorAction SilentlyContinue
+}
+if (-not $Ffmpeg -or -not (Test-Path $Ffmpeg)) {
+    $ClipGrabFfmpeg = "C:\Program Files (x86)\ClipGrab\ffmpeg.exe"
+    if (Test-Path $ClipGrabFfmpeg) { $Ffmpeg = $ClipGrabFfmpeg }
+}
+if (-not $Ffmpeg) {
+    $Ffmpeg = "ffmpeg"
+}
 
 if (-not (Test-Path $RawAudioDir)) {
     New-Item -ItemType Directory -Force -Path $RawAudioDir | Out-Null

@@ -1,7 +1,17 @@
-# Script to generate density buckets for ic_launcher and ic_launcher_round
-$ffmpeg = "C:\Program Files (x86)\ClipGrab\ffmpeg.exe"
-$src = "d:\Devotional_app\app\src\main\res\drawable\app_icon.png"
-$resDir = "d:\Devotional_app\app\src\main\res"
+$ProjectRoot = Resolve-Path "$PSScriptRoot\.."
+$ffmpeg = $env:FFMPEG_PATH
+if (-not $ffmpeg -or -not (Test-Path $ffmpeg)) {
+    $ffmpeg = Get-Command "ffmpeg" -ErrorAction SilentlyContinue | Select-Object -ExpandProperty Source -ErrorAction SilentlyContinue
+}
+if (-not $ffmpeg -or -not (Test-Path $ffmpeg)) {
+    $ClipGrabFfmpeg = "C:\Program Files (x86)\ClipGrab\ffmpeg.exe"
+    if (Test-Path $ClipGrabFfmpeg) { $ffmpeg = $ClipGrabFfmpeg }
+}
+if (-not $ffmpeg) { $ffmpeg = "ffmpeg" }
+
+$src = Join-Path $ProjectRoot "app\src\main\res\drawable\app_icon.png"
+$resDir = Join-Path $ProjectRoot "app\src\main\res"
+
 
 $densities = @{
     "mipmap-mdpi" = 48

@@ -6,11 +6,15 @@ $RawDir = Join-Path $ProjectRoot "app\src\main\res\raw"
 $RepoFile = Join-Path $ProjectRoot "app\src\main\java\com\bhaktidhwani\app\data\repository\LocalAudioRepository.kt"
 
 # Find FFmpeg binary
-$Ffmpeg = Get-Command "ffmpeg" -ErrorAction SilentlyContinue | Select-Object -ExpandProperty Source -ErrorAction SilentlyContinue
-if (-not $Ffmpeg) {
+$Ffmpeg = $env:FFMPEG_PATH
+if (-not $Ffmpeg -or -not (Test-Path $Ffmpeg)) {
+    $Ffmpeg = Get-Command "ffmpeg" -ErrorAction SilentlyContinue | Select-Object -ExpandProperty Source -ErrorAction SilentlyContinue
+}
+if (-not $Ffmpeg -or -not (Test-Path $Ffmpeg)) {
     $ClipGrabFfmpeg = "C:\Program Files (x86)\ClipGrab\ffmpeg.exe"
     if (Test-Path $ClipGrabFfmpeg) { $Ffmpeg = $ClipGrabFfmpeg }
 }
+
 
 if (-not $Ffmpeg) {
     Write-Error "FFmpeg not found! Cannot read audio durations."

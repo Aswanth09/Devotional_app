@@ -12,13 +12,17 @@ if (-not (Test-Path $OutputDir)) {
 }
 
 # Find FFmpeg binary
-$Ffmpeg = Get-Command "ffmpeg" -ErrorAction SilentlyContinue | Select-Object -ExpandProperty Source -ErrorAction SilentlyContinue
-if (-not $Ffmpeg) {
+$Ffmpeg = $env:FFMPEG_PATH
+if (-not $Ffmpeg -or -not (Test-Path $Ffmpeg)) {
+    $Ffmpeg = Get-Command "ffmpeg" -ErrorAction SilentlyContinue | Select-Object -ExpandProperty Source -ErrorAction SilentlyContinue
+}
+if (-not $Ffmpeg -or -not (Test-Path $Ffmpeg)) {
     $ClipGrabFfmpeg = "C:\Program Files (x86)\ClipGrab\ffmpeg.exe"
     if (Test-Path $ClipGrabFfmpeg) {
         $Ffmpeg = $ClipGrabFfmpeg
     }
 }
+
 
 if (-not $Ffmpeg) {
     Write-Error "FFmpeg executable not found! Please install FFmpeg or ensure it is in your PATH."

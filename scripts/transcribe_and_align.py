@@ -22,10 +22,15 @@ except Exception:
 
 def find_ffmpeg() -> str:
     """Find a usable ffmpeg executable."""
+    env_ffmpeg = os.environ.get("FFMPEG_PATH")
+    if env_ffmpeg and os.path.isfile(env_ffmpeg):
+        return env_ffmpeg
+
     import shutil
     ffmpeg_path = shutil.which("ffmpeg")
     if ffmpeg_path:
         return ffmpeg_path
+
 
     # Common Windows fallbacks
     common_paths = [
