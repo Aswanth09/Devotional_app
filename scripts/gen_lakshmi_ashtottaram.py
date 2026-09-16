@@ -112,8 +112,8 @@ LAKSHMI_NAMES = [
     ("ప్రసన్నాక్షీ", "Prasannakshi"),
     ("నారాయణసమాశ్రితా", "Narayana Samashrita"),
     ("దారిద్ర్యధ్వంసినీ", "Daridrya Dhwamsini"),
-    ("దేవీ", "Devi"),
     ("సర్వోపద్రవవారిణీ", "Sarvopadrava Varini"),
+
     ("నవదుర్గా", "Navadurga"),
     ("మహాకాలీ", "Mahakali"),
     ("బ్రహ్మవిష్ణుశివాత్మికా", "Brahma Vishnu Shivatmika"),
@@ -123,20 +123,21 @@ LAKSHMI_NAMES = [
 
 stanzas = []
 
-# Dhyanam (0 -> 28000 ms)
+# Dhyanam (0 -> 8700 ms, vocal onset at 2575 ms)
 stanzas.append({
     "index": 1,
     "timestampMs": 0,
     "startTimeMs": 0,
-    "endTimeMs": 28000,
+    "endTimeMs": 8700,
     "textTelugu": "॥ శ్రీ లక్ష్మీ అష్టోత్తర శతనామావళిః - ధ్యానమ్ ॥\nవందే పద్మకరాం ప్రసన్నవదనాం సౌభాగ్యదాం భాగ్యదామ్ |\nహస్తాభ్యామభయప్రదాం మణిగణైర్నానావిధైర్భూషితామ్ ||",
     "telugu": "॥ శ్రీ లక్ష్మీ అష్టోత్తర శతనామావళిః - ధ్యానమ్ ॥\nవందే పద్మకరాం ప్రసన్నవదనాం సౌభాగ్యదాం భాగ్యదామ్ |\nహస్తాభ్యామభయప్రదాం మణిగణైర్నానావిధైర్భూషితామ్ ||",
     "textEnglish": "|| Sri Lakshmi Ashtottara Shatanamavali - Dhyanam ||\nVande Padmakaraam Prasanna Vadanaam Saubhaagyadaam Bhaagyadaam |\nHastaabhyaam Abhayapradaam Maniganair Naanaavidhair Bhooshitaam ||",
     "english": "|| Sri Lakshmi Ashtottara Shatanamavali - Dhyanam ||\nVande Padmakaraam Prasanna Vadanaam Saubhaagyadaam Bhaagyadaam |\nHastaabhyaam Abhayapradaam Maniganair Naanaavidhair Bhooshitaam ||"
 })
 
-start_base = 28000
-name_dur = (408000 - 28000) / 108.0
+start_base = 8700
+end_names = 265000
+name_dur = (end_names - start_base) / 108.0
 
 for i, (tel, eng) in enumerate(LAKSHMI_NAMES):
     s_ms = int(round(start_base + i * name_dur))
@@ -152,17 +153,18 @@ for i, (tel, eng) in enumerate(LAKSHMI_NAMES):
         "english": f"{i+1}. Om {eng}yai Namah"
     })
 
-# Mangalam (408000 -> 431330 ms)
+# Mangalam (265000 -> 283950 ms)
 stanzas.append({
     "index": 110,
-    "timestampMs": 408000,
-    "startTimeMs": 408000,
-    "endTimeMs": 431330,
+    "timestampMs": 265000,
+    "startTimeMs": 265000,
+    "endTimeMs": 283950,
     "textTelugu": "॥ శ్రీ మహాలక్ష్మ్యష్టోత్తర శతనామ స్తోత్రం సంపూర్ణమ్ ॥\nసర్వమంగళ మాంగల్యే శివే సర్వార్థ సాధికే |\nశరణ్యే త్ర్యంబకే గౌరి నారాయణి నమోఽస్తు తే ||",
     "telugu": "॥ శ్రీ మహాలక్ష్మ్యష్టోత్తర శతనామ స్తోత్రం సంపూర్ణమ్ ॥\nసర్వమంగళ మాంగల్యే శివే సర్వార్థ సాధికే |\nశరణ్యే త్ర్యంబకే గౌరి నారాయణి నమోఽస్తు తే ||",
     "textEnglish": "|| Sri Mahalakshmi Ashtottara Shatanamavali Complete ||\nSarva Mangala Maangalye Shive Sarvaartha Saadhike |\nSharanye Tryambake Gauri Naaraayani Namo'stu Te ||",
     "english": "|| Sri Mahalakshmi Ashtottara Shatanamavali Complete ||\nSarva Mangala Maangalye Shive Sarvaartha Saadhike |\nSharanye Tryambake Gauri Naaraayani Namo'stu Te ||"
 })
+
 
 output_file = os.path.join(OUTPUT_DIR, "lakshmi_ashtottaram.json")
 data = {

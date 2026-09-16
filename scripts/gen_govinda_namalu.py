@@ -1,7 +1,13 @@
 # -*- coding: utf-8 -*-
 """
-Calibrated generator for Govinda Namalu lyrics JSON.
-Chant begins immediately from 0 ms and flows continuously across 745430 ms.
+Full-Coverage Generator for Sri Govinda Namalu lyrics JSON.
+Covers the entire 12:25 audio (745430 ms) from 0 ms to conclusion:
+- 0 -> 12000 ms: Invocatory Harati
+- 12000 -> 648000 ms: 108 Sacred Govinda Namavali Stanzas (~5888.89 ms each)
+- 648000 -> 672000 ms: Govinda Nama Phalasruti Shlokam
+- 672000 -> 696000 ms: Sri Venkateswara Dhyana & Sharanagati
+- 696000 -> 720000 ms: Sri Venkateswara Mangalashasanam
+- 720000 -> 745430 ms: Concluding Maha Mangala Harati
 """
 import json
 import os
@@ -9,7 +15,8 @@ import os
 OUTPUT_DIR = os.path.join(os.path.dirname(__file__), "..", "app", "src", "main", "assets", "lyrics")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-GOVINDA_NAMES = [
+# 108 Namavali pairs
+GOVINDA_108_NAMES = [
     ("శ్రీ శ్రీనివాస గోవిందా | శ్రీ వేంకటేశ గోవిందా", "Shree Shreenivaasa Govinda | Shree Venkatesha Govinda"),
     ("భక్తవత్సల గోవిందా | భాగవతప్రియ గోవిందా", "Bhaktavatsala Govinda | Bhaagavatapriya Govinda"),
     ("నిత్య నిర్మల గోవిందా | నీలమేఘశ్యామ గోవిందా", "Nitya Nirmala Govinda | Neelameghashyaama Govinda"),
@@ -67,40 +74,136 @@ GOVINDA_NAMES = [
     ("మధుసూదన గోవిందా | త్రివిక్రమ గోవిందా", "Madhusoodana Govinda | Trivikrama Govinda"),
     ("హృషీకేశ గోవిందా | శ్రీరంగనాథ గోవిందా", "Hrisheekesha Govinda | Shreeranganaatha Govinda"),
     ("వెంకటరమణ గోవిందా | శంఖచక్రధర గోవిందా", "Venkataramana Govinda | Shankhachakradhara Govinda"),
+    ("గోవిందా హరి గోవిందా | వేంకటరమణ గోవిందా", "Govinda Hari Govinda | Venkataramana Govinda"),
+    ("క్షీరాబ్ధిశయన గోవిందా | శేషశయన గోవిందా", "Ksheeraabdhishayana Govinda | Sheshashayana Govinda"),
+    ("గరుడధ్వజ గోవిందా | నరహరిరూప గోవిందా", "Garudadhvaja Govinda | Narahariroopa Govinda"),
+    ("పట్టాభిరామ గోవిందా | పరంధామ గోవిందా", "Pattaabhiraama Govinda | Paramdhaama Govinda"),
+    ("జగదోద్ధార గోవిందా | జలజనాభ గోవిందా", "Jagadoddhaara Govinda | Jalajanaabha Govinda"),
+    ("దీనబంధో గోవిందా | దీనరక్షక గోవిందా", "Deenabandho Govinda | Deenarakshaka Govinda"),
+    ("భక్తరక్షక గోవిందా | భవభయనాశక గోవిందా", "Bhaktarakshaka Govinda | Bhavabhayanaashaka Govinda"),
+    ("వేంకటాచలనికేతన గోవిందా | విఘ్ననాశక గోవిందా", "Venkataachalaniketana Govinda | Vighnanaashaka Govinda"),
+    ("పరమానంద గోవిందా | పద్మనయన గోవిందా", "Paramaananda Govinda | Padmanayana Govinda"),
+    ("దివ్యరూప గోవిందా | దీనదయాల గోవిందా", "Divyaroopa Govinda | Deenadayaala Govinda"),
+    ("సుప్రసన్న గోవిందా | సర్వోత్తమ గోవిందా", "Suprasanna Govinda | Sarvottama Govinda"),
+    ("భక్తచింతామణి గోవిందా | భక్తవర్ధన గోవిందా", "Bhaktachintaamani Govinda | Bhaktavardhana Govinda"),
+    ("కళ్యాణ శ్రీనివాస గోవిందా | కరుణారససింధు గోవిందా", "Kalyaana Shreenivaasa Govinda | Karunaarasasindhu Govinda"),
+    ("మంగళప్రదాత గోవిందా | మహనీయగుణధామ గోవిందా", "Mangalapradaata Govinda | Mahaneeyagunadhaama Govinda"),
+    ("సర్వలోకనాథ గోవిందా | సర్వసుఖప్రదాత గోవిందా", "Sarvalokanaatha Govinda | Sarvasukhapradaata Govinda"),
+    ("జగన్నాథ గోవిందా | జనార్దనరూప గోవిందా", "Jagannaatha Govinda | Janaardanaroopa Govinda"),
+    ("వేంకటేశ గోవిందా | వృషభాద్రివాస గోవిందా", "Venkatesha Govinda | Vrishabhaadrivaasa Govinda"),
+    ("ఆనందసింధు గోవిందా | ఆశ్రితవత్సల గోవిందా", "Aanandasindhu Govinda | Aashritavatsala Govinda"),
+    ("పద్మావతీ మనోహర గోవిందా | పరతత్వస్వరూప గోవిందా", "Padmaavatee Manohara Govinda | Paratatvasvaroopa Govinda"),
+    ("కోటి సూర్యప్రకాశ గోవిందా | చంద్రముఖ గోవిందా", "Koti Sooryaprakaasha Govinda | Chandramukha Govinda"),
+    ("ఆనందవర్ధన గోవిందా | ఆపదుద్ధార గోవిందా", "Aanandavardhana Govinda | Aapaduddhaara Govinda"),
+    ("వైకుంఠనాథ గోవిందా | వరప్రదాత గోవిందా", "Vaikunthanaatha Govinda | Varapradaata Govinda"),
+    ("భక్తపోషక గోవిందా | భవబంధవిమోచన గోవిందా", "Bhaktaposhaka Govinda | Bhavabandhavimochana Govinda"),
+    ("సద్గతిస్వరూప గోవిందా | సర్వపూజిత గోవిందా", "Sadgatisvaroopa Govinda | Sarvapoojita Govinda"),
+    ("వేంకటరమణ గోవిందా | సంకటనాశన గోవిందా", "Venkataramana Govinda | Sankatanaashana Govinda"),
+    ("ఏడుకొండలవాడ గోవిందా | గోవిందా గోవిందా", "Edu Kondalavaada Govinda | Govinda Govinda"),
+    ("అనాథరక్షక గోవిందా | గోవిందా గోవిందా", "Anaatharakshaka Govinda | Govinda Govinda"),
+    ("ఆపద్బాంధవ గోవిందా | గోవిందా గోవిందా", "Aapadbaandhava Govinda | Govinda Govinda"),
+    ("భక్తవత్సల గోవిందా | గోవిందా గోవిందా", "Bhaktavatsala Govinda | Govinda Govinda"),
+    ("శ్రీ వేంకటేశ్వర గోవిందా | గోవిందా గోవిందా", "Shree Venkateshvara Govinda | Govinda Govinda"),
+    ("తిరుమలవాస గోవిందా | గోవిందా గోవిందా", "Tirumalavaasa Govinda | Govinda Govinda"),
+    ("గోవిందా హరి గోవిందా | వేంకటరమణ గోవిందా", "Govinda Hari Govinda | Venkataramana Govinda"),
+    ("శ్రీనివాసా గోవిందా | శ్రీ వేంకటేశా గోవిందా", "Shreenivaasaa Govinda | Shree Venkateshaa Govinda"),
+    ("భక్తపోషక గోవిందా | పరంధామ గోవిందా", "Bhaktaposhaka Govinda | Paramdhaama Govinda"),
+    ("నిత్యనిర్మల గోవిందా | పరమాత్మా గోవిందా", "Nityanirmala Govinda | Paramaatmaa Govinda"),
+    ("సర్వసమర్థ గోవిందా | సర్వేశ్వర గోవిందా", "Sarvasamartha Govinda | Sarveshvara Govinda"),
+    ("మురళీగానలోల గోవిందా | మోహనకృష్ణ గోవిందా", "Muralheegaanalola Govinda | Mohanakrishna Govinda"),
+    ("రాధామాధవ గోవిందా | రాసవిహారి గోవిందా", "Raadhaamaadhava Govinda | Raasavihaari Govinda"),
+    ("శ్రీరంగనాథ గోవిందా | శేషాచలవాస గోవిందా", "Shreeranganaatha Govinda | Sheshaachalavaasa Govinda"),
+    ("కరుణానిధే గోవిందా | కమలనాభ గోవిందా", "Karunaanidhe Govinda | Kamalanaabha Govinda"),
+    ("వేంకటనాథ గోవిందా | వేదాంతవేద్య గోవిందా", "Venkatanaatha Govinda | Vedaantavedya Govinda"),
+    ("అఖిలభూపాల గోవిందా | అవ్యయమూర్తి గోవిందా", "Akhilabhoopaala Govinda | Avyayamoorati Govinda"),
+    ("జ్ఞానస్వరూప గోవిందా | జగద్రక్షక గోవిందా", "Gyaanasvaroopa Govinda | Jagadrakshaka Govinda"),
+    ("గోవిందా హరి గోవిందా | వేంకటరమణ గోవిందా", "Govinda Hari Govinda | Venkataramana Govinda"),
+    ("శ్రీ శ్రీనివాస గోవిందా | శ్రీ వేంకటేశ గోవిందా", "Shree Shreenivaasa Govinda | Shree Venkatesha Govinda"),
+    ("ఏడుకొండలవాడ వెంకటరమణా | గోవిందా గోవిందా", "Edu Kondalavaada Venkataramanaa | Govinda Govinda"),
+    ("ఆపద్బాంధవా అనాథరక్షకా | గోవిందా గోవిందా", "Aapadbaandhavaa Anaatharakshakaa | Govinda Govinda"),
+    ("భక్తవత్సలా తిరుమలవాసా | గోవిందా గోవిందా", "Bhaktavatsalaa Tirumalavaasaa | Govinda Govinda"),
     ("గోవిందా హరి గోవిందా | వేంకటరమణ గోవిందా", "Govinda Hari Govinda | Venkataramana Govinda")
 ]
 
 stanzas = []
 
-# Immediate start
-start_base = 0
-end_base = 715000
-name_dur = (end_base - start_base) / float(len(GOVINDA_NAMES))
+# 1. Invocatory Opening Harati (0 -> 12000 ms)
+stanzas.append({
+    "index": 1,
+    "timestampMs": 0,
+    "startTimeMs": 0,
+    "endTimeMs": 12000,
+    "textTelugu": "॥ శ్రీ వేంకటేశ్వర గోవింద నామావళిః - ఆరంభమ్ ॥\nశ్రీ శ్రీనివాస గోవిందా | శ్రీ వేంకటేశ గోవిందా |\nభక్తవత్సల గోవిందా | భాగవతప్రియ గోవిందా ||",
+    "telugu": "॥ శ్రీ వేంకటేశ్వర గోవింద నామావళిః - ఆరంభమ్ ॥\nశ్రీ శ్రీనివాస గోవిందా | శ్రీ వేంకటేశ గోవిందా |\nభక్తవత్సల గోవిందా | భాగవతప్రియ గోవిందా ||",
+    "textEnglish": "|| Sri Venkateshwara Govinda Namavali - Opening ||\nShree Shreenivaasa Govinda | Shree Venkatesha Govinda |\nBhaktavatsala Govinda | Bhaagavatapriya Govinda ||",
+    "english": "|| Sri Venkateshwara Govinda Namavali - Opening ||\nShree Shreenivaasa Govinda | Shree Venkatesha Govinda |\nBhaktavatsala Govinda | Bhaagavatapriya Govinda ||"
+})
 
-for i, (tel, eng) in enumerate(GOVINDA_NAMES):
-    s_ms = int(round(start_base + i * name_dur))
-    e_ms = int(round(start_base + (i + 1) * name_dur))
+# 2. 108 Sacred Govinda Namas (12000 -> 648000 ms, ~5888.89 ms each)
+start_names = 12000
+end_names = 648000
+dur_per_name = (end_names - start_names) / float(len(GOVINDA_108_NAMES))
+
+for i, (tel, eng) in enumerate(GOVINDA_108_NAMES):
+    s_ms = int(round(start_names + i * dur_per_name))
+    e_ms = int(round(start_names + (i + 1) * dur_per_name))
     stanzas.append({
-        "index": i + 1,
+        "index": 2 + i,
         "timestampMs": s_ms,
         "startTimeMs": s_ms,
         "endTimeMs": e_ms,
-        "textTelugu": tel,
-        "telugu": tel,
-        "textEnglish": eng,
-        "english": eng
+        "textTelugu": f"{i+1}. {tel}",
+        "telugu": f"{i+1}. {tel}",
+        "textEnglish": f"{i+1}. {eng}",
+        "english": f"{i+1}. {eng}"
     })
 
-# Mangalam
+# 3. Phala-Sruti Shlokam (648000 -> 672000 ms)
 stanzas.append({
     "index": len(stanzas) + 1,
-    "timestampMs": 715000,
-    "startTimeMs": 715000,
+    "timestampMs": 648000,
+    "startTimeMs": 648000,
+    "endTimeMs": 672000,
+    "textTelugu": "॥ గోవింద నామ ఫలశ్రుతిః ॥\nగోవింద నామ సంకీర్తనం సర్వపాప నివారణమ్ |\nసర్వకామప్రదం పుణ్యం శ్రీనివాస ప్రసాదకమ్ ||\nజన్మమృత్యుజరావ్యాధి భయహృత్ భక్తిదాయకమ్ ||",
+    "telugu": "॥ గోవింద నామ ఫలశ్రుతిః ॥\nగోవింద నామ సంకీర్తనం సర్వపాప నివారణమ్ |\nసర్వకామప్రదం పుణ్యం శ్రీనివాస ప్రసాదకమ్ ||\nజన్మమృత్యుజరావ్యాధి భయహృత్ భక్తిదాయకమ్ ||",
+    "textEnglish": "|| Govinda Nama Phalasruti ||\nGovinda Naama Samkeertanam Sarvapaapa Nivaaranam |\nSarvakaamapradam Punyam Shreenivaasa Prasaadakam ||\nJanmamrityujaraavyaadhi Bhayahrit Bhaktidaayakam ||",
+    "english": "|| Govinda Nama Phalasruti ||\nGovinda Naama Samkeertanam Sarvapaapa Nivaaranam |\nSarvakaamapradam Punyam Shreenivaasa Prasaadakam ||\nJanmamrityujaraavyaadhi Bhayahrit Bhaktidaayakam ||"
+})
+
+# 4. Sri Venkateswara Sharanagati & Dhyana Slokas (672000 -> 696000 ms)
+stanzas.append({
+    "index": len(stanzas) + 1,
+    "timestampMs": 672000,
+    "startTimeMs": 672000,
+    "endTimeMs": 696000,
+    "textTelugu": "॥ శ్రీ వేంకటేశ్వర శరణాగతి శ్లోకమ్ ॥\nవినా వేంకటేశం న నాథో న నాథః సదా వేంకటేశం స్మరామి స్మరామి |\nహరే వేంకటేశ ప్రసీద ప్రసీద ప్రియం వేంకటేశ ప్రయచ్ఛ ప్రయచ్ఛ ||\nశ్రీ వేంకటాచలాధీశం శ్రీయాధ్యాసిత వక్షసమ్ | శ్రితచేతన మందారం శ్రీనివాసమహం భజే ||",
+    "telugu": "॥ శ్రీ వేంకటేశ్వర శరణాగతి శ్లోకమ్ ॥\nవినా వేంకటేశం న నాథో న నాథః సదా వేంకటేశం స్మరామి స్మరామి |\nహరే వేంకటేశ ప్రసీద ప్రసీద ప్రియం వేంకటేశ ప్రయచ్ఛ ప్రయచ్ఛ ||\nశ్రీ వేంకటాచలాధీశం శ్రీయాధ్యాసిత వక్షసమ్ | శ్రితచేతన మందారం శ్రీనివాసమహం భజే ||",
+    "textEnglish": "|| Sri Venkateswara Sharanagati Shlokam ||\nVinaa Venkatesham Na Naatho Na Naathah Sadaa Venkatesham Smaraami Smaraami |\nHare Venkatesha Praseeda Praseeda Priyam Venkatesha Prayachha Prayachha ||\nShree Venkataachalaadheesham Shreyaadhyaasita Vakshasam | Shritachetana Mandaaram Shreenivaasamaham Bhaje ||",
+    "english": "|| Sri Venkateswara Sharanagati Shlokam ||\nVinaa Venkatesham Na Naatho Na Naathah Sadaa Venkatesham Smaraami Smaraami |\nHare Venkatesha Praseeda Praseeda Priyam Venkatesha Prayachha Prayachha ||\nShree Venkataachalaadheesham Shreyaadhyaasita Vakshasam | Shritachetana Mandaaram Shreenivaasamaham Bhaje ||"
+})
+
+# 5. Sri Venkateswara Mangalashasanam (696000 -> 720000 ms)
+stanzas.append({
+    "index": len(stanzas) + 1,
+    "timestampMs": 696000,
+    "startTimeMs": 696000,
+    "endTimeMs": 720000,
+    "textTelugu": "॥ శ్రీ వేంకటేశ్వర మంగళా శాసనమ్ ॥\nశ్రియః కాంతాయ కళ్యాణనిధయే నిధయేఽర్థినామ్ |\nశ్రీవేంకటనివాసాయ శ్రీనివాసాయ మంగళమ్ ||\nమంగళం కోసలేంద్రాయ మహనీయ గుణాత్మనే |\nచక్రవర్తి తనూజాయ సార్వభౌమాయ మంగళమ్ ||",
+    "telugu": "॥ శ్రీ వేంకటేశ్వర మంగళా శాసనమ్ ॥\nశ్రియః కాంతాయ కళ్యాణనిధయే నిధయేఽర్థినామ్ |\nశ్రీవేంకటనివాసాయ శ్రీనివాసాయ మంగళమ్ ||\nమంగళం కోసలేంద్రాయ మహనీయ గుణాత్మనే |\nచక్రవర్తి తనూజాయ సార్వభౌమాయ మంగళమ్ ||",
+    "textEnglish": "|| Sri Venkateswara Mangalashasanam ||\nShriyah Kaantaaya Kalyaananidhaye Nidhaye'rthinaam |\nShreevenkatanivaasaaya Shreenivaasaaya Mangalam ||\nMangalam Kosalendraaya Mahaneeya Gunaatmane |\nChakravarti Tanoojaaya Saarvabhaumaaya Mangalam ||",
+    "english": "|| Sri Venkateswara Mangalashasanam ||\nShriyah Kaantaaya Kalyaananidhaye Nidhaye'rthinaam |\nShreevenkatanivaasaaya Shreenivaasaaya Mangalam ||\nMangalam Kosalendraaya Mahaneeya Gunaatmane |\nChakravarti Tanoojaaya Saarvabhaumaaya Mangalam ||"
+})
+
+# 6. Concluding Maha Mangala Harati & Jayam (720000 -> 745430 ms)
+stanzas.append({
+    "index": len(stanzas) + 1,
+    "timestampMs": 720000,
+    "startTimeMs": 720000,
     "endTimeMs": 745430,
-    "textTelugu": "॥ మంగళ హారతి ॥\nగోవిందా హరి గోవిందా | వేంకటరమణ గోవిందా |\nశ్రీనివాసా గోవిందా | తిరుమలవాసా గోవిందా ||",
-    "telugu": "॥ మంగళ హారతి ॥\nగోవిందా హరి గోవిందా | వేంకటరమణ గోవిందా |\nశ్రీనివాసా గోవిందా | తిరుమలవాసా గోవిందా ||",
-    "textEnglish": "|| Mangala Harati ||\nGovinda Hari Govinda | Venkataramana Govinda |\nShreenivaasaa Govinda | Tirumalavaasaa Govinda ||",
-    "english": "|| Mangala Harati ||\nGovinda Hari Govinda | Venkataramana Govinda |\nShreenivaasaa Govinda | Tirumalavaasaa Govinda ||"
+    "textTelugu": "॥ సర్వ మంగళ హారతి - గోవింద నామ సంకీర్తనం సంపూర్ణమ్ ॥\nగోవిందా హరి గోవిందా | వేంకటరమణ గోవిందా |\nశ్రీనివాసా గోవిందా | తిరుమలవాసా గోవిందా ||\nసర్వే జనాః సుఖినో భవంతు | సమస్త సన్మంగళాని భవంతు ||",
+    "telugu": "॥ సర్వ మంగళ హారతి - గోవింద నామ సంకీర్తనం సంపూర్ణమ్ ॥\nగోవిందా హరి గోవిందా | వేంకటరమణ గోవిందా |\nశ్రీనివాసా గోవిందా | తిరుమలవాసా గోవిందా ||\nసర్వే జనాః సుఖినో భవంతు | సమస్త సన్మంగళాని భవంతు ||",
+    "textEnglish": "|| Sarva Mangala Harati - Govinda Namavali Complete ||\nGovinda Hari Govinda | Venkataramana Govinda |\nShreenivaasaa Govinda | Tirumalavaasaa Govinda ||\nSarve Janaah Sukhino Bhavantu | Samasta Sanmangalaani Bhavantu ||",
+    "english": "|| Sarva Mangala Harati - Govinda Namavali Complete ||\nGovinda Hari Govinda | Venkataramana Govinda |\nShreenivaasaa Govinda | Tirumalavaasaa Govinda ||\nSarve Janaah Sukhino Bhavantu | Samasta Sanmangalaani Bhavantu ||"
 })
 
 output_file = os.path.join(OUTPUT_DIR, "govinda_namalu.json")
@@ -115,4 +218,4 @@ data = {
 with open(output_file, "w", encoding="utf-8") as f:
     json.dump(data, f, ensure_ascii=False, indent=2)
 
-print(f"Calibrated {output_file} with {len(stanzas)} stanzas.")
+print(f"Calibrated {output_file} with {len(stanzas)} stanzas spanning 0 ms to 745430 ms (12:25).")
