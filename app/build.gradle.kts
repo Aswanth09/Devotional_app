@@ -1,3 +1,5 @@
+import java.util.Properties
+
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
@@ -21,11 +23,39 @@ android {
         }
     }
 
+    // Keystore configuration for release builds
+    // NOTE FOR REPO OWNER: Generate a release keystore before building a production APK/AAB:
+    // keytool -genkeypair -v -keystore release.keystore -alias devotional -keyalg RSA -keysize 2048 -validity 10000
+    // Fill in the actual storeFile path and passwords in keystore.properties at the project root.
+    val keystoreConfigFile = rootProject.file("keystore.properties")
+    val hasKeystoreConfig = keystoreConfigFile.exists()
+
+    signingConfigs {
+        if (hasKeystoreConfig) {
+            val keystoreProperties = Properties().apply {
+                keystoreConfigFile.inputStream().use { stream -> load(stream) }
+            }
+            create("release") {
+                val storeFilePath = keystoreProperties.getProperty("storeFile")
+                if (!storeFilePath.isNullOrBlank()) {
+                    storeFile = rootProject.file(storeFilePath)
+                }
+                storePassword = keystoreProperties.getProperty("storePassword")
+                keyAlias = keystoreProperties.getProperty("keyAlias")
+                keyPassword = keystoreProperties.getProperty("keyPassword")
+            }
+        }
+    }
+
     buildTypes {
         release {
             isMinifyEnabled = true
             isShrinkResources = false // Preserve raw audio resources (*.m4a)
-            signingConfig = signingConfigs.getByName("debug")
+            if (hasKeystoreConfig) {
+                signingConfig = signingConfigs.getByName("release")
+            } else {
+                signingConfig = null
+            }
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
@@ -34,6 +64,18 @@ android {
         debug {
             isMinifyEnabled = false
             isShrinkResources = false
+        }
+    }
+
+    gradle.taskGraph.whenReady {
+        val isReleaseRequested = allTasks.any { task ->
+            task.project.path == path && task.name.contains("Release", ignoreCase = true)
+        }
+        if (isReleaseRequested && !hasKeystoreConfig) {
+            throw GradleException(
+                "Missing keystore.properties at project root (${keystoreConfigFile.absolutePath}). " +
+                "Release builds require keystore.properties defining storeFile, storePassword, keyAlias, and keyPassword."
+            )
         }
     }
 

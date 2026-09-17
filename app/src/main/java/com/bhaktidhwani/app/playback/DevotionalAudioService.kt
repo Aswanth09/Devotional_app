@@ -46,9 +46,32 @@ class DevotionalAudioService : MediaSessionService() {
         const val EXTRA_JAPAM_TARGET_COUNT = "extra_japam_target_count"
         const val EXTRA_JAPAM_CURRENT_COUNT = "extra_japam_current_count"
         const val EXTRA_JAPAM_MODE_NAME = "extra_japam_mode_name"
+
+        // Trusted package names allowed to send proprietary session commands (e.g. Japam counter configuration).
+        // Standard Android Media3 integrations recommend trusting system UI, Android Auto, Bluetooth routing, and Assistant:
+        // 1. System UI (notification media player controls): com.android.systemui
+        // 2. Android Auto / Automotive companion: com.google.android.projection.gearhead
+        // 3. Bluetooth stack (AVRCP / headset buttons routing): com.android.bluetooth
+        // 4. Google Assistant / Voice actions: com.google.android.googlequicksearchbox
+        private const val PACKAGE_SYSTEM_UI = "com.android.systemui"
+        private const val PACKAGE_ANDROID_AUTO = "com.google.android.projection.gearhead"
+        private const val PACKAGE_BLUETOOTH = "com.android.bluetooth"
+        private const val PACKAGE_GOOGLE_SEARCH = "com.google.android.googlequicksearchbox"
+
+        private val TRUSTED_SYSTEM_PACKAGES = setOf(
+            PACKAGE_SYSTEM_UI,
+            PACKAGE_ANDROID_AUTO,
+            PACKAGE_BLUETOOTH,
+            PACKAGE_GOOGLE_SEARCH
+        )
     }
 
     private var japamState: JapamCounterState = JapamCounterState()
+
+    private fun isControllerTrusted(controller: MediaSession.ControllerInfo): Boolean {
+        val callerPackage = controller.packageName
+        return callerPackage == packageName || TRUSTED_SYSTEM_PACKAGES.contains(callerPackage)
+    }
 
     @OptIn(UnstableApi::class)
     override fun onCreate() {
@@ -97,15 +120,21 @@ class DevotionalAudioService : MediaSessionService() {
                 controller: MediaSession.ControllerInfo
             ): MediaSession.ConnectionResult {
                 val connectionResult = super.onConnect(session, controller)
-                val availableSessionCommands = connectionResult.availableSessionCommands
-                    .buildUpon()
-                    .add(SessionCommand(ACTION_SET_JAPAM_MODE, Bundle.EMPTY))
-                    .add(SessionCommand(ACTION_SET_JAPAM_COUNT, Bundle.EMPTY))
-                    .add(SessionCommand(ACTION_RESET_JAPAM_COUNTER, Bundle.EMPTY))
-                    .add(SessionCommand(ACTION_RESET_JAPAM, Bundle.EMPTY))
-                    .add(SessionCommand(ACTION_GET_JAPAM_STATE, Bundle.EMPTY))
-                    .add(SessionCommand(ACTION_JAPAM_STATE_CHANGED, Bundle.EMPTY))
-                    .build()
+                val availableSessionCommands = if (isControllerTrusted(controller)) {
+                    // Grant proprietary Japam session commands only to this app or trusted system packages
+                    connectionResult.availableSessionCommands
+                        .buildUpon()
+                        .add(SessionCommand(ACTION_SET_JAPAM_MODE, Bundle.EMPTY))
+                        .add(SessionCommand(ACTION_SET_JAPAM_COUNT, Bundle.EMPTY))
+                        .add(SessionCommand(ACTION_RESET_JAPAM_COUNTER, Bundle.EMPTY))
+                        .add(SessionCommand(ACTION_RESET_JAPAM, Bundle.EMPTY))
+                        .add(SessionCommand(ACTION_GET_JAPAM_STATE, Bundle.EMPTY))
+                        .add(SessionCommand(ACTION_JAPAM_STATE_CHANGED, Bundle.EMPTY))
+                        .build()
+                } else {
+                    // Untrusted controllers retain default MediaSession playback controls (play/pause/seek)
+                    connectionResult.availableSessionCommands
+                }
                 return MediaSession.ConnectionResult.accept(
                     availableSessionCommands,
                     connectionResult.availablePlayerCommands
